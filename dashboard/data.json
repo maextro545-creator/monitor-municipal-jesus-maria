@@ -532,6 +532,32 @@
                      "relevance":  1,
                      "image_url":  "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format\u0026fit=crop\u0026w=600\u0026q=80",
                      "scraped_at":  "2026-06-12T15:08:20"
+                 },
+                 {
+                     "url":  "https://n60.pe/simpatizantes-de-roberto-sanchez-evaluan-denunciar-a-alcalde-de-jesus-maria-tras-incidente-con-cisterna/",
+                     "query":  "distrito de jesus maria",
+                     "title":  "Simpatizantes de Roberto Sánchez evalúan denunciar a alcalde de Jesús María tras incidente con cisterna - n60.pe",
+                     "source":  "n60.pe",
+                     "published_date":  "2026-06-12T09:26:57",
+                     "summary":  "Simpatizantes de Roberto Sánchez evalúan denunciar a alcalde de Jesús María tras incidente con cisterna\u0026nbsp;\u0026nbsp;n60.pe",
+                     "sentiment":  "negativo",
+                     "sentiment_score":  -1,
+                     "relevance":  1,
+                     "image_url":  "https://n60.pe/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-12-at-09.20.32.jpeg",
+                     "scraped_at":  "2026-06-12T15:56:56"
+                 },
+                 {
+                     "url":  "https://www.exitosanoticias.pe/policial/choque-jesus-maria-camioneta-ministerio-interior-protagoniza-terrible-accidente-n177626",
+                     "query":  "distrito de jesus maria",
+                     "title":  "Choque en Jesús María: Camioneta del Ministerio del Interior protagoniza terrible accidente - Exitosa Noticias",
+                     "source":  "Exitosa Noticias",
+                     "published_date":  "2026-06-12T11:54:05",
+                     "summary":  "Choque en Jesús María: Camioneta del Ministerio del Interior protagoniza terrible accidente\u0026nbsp;\u0026nbsp;Exitosa Noticias",
+                     "sentiment":  "positivo",
+                     "sentiment_score":  1,
+                     "relevance":  1,
+                     "image_url":  "https://statics.exitosanoticias.pe/2026/06/6a2c3854ac678.jpg",
+                     "scraped_at":  "2026-06-12T15:56:59"
                  }
              ],
     "youtube":  [
@@ -832,5 +858,5 @@
                         "scraped_at":  "2026-06-12T15:09:23"
                     }
                 ],
-    "updated_at":  "2026-06-12T15:27:24"
+    "updated_at":  "2026-06-12T15:58:24"
 }
