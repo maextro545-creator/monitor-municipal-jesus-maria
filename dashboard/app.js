@@ -538,11 +538,28 @@ document.addEventListener('DOMContentLoaded', () => {
 
             let networkBadgeHtml = '';
             if (isYoutube) {
-                networkBadgeHtml = `<div class="network-floating-badge badge-youtube"><i data-lucide="youtube"></i></div>`;
+                networkBadgeHtml = `
+                    <div class="network-floating-badge badge-youtube">
+                        <svg viewBox="0 0 24 24" fill="currentColor" style="width: 18px; height: 18px; display: block;">
+                            <path d="M23.498 6.163a3.003 3.003 0 0 0-2.11-2.11C19.517 3.545 12 3.545 12 3.545s-7.517 0-9.388.508a3.003 3.003 0 0 0-2.11 2.11C0 8.033 0 12 0 12s0 3.967.502 5.837a3.003 3.003 0 0 0 2.11 2.11c1.871.508 9.388.508 9.388.508s7.517 0 9.388-.508a3.003 3.003 0 0 0 2.11-2.11C24 15.967 24 12 24 12s0-3.967-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                        </svg>
+                    </div>`;
             } else if (isTwitter) {
-                networkBadgeHtml = `<div class="network-floating-badge badge-twitter"><i data-lucide="twitter"></i></div>`;
+                networkBadgeHtml = `
+                    <div class="network-floating-badge badge-twitter">
+                        <svg viewBox="0 0 24 24" fill="currentColor" style="width: 14px; height: 14px; display: block;">
+                            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                        </svg>
+                    </div>`;
             } else {
-                networkBadgeHtml = `<div class="network-floating-badge badge-news"><i data-lucide="globe"></i></div>`;
+                networkBadgeHtml = `
+                    <div class="network-floating-badge badge-news">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width: 16px; height: 16px; display: block;">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="2" y1="12" x2="22" y2="12"></line>
+                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                        </svg>
+                    </div>`;
             }
 
             card.innerHTML = `
