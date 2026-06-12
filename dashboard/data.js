@@ -443,19 +443,6 @@
                      "scraped_at":  "2026-06-12T15:07:49"
                  },
                  {
-                     "url":  "https://www.cadenaheat.com/noticia/100-noches-festivaleras-2026/festival-de-jesus-maria-la-60-edicion-dejo-casi-3000-millones-de-utilidades_561669",
-                     "query":  "distrito de jesus maria",
-                     "title":  "Festival de Jesús María: la 60° edición dejó casi $3.000 millones de utilidades - Cadena Heat",
-                     "source":  "Cadena Heat",
-                     "published_date":  "2026-06-11T22:01:40",
-                     "summary":  "Festival de Jesús María: la 60° edición dejó casi $3.000 millones de utilidades\u0026nbsp;\u0026nbsp;Cadena Heat",
-                     "sentiment":  "neutral",
-                     "sentiment_score":  0,
-                     "relevance":  1,
-                     "image_url":  "https://images-tools.cadena3.com/tools/r/9c8e5167-a50d-475a-9adf-5b8e27cfd8bb.jpg?width=1200\u0026height=674",
-                     "scraped_at":  "2026-06-12T15:07:56"
-                 },
-                 {
                      "url":  "https://www.gob.pe/institucion/pgrlm/noticias/1404952-supervisamos-los-avances-de-la-obra-del-jr-nazca-en-jesus-maria",
                      "query":  "distrito de jesus maria",
                      "title":  "Supervisamos los avances de la obra del jr. Nazca en Jesús María - gob.pe",
@@ -677,7 +664,7 @@
                 ],
     "twitter":  [
                     {
-                        "url":  "https://x.com/teleSURtv/status/2064839601026420829/photo/4",
+                        "url":  "https://x.com/teleSURtv/status/2064839601026420829",
                         "query":  "municipalidad de jesus maria",
                         "title":  "🚨 Municipalidad de Jesús María, Lima, usó camiones cisterna para inundar y arrasar carpas de ciudadanos que acampaban frente al Jurado Nacional de Elecciones en protesta. #Perú #Movilización #teleSUR",
                         "author":  "teleSURtv",
@@ -685,7 +672,7 @@
                         "sentiment":  "negativo",
                         "sentiment_score":  -1,
                         "relevance":  1,
-                        "image_url":  "https://images.unsplash.com/photo-1611605698335-8b15d27e03f3?auto=format\u0026fit=crop\u0026w=600\u0026q=80",
+                        "image_url":  "https://pbs.twimg.com/media/HKfIqz7WYAA40Vi.jpg:large",
                         "scraped_at":  "2026-06-12T14:07:47"
                     },
                     {
@@ -697,7 +684,7 @@
                         "sentiment":  "neutral",
                         "sentiment_score":  0,
                         "relevance":  1,
-                        "image_url":  "https://images.unsplash.com/photo-1611605698335-8b15d27e03f3?auto=format\u0026fit=crop\u0026w=600\u0026q=80",
+                        "image_url":  "https://pbs.twimg.com/profile_images/2007316995004362752/NgXRPyvF_200x200.jpg",
                         "scraped_at":  "2026-06-12T14:07:48"
                     },
                     {
@@ -709,7 +696,7 @@
                         "sentiment":  "positivo",
                         "sentiment_score":  1,
                         "relevance":  1,
-                        "image_url":  "https://images.unsplash.com/photo-1611605698335-8b15d27e03f3?auto=format\u0026fit=crop\u0026w=600\u0026q=80",
+                        "image_url":  "https://pbs.twimg.com/media/HKfP4P2WcAEBWwK.jpg:large",
                         "scraped_at":  "2026-06-12T14:07:51"
                     },
                     {
@@ -721,7 +708,7 @@
                         "sentiment":  "neutral",
                         "sentiment_score":  0,
                         "relevance":  1,
-                        "image_url":  "https://images.unsplash.com/photo-1611605698335-8b15d27e03f3?auto=format\u0026fit=crop\u0026w=600\u0026q=80",
+                        "image_url":  "https://pbs.twimg.com/profile_images/1631751908988780558/EPmjte4N_200x200.jpg",
                         "scraped_at":  "2026-06-12T14:07:53"
                     },
                     {
@@ -733,7 +720,7 @@
                         "sentiment":  "negativo",
                         "sentiment_score":  -1,
                         "relevance":  1,
-                        "image_url":  "https://images.unsplash.com/photo-1611605698335-8b15d27e03f3?auto=format\u0026fit=crop\u0026w=600\u0026q=80",
+                        "image_url":  "https://pbs.twimg.com/profile_images/1682131144932835330/PtTa2Sys_200x200.jpg",
                         "scraped_at":  "2026-06-12T14:07:55"
                     },
                     {
@@ -745,7 +732,7 @@
                         "sentiment":  "neutral",
                         "sentiment_score":  0,
                         "relevance":  1,
-                        "image_url":  "https://images.unsplash.com/photo-1611605698335-8b15d27e03f3?auto=format\u0026fit=crop\u0026w=600\u0026q=80",
+                        "image_url":  "https://pbs.twimg.com/profile_images/1631751908988780558/EPmjte4N_200x200.jpg",
                         "scraped_at":  "2026-06-12T14:07:56"
                     },
                     {
@@ -757,7 +744,7 @@
                         "sentiment":  "neutral",
                         "sentiment_score":  0,
                         "relevance":  1,
-                        "image_url":  "https://images.unsplash.com/photo-1611605698335-8b15d27e03f3?auto=format\u0026fit=crop\u0026w=600\u0026q=80",
+                        "image_url":  "https://pbs.twimg.com/profile_images/1675731031847055361/wh6qiKQg_200x200.jpg",
                         "scraped_at":  "2026-06-12T14:07:58"
                     },
                     {
@@ -769,7 +756,7 @@
                         "sentiment":  "neutral",
                         "sentiment_score":  0,
                         "relevance":  1,
-                        "image_url":  "https://images.unsplash.com/photo-1611605698335-8b15d27e03f3?auto=format\u0026fit=crop\u0026w=600\u0026q=80",
+                        "image_url":  "https://pbs.twimg.com/profile_images/2006715317569966080/B9WNVhtc_200x200.jpg",
                         "scraped_at":  "2026-06-12T15:09:08"
                     },
                     {
@@ -781,20 +768,8 @@
                         "sentiment":  "neutral",
                         "sentiment_score":  0,
                         "relevance":  1,
-                        "image_url":  "https://images.unsplash.com/photo-1611605698335-8b15d27e03f3?auto=format\u0026fit=crop\u0026w=600\u0026q=80",
+                        "image_url":  "https://pbs.twimg.com/profile_images/2006715317569966080/B9WNVhtc_200x200.jpg",
                         "scraped_at":  "2026-06-12T15:09:10"
-                    },
-                    {
-                        "url":  "https://x.com/canalN_/status/2064906091540963623",
-                        "query":  "distrito de jesus maria",
-                        "title":  "#Voto2026 #CuentasClaras Esta noche llegaron las últimas actas electorales desde Argentina hacia las Oficinas Descentralizadas de Procesos Electorales (ODPE) Lima Centro 1 en el distrito de Jesús María Mantente informado en la WEB ► canaln.pe",
-                        "author":  "canalN_",
-                        "published_date":  "2026-06-10T22:02:30",
-                        "sentiment":  "neutral",
-                        "sentiment_score":  0,
-                        "relevance":  1,
-                        "image_url":  "https://images.unsplash.com/photo-1611605698335-8b15d27e03f3?auto=format\u0026fit=crop\u0026w=600\u0026q=80",
-                        "scraped_at":  "2026-06-12T15:09:12"
                     },
                     {
                         "url":  "https://x.com/canalN_/status/2062739273141362718",
@@ -805,7 +780,7 @@
                         "sentiment":  "neutral",
                         "sentiment_score":  0,
                         "relevance":  1,
-                        "image_url":  "https://images.unsplash.com/photo-1611605698335-8b15d27e03f3?auto=format\u0026fit=crop\u0026w=600\u0026q=80",
+                        "image_url":  "https://pbs.twimg.com/profile_images/1769589607186763776/VcVi6V5s_200x200.png",
                         "scraped_at":  "2026-06-12T15:09:13"
                     },
                     {
@@ -817,7 +792,7 @@
                         "sentiment":  "neutral",
                         "sentiment_score":  0,
                         "relevance":  1,
-                        "image_url":  "https://images.unsplash.com/photo-1611605698335-8b15d27e03f3?auto=format\u0026fit=crop\u0026w=600\u0026q=80",
+                        "image_url":  "https://pbs.twimg.com/profile_images/1769589607186763776/VcVi6V5s_200x200.png",
                         "scraped_at":  "2026-06-12T15:09:15"
                     },
                     {
@@ -829,7 +804,7 @@
                         "sentiment":  "positivo",
                         "sentiment_score":  1,
                         "relevance":  1,
-                        "image_url":  "https://images.unsplash.com/photo-1611605698335-8b15d27e03f3?auto=format\u0026fit=crop\u0026w=600\u0026q=80",
+                        "image_url":  "https://pbs.twimg.com/profile_images/1951269649280040961/RrU47Hlk_200x200.jpg",
                         "scraped_at":  "2026-06-12T15:09:17"
                     },
                     {
@@ -841,7 +816,7 @@
                         "sentiment":  "positivo",
                         "sentiment_score":  1,
                         "relevance":  1,
-                        "image_url":  "https://images.unsplash.com/photo-1611605698335-8b15d27e03f3?auto=format\u0026fit=crop\u0026w=600\u0026q=80",
+                        "image_url":  "https://pbs.twimg.com/profile_images/1951269649280040961/RrU47Hlk_200x200.jpg",
                         "scraped_at":  "2026-06-12T15:09:19"
                     },
                     {
@@ -853,9 +828,9 @@
                         "sentiment":  "positivo",
                         "sentiment_score":  1,
                         "relevance":  1,
-                        "image_url":  "https://images.unsplash.com/photo-1611605698335-8b15d27e03f3?auto=format\u0026fit=crop\u0026w=600\u0026q=80",
+                        "image_url":  "https://pbs.twimg.com/media/G_mnmuiXYAALf8t.png:large",
                         "scraped_at":  "2026-06-12T15:09:23"
                     }
                 ],
-    "updated_at":  "2026-06-12T15:09:23"
+    "updated_at":  "2026-06-12T15:27:24"
 };
