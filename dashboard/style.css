@@ -1020,3 +1020,54 @@ header::before {
   background: var(--primary-glow);
 }
 
+/* Twitter Stat Icon & Badges */
+.icon-twitter {
+  background: rgba(29, 155, 240, 0.1);
+  color: #1d9bf0;
+  border: 1px solid rgba(29, 155, 240, 0.2);
+}
+
+/* Floating social media logo badge on card image */
+.network-floating-badge {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  z-index: 10;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  transition: var(--transition-smooth);
+}
+
+.network-floating-badge i {
+  width: 16px;
+  height: 16px;
+}
+
+.badge-youtube {
+  background: rgba(239, 68, 68, 0.85); /* Red transparent */
+  color: #ffffff;
+}
+
+.badge-twitter {
+  background: rgba(29, 155, 240, 0.85); /* Twitter Blue transparent */
+  color: #ffffff;
+}
+
+.badge-news {
+  background: rgba(99, 102, 241, 0.85); /* Primary transparent */
+  color: #ffffff;
+}
+
+.feed-card:hover .network-floating-badge {
+  transform: scale(1.15);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5);
+}
+

@@ -255,10 +255,15 @@ function Check-Relevance {
 $DbPath = Join-Path $ScriptDir "database.json"
 if (Test-Path $DbPath) {
     $Db = Get-Content -Raw -Path $DbPath -Encoding utf8 | ConvertFrom-Json
+    # Asegurarse de que exista la propiedad twitter
+    if ($null -eq $Db.twitter) {
+        $Db | Add-Member -MemberType NoteProperty -Name "twitter" -Value @()
+    }
 } else {
     $Db = [PSCustomObject]@{
         news = @()
         youtube = @()
+        twitter = @()
     }
 }
 
@@ -531,6 +536,104 @@ foreach ($query in $Config.queries) {
     }
 }
 
+# 6.b Monitorear Twitter/X
+Write-Host "`n[Twitter] Iniciando rastreo en Twitter/X..." -ForegroundColor Yellow
+$NewTwitterCount = 0
+
+foreach ($query in $Config.queries) {
+    Write-Host "  [-] Consultando para: '$query'..." -ForegroundColor Gray
+    # Consulta combinada en Google News RSS para x.com y twitter.com
+    $combinedQuery = "(site:x.com OR site:twitter.com) `"$query`""
+    $encodedQuery = [uri]::EscapeDataString($combinedQuery)
+    $rssUrl = "https://news.google.com/rss/search?q=$encodedQuery&hl=es-419&gl=PE&ceid=PE:es"
+    
+    try {
+        $webClient = New-Object System.Net.WebClient
+        $webClient.Headers.Add("User-Agent", $UserAgent)
+        $bytes = $webClient.DownloadData($rssUrl)
+        $xmlText = [System.Text.Encoding]::UTF8.GetString($bytes)
+        [xml]$feed = $xmlText
+        $items = $feed.rss.channel.item
+        if ($null -eq $items) { continue }
+        
+        $limit = [Math]::Min($items.Count, 10) # Limitar a 10 tweets por consulta
+        $subset = @()
+        if ($items -is [array]) { $subset = $items } else { $subset = @($items) }
+        $selectedItems = $subset | Select-Object -First $limit
+        
+        foreach ($item in $selectedItems) {
+            $url = $item.link
+            
+            # Resolver la URL real primero
+            Write-Host "    [~] Resolviendo enlace de Twitter..." -ForegroundColor Gray
+            $realUrl = Resolve-GoogleNewsUrl $url
+            
+            # Verificar si ya existe en la DB (comparando con la URL original y la resuelta)
+            $exists = $false
+            foreach ($existing in $Db.twitter) {
+                if ($existing.url -eq $url -or $existing.url -eq $realUrl) {
+                    $exists = $true
+                    break
+                }
+            }
+            if ($exists) { continue }
+            
+            # Extraer autor (nombre de usuario) de la URL de Twitter/X
+            # Ejemplo: https://x.com/ElmerAyala_PE/status/123456
+            $author = "TwitterUser"
+            if ($realUrl -match '(?i)https?://(?:www\.)?(?:x|twitter)\.com/([^/]+)/status') {
+                $author = $Matches[1]
+            }
+            
+            $title = $item.title
+            # Limpiar el sufijo " - x.com" o " - Twitter" del título si existe
+            $title = $title -replace '(?i)\s*-\s*(x\.com|twitter)\s*$', ''
+            
+            $pubDateRaw = $item.pubDate
+            $pubDate = (Get-Date).ToString("yyyy-MM-ddTHH:mm:ss")
+            $currentYear = (Get-Date).Year
+            $skipTweet = $false
+            try {
+                $parsedDate = [DateTime]::Parse($pubDateRaw, [System.Globalization.CultureInfo]::InvariantCulture)
+                $pubDate = $parsedDate.ToString("yyyy-MM-ddTHH:mm:ss")
+                if ($parsedDate.Year -ne $currentYear) {
+                    $skipTweet = $true
+                }
+            } catch {}
+            
+            if ($skipTweet) { continue }
+            
+            # Analizar relevancia y sentimiento
+            $relevance = Check-Relevance $title
+            if ($relevance -eq 0) { continue }
+            
+            $analysis = Analyze-Sentiment $title
+            
+            # Imagen de fondo premium de Twitter (3D Twitter Logo)
+            $imageUrl = "https://images.unsplash.com/photo-1611605698335-8b15d27e03f3?auto=format&fit=crop&w=600&q=80"
+            
+            $newTweet = [PSCustomObject]@{
+                url = $realUrl
+                query = $query
+                title = $title
+                author = $author
+                published_date = $pubDate
+                sentiment = $analysis.sentiment
+                sentiment_score = $analysis.score
+                relevance = $relevance
+                image_url = $imageUrl
+                scraped_at = (Get-Date).ToString("yyyy-MM-ddTHH:mm:ss")
+            }
+            
+            $Db.twitter += $newTweet
+            $NewTwitterCount++
+            Write-Host "    [+] Nuevo tweet: @$author : $title ($($analysis.sentiment))" -ForegroundColor Green
+        }
+    } catch {
+        Write-Host "    [Warning] Error al consultar Twitter para '$query': $_" -ForegroundColor DarkYellow
+    }
+}
+
 # 7. Guardar Base de Datos
 $Db | ConvertTo-Json -Depth 10 | Out-File -FilePath $DbPath -Encoding utf8
 Write-Host "`n[Base de Datos] Guardada correctamente en $DbPath" -ForegroundColor Green
@@ -547,6 +650,7 @@ $DataJsPath = Join-Path $DashboardDir "data.js"
 $ExportData = [PSCustomObject]@{
     news = $Db.news
     youtube = $Db.youtube
+    twitter = $Db.twitter
     updated_at = (Get-Date).ToString("yyyy-MM-ddTHH:mm:ss")
 }
 
@@ -593,4 +697,5 @@ Write-Host "--------------------------------------------------" -ForegroundColor
 Write-Host "Monitoreo finalizado." -ForegroundColor Cyan
 Write-Host "Noticias nuevas: $NewNewsCount" -ForegroundColor Green
 Write-Host "Videos nuevos: $NewYoutubeCount" -ForegroundColor Green
+Write-Host "Tweets nuevos: $NewTwitterCount" -ForegroundColor Green
 Write-Host "==================================================" -ForegroundColor Cyan

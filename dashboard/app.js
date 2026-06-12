@@ -296,7 +296,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function processData() {
         try {
-            // Combinar datos agregando la propiedad "type" ('news' o 'youtube')
+            // Combinar datos agregando la propiedad "type" ('news', 'youtube', 'twitter')
             const newsItems = (monitorData.news || []).map(item => ({
                 ...item,
                 id: item.url,
@@ -311,13 +311,20 @@ document.addEventListener('DOMContentLoaded', () => {
                 displaySource: item.channel || 'YouTube'
             }));
 
+            const twitterItems = (monitorData.twitter || []).map(item => ({
+                ...item,
+                id: item.url,
+                type: 'twitter',
+                displaySource: `@${item.author || 'Twitter'}`
+            }));
+
             // Combinar y ordenar por fecha (más recientes primero)
-            filteredItems = [...newsItems, ...youtubeItems].sort((a, b) => {
+            filteredItems = [...newsItems, ...youtubeItems, ...twitterItems].sort((a, b) => {
                 return new Date(b.published_date || b.scraped_at) - new Date(a.published_date || a.scraped_at);
             });
 
             // Actualizar estadísticas en UI
-            updateStats(newsItems, youtubeItems, filteredItems);
+            updateStats(newsItems, youtubeItems, twitterItems, filteredItems);
             
             // Generar gráficos envolviendo en try-catch individual
             try {
@@ -334,9 +341,15 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    function updateStats(news, youtube, all) {
+    function updateStats(news, youtube, twitter, all) {
         newsCountEl.textContent = news.length;
         youtubeCountEl.textContent = youtube.length;
+        
+        const twitterCountEl = document.getElementById('twitter-count');
+        if (twitterCountEl) {
+            twitterCountEl.textContent = twitter.length;
+        }
+        
         totalCountEl.textContent = all.length;
         
         // Calcular porcentaje de sentimiento positivo
@@ -442,7 +455,9 @@ document.addEventListener('DOMContentLoaded', () => {
         // Filtrar de la lista maestra "filteredItems" (que contiene todos los items ordenados)
         const newsItems = (monitorData.news || []).map(item => ({ ...item, id: item.url, type: 'news', displaySource: item.source || 'Prensa' }));
         const youtubeItems = (monitorData.youtube || []).map(item => ({ ...item, id: item.video_id, type: 'youtube', displaySource: item.channel || 'YouTube' }));
-        const allCombined = [...newsItems, ...youtubeItems].sort((a, b) => {
+        const twitterItems = (monitorData.twitter || []).map(item => ({ ...item, id: item.url, type: 'twitter', displaySource: `@${item.author || 'Twitter'}` }));
+        
+        const allCombined = [...newsItems, ...youtubeItems, ...twitterItems].sort((a, b) => {
             const dateA = new Date(a.published_date || a.scraped_at);
             const dateB = new Date(b.published_date || b.scraped_at);
             return currentSortOrder === 'desc' ? dateB - dateA : dateA - dateB;
@@ -484,8 +499,16 @@ document.addEventListener('DOMContentLoaded', () => {
             card.className = 'feed-card';
             
             const isYoutube = item.type === 'youtube';
-            const iconName = isYoutube ? 'youtube' : 'newspaper';
-            const iconColor = isYoutube ? 'color: #FF0000' : 'color: var(--primary)';
+            const isTwitter = item.type === 'twitter';
+            let iconName = 'newspaper';
+            let iconColor = 'color: var(--primary)';
+            if (isYoutube) {
+                iconName = 'youtube';
+                iconColor = 'color: #FF0000';
+            } else if (isTwitter) {
+                iconName = 'twitter';
+                iconColor = 'color: #1D9BF0';
+            }
             
             // Formatear fecha y hora de publicación
             let formattedDate = 'Reciente';
@@ -504,11 +527,23 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             }
 
-            const snippetText = isYoutube ? (item.transcript_snippet || item.description) : item.summary;
+            const snippetText = isYoutube 
+                ? (item.transcript_snippet || item.description) 
+                : (isTwitter ? (item.title || item.description) : item.summary);
+                
             const hasImage = item.image_url && item.image_url.trim() !== "";
             const imageHtml = hasImage 
                 ? `<img src="${escapeHtml(item.image_url)}" alt="Vista previa" loading="lazy">` 
                 : `<div class="feed-card-placeholder"><i data-lucide="${iconName}"></i></div>`;
+
+            let networkBadgeHtml = '';
+            if (isYoutube) {
+                networkBadgeHtml = `<div class="network-floating-badge badge-youtube"><i data-lucide="youtube"></i></div>`;
+            } else if (isTwitter) {
+                networkBadgeHtml = `<div class="network-floating-badge badge-twitter"><i data-lucide="twitter"></i></div>`;
+            } else {
+                networkBadgeHtml = `<div class="network-floating-badge badge-news"><i data-lucide="globe"></i></div>`;
+            }
 
             card.innerHTML = `
                 <div class="feed-card-image-container">
@@ -522,6 +557,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         </span>
                     </div>
                     ${imageHtml}
+                    ${networkBadgeHtml}
                 </div>
                 <div class="feed-card-body">
                     <h3 class="feed-card-title">${escapeHtml(item.title)}</h3>
@@ -576,17 +612,20 @@ document.addEventListener('DOMContentLoaded', () => {
         let item = null;
         if (type === 'news') {
             item = monitorData.news.find(i => i.url === id);
-        } else {
+        } else if (type === 'youtube') {
             item = monitorData.youtube.find(i => i.video_id === id);
+        } else if (type === 'twitter') {
+            item = monitorData.twitter.find(i => i.url === id);
         }
 
         if (!item) return;
 
         const isYoutube = type === 'youtube';
+        const isTwitter = type === 'twitter';
         
         // Rellenar información básica
         document.getElementById('modal-title').textContent = item.title;
-        document.getElementById('modal-source').textContent = isYoutube ? (item.channel || 'YouTube') : (item.source || 'Prensa');
+        document.getElementById('modal-source').textContent = isYoutube ? (item.channel || 'YouTube') : (isTwitter ? `@${item.author || 'Twitter'}` : (item.source || 'Prensa'));
         document.getElementById('modal-date').textContent = new Date(item.published_date || item.scraped_at).toLocaleString('es-PE');
         
         // Sentimiento
@@ -619,6 +658,15 @@ document.addEventListener('DOMContentLoaded', () => {
             const transPara = document.createElement('p');
             transPara.innerHTML = highlightKeywords(item.transcript_snippet || item.description);
             detailsContainer.appendChild(transPara);
+        } else if (isTwitter) {
+            // Tweet
+            const tweetTitle = document.createElement('h4');
+            tweetTitle.textContent = "Contenido del Tweet";
+            detailsContainer.appendChild(tweetTitle);
+
+            const tweetPara = document.createElement('p');
+            tweetPara.innerHTML = highlightKeywords(item.title);
+            detailsContainer.appendChild(tweetPara);
         } else {
             // Artículo de noticias
             const artTitle = document.createElement('h4');
