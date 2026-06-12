@@ -154,6 +154,38 @@ function Get-FacebookDataFromApify {
     return $null
 }
 
+# Función para buscar en Facebook usando Apify con cookies
+function Search-FacebookWithApify {
+    param (
+        [string]$query
+    )
+    if ([string]::IsNullOrEmpty($Config.apify_token) -or $null -eq $Config.facebook_cookies -or $Config.facebook_cookies.Count -eq 0) {
+        return @()
+    }
+    
+    Write-Host "    [Apify] Buscando en Facebook para: '$query'..." -ForegroundColor Cyan
+    
+    $body = @{
+        query = $query
+        maxResults = 10
+        recent_posts = $true
+        cookies = $Config.facebook_cookies
+    } | ConvertTo-Json -Depth 10
+    
+    $apifyUrl = "https://api.apify.com/v2/acts/powerai~facebook-post-search-scraper/run-sync-get-dataset-items?token=$($Config.apify_token)"
+    
+    try {
+        # Timeout de 120 segundos para la consulta sincrónica
+        $resp = Invoke-RestMethod -Uri $apifyUrl -Method Post -Body $body -ContentType "application/json" -TimeoutSec 120
+        if ($resp -and $resp.Count -gt 0) {
+            return $resp
+        }
+    } catch {
+        Write-Host "    [Warning] Error en Apify al buscar en Facebook para '$query': $_" -ForegroundColor DarkYellow
+    }
+    return @()
+}
+
 # Función para extraer imagen og:image (OpenGraph) de un sitio web de forma agresiva
 function Get-OGImage {
     param (
@@ -442,6 +474,7 @@ if ($UpdatedTwitterMigrationCount -gt 0) {
 # 5. Monitorear Noticias (Google News RSS)
 Write-Host "`n[Noticias] Iniciando rastreo en Google News..." -ForegroundColor Yellow
 $NewNewsCount = 0
+$NewFacebookCount = 0
 $UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 
 foreach ($query in $Config.queries) {
@@ -787,6 +820,126 @@ foreach ($query in $Config.queries) {
     }
 }
 
+# 6.c Monitorear Facebook vía Búsqueda de Apify (Solo si se configuran cookies)
+if ($null -ne $Config.facebook_cookies -and $Config.facebook_cookies.Count -gt 0 -and -not [string]::IsNullOrEmpty($Config.apify_token)) {
+    Write-Host "`n[Facebook] Iniciando búsqueda de palabras clave en Facebook con Apify..." -ForegroundColor Yellow
+    $NewFacebookCount = 0
+    foreach ($query in $Config.queries) {
+        $items = Search-FacebookWithApify $query
+        if ($null -eq $items -or $items.Count -eq 0) { continue }
+        
+        foreach ($item in $items) {
+            $url = $item.url
+            if ([string]::IsNullOrEmpty($url)) { $url = $item.permalink }
+            if ([string]::IsNullOrEmpty($url)) { continue }
+            
+            # Limpiar URL para evitar duplicados con parámetros de tracking
+            $realUrl = $url -replace '\?.*$', ''
+            
+            # Verificar si ya existe en la DB
+            $exists = $false
+            foreach ($existing in $Db.news) {
+                if ($existing.url -eq $realUrl) {
+                    $exists = $true
+                    break
+                }
+            }
+            if ($exists) { continue }
+            
+            # Extraer título y resumen
+            $postText = $item.postText
+            if ([string]::IsNullOrEmpty($postText)) { $postText = $item.message }
+            if ([string]::IsNullOrEmpty($postText)) { $postText = $item.text }
+            if ([string]::IsNullOrEmpty($postText)) { continue }
+            
+            $title = $postText
+            if ($title.Length -gt 100) {
+                $title = $title.Substring(0, 97) + "..."
+            }
+            # Reemplazar saltos de línea en el título
+            $title = $title -replace "`r?`n", " "
+            
+            $source = $item.pageName
+            if ([string]::IsNullOrEmpty($source)) { $source = $item.author.name }
+            if ([string]::IsNullOrEmpty($source)) { $source = "Facebook Page" }
+            
+            # Relevancia y sentimiento
+            $relevance = Check-Relevance $postText
+            if ($relevance -eq 0) { continue }
+            
+            $analysis = Analyze-Sentiment $postText
+            
+            # Extraer imagen
+            $imageUrl = ""
+            if ($item.media -and $item.media.photo_image -and $item.media.photo_image.uri) {
+                $imageUrl = $item.media.photo_image.uri
+            } elseif ($item.media -and $item.media.Count -gt 0) {
+                $m = $item.media[0]
+                if ($m.photo_image -and $m.photo_image.uri) { $imageUrl = $m.photo_image.uri }
+                elseif ($m.uri) { $imageUrl = $m.uri }
+                elseif ($m.url) { $imageUrl = $m.url }
+            } elseif ($item.image) {
+                $imageUrl = $item.image
+            } elseif ($item.image_url) {
+                $imageUrl = $item.image_url
+            } elseif ($item.video_thumbnail) {
+                $imageUrl = $item.video_thumbnail
+            } elseif ($item.attachments -and $item.attachments.Count -gt 0) {
+                $att = $item.attachments[0]
+                if ($att.media -and $att.media.image -and $att.media.image.src) {
+                    $imageUrl = $att.media.image.src
+                }
+            }
+            
+            if ([string]::IsNullOrEmpty($imageUrl)) {
+                # Fallback al avatar del autor antes del fallback genérico
+                if ($item.author -and $item.author.profile_picture_url) {
+                    $imageUrl = $item.author.profile_picture_url
+                } elseif ($item.author -and $item.author.profilePicture) {
+                    $imageUrl = $item.author.profilePicture
+                } else {
+                    $imageUrl = "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80"
+                }
+            }
+            
+            # Fecha de publicación
+            $pubDate = (Get-Date).ToString("yyyy-MM-ddTHH:mm:ss")
+            if ($item.timestamp) {
+                try {
+                    $epoch = New-Object DateTime 1970, 1, 1, 0, 0, 0, ([DateTimeKind]::Utc)
+                    # El timestamp de Apify a veces está en milisegundos
+                    $tsVal = [double]$item.timestamp
+                    if ($tsVal -gt 1000000000000) { $tsVal = $tsVal / 1000 }
+                    $pubDate = $epoch.AddSeconds($tsVal).ToLocalTime().ToString("yyyy-MM-ddTHH:mm:ss")
+                } catch {}
+            } elseif ($item.date) {
+                try {
+                    $pubDate = [DateTime]::Parse($item.date).ToString("yyyy-MM-ddTHH:mm:ss")
+                } catch {}
+            }
+            
+            $newArticle = [PSCustomObject]@{
+                url = $realUrl
+                query = $query
+                title = $title
+                source = $source
+                published_date = $pubDate
+                summary = $postText
+                sentiment = $analysis.sentiment
+                sentiment_score = $analysis.score
+                relevance = $relevance
+                image_url = $imageUrl
+                scraped_at = (Get-Date).ToString("yyyy-MM-ddTHH:mm:ss")
+            }
+            
+            $Db.news += $newArticle
+            $NewFacebookCount++
+            $NewNewsCount++
+            Write-Host "    [+] Nuevo post FB: $source : $title ($($analysis.sentiment))" -ForegroundColor Green
+        }
+    }
+}
+
 # 7. Guardar Base de Datos
 $Db | ConvertTo-Json -Depth 10 | Out-File -FilePath $DbPath -Encoding utf8
 Write-Host "`n[Base de Datos] Guardada correctamente en $DbPath" -ForegroundColor Green
@@ -849,6 +1002,9 @@ if ($null -ne $hasRemote -and $hasRemote -contains "origin") {
 Write-Host "--------------------------------------------------" -ForegroundColor Cyan
 Write-Host "Monitoreo finalizado." -ForegroundColor Cyan
 Write-Host "Noticias nuevas: $NewNewsCount" -ForegroundColor Green
+if ($null -ne $Config.facebook_cookies -and $Config.facebook_cookies.Count -gt 0) {
+    Write-Host "Posts de Facebook nuevos: $NewFacebookCount" -ForegroundColor Green
+}
 Write-Host "Videos nuevos: $NewYoutubeCount" -ForegroundColor Green
 Write-Host "Tweets nuevos: $NewTwitterCount" -ForegroundColor Green
 Write-Host "==================================================" -ForegroundColor Cyan
