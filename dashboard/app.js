@@ -1,3 +1,22 @@
+// Captura de errores visual en pantalla para depuración
+window.onerror = function(message, source, lineno, colno, error) {
+    const errorBanner = document.createElement('div');
+    errorBanner.style.position = 'fixed';
+    errorBanner.style.top = '0';
+    errorBanner.style.left = '0';
+    errorBanner.style.width = '100%';
+    errorBanner.style.backgroundColor = '#ef4444';
+    errorBanner.style.color = 'white';
+    errorBanner.style.padding = '12px 20px';
+    errorBanner.style.zIndex = '999999';
+    errorBanner.style.fontFamily = 'monospace';
+    errorBanner.style.fontSize = '12px';
+    errorBanner.style.boxShadow = '0 4px 12px rgba(0,0,0,0.5)';
+    errorBanner.innerHTML = `<strong>Error de JS detectado:</strong> ${message} <br><small>Archivo: ${source} | Línea: ${lineno}:${colno}</small>`;
+    document.body.appendChild(errorBanner);
+    return false;
+};
+
 // Esperar a que el DOM esté listo
 document.addEventListener('DOMContentLoaded', () => {
     // Lucide icons
@@ -86,7 +105,11 @@ document.addEventListener('DOMContentLoaded', () => {
             if (checkInactivity()) return;
             resetInactivityTimeout();
             showDashboard();
-            init();
+            // Retraso leve para asegurar que la UI se renderice completamente
+            // y evitar problemas de tamaño 0px en los lienzos (canvas) de Chart.js
+            setTimeout(() => {
+                init();
+            }, 100);
             
             // Refrescar el tiempo de inactividad por interacciones del usuario
             const events = ['click', 'mousemove', 'keypress', 'scroll', 'touchstart'];
