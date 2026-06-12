@@ -662,6 +662,19 @@
                      "relevance":  1,
                      "image_url":  "https://scontent.fbrs5-1.fna.fbcdn.net/v/t15.5256-10/718952967_1470915687660574_1604938078156487502_n.jpg?stp=dst-jpg_s960x960_tt6\u0026_nc_cat=111\u0026ccb=1-7\u0026_nc_sid=5fad0e\u0026_nc_ohc=Fx80R_8FLhIQ7kNvwGJl4TZ\u0026_nc_oc=Adoxu6rEufKCTjI3z0QUQCD4jFyrrNwqa3fENg9eZI9wlbiQ_JY2pmO8GF_6t3uJlTjyobW-2H0i4P0nmlryPZ7k\u0026_nc_zt=23\u0026_nc_ht=scontent.fbrs5-1.fna\u0026_nc_gid=4j1o9CwzPfc5eJ_0PhA5cA\u0026_nc_ss=7f180\u0026oh=00_Af-YN2z27WSX2zm2CisFtuoBTYK1cmHNf50OU82V02FPOg\u0026oe=6A325BA3",
                      "scraped_at":  "2026-06-12T16:42:03"
+                 },
+                 {
+                     "url":  "https://trome.com/espectaculos/renato-rossini-se-lanza-a-la-politica-como-candidato-a-la-alcaldia-de-jesus-maria-y-causa-revuelo-en-redes-foto-video-farandula-noticia/",
+                     "query":  "distrito de jesus maria",
+                     "title":  "Renato Rossini se lanza a la política como candidato a la alcaldía de Jesús María y causa revuelo en redes - Trome.com",
+                     "source":  "Trome.com",
+                     "published_date":  "2026-06-12T16:34:39",
+                     "summary":  "Renato Rossini se lanza a la política como candidato a la alcaldía de Jesús María y causa revuelo en redes\u0026nbsp;\u0026nbsp;Trome.com",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://trome.com/resizer/v2/M2Z23ENERNARHAHFLLA5NNITSQ.png?auth=d04baece4182291efe1624121ed87a4d7f010aff95daf8b8491b52c44fc258e0\u0026width=980\u0026height=528\u0026quality=75\u0026smart=true",
+                     "scraped_at":  "2026-06-12T16:56:37"
                  }
              ],
     "youtube":  [
@@ -962,5 +975,5 @@
                         "scraped_at":  "2026-06-12T15:09:23"
                     }
                 ],
-    "updated_at":  "2026-06-12T16:42:15"
+    "updated_at":  "2026-06-12T16:57:54"
 };
