@@ -163,12 +163,15 @@ function Search-FacebookWithApify {
         return @()
     }
     
-    Write-Host "    [Apify] Buscando en Facebook para: '$query'..." -ForegroundColor Cyan
+    # Calcular fecha de inicio (hace 2 días)
+    $startDate = (Get-Date).AddDays(-2).ToString("yyyy-MM-dd")
+    Write-Host "    [Apify] Buscando en Facebook para: '$query' desde $startDate..." -ForegroundColor Cyan
     
     $body = @{
         query = $query
-        maxResults = 10
+        maxResults = 20
         recent_posts = $true
+        start_date = $startDate
         cookies = $Config.facebook_cookies
     } | ConvertTo-Json -Depth 10
     
