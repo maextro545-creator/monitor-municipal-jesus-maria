@@ -66,12 +66,12 @@ document.addEventListener('DOMContentLoaded', () => {
     let monitorData = { news: [], youtube: [] };
     let filteredItems = [];
 
+    const SESSION_TIMEOUT_MS = 15 * 60 * 1000; // 15 minutos de inactividad
+
     // Cargar datos iniciales
     setupLoginEvents();
     setupEventListeners();
     checkSessionAndInit();
-
-    const SESSION_TIMEOUT_MS = 15 * 60 * 1000; // 15 minutos de inactividad
 
     function resetInactivityTimeout() {
         if (sessionStorage.getItem('muniwatch_authenticated') === 'true') {
