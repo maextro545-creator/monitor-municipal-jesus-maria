@@ -238,8 +238,16 @@ function Check-Relevance {
         [string]$Text
     )
     $cleanText = Remove-Accents ($Text.ToLower())
-    $keywords = @("jesus maria", "jesus galvez", "alcalde galvez", "municipalidad de jesus maria")
     
+    # Filtrar explícitamente noticias de Argentina / Córdoba / Festival de Doma
+    $excludeKeywords = @("cordoba", "argentina", "folklore", "doma", "jineteada", "chaqueño", "milei", "festival", "anfiteatro", "festivaleras")
+    foreach ($ex in $excludeKeywords) {
+        if ($cleanText.Contains($ex)) {
+            return 0
+        }
+    }
+    
+    $keywords = @("jesus maria", "jesus galvez", "alcalde galvez", "municipalidad de jesus maria")
     foreach ($kw in $keywords) {
         if ($cleanText.Contains($kw)) {
             return 1
@@ -258,6 +266,29 @@ if (Test-Path $DbPath) {
     # Asegurarse de que exista la propiedad twitter
     if ($null -eq $Db.twitter) {
         $Db | Add-Member -MemberType NoteProperty -Name "twitter" -Value @()
+    }
+    
+    # Limpieza de base de datos para excluir noticias ajenas a Perú (Argentina/Córdoba)
+    $excludeKeywords = @("cordoba", "argentina", "folklore", "doma", "jineteada", "chaqueño", "milei", "festival", "anfiteatro", "festivaleras")
+    if ($Db.news) {
+        $Db.news = @($Db.news | Where-Object {
+            $combined = Remove-Accents ("$($_.title) $($_.summary)".ToLower())
+            $exclude = $false
+            foreach ($ex in $excludeKeywords) {
+                if ($combined.Contains($ex)) { $exclude = $true; break }
+            }
+            -not $exclude
+        })
+    }
+    if ($Db.twitter) {
+        $Db.twitter = @($Db.twitter | Where-Object {
+            $combined = Remove-Accents ("$($_.title)".ToLower())
+            $exclude = $false
+            foreach ($ex in $excludeKeywords) {
+                if ($combined.Contains($ex)) { $exclude = $true; break }
+            }
+            -not $exclude
+        })
     }
 } else {
     $Db = [PSCustomObject]@{
@@ -310,6 +341,37 @@ if ($UpdatedMigrationCount -gt 0) {
     Write-Host "[Migración] Se actualizaron $UpdatedMigrationCount noticias antiguas con imágenes correctas." -ForegroundColor Green
     $Db | ConvertTo-Json -Depth 10 | Out-File -FilePath $DbPath -Encoding utf8
 }
+
+# --- Migración Retroactiva para obtener imágenes reales en tweets antiguos ---
+Write-Host "[Migración] Verificando si hay tweets con imágenes de stock de Unsplash..." -ForegroundColor Yellow
+$UpdatedTwitterMigrationCount = 0
+if ($Db.twitter) {
+    foreach ($tweet in $Db.twitter) {
+        $hasUnsplashImg = $tweet.image_url -like "*images.unsplash.com*"
+        $isEmptyImg = [string]::IsNullOrEmpty($tweet.image_url)
+        
+        if ($hasUnsplashImg -or $isEmptyImg) {
+            Write-Host "  [~] Intentando obtener imagen real para tweet: @$($tweet.author) : $($tweet.title)" -ForegroundColor Gray
+            
+            # Limpiar URL de Twitter (eliminar /photo/4, etc.)
+            $cleanTweetUrl = $tweet.url -replace '(?i)(/status/\d+)/.*$', '$1'
+            
+            # Scrapear imagen real
+            $newImg = Get-OGImage $cleanTweetUrl
+            if (-not [string]::IsNullOrEmpty($newImg)) {
+                $tweet.image_url = $newImg
+                $tweet.url = $cleanTweetUrl
+                $UpdatedTwitterMigrationCount++
+                Write-Host "    [+] ¡Éxito! Nueva imagen de tweet: $newImg" -ForegroundColor Green
+            }
+        }
+    }
+}
+if ($UpdatedTwitterMigrationCount -gt 0) {
+    Write-Host "[Migración] Se actualizaron $UpdatedTwitterMigrationCount tweets antiguos con imágenes correctas." -ForegroundColor Green
+    $Db | ConvertTo-Json -Depth 10 | Out-File -FilePath $DbPath -Encoding utf8
+}
+
 
 # 5. Monitorear Noticias (Google News RSS)
 Write-Host "`n[Noticias] Iniciando rastreo en Google News..." -ForegroundColor Yellow
@@ -567,6 +629,8 @@ foreach ($query in $Config.queries) {
             # Resolver la URL real primero
             Write-Host "    [~] Resolviendo enlace de Twitter..." -ForegroundColor Gray
             $realUrl = Resolve-GoogleNewsUrl $url
+            # Limpiar URL de Twitter (ej. eliminar /photo/4 o cualquier subpath posterior a /status/ID)
+            $realUrl = $realUrl -replace '(?i)(/status/\d+)/.*$', '$1'
             
             # Verificar si ya existe en la DB (comparando con la URL original y la resuelta)
             $exists = $false
@@ -609,8 +673,12 @@ foreach ($query in $Config.queries) {
             
             $analysis = Analyze-Sentiment $title
             
-            # Imagen de fondo premium de Twitter (3D Twitter Logo)
-            $imageUrl = "https://images.unsplash.com/photo-1611605698335-8b15d27e03f3?auto=format&fit=crop&w=600&q=80"
+            # Imagen real de Twitter usando Get-OGImage
+            Write-Host "    [~] Portada: Obteniendo imagen de Twitter..." -ForegroundColor Gray
+            $imageUrl = Get-OGImage $realUrl
+            if ([string]::IsNullOrEmpty($imageUrl)) {
+                $imageUrl = "https://images.unsplash.com/photo-1611605698335-8b15d27e03f3?auto=format&fit=crop&w=600&q=80"
+            }
             
             $newTweet = [PSCustomObject]@{
                 url = $realUrl
