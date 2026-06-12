@@ -686,6 +686,20 @@
                         "relevance":  1,
                         "image_url":  "https://img.youtube.com/vi/raPtbCKZs1A/hqdefault.jpg",
                         "scraped_at":  "2026-06-12T15:08:45"
+                    },
+                    {
+                        "video_id":  "4vsWFsw7kSI",
+                        "query":  "municipalidad de jesus maria",
+                        "title":  "Oferta Inmobiliaria de Nuevos Depas en Jesús María • Reporte de Precios al 7 de Junio del 2026",
+                        "channel":  "Propiedades en el Peru",
+                        "published_date":  "2026-06-11T13:00:28",
+                        "description":  "Video monitoreado de YouTube.",
+                        "transcript_snippet":  "Menciones detectadas en el video: Oferta Inmobiliaria de Nuevos Depas en Jesús María • Reporte de Precios al 7 de Junio del 2026",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://img.youtube.com/vi/4vsWFsw7kSI/hqdefault.jpg",
+                        "scraped_at":  "2026-06-12T16:29:39"
                     }
                 ],
     "twitter":  [
