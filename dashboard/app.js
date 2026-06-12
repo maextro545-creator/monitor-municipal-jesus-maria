@@ -399,8 +399,8 @@ document.addEventListener('DOMContentLoaded', () => {
             card.className = 'feed-card';
             
             const isYoutube = item.type === 'youtube';
-            const iconName = isYoutube ? 'video' : 'newspaper';
-            const iconColor = isYoutube ? 'color: var(--negative)' : 'color: var(--primary)';
+            const iconName = isYoutube ? 'youtube' : 'newspaper';
+            const iconColor = isYoutube ? 'color: #FF0000' : 'color: var(--primary)';
             
             // Formatear fecha y hora de publicación
             let formattedDate = 'Reciente';
