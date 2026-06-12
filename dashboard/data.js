@@ -558,6 +558,110 @@
                      "relevance":  1,
                      "image_url":  "https://statics.exitosanoticias.pe/2026/06/6a2c3854ac678.jpg",
                      "scraped_at":  "2026-06-12T15:56:59"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/reel/1864412847561943/",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "#LOULTIMO 🔴 MILITANTES DE JP SON BAÑADOS CON AGUA EN LIMA 😮  Personal de la Municipalidad de Je...",
+                     "source":  "Huánuco Activo",
+                     "published_date":  "2026-06-12T12:55:13",
+                     "summary":  "#LOULTIMO 🔴 MILITANTES DE JP SON BAÑADOS CON AGUA EN LIMA 😮\n\nPersonal de la Municipalidad de Jesús María (Lima), junto con efectivos de la Policía Nacional y Serenazgo, habría intervenido a militantes de Juntos por el Perú que realizaban una vigilia en el parque Bauzate y Meza, frente al Jurado Nacional de Elecciones. Durante el operativo, dos camiones cisterna municipales habrían lanzado chorros de agua sobre las carpas y los manifestantes, afectando sus pertenencias y generando protestas por parte de los asistentes, quienes cuestionaron la medida adoptada por las autoridades.\n\n#huánucoactivo #lima #limaperu #JP #robertosanchez #militantes",
+                     "sentiment":  "negativo",
+                     "sentiment_score":  -1,
+                     "relevance":  1,
+                     "image_url":  "https://scontent.fhph1-3.fna.fbcdn.net/v/t15.5256-10/721880526_2129518104575820_5135297558088236638_n.jpg?stp=dst-jpg_s960x960_tt6\u0026_nc_cat=103\u0026ccb=1-7\u0026_nc_sid=5fad0e\u0026_nc_ohc=W14QArGW2s8Q7kNvwHfDqk0\u0026_nc_oc=AdrLmkf2XnZ6r4il80Gnnb6AmDkqaHWrfDO4b2Krm7KIXd0uQ4_v-gr-Wu4Z28Xbe_g\u0026_nc_zt=23\u0026_nc_ht=scontent.fhph1-3.fna\u0026_nc_gid=GMNAf5d1dTDrWtr50rqe0w\u0026_nc_ss=7f180\u0026oh=00_Af8oGeFuqhEvMOzs_dt19tZexuTtYJ5i60AagbP3p-tQ_A\u0026oe=6A324E84",
+                     "scraped_at":  "2026-06-12T16:42:03"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/reel/1326627048836642/",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "#FuerteYClaro | Manuela Camacho cuestiona que la Municipalidad de Jesús María haya utilizado un c...",
+                     "source":  "La República",
+                     "published_date":  "2026-06-11T18:10:39",
+                     "summary":  "#FuerteYClaro | Manuela Camacho cuestiona que la Municipalidad de Jesús María haya utilizado un camión cisterna para lanzar agua contra simpatizantes de Roberto Sánchez que permanecían acampados frente al Jurado Nacional de Elecciones.\n\n📺 En vivo desde las 3:00 p.m. de lunes a viernes en nuestro canal de Youtube → La República - LR+\n\n#LaRepublica #HNewsLR #FuerteYClaro #ManuelaCamacho #JesúsMaría #JuntosPorElPerú #JNE #RobertoSánchez #Elecciones2026",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://scontent.fhph1-2.fna.fbcdn.net/v/t15.5256-10/721625137_1780892190009867_1983384020719463574_n.jpg?stp=dst-jpg_s960x960_tt6\u0026_nc_cat=110\u0026ccb=1-7\u0026_nc_sid=d2b52d\u0026_nc_ohc=YmB85pJ0WVoQ7kNvwGA_hVu\u0026_nc_oc=AdpFlKdNZhDGqCm3RB4mlJA-5zkqJfxsW1fXifsGBp5wbWFpaBwmYyjrtadrhll48rs\u0026_nc_zt=23\u0026_nc_ht=scontent.fhph1-2.fna\u0026_nc_gid=GMNAf5d1dTDrWtr50rqe0w\u0026_nc_ss=7f180\u0026oh=00_Af_O3AFs6Q_o2ec_84aLSHDZiShZBKRGnLGJdwGCLrWgnw\u0026oe=6A3238CF",
+                     "scraped_at":  "2026-06-12T16:42:03"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/reel/1040789212226366/",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "La Municipalidad de Jesús María lamenta los hechos ocurridos ayer en los exteriores del Jurado Na...",
+                     "source":  "Municipalidad de Jesús María",
+                     "published_date":  "2026-06-11T12:52:14",
+                     "summary":  "La Municipalidad de Jesús María lamenta los hechos ocurridos ayer en los exteriores del Jurado Nacional de Elecciones durante las labores de riego programado de las áreas verdes.\nAl respecto, el Gerente Municipal, Harry Mac Bride, ofreció disculpas a las personas afectadas por los errores incurridos por el personal de riego, y reiteró el irrestricto respeto de la comuna a las personas que ejercen sus derechos políticos. \n Asimismo, solicitó a todas las organizaciones que realizan manifestaciones a no ocupar las áreas verdes y reiteró su compromiso por la convivencia democrática",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://scontent.fhph1-1.fna.fbcdn.net/v/t15.5256-10/721625134_2219020758869162_4501112768472297476_n.jpg?stp=dst-jpg_s960x960_tt6\u0026_nc_cat=104\u0026ccb=1-7\u0026_nc_sid=5fad0e\u0026_nc_ohc=DSwL8dZRDZoQ7kNvwEEUrfZ\u0026_nc_oc=Ado1iSNAG0yUq35vcoUEhKzJ_c4u55Lco1D--myTbvxqO_XrpEmYS6H7f0t4N-iu2Y4\u0026_nc_zt=23\u0026_nc_ht=scontent.fhph1-1.fna\u0026_nc_gid=GMNAf5d1dTDrWtr50rqe0w\u0026_nc_ss=7f180\u0026oh=00_Af-79UkkMJ0K2UeF_tnutrrKMLA_1aqOzeoU3EJcEBWt1g\u0026oe=6A3234E1",
+                     "scraped_at":  "2026-06-12T16:42:03"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/reel/943200568739071/",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "#ATENCIÓN 🚨 📍MUNICIPALIDAD DE JESÚS MARÍA REGÓ ECHA AGUA A SIMPATIZANTES DE JUNTOS POR EL PERÚ ...",
+                     "source":  "ANP Noticias",
+                     "published_date":  "2026-06-11T10:40:49",
+                     "summary":  "#ATENCIÓN 🚨\n📍MUNICIPALIDAD DE JESÚS MARÍA REGÓ ECHA AGUA A SIMPATIZANTES DE JUNTOS POR EL PERÚ\n\n👉Se viralizó en redes sociales el momento exacto cuando una sisterna de la Municipalidad de Jesús María regó agua a los simpatizantes de Juntos por el Perú quienes se encontraban acampando en los exteriores del Jurado Nacional de Elecciones.\n\n#JuntosPorElPerú #JesusMaría #Protestas",
+                     "sentiment":  "negativo",
+                     "sentiment_score":  -1,
+                     "relevance":  1,
+                     "image_url":  "https://scontent.fbrs5-1.fna.fbcdn.net/v/t15.5256-10/720823028_1632962124454950_2875776134363153213_n.jpg?stp=dst-jpg_s960x960_tt6\u0026_nc_cat=100\u0026ccb=1-7\u0026_nc_sid=5fad0e\u0026_nc_ohc=KxeUXPA-1xsQ7kNvwFIAp06\u0026_nc_oc=AdqqAwxEHY3YMICLiyXXpxfx63ITVOh0TU-VaDOHNOmv__DPBv80CQmVi-oWz7qgUfu9QCquATS_CXVSS6fuUJIG\u0026_nc_zt=23\u0026_nc_ht=scontent.fbrs5-1.fna\u0026_nc_gid=4j1o9CwzPfc5eJ_0PhA5cA\u0026_nc_ss=7f180\u0026oh=00_Af8qChwVI4KyDKtZ3NaHaTfQkVy8Kvj0T5B6YBVYIj5kNQ\u0026oe=6A325924",
+                     "scraped_at":  "2026-06-12T16:42:03"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/reel/1022505866979570/",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "⚪️🟢 #ETPNoticias📣 Municipalidad de Jesús María lanzó agua contra manifestantes de Juntos por el...",
+                     "source":  "ETP Noticias",
+                     "published_date":  "2026-06-11T10:17:32",
+                     "summary":  "⚪️🟢 #ETPNoticias📣 Municipalidad de Jesús María lanzó agua contra manifestantes de Juntos por el Perú que acampan en los exteriores del Jurado Nacional de Elecciones a la espera de la resolución de las actas impugnadas.\n\nSimpatizantes de Juntos por el Perú permanecen en los exteriores de la sede del Jurado Nacional de Elecciones (JNE), donde incluso pasaron la noche en medio de la incertidumbre por el avance del conteo oficial de votos de la ONPE.\n\n#ETP10AñosInformandoteConLaVerdad\n\n🔽🔽🔽🔽🔽🔽🔽🔽🔽\n\n🟥YouTube ►⏭ https://www.youtube.com/@ETPNoticias\n✅ Síguenos en Instagram 👉https://www.instagram.com/etpnoticiash/\n✅ Siguenos en TikTok 👉 https://www.tiktok.com/@etp_huacho\n📻 Más información en 👉 https://etphuacho.com/",
+                     "sentiment":  "positivo",
+                     "sentiment_score":  1,
+                     "relevance":  1,
+                     "image_url":  "https://scontent.fbrs5-1.fna.fbcdn.net/v/t15.5256-10/722562005_940399905763301_9222062572803624987_n.jpg?stp=dst-jpg_s960x960_tt6\u0026_nc_cat=111\u0026ccb=1-7\u0026_nc_sid=d2b52d\u0026_nc_ohc=JT45bfi-8OUQ7kNvwEn0COr\u0026_nc_oc=Adppk75l3eUhqNVw-DL1U9CPbNnWo3S-OAjMP21hzdXbOXQSYzHZX3_PSzoHTCBZKCKPhRrkTd5_fnSlke29ZIYD\u0026_nc_zt=23\u0026_nc_ht=scontent.fbrs5-1.fna\u0026_nc_gid=4j1o9CwzPfc5eJ_0PhA5cA\u0026_nc_ss=7f180\u0026oh=00_Af_qV7jkLLkPadked0XKsJuwFmjzDzDgckhlnK2rCGtO0g\u0026oe=6A325CD6",
+                     "scraped_at":  "2026-06-12T16:42:03"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/reel/1385957166927655/",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "RECHAZAMOS TODO TIPO DE VIOLENCIA…  🚨#Denuncia : La Municipalidad de Jesús María, lanzan agua de...",
+                     "source":  "Robocop Bastidas",
+                     "published_date":  "2026-06-11T08:16:03",
+                     "summary":  "RECHAZAMOS TODO TIPO DE VIOLENCIA…\n\n🚨#Denuncia :\nLa Municipalidad de Jesús María, lanzan agua de riego a los simpatizantes de Juntos por el Perú, que realizan vigilia frente al JNE. El alcalde de Jesús María, Jesús Gálvez, militante del partido Renovación Popular, habría ordenado cometer dicho acto repudiable que constituye un claro de rechazo al voto popular.",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://scontent.fbrs5-1.fna.fbcdn.net/v/t15.5256-10/721801487_1588863079477496_3836346488198908133_n.jpg?_nc_cat=110\u0026ccb=1-7\u0026_nc_sid=5fad0e\u0026_nc_ohc=oOUckiSTfvQQ7kNvwGTXD-Y\u0026_nc_oc=AdozDxs0cGKUdYFhWWjhu1oJ_7D787UvsqApjpjwe-9mjxxEXuQBG55u9X48A37MJXDQeJC6Sxzi_rwhZmOVoJ1_\u0026_nc_zt=23\u0026_nc_ht=scontent.fbrs5-1.fna\u0026_nc_gid=4j1o9CwzPfc5eJ_0PhA5cA\u0026_nc_ss=7f180\u0026oh=00_Af95f8XRJ0gXk_svmM34DD9mTQ3u06Ny-oLV4d0SIZhSQA\u0026oe=6A3242D0",
+                     "scraped_at":  "2026-06-12T16:42:03"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/reel/2095715944698831/",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "🚨 MUNICIPALIDAD DESALOJA CON AGUA A SIMPATIZANTES DE JUNTOS POR EL PERÚ FRENTE AL JNE  #LIMA | M...",
+                     "source":  "Tendencia Digital",
+                     "published_date":  "2026-06-11T09:07:52",
+                     "summary":  "🚨 MUNICIPALIDAD DESALOJA CON AGUA A SIMPATIZANTES DE JUNTOS POR EL PERÚ FRENTE AL JNE\n\n#LIMA | Momentos de tensión se vivieron en los exteriores del Jurado Nacional de Elecciones (JNE), donde un grupo de simpatizantes de Juntos por el Perú denunció haber sido desalojado mientras permanecía en vigilia a la espera de los resultados de la segunda vuelta presidencial.\n\nSegún los manifestantes, una cisterna de la Municipalidad de Jesús María lanzó agua de riego en la zona donde se encontraban concentrados, pese a que aseguraban mantener una protesta pacífica. El hecho ocurrió en presencia de un amplio contingente policial.\n\nLos ciudadanos responsabilizaron al alcalde de Jesús María por lo sucedido y calificaron la intervención como un intento de intimidación y dispersión de su movilización. El incidente generó reacciones y cuestionamientos en redes sociales sobre el uso de recursos municipales en un contexto político.\n\n #Tendenciadigital #JP #indignacion #lima",
+                     "sentiment":  "negativo",
+                     "sentiment_score":  -1,
+                     "relevance":  1,
+                     "image_url":  "https://scontent.fbrs5-1.fna.fbcdn.net/v/t15.5256-10/721144503_1591700455847623_3444710071364204143_n.jpg?stp=dst-jpg_s960x960_tt6\u0026_nc_cat=100\u0026ccb=1-7\u0026_nc_sid=5fad0e\u0026_nc_ohc=X09Elvc6cSYQ7kNvwFH8c6F\u0026_nc_oc=AdriNRAtcdKliXe5sOETmByBf8rTWenU858arhwjNCz2080a4_qNjZsrVEjvitA9uElr51xnkn-L81DePYeKayaS\u0026_nc_zt=23\u0026_nc_ht=scontent.fbrs5-1.fna\u0026_nc_gid=4j1o9CwzPfc5eJ_0PhA5cA\u0026_nc_ss=7f180\u0026oh=00_Af-20mHWjmOcm7SBb5irgcRwN9REJo8mvSmVU3qqnurkyA\u0026oe=6A32633B",
+                     "scraped_at":  "2026-06-12T16:42:03"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/reel/1684427286123631/",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "🚨#Denuncia La Municipalidad de Jesús María, lanzan agua a los compañeros simpatizantes de Juntos...",
+                     "source":  "Juan Carlos Velarde Cabezas",
+                     "published_date":  "2026-06-11T08:34:38",
+                     "summary":  "🚨#Denuncia La Municipalidad de Jesús María, lanzan agua a los compañeros simpatizantes de Juntos por el Perú, que realizan vigilia frente al JNE. El alcalde de Jesús María, Jesús Gálvez, militante del partido Renovación Popular, comete un acto repudiable que constituye un claro de rechazo al voto popular. #JuntosPorElPerú #RobertoSánchez #Elecciones2026 #fyp",
+                     "sentiment":  "negativo",
+                     "sentiment_score":  -1,
+                     "relevance":  1,
+                     "image_url":  "https://scontent.fbrs5-1.fna.fbcdn.net/v/t15.5256-10/718952967_1470915687660574_1604938078156487502_n.jpg?stp=dst-jpg_s960x960_tt6\u0026_nc_cat=111\u0026ccb=1-7\u0026_nc_sid=5fad0e\u0026_nc_ohc=Fx80R_8FLhIQ7kNvwGJl4TZ\u0026_nc_oc=Adoxu6rEufKCTjI3z0QUQCD4jFyrrNwqa3fENg9eZI9wlbiQ_JY2pmO8GF_6t3uJlTjyobW-2H0i4P0nmlryPZ7k\u0026_nc_zt=23\u0026_nc_ht=scontent.fbrs5-1.fna\u0026_nc_gid=4j1o9CwzPfc5eJ_0PhA5cA\u0026_nc_ss=7f180\u0026oh=00_Af-YN2z27WSX2zm2CisFtuoBTYK1cmHNf50OU82V02FPOg\u0026oe=6A325BA3",
+                     "scraped_at":  "2026-06-12T16:42:03"
                  }
              ],
     "youtube":  [
@@ -858,5 +962,5 @@
                         "scraped_at":  "2026-06-12T15:09:23"
                     }
                 ],
-    "updated_at":  "2026-06-12T16:33:10"
+    "updated_at":  "2026-06-12T16:42:15"
 };
