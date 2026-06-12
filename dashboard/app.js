@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Credenciales por defecto
     const AUTH_USER = 'admin';
-    const AUTH_PASS = 'jesusmaria2026';
+    const AUTH_PASS = '1234';
 
     // Referencias a elementos de seguridad
     const loginContainer = document.getElementById('login-container');
