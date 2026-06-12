@@ -389,6 +389,19 @@
                      "relevance":  1,
                      "image_url":  "https://diariouno.pe/wp-content/uploads/2026/05/WhatsApp-Image-2025-03-19-at-10.26.06-4-scaled-1.jpeg",
                      "scraped_at":  "2026-06-12T11:23:20"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/Exitosanoticias/videos/-hablemosclaro-en-di%C3%A1logo-con-exitosa-harry-mac-bride-gerente-municipal-de-jes%C3%BAs/1690950465505544/",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "Exitosa Noticias. . 🔴🔵 #HablemosClaro💬💬 | En diálogo con Exitosa, Harry Mac Bride, gerente municipal de Jesús María, ofreció disculpas por el incidente registrado en las inmediaciones del Jurado Nacional de Elecciones que afectó a manifestantes de Junt - facebook.com",
+                     "source":  "facebook.com",
+                     "published_date":  "2026-06-11T12:28:50",
+                     "summary":  "Exitosa Noticias. . 🔴🔵 #HablemosClaro💬💬 | En diálogo con Exitosa, Harry Mac Bride, gerente municipal de Jesús María, ofreció disculpas por el incidente registrado en las inmediaciones del Jurado Nacional de Elecciones que afectó a manifestantes de Junt\u0026nbsp;\u0026nbsp;facebook.com",
+                     "sentiment":  "positivo",
+                     "sentiment_score":  1,
+                     "relevance":  1,
+                     "image_url":  "https://scontent-lim1-1.xx.fbcdn.net/v/t15.5256-10/720830547_802019172977710_8022821091798290869_n.jpg?_nc_cat=103\u0026ccb=1-7\u0026_nc_sid=a27664\u0026_nc_ohc=nZ-KYW3-kdEQ7kNvwFovs7l\u0026_nc_oc=Ado6dT_wgCID2ZEDo8C5PSfn_mMx7yEPycTFF1y1RLYQOPaLn0Ucfy6XmuPCAc7Uf_o\u0026_nc_zt=23\u0026_nc_ht=scontent-lim1-1.xx\u0026_nc_gid=HyVm5OudVDQyFzgWacCWkQ\u0026_nc_ss=70100\u0026oh=00_Af9ZqZPJwi9pSpCPpaoz1kRXZXkFJG8EmTGnOOz370EEVg\u0026oe=6A323904",
+                     "scraped_at":  "2026-06-12T14:05:58"
                  }
              ],
     "youtube":  [
@@ -491,5 +504,91 @@
                         "scraped_at":  "2026-06-12T11:23:33"
                     }
                 ],
-    "updated_at":  "2026-06-12T13:18:23"
+    "twitter":  [
+                    {
+                        "url":  "https://x.com/teleSURtv/status/2064839601026420829/photo/4",
+                        "query":  "municipalidad de jesus maria",
+                        "title":  "🚨 Municipalidad de Jesús María, Lima, usó camiones cisterna para inundar y arrasar carpas de ciudadanos que acampaban frente al Jurado Nacional de Elecciones en protesta. #Perú #Movilización #teleSUR",
+                        "author":  "teleSURtv",
+                        "published_date":  "2026-06-10T17:38:18",
+                        "sentiment":  "negativo",
+                        "sentiment_score":  -1,
+                        "relevance":  1,
+                        "image_url":  "https://images.unsplash.com/photo-1611605698335-8b15d27e03f3?auto=format\u0026fit=crop\u0026w=600\u0026q=80",
+                        "scraped_at":  "2026-06-12T14:07:47"
+                    },
+                    {
+                        "url":  "https://x.com/IndiraHuilca/status/2064849641976336783",
+                        "query":  "municipalidad de jesus maria",
+                        "title":  "La libertad de reunión es un derecho fundamental. Estas personas lo estaban haciendo de forma pacífica y miren la matoneria con la que reacciona la Municipalidad de Jesús María. Con los manifestantes del partido del alcalde nunca hubo este trato. Mientr",
+                        "author":  "IndiraHuilca",
+                        "published_date":  "2026-06-10T18:18:12",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://images.unsplash.com/photo-1611605698335-8b15d27e03f3?auto=format\u0026fit=crop\u0026w=600\u0026q=80",
+                        "scraped_at":  "2026-06-12T14:07:48"
+                    },
+                    {
+                        "url":  "https://x.com/Epicentro_TV/status/2064847617004044504",
+                        "query":  "municipalidad de jesus maria",
+                        "title":  "🚨 Municipalidad de Jesús María lanzó agua contra manifestantes de Juntos por el Perú que acampan en los exteriores del Jurado Nacional de Elecciones a la espera de la resolución de las actas impugnadas.",
+                        "author":  "Epicentro_TV",
+                        "published_date":  "2026-06-10T18:10:09",
+                        "sentiment":  "positivo",
+                        "sentiment_score":  1,
+                        "relevance":  1,
+                        "image_url":  "https://images.unsplash.com/photo-1611605698335-8b15d27e03f3?auto=format\u0026fit=crop\u0026w=600\u0026q=80",
+                        "scraped_at":  "2026-06-12T14:07:51"
+                    },
+                    {
+                        "url":  "https://x.com/larepublica_pe/status/2065210614293709062",
+                        "query":  "municipalidad de jesus maria",
+                        "title":  "🔴 “Esto es desproporcional e injusto”. @ManuCamacho cuestiona que la Municipalidad de Jesús María haya utilizado un camión cisterna para lanzar agua contra simpatizantes de Roberto Sánchez que permanecían acampados frente al JNE. 📺 Programa co",
+                        "author":  "larepublica_pe",
+                        "published_date":  "2026-06-11T18:12:34",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://images.unsplash.com/photo-1611605698335-8b15d27e03f3?auto=format\u0026fit=crop\u0026w=600\u0026q=80",
+                        "scraped_at":  "2026-06-12T14:07:53"
+                    },
+                    {
+                        "url":  "https://x.com/peru21noticias/status/2057910225282179587",
+                        "query":  "municipalidad de jesus maria",
+                        "title":  "⭕ Campo de Marte: Municipalidad de Jesús María retomará el control de áreas verdes Un mes después de Perú21 denunciara el abando de dicho espacio público, el alcalde Jesús Gálvez actuó en favor de los vecinos.",
+                        "author":  "peru21noticias",
+                        "published_date":  "2026-05-22T02:00:00",
+                        "sentiment":  "negativo",
+                        "sentiment_score":  -1,
+                        "relevance":  1,
+                        "image_url":  "https://images.unsplash.com/photo-1611605698335-8b15d27e03f3?auto=format\u0026fit=crop\u0026w=600\u0026q=80",
+                        "scraped_at":  "2026-06-12T14:07:55"
+                    },
+                    {
+                        "url":  "https://x.com/larepublica_pe/status/2062630670891905313",
+                        "query":  "municipalidad de jesus maria",
+                        "title":  "🔴 ”Esas son las reglas del juego”. @julianaoxenford comenta sobre las restricciones que enfrenta Juntos por el Perú para realizar su cierre de campaña, luego de que la Municipalidad de Lima y la Municipalidad de Jesús María rechazaran el uso de espacio",
+                        "author":  "larepublica_pe",
+                        "published_date":  "2026-06-04T15:20:48",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://images.unsplash.com/photo-1611605698335-8b15d27e03f3?auto=format\u0026fit=crop\u0026w=600\u0026q=80",
+                        "scraped_at":  "2026-06-12T14:07:56"
+                    },
+                    {
+                        "url":  "https://x.com/infobaeperu/status/2064867854894133563",
+                        "query":  "municipalidad de jesus maria",
+                        "title":  "Cisterna de la Municipalidad de Jesús María lanza agua a simpatizantes de Roberto Sánchez acampados frente al JNE",
+                        "author":  "infobaeperu",
+                        "published_date":  "2026-06-10T19:30:34",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://images.unsplash.com/photo-1611605698335-8b15d27e03f3?auto=format\u0026fit=crop\u0026w=600\u0026q=80",
+                        "scraped_at":  "2026-06-12T14:07:58"
+                    }
+                ],
+    "updated_at":  "2026-06-12T14:08:00"
 }
