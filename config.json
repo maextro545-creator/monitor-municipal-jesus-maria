@@ -2,7 +2,8 @@
   "queries": [
     "municipalidad de jesus maria",
     "jesús gálvez jesus maria",
-    "alcalde jesus maria"
+    "alcalde jesus maria",
+    "distrito de jesus maria"
   ],
   "database_path": "monitor.db",
   "news_max_results": 20,
