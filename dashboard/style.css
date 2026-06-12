@@ -1066,6 +1066,11 @@ header::before {
   color: #ffffff;
 }
 
+.badge-facebook {
+  background: rgba(24, 119, 242, 0.85); /* Facebook Blue transparent */
+  color: #ffffff;
+}
+
 .feed-card:hover .network-floating-badge {
   transform: scale(1.15);
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5);

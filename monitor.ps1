@@ -96,12 +96,78 @@ function Resolve-GoogleNewsUrl {
     return $url
 }
 
+# Función para obtener datos de Facebook usando Apify
+function Get-FacebookDataFromApify {
+    param (
+        [string]$url
+    )
+    if ([string]::IsNullOrEmpty($Config.apify_token)) {
+        return $null
+    }
+    
+    Write-Host "    [Apify] Rastreando publicación de Facebook: $url ..." -ForegroundColor Cyan
+    try {
+        $body = @{
+            startUrls = @( @{ url = $url } )
+            resultsLimit = 1
+        } | ConvertTo-Json -Depth 5
+        $apifyUrl = "https://api.apify.com/v2/acts/apify~facebook-posts-scraper/run-sync-get-dataset-items?token=$($Config.apify_token)"
+        
+        # Timeout de 120 segundos para la consulta sincrónica
+        $resp = Invoke-RestMethod -Uri $apifyUrl -Method Post -Body $body -ContentType "application/json" -TimeoutSec 120
+        if ($resp -and $resp.Count -gt 0) {
+            $item = $resp[0]
+            
+            $imgUrl = ""
+            if ($item.media -and $item.media.photo_image -and $item.media.photo_image.uri) {
+                $imgUrl = $item.media.photo_image.uri
+            } elseif ($item.media -and $item.media.Count -gt 0) {
+                $m = $item.media[0]
+                if ($m.photo_image -and $m.photo_image.uri) { $imgUrl = $m.photo_image.uri }
+                elseif ($m.uri) { $imgUrl = $m.uri }
+                elseif ($m.url) { $imgUrl = $m.url }
+            } elseif ($item.image) {
+                $imgUrl = $item.image
+            } elseif ($item.image_url) {
+                $imgUrl = $item.image_url
+            } elseif ($item.attachments -and $item.attachments.Count -gt 0) {
+                $att = $item.attachments[0]
+                if ($att.media -and $att.media.image -and $att.media.image.src) {
+                    $imgUrl = $att.media.image.src
+                }
+            }
+            
+            $postText = $item.postText
+            if ([string]::IsNullOrEmpty($postText)) {
+                $postText = $item.text
+            }
+            
+            return [PSCustomObject]@{
+                image_url = $imgUrl
+                text = $postText
+                author = $item.pageName
+            }
+        }
+    } catch {
+        Write-Host "    [Warning] Error en Apify al obtener datos de Facebook: $_" -ForegroundColor DarkYellow
+    }
+    return $null
+}
+
 # Función para extraer imagen og:image (OpenGraph) de un sitio web de forma agresiva
 function Get-OGImage {
     param (
         [string]$url,
         [string]$htmlContent = $null
     )
+    # Si es un enlace de Facebook y tenemos token de Apify, usamos Apify para obtener la imagen
+    if ($url -like "*facebook.com*" -and -not [string]::IsNullOrEmpty($Config.apify_token)) {
+        $fbData = Get-FacebookDataFromApify $url
+        if ($fbData -and -not [string]::IsNullOrEmpty($fbData.image_url)) {
+            return $fbData.image_url
+        }
+    }
+
     $userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     try {
         $html = $htmlContent
@@ -441,6 +507,20 @@ foreach ($query in $Config.queries) {
                 $summary = ""
             }
             
+            # Si es de Facebook y tenemos token de Apify, intentamos enriquecer la noticia
+            $fbData = $null
+            if ($realUrl -like "*facebook.com*" -and -not [string]::IsNullOrEmpty($Config.apify_token)) {
+                $fbData = Get-FacebookDataFromApify $realUrl
+                if ($fbData) {
+                    if ($fbData.text) {
+                        $summary = $fbData.text
+                    }
+                    if ($fbData.author) {
+                        $source = $fbData.author
+                    }
+                }
+            }
+            
             # Analizar relevancia y sentimiento
             $combinedText = "$title $summary"
             $relevance = Check-Relevance $combinedText
@@ -449,8 +529,13 @@ foreach ($query in $Config.queries) {
             $analysis = Analyze-Sentiment $combinedText
             
             # Obtener imagen previa (og:image) o asignar una de stock premium si está vacía
-            Write-Host "    [~] Portada: Obteniendo imagen de vista previa desde $realUrl ..." -ForegroundColor Gray
-            $imageUrl = Get-OGImage $realUrl
+            $imageUrl = ""
+            if ($fbData -and $fbData.image_url) {
+                $imageUrl = $fbData.image_url
+            } else {
+                Write-Host "    [~] Portada: Obteniendo imagen de vista previa desde $realUrl ..." -ForegroundColor Gray
+                $imageUrl = Get-OGImage $realUrl
+            }
             if ([string]::IsNullOrEmpty($imageUrl)) {
                 $fallbackImages = @(
                     "https://images.unsplash.com/photo-1495020689067-958852a6565d?auto=format&fit=crop&w=600&q=80", # Prensa
