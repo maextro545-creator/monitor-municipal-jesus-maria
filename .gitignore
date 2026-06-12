@@ -1,0 +1,9 @@
+# Excluir bases de datos SQLite y caches de python
+*.db
+*.pyc
+__pycache__/
+venv/
+.env
+
+# Excluir logs de depuración locales
+*.log

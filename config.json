@@ -1,0 +1,20 @@
+{
+  "queries": [
+    "municipalidad de jesus maria",
+    "jesús gálvez jesus maria",
+    "alcalde jesus maria"
+  ],
+  "database_path": "monitor.db",
+  "news_max_results": 20,
+  "youtube_max_results": 10,
+  "sentiment_positive_words": [
+    "bueno", "excelent", "mejor", "progreso", "seguridad", "obras", "inaugur", "positivo",
+    "exito", "apoya", "logro", "ayuda", "beneficio", "felicit", "limpio", "ordenado",
+    "seguro", "modern", "reconstruc", "avanz", "agradece", "eficiente", "solucio"
+  ],
+  "sentiment_negative_words": [
+    "malo", "corrup", "robo", "delincuencia", "insegur", "basura", "desorden", "queja",
+    "protesta", "malvers", "denuncia", "negligencia", "incompeten", "ineficiente", "fiscalia",
+    "deten", "investig", "peligro", "sucio", "caos", "abandon", "multa", "clausur", "atropello"
+  ]
+}

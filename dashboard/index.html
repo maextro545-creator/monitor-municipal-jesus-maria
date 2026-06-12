@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MuniWatch - Jesús María y Jesús Gálvez</title>
+    <meta name="description" content="Dashboard premium de monitoreo de medios digitales y videos de YouTube para la Municipalidad de Jesús María y su alcalde Jesús Gálvez.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- CSS Estilos -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <!-- Capa de Fondos y Luces Degradadas -->
+    <div class="bg-glow-container">
+        <div class="bg-glow-blob bg-glow-1"></div>
+        <div class="bg-glow-blob bg-glow-2"></div>
+        <div class="bg-glow-blob bg-glow-3"></div>
+    </div>
+
+    <!-- Contenedor del Login de Seguridad -->
+    <div id="login-container" class="login-wrapper">
+        <div class="login-card">
+            <div class="login-header">
+                <div class="login-icon">
+                    <i data-lucide="lock" style="width: 28px; height: 28px; color: var(--primary);"></i>
+                </div>
+                <h2>Acceso Restringido</h2>
+                <p>Ingresa tus credenciales para ver el monitoreo de medios</p>
+            </div>
+            
+            <form id="login-form">
+                <div class="input-group">
+                    <label for="username">Usuario</label>
+                    <div class="input-field-wrapper">
+                        <i data-lucide="user" class="input-icon"></i>
+                        <input type="text" id="username" placeholder="Nombre de usuario" required autocomplete="username">
+                    </div>
+                </div>
+                
+                <div class="input-group">
+                    <label for="password">Contraseña</label>
+                    <div class="input-field-wrapper">
+                        <i data-lucide="key-round" class="input-icon"></i>
+                        <input type="password" id="password" placeholder="Contraseña de acceso" required autocomplete="current-password">
+                    </div>
+                </div>
+                
+                <div id="login-error" class="login-error-msg" style="display: none;">
+                    <i data-lucide="alert-circle" style="width: 16px; height: 16px;"></i>
+                    <span>Credenciales incorrectas. Intenta de nuevo.</span>
+                </div>
+                
+                <button type="submit" class="login-btn">
+                    <span>Iniciar Sesión</span>
+                    <i data-lucide="log-in" style="width: 18px; height: 18px;"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Contenedor Principal del Dashboard -->
+    <div id="dashboard-wrapper" style="display: none;">
+        <div class="container">
+            <!-- Advertencia CORS Local -->
+            <div id="cors-alert" class="alert-error" style="display: none;">
+                <i data-lucide="alert-triangle"></i>
+                <div>
+                    <strong>Modo local sin datos:</strong> Si abres este archivo directamente en el navegador (doble clic), es posible que no se carguen las noticias. 
+                    Ejecuta el bot primero con <code>python main.py</code> para generar los archivos <code>data.js</code> y <code>data.json</code> en esta misma carpeta y refresca la página.
+                </div>
+            </div>
+
+            <!-- Encabezado Principal -->
+            <header>
+                <div class="logo-section">
+                    <h1>
+                        <i data-lucide="shield-check" style="color: var(--primary); width: 28px; height: 28px;"></i>
+                        MuniWatch JM
+                    </h1>
+                    <span class="status-badge">Monitoreo Activo</span>
+                </div>
+                <div class="update-time-wrapper" style="display: flex; align-items: center; gap: 1.5rem;">
+                    <div class="update-time">
+                        <p>Monitoreando: <strong>Jesús María & Jesús Gálvez</strong></p>
+                        <p style="font-size: 0.78rem; margin-top: 2px;">Última sincronización: <span id="update-time-text">Pendiente</span></p>
+                    </div>
+                    <button id="logout-btn" class="filter-btn" style="border-left: 3px solid var(--negative); color: var(--text-main); display: flex; align-items: center; gap: 0.4rem; padding: 0.5rem 1rem;">
+                        <i data-lucide="log-out" style="width: 16px; height: 16px; color: var(--negative);"></i>
+                        <span>Salir</span>
+                    </button>
+                </div>
+            </header>
+
+            <!-- Sección de Estadísticas Clave -->
+            <section class="stats-grid">
+                <div class="stat-card" id="card-total">
+                    <div class="stat-info">
+                        <h3>Total Menciones</h3>
+                        <p id="total-count">0</p>
+                    </div>
+                    <div class="stat-icon icon-blue">
+                        <i data-lucide="message-square"></i>
+                    </div>
+                </div>
+
+                <div class="stat-card" id="card-approval">
+                    <div class="stat-info">
+                        <h3>Aprobación Neta</h3>
+                        <p id="approval-count">0%</p>
+                    </div>
+                    <div class="stat-icon icon-green">
+                        <i data-lucide="trending-up"></i>
+                    </div>
+                </div>
+
+                <div class="stat-card" id="card-news">
+                    <div class="stat-info">
+                        <h3>Prensa Web</h3>
+                        <p id="news-count">0</p>
+                    </div>
+                    <div class="stat-icon icon-blue">
+                        <i data-lucide="newspaper"></i>
+                    </div>
+                </div>
+
+                <div class="stat-card" id="card-youtube">
+                    <div class="stat-info">
+                        <h3>Videos YouTube</h3>
+                        <p id="youtube-count">0</p>
+                    </div>
+                    <div class="stat-icon icon-red">
+                        <i data-lucide="video"></i>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sección de Gráficos -->
+            <section class="charts-grid">
+                <div class="chart-card">
+                    <h2>
+                        <i data-lucide="pie-chart" style="width: 18px; height: 18px; color: var(--primary);"></i>
+                        Sentimiento General
+                    </h2>
+                    <div class="chart-container">
+                        <canvas id="sentiment-chart"></canvas>
+                    </div>
+                </div>
+                
+                <div class="chart-card">
+                    <h2>
+                        <i data-lucide="activity" style="width: 18px; height: 18px; color: var(--primary);"></i>
+                        Menciones en el Tiempo
+                    </h2>
+                    <div class="chart-container">
+                        <canvas id="timeline-chart"></canvas>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Barra de Filtros e Búsqueda -->
+            <section class="filter-bar">
+                <div class="search-wrapper">
+                    <i data-lucide="search" class="search-icon" style="width: 18px; height: 18px;"></i>
+                    <input type="text" id="search-input" class="search-input" placeholder="Buscar por título, canal, medio o contenido...">
+                </div>
+
+                <div class="filters-group">
+                    <!-- Filtro Origen -->
+                    <button class="filter-btn active" data-filter-source="all">Todos los Medios</button>
+                    <button class="filter-btn" data-filter-source="news">Prensa Web</button>
+                    <button class="filter-btn" data-filter-source="youtube">YouTube</button>
+                </div>
+
+                <div class="filters-group">
+                    <!-- Filtro Sentimiento -->
+                    <button class="filter-btn active" data-filter-sentiment="all">Todo Sentimiento</button>
+                    <button class="filter-btn" data-filter-sentiment="positivo" style="border-left: 3px solid var(--positive);">Positivos</button>
+                    <button class="filter-btn" data-filter-sentiment="neutral" style="border-left: 3px solid var(--neutral);">Neutros</button>
+                    <button class="filter-btn" data-filter-sentiment="negativo" style="border-left: 3px solid var(--negative);">Negativos</button>
+                </div>
+
+                <div class="filters-group">
+                    <!-- Filtro Ordenación -->
+                    <button class="filter-btn" id="sort-order-btn" style="display: flex; align-items: center; gap: 0.5rem; border-left: 3px solid var(--primary);">
+                        <i data-lucide="arrow-down-narrow-wide" id="sort-order-icon" style="width: 16px; height: 16px; color: var(--primary);"></i>
+                        <span id="sort-order-text">Recientes Primero</span>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Panel de Resultados (Cards Feed) -->
+            <main class="feed-grid" id="feed-grid">
+                <!-- Cargado dinámicamente desde app.js -->
+                <div class="empty-state">
+                    <i data-lucide="loader" style="animation: spin 1s linear infinite;"></i>
+                    <h3>Cargando datos del bot...</h3>
+                    <p>Espera mientras conectamos con la base de datos de monitoreo local.</p>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- Modal de Detalle Estilizado -->
+    <div class="modal-overlay" id="detail-modal">
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close">
+                <i data-lucide="x" style="width: 20px; height: 20px;"></i>
+            </button>
+            <div class="modal-header">
+                <div class="modal-meta">
+                    <span class="source-badge">
+                        <i data-lucide="globe" style="width: 16px; height: 16px;"></i>
+                        <span id="modal-source">Prensa</span>
+                    </span>
+                    <span class="sentiment-badge" id="modal-sentiment">Neutral</span>
+                    <span class="item-date" id="modal-date">12/06/2026</span>
+                </div>
+                <h2 class="modal-title" id="modal-title">Título del Monitoreo</h2>
+            </div>
+            <div class="modal-body" id="modal-details">
+                <!-- Rellenado dinámicamente -->
+            </div>
+            <div class="modal-footer">
+                <a href="#" target="_blank" class="visit-btn" id="modal-visit-btn">
+                    Ver Fuente Original
+                    <i data-lucide="external-link" style="width: 16px; height: 16px;"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+    </style>
+
+    <!-- Archivo JS compilado local (data.js) -->
+    <script src="data.js"></script>
+    
+    <!-- Lógica de control del Dashboard -->
+    <script src="app.js"></script>
+</body>
+</html>
