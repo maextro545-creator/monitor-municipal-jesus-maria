@@ -558,6 +558,37 @@ $jsContent = "window.monitorData = " + ($ExportData | ConvertTo-Json -Depth 10) 
 $jsContent | Out-File -FilePath $DataJsPath -Encoding utf8
 
 Write-Host "[Exportación] Datos exportados para el Dashboard." -ForegroundColor Green
+
+# 9. Actualización Automática en GitHub (para Despliegue en Netlify / Vercel)
+$hasRemote = git remote
+if ($null -ne $hasRemote -and $hasRemote -contains "origin") {
+    Write-Host "`n[Git] Iniciando subida automática de datos a GitHub..." -ForegroundColor Yellow
+    try {
+        # Obtener rama actual
+        $currentBranch = (git rev-parse --abbrev-ref HEAD).Trim()
+        if ([string]::IsNullOrEmpty($currentBranch)) { $currentBranch = "main" }
+        
+        # Agregar archivos de datos cambiados
+        git add database.json dashboard/data.json dashboard/data.js
+        
+        # Validar si hay cambios por hacer commit
+        $status = git status --porcelain
+        if ($status -match "database.json" -or $status -match "data.json" -or $status -match "data.js") {
+            $timestamp = (Get-Date).ToString("yyyy-MM-dd HH:mm:ss")
+            git commit -m "Auto-update data: $timestamp"
+            Write-Host "  [-] Realizando push a la rama $currentBranch..." -ForegroundColor Gray
+            git push origin $currentBranch
+            Write-Host "[Git] Datos subidos exitosamente a GitHub. ¡Tu web en Netlify/Vercel se está actualizando!" -ForegroundColor Green
+        } else {
+            Write-Host "[Git] No se detectaron cambios en los datos, no es necesario hacer push." -ForegroundColor Gray
+        }
+    } catch {
+        Write-Host "[Warning] Error al subir datos a GitHub: $_" -ForegroundColor DarkYellow
+    }
+} else {
+    Write-Host "`n[Git/Nota] No se ha configurado un repositorio remoto 'origin'. Tu sitio web local funciona, pero no se subirá a internet de forma automática hasta que vincules un repositorio remoto en GitHub." -ForegroundColor DarkGray
+}
+
 Write-Host "--------------------------------------------------" -ForegroundColor Cyan
 Write-Host "Monitoreo finalizado." -ForegroundColor Cyan
 Write-Host "Noticias nuevas: $NewNewsCount" -ForegroundColor Green
