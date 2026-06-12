@@ -26,16 +26,16 @@ document.addEventListener('DOMContentLoaded', () => {
         console.warn("Lucide no disponible al cargar el DOM:", e);
     }
 
-    // Credenciales por defecto
-    const AUTH_USER = 'admin';
-    const AUTH_PASS = '1234';
+    // PIN de seguridad
+    const AUTH_PIN = '1234';
 
     // Referencias a elementos de seguridad
     const loginContainer = document.getElementById('login-container');
     const dashboardWrapper = document.getElementById('dashboard-wrapper');
     const loginForm = document.getElementById('login-form');
-    const usernameInput = document.getElementById('username');
-    const passwordInput = document.getElementById('password');
+    const loginPinHidden = document.getElementById('login-pin-hidden');
+    const pinSlots = document.querySelectorAll('.pin-slot');
+    const keypadButtons = document.querySelectorAll('.key-btn');
     const loginError = document.getElementById('login-error');
     const logoutBtn = document.getElementById('logout-btn');
 
@@ -129,41 +129,124 @@ document.addEventListener('DOMContentLoaded', () => {
     function showLogin() {
         loginContainer.style.display = 'flex';
         dashboardWrapper.style.display = 'none';
+        setTimeout(() => {
+            if (loginPinHidden) {
+                loginPinHidden.focus();
+                updatePinUI();
+            }
+        }, 150);
+    }
+
+    function updatePinUI() {
+        if (!loginPinHidden) return;
+        const val = loginPinHidden.value;
+        pinSlots.forEach((slot, idx) => {
+            if (idx < val.length) {
+                slot.classList.add('filled');
+            } else {
+                slot.classList.remove('filled');
+            }
+            
+            if (idx === val.length) {
+                slot.classList.add('active');
+            } else {
+                slot.classList.remove('active');
+            }
+        });
+    }
+
+    function submitPin() {
+        if (!loginPinHidden) return;
+        const pin = loginPinHidden.value;
+        if (pin === AUTH_PIN) {
+            sessionStorage.setItem('muniwatch_authenticated', 'true');
+            sessionStorage.setItem('muniwatch_session_time', Date.now().toString());
+            if (loginError) loginError.style.display = 'none';
+            
+            // Agregar detectores de actividad tras iniciar sesión
+            const events = ['click', 'mousemove', 'keypress', 'scroll', 'touchstart'];
+            events.forEach(name => {
+                document.addEventListener(name, resetInactivityTimeout, { passive: true });
+            });
+
+            // Transición animada
+            loginContainer.style.opacity = '0';
+            loginContainer.style.transform = 'scale(0.95)';
+            setTimeout(() => {
+                showDashboard();
+                init();
+            }, 400);
+        } else {
+            if (loginError) {
+                loginError.style.display = 'flex';
+                loginError.querySelector('span').textContent = "PIN incorrecto. Intenta de nuevo.";
+            }
+            // Shaking animation
+            const card = loginContainer.querySelector('.login-card');
+            if (card) {
+                card.classList.add('shake');
+                setTimeout(() => {
+                    card.classList.remove('shake');
+                }, 400);
+            }
+            // Borrar input
+            loginPinHidden.value = '';
+            updatePinUI();
+        }
     }
 
     function setupLoginEvents() {
+        if (loginPinHidden) {
+            // Sincronizar input oculto con la UI visual de los slots
+            loginPinHidden.addEventListener('input', () => {
+                loginPinHidden.value = loginPinHidden.value.replace(/[^0-9]/g, '');
+                updatePinUI();
+                if (loginPinHidden.value.length === 4) {
+                    submitPin();
+                }
+            });
+
+            // Enfocar input oculto al hacer clic en el contenedor de slots
+            const pinSlotsContainer = document.getElementById('pin-slots-container');
+            if (pinSlotsContainer) {
+                pinSlotsContainer.addEventListener('click', () => {
+                    loginPinHidden.focus();
+                });
+            }
+
+            // Enfocar input al cargar la pantalla de login
+            setTimeout(() => {
+                loginPinHidden.focus();
+            }, 150);
+        }
+
+        // Configurar botones del teclado virtual
+        keypadButtons.forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                e.preventDefault();
+                if (!loginPinHidden) return;
+                
+                const key = btn.getAttribute('data-key');
+                if (key === 'clear') {
+                    loginPinHidden.value = '';
+                } else if (key === 'backspace') {
+                    loginPinHidden.value = loginPinHidden.value.slice(0, -1);
+                } else if (/^[0-9]$/.test(key)) {
+                    if (loginPinHidden.value.length < 4) {
+                        loginPinHidden.value += key;
+                    }
+                }
+                
+                // Disparar evento de input manualmente
+                loginPinHidden.dispatchEvent(new Event('input'));
+            });
+        });
+
         if (loginForm) {
             loginForm.addEventListener('submit', (e) => {
                 e.preventDefault();
-                const user = usernameInput.value.trim();
-                const pass = passwordInput.value;
-                
-                if (user === AUTH_USER && pass === AUTH_PASS) {
-                    sessionStorage.setItem('muniwatch_authenticated', 'true');
-                    sessionStorage.setItem('muniwatch_session_time', Date.now().toString());
-                    loginError.style.display = 'none';
-                    
-                    // Agregar detectores de actividad tras iniciar sesión
-                    const events = ['click', 'mousemove', 'keypress', 'scroll', 'touchstart'];
-                    events.forEach(name => {
-                        document.addEventListener(name, resetInactivityTimeout, { passive: true });
-                    });
-
-                    // Transición animada
-                    loginContainer.style.opacity = '0';
-                    loginContainer.style.transform = 'scale(0.95)';
-                    setTimeout(() => {
-                        showDashboard();
-                        init();
-                    }, 400);
-                } else {
-                    loginError.style.display = 'flex';
-                    // Shaking animation
-                    const card = loginContainer.querySelector('.login-card');
-                    card.classList.add('shake');
-                    setTimeout(() => {
-                        card.classList.remove('shake');
-                    }, 400);
+                if (loginPinHidden && loginPinHidden.value.length === 4) {
+                    submitPin();
                 }
             });
         }
@@ -287,9 +370,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 sessionStorage.removeItem('muniwatch_authenticated');
                 showLogin();
                 // Limpiar campos de login
-                usernameInput.value = '';
-                passwordInput.value = '';
-                loginError.style.display = 'none';
+                if (loginPinHidden) {
+                    loginPinHidden.value = '';
+                    updatePinUI();
+                }
+                if (loginError) loginError.style.display = 'none';
                 loginContainer.style.opacity = '1';
                 loginContainer.style.transform = 'scale(1)';
             });

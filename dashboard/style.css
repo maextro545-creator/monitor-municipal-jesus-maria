@@ -900,32 +900,123 @@ header::before {
   font-weight: 500;
 }
 
-.login-btn {
+/* PIN & Keypad Styles */
+.pin-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+
+.pin-container {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
   width: 100%;
-  background: var(--primary);
-  color: #fff;
+}
+
+.pin-hidden-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 5;
+  user-select: none;
   border: none;
+  background: transparent;
+  color: transparent;
+}
+
+.pin-slot {
+  width: 54px;
+  height: 58px;
+  border: 1px solid var(--border-color);
   border-radius: 12px;
-  padding: 0.85rem;
-  font-size: 0.95rem;
+  background: rgba(255, 255, 255, 0.03);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-main);
+  transition: var(--transition-smooth);
+  position: relative;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.pin-slot.active {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.25), inset 0 2px 4px rgba(0,0,0,0.1);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.pin-slot::after {
+  content: '';
+  width: 12px;
+  height: 12px;
+  background-color: var(--text-main);
+  border-radius: 50%;
+  transform: scale(0);
+  transition: transform 0.15s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.pin-slot.filled::after {
+  transform: scale(1);
+}
+
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+  max-width: 280px;
+  margin: 1.5rem auto 0.5rem;
+}
+
+.key-btn {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-color);
+  color: var(--text-main);
+  border-radius: 14px;
+  height: 52px;
+  font-size: 1.2rem;
   font-weight: 600;
   font-family: var(--font-family);
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0.5rem;
-  box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
   transition: var(--transition-smooth);
+  user-select: none;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-.login-btn:hover {
-  background: #5a5de0;
-  box-shadow: 0 6px 20px rgba(99, 102, 241, 0.5);
-  transform: translateY(-2px);
+.key-btn:hover {
+  background: rgba(255, 255, 255, 0.07);
+  border-color: var(--border-hover);
+  transform: translateY(-1px);
 }
 
-.login-btn:active {
-  transform: translateY(0);
+.key-btn:active {
+  background: var(--primary-glow);
+  transform: scale(0.95);
+}
+
+.key-btn.key-action {
+  color: var(--text-muted);
+  font-size: 1rem;
+}
+
+.key-btn[data-key="clear"]:hover {
+  color: var(--negative);
+  background: var(--negative-glow);
+  border-color: rgba(239, 68, 68, 0.25);
+}
+
+.key-btn[data-key="backspace"]:hover {
+  color: var(--primary);
+  background: var(--primary-glow);
 }
 

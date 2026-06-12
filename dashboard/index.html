@@ -35,36 +35,46 @@
                 <div class="login-icon">
                     <i data-lucide="lock" style="width: 28px; height: 28px; color: var(--primary);"></i>
                 </div>
-                <h2>Acceso Restringido</h2>
-                <p>Ingresa tus credenciales para ver el monitoreo de medios</p>
+                <h2>Acceso de Seguridad</h2>
+                <p>Ingresa el PIN de 4 dígitos para acceder al sistema</p>
             </div>
             
-            <form id="login-form">
-                <div class="input-group">
-                    <label for="username">Usuario</label>
-                    <div class="input-field-wrapper">
-                        <i data-lucide="user" class="input-icon"></i>
-                        <input type="text" id="username" placeholder="Nombre de usuario" required autocomplete="username">
-                    </div>
-                </div>
+            <form id="login-form" autocomplete="off">
+                <!-- Inputs ocultos para autocompletado semántico -->
+                <input type="text" name="username" value="admin" style="display:none;" autocomplete="username">
                 
-                <div class="input-group">
-                    <label for="password">Contraseña</label>
-                    <div class="input-field-wrapper">
-                        <i data-lucide="key-round" class="input-icon"></i>
-                        <input type="password" id="password" placeholder="Contraseña de acceso" required autocomplete="current-password">
+                <div class="pin-wrapper">
+                    <input type="password" id="login-pin-hidden" class="pin-hidden-input" inputmode="numeric" pattern="[0-9]*" maxlength="4" autocomplete="current-password" required>
+                    <div class="pin-container" id="pin-slots-container">
+                        <div class="pin-slot" data-index="0"></div>
+                        <div class="pin-slot" data-index="1"></div>
+                        <div class="pin-slot" data-index="2"></div>
+                        <div class="pin-slot" data-index="3"></div>
                     </div>
                 </div>
                 
                 <div id="login-error" class="login-error-msg" style="display: none;">
                     <i data-lucide="alert-circle" style="width: 16px; height: 16px;"></i>
-                    <span>Credenciales incorrectas. Intenta de nuevo.</span>
+                    <span>PIN incorrecto. Intenta de nuevo.</span>
                 </div>
-                
-                <button type="submit" class="login-btn">
-                    <span>Iniciar Sesión</span>
-                    <i data-lucide="log-in" style="width: 18px; height: 18px;"></i>
-                </button>
+
+                <!-- Teclado Numérico Virtual -->
+                <div class="keypad">
+                    <button type="button" class="key-btn" data-key="1">1</button>
+                    <button type="button" class="key-btn" data-key="2">2</button>
+                    <button type="button" class="key-btn" data-key="3">3</button>
+                    <button type="button" class="key-btn" data-key="4">4</button>
+                    <button type="button" class="key-btn" data-key="5">5</button>
+                    <button type="button" class="key-btn" data-key="6">6</button>
+                    <button type="button" class="key-btn" data-key="7">7</button>
+                    <button type="button" class="key-btn" data-key="8">8</button>
+                    <button type="button" class="key-btn" data-key="9">9</button>
+                    <button type="button" class="key-btn key-action" data-key="clear">C</button>
+                    <button type="button" class="key-btn" data-key="0">0</button>
+                    <button type="button" class="key-btn key-action" data-key="backspace">
+                        <i data-lucide="delete" style="width: 18px; height: 18px;"></i>
+                    </button>
+                </div>
             </form>
         </div>
     </div>
@@ -248,9 +258,9 @@
     </style>
 
     <!-- Archivo JS compilado local (data.js) -->
-    <script src="data.js?v=1.0.2"></script>
+    <script src="data.js?v=1.0.3"></script>
     
     <!-- Lógica de control del Dashboard -->
-    <script src="app.js?v=1.0.2"></script>
+    <script src="app.js?v=1.0.3"></script>
 </body>
 </html>
