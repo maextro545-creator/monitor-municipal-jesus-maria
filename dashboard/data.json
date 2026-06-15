@@ -501,8 +501,8 @@
                      "source":  "ROTAFONO RPP",
                      "published_date":  "2026-06-09T17:42:08",
                      "summary":  "Jesús María: piden ayuda para que mujer de 75 años sea operada por cataratas en el Hospital Edgardo Rebagliati\u0026nbsp;\u0026nbsp;ROTAFONO RPP",
-                     "sentiment":  "positivo",
-                     "sentiment_score":  1,
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
                      "relevance":  1,
                      "image_url":  "https://e.rpp-noticias.io/medium/2026/06/09/portada_2929743.webp",
                      "scraped_at":  "2026-06-12T15:08:14"
@@ -1182,5 +1182,5 @@
                         "scraped_at":  "2026-06-15T08:19:01"
                     }
                 ],
-    "updated_at":  "2026-06-15T12:27:34"
+    "updated_at":  "2026-06-15T12:27:44"
 }
