@@ -137,8 +137,8 @@
                      "source":  "Infobae",
                      "published_date":  "2026-06-11T08:09:00",
                      "summary":  "Municipalidad de Jesús María justifica riego en parque donde permanecían simpatizantes de de Roberto Sánchez\u0026nbsp;\u0026nbsp;Infobae",
-                     "sentiment":  "neutral",
-                     "sentiment_score":  0,
+                     "sentiment":  "negativo",
+                     "sentiment_score":  -1,
                      "relevance":  1,
                      "image_url":  "https://www.infobae.com/resizer/v2/Z4PIRMTUNNDLBIVLB5ORLBP5SA.png?auth=b03aa9da3acd96588a6e7d8ac521fe80f27347fc8d4bd9fa10a7451c1e15f4a0\u0026smart=true\u0026width=1200\u0026height=630\u0026quality=85",
                      "scraped_at":  "2026-06-12T10:39:27"
@@ -1182,5 +1182,5 @@
                         "scraped_at":  "2026-06-15T08:19:01"
                     }
                 ],
-    "updated_at":  "2026-06-15T12:26:44"
+    "updated_at":  "2026-06-15T12:26:46"
 }
