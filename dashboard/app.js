@@ -458,7 +458,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const type = sentimentSelect.getAttribute('data-type');
                 const newSentiment = sentimentSelect.value;
                 if (id && type) {
-                    updateSentiment(id, type, newSentiment);
+                    updateSentiment(id, type, newSentiment, sentimentSelect);
                 }
             });
         }
@@ -594,9 +594,11 @@ document.addEventListener('DOMContentLoaded', () => {
                             <i data-lucide="${iconName}" style="${iconColor}; width: 16px; height: 16px;"></i>
                             ${escapeHtml(item.displaySource)}
                         </span>
-                        <span class="sentiment-badge ${item.sentiment}">
-                            ${item.sentiment}
-                        </span>
+                        <select class="sentiment-badge ${item.sentiment} card-sentiment-select" data-id="${item.id}" data-type="${item.type}">
+                            <option value="positivo" ${item.sentiment === 'positivo' ? 'selected' : ''}>positivo</option>
+                            <option value="neutral" ${item.sentiment === 'neutral' ? 'selected' : ''}>neutral</option>
+                            <option value="negativo" ${item.sentiment === 'negativo' ? 'selected' : ''}>negativo</option>
+                        </select>
                     </div>
                     ${imageHtml}
                     ${networkBadgeHtml}
@@ -629,6 +631,23 @@ document.addEventListener('DOMContentLoaded', () => {
                 const id = btn.getAttribute('data-id');
                 const type = btn.getAttribute('data-type');
                 openModal(id, type);
+            });
+        });
+
+        // Configurar selectores de sentimiento en las tarjetas
+        document.querySelectorAll('.card-sentiment-select').forEach(select => {
+            select.addEventListener('change', (e) => {
+                e.stopPropagation();
+                const id = select.getAttribute('data-id');
+                const type = select.getAttribute('data-type');
+                const newSentiment = select.value;
+                if (id && type) {
+                    updateSentiment(id, type, newSentiment, select);
+                }
+            });
+            // Evitar que el clic en el select propague a la tarjeta
+            select.addEventListener('click', (e) => {
+                e.stopPropagation();
             });
         });
     }
@@ -751,7 +770,7 @@ document.addEventListener('DOMContentLoaded', () => {
         detailsContainer.innerHTML = '';
     }
 
-    function updateSentiment(id, type, newSentiment) {
+    function updateSentiment(id, type, newSentiment, sourceEl = null) {
         let item = null;
         if (type === 'news') {
             item = monitorData.news.find(i => i.url === id);
@@ -763,8 +782,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (!item) return;
 
+        // Feedback visual inmediato en el elemento de origen
+        if (sourceEl) {
+            sourceEl.disabled = true;
+            sourceEl.className = `sentiment-badge ${newSentiment} ${sourceEl.classList.contains('card-sentiment-select') ? 'card-sentiment-select' : ''}`;
+        }
+
         const sentBadge = document.getElementById('modal-sentiment');
-        if (sentBadge) {
+        if (sentBadge && (!sourceEl || !sourceEl.classList.contains('card-sentiment-select'))) {
             sentBadge.textContent = 'Guardando...';
             sentBadge.className = 'sentiment-badge neutral';
         }
@@ -801,6 +826,14 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .catch(err => {
             console.error("Error actualizando sentimiento:", err);
+            
+            // Revertir feedback visual en caso de error
+            if (sourceEl) {
+                sourceEl.disabled = false;
+                sourceEl.value = item.sentiment;
+                sourceEl.className = `sentiment-badge ${item.sentiment} ${sourceEl.classList.contains('card-sentiment-select') ? 'card-sentiment-select' : ''}`;
+            }
+
             if (sentBadge) {
                 sentBadge.textContent = `${item.sentiment} (Error)`;
                 sentBadge.className = `sentiment-badge ${item.sentiment}`;

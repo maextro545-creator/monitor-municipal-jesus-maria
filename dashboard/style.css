@@ -466,6 +466,7 @@ header::before {
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  pointer-events: auto;
 }
 
 .source-badge {
@@ -503,6 +504,48 @@ header::before {
   background: rgba(107, 114, 128, 0.15);
   color: var(--text-muted);
   border: 1px solid rgba(107, 114, 128, 0.3);
+}
+
+select.sentiment-badge {
+  font-family: inherit;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+select.sentiment-badge:hover {
+  filter: brightness(1.2);
+  box-shadow: 0 0 10px rgba(99, 102, 241, 0.2);
+}
+
+select.sentiment-badge:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Opciones en el menú desplegable */
+select.sentiment-badge option {
+  background-color: #0b0f19;
+  color: #e5e7eb;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+select.sentiment-badge option[value="positivo"] {
+  color: var(--positive);
+}
+
+select.sentiment-badge option[value="neutral"] {
+  color: var(--text-muted);
+}
+
+select.sentiment-badge option[value="negativo"] {
+  color: var(--negative);
 }
 
 .feed-card-body {
