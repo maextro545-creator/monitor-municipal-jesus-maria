@@ -965,8 +965,8 @@
                         "published_date":  "2026-06-12T11:06:54",
                         "description":  "Video monitoreado de YouTube.",
                         "transcript_snippet":  "Menciones detectadas en el video: MUNICIPALIDAD DE JESÚS MARÍA PIDE DISCULPAS A MANIFESTANTES DE JP POR ROCIARLES AGUA #shorts #lr",
-                        "sentiment":  "neutral",
-                        "sentiment_score":  0,
+                        "sentiment":  "positivo",
+                        "sentiment_score":  1,
                         "relevance":  1,
                         "image_url":  "https://img.youtube.com/vi/95I_uRKIJ6c/hqdefault.jpg",
                         "scraped_at":  "2026-06-12T11:23:33"
@@ -1182,5 +1182,5 @@
                         "scraped_at":  "2026-06-15T08:19:01"
                     }
                 ],
-    "updated_at":  "2026-06-15T12:25:19"
+    "updated_at":  "2026-06-15T12:25:20"
 }
