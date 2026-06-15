@@ -826,8 +826,8 @@
                      "source":  "Anderson León Mendoza",
                      "published_date":  "2026-06-11T18:30:25",
                      "summary":  "Misterio resuelto: Ya sabemos qué fue de la \"Gringa\" Roca y por qué su legendaria furia vecinal entró en cura de silencio. Resulta que todo ese chongo de antes no era amor al barrio, sino un casting en vivo para volverse \"candidateable\". ¡Y le funcionó!\n\nEl alcalde Jesús Gálvez ya la captó para su radar y, al parecer, la mítica defensora de las causas vecinales cumplió su gran sueño: asegurar su postulación a regidora. Qué tierno ver cómo se le cumplió lo que tanto juró y rejuró que nunca haría.\n\nConclusión: la indignación no se destruye, solo se transforma... en un lugar en el concejo municipal.",
-                     "sentiment":  "neutral",
-                     "sentiment_score":  0,
+                     "sentiment":  "negativo",
+                     "sentiment_score":  -1,
                      "relevance":  1,
                      "image_url":  "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/448864728_1646574329509070_1333105751527002384_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx577x577\u0026ctp=s24x24\u0026_nc_cat=105\u0026ccb=1-7\u0026_nc_sid=e99d92\u0026_nc_ohc=Cow1Lqujyx8Q7kNvwGbKOTO\u0026_nc_oc=AdqGv0q2TV8OK_c37DySFC8txiMIdsH_QOVpH-z7804TjfOx-R9BR1ZHqHIVS49ab8Q\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-2.xx\u0026_nc_gid=oHArPBIUXW8hSAO3-bf6JQ\u0026_nc_ss=7e2a8\u0026oh=00_Af9DuU5H1efBn4REsKTRfahGcs0NKYLwmDIb3gSqp-3S-w\u0026oe=6A35B528",
                      "scraped_at":  "2026-06-15T08:20:16"
@@ -1182,5 +1182,5 @@
                         "scraped_at":  "2026-06-15T08:19:01"
                     }
                 ],
-    "updated_at":  "2026-06-15T12:25:20"
+    "updated_at":  "2026-06-15T12:25:29"
 }
