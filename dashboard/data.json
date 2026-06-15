@@ -917,8 +917,8 @@
                      "source":  "apnoticias.pe",
                      "published_date":  "2026-06-15T00:53:54",
                      "summary":  "🔴 Campo de Marte: vecinos de Jesús María alzan su voz por daños ambientales | #EnVivoLR\u0026nbsp;\u0026nbsp;apnoticias.pe",
-                     "sentiment":  "neutral",
-                     "sentiment_score":  0,
+                     "sentiment":  "negativo",
+                     "sentiment_score":  -1,
                      "relevance":  1,
                      "image_url":  "https://i3.ytimg.com/vi/v4gGVAqWdt0/hqdefault.jpg",
                      "scraped_at":  "2026-06-15T12:45:23"
@@ -1458,5 +1458,5 @@
                         "scraped_at":  "2026-06-15T12:48:08"
                     }
                 ],
-    "updated_at":  "2026-06-15T12:49:30"
+    "updated_at":  "2026-06-15T14:22:29"
 }
