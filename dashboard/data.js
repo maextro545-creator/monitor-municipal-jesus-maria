@@ -150,8 +150,8 @@
                      "source":  "apnoticias.pe",
                      "published_date":  "2026-06-10T21:28:15",
                      "summary":  "Cisterna de Municipalidad de Jesús María lanza agua a simpatizantes de JP frente a JNE #tlr\u0026nbsp;\u0026nbsp;apnoticias.pe",
-                     "sentiment":  "neutral",
-                     "sentiment_score":  0,
+                     "sentiment":  "negativo",
+                     "sentiment_score":  -1,
                      "relevance":  1,
                      "image_url":  "https://i1.ytimg.com/vi/hGzyIIQLeo8/hqdefault.jpg",
                      "scraped_at":  "2026-06-12T10:39:28"
@@ -1182,5 +1182,5 @@
                         "scraped_at":  "2026-06-15T08:19:01"
                     }
                 ],
-    "updated_at":  "2026-06-15T12:27:07"
+    "updated_at":  "2026-06-15T12:27:09"
 };
