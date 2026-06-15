@@ -7,8 +7,8 @@
                      "source":  "Infobae",
                      "published_date":  "2026-06-10T20:39:00",
                      "summary":  "Cisterna de la Municipalidad de Jesús María lanza agua a simpatizantes de Roberto Sánchez acampados frente al JNE\u0026nbsp;\u0026nbsp;Infobae",
-                     "sentiment":  "neutral",
-                     "sentiment_score":  0,
+                     "sentiment":  "positivo",
+                     "sentiment_score":  1,
                      "relevance":  1,
                      "image_url":  "https://www.infobae.com/resizer/v2/Z4AN3ULYDNE7VEHQ3NWEKRFUSI.jpg?auth=04d674fa94d89896d7b4ee8114d5eb2ac25529a1c24e3552d7091ce66de32f11\u0026smart=true\u0026width=1200\u0026height=630\u0026quality=85",
                      "scraped_at":  "2026-06-12T10:39:10"
@@ -1182,5 +1182,5 @@
                         "scraped_at":  "2026-06-15T08:19:01"
                     }
                 ],
-    "updated_at":  "2026-06-15T08:21:21"
+    "updated_at":  "2026-06-15T12:04:06"
 }
