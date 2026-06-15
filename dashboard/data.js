@@ -683,8 +683,8 @@
                      "source":  "apnoticias.pe",
                      "published_date":  "2026-06-12T11:43:55",
                      "summary":  "MUNICIPALIDAD DE JESÚS MARÍA PIDE DISCULPAS A MANIFESTANTES DE JP POR ROCIARLES AGUA #shorts #lr\u0026nbsp;\u0026nbsp;apnoticias.pe",
-                     "sentiment":  "neutral",
-                     "sentiment_score":  0,
+                     "sentiment":  "positivo",
+                     "sentiment_score":  1,
                      "relevance":  1,
                      "image_url":  "https://i2.ytimg.com/vi/95I_uRKIJ6c/hqdefault.jpg",
                      "scraped_at":  "2026-06-15T08:15:31"
@@ -1182,5 +1182,5 @@
                         "scraped_at":  "2026-06-15T08:19:01"
                     }
                 ],
-    "updated_at":  "2026-06-15T12:13:43"
+    "updated_at":  "2026-06-15T12:25:19"
 };
