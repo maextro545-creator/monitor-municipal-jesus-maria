@@ -189,8 +189,8 @@
                      "source":  "Infobae",
                      "published_date":  "2026-05-22T02:00:00",
                      "summary":  "Recuperación del Campo de Marte tiene nueva fecha de entrega y sus areas verdes estarán a cargo de Jesús María\u0026nbsp;\u0026nbsp;Infobae",
-                     "sentiment":  "neutral",
-                     "sentiment_score":  0,
+                     "sentiment":  "positivo",
+                     "sentiment_score":  1,
                      "relevance":  1,
                      "image_url":  "https://www.infobae.com/resizer/v2/TIC6D3ULEFFRFHYDWALFQSY6TE.jpg?auth=4277f021147161ec0adc50474eb2d887b1049a52260b2719efe63319f9eae17f\u0026smart=true\u0026width=1200\u0026height=630\u0026quality=85",
                      "scraped_at":  "2026-06-12T10:39:33"
@@ -1182,5 +1182,5 @@
                         "scraped_at":  "2026-06-15T08:19:01"
                     }
                 ],
-    "updated_at":  "2026-06-15T12:27:57"
+    "updated_at":  "2026-06-15T12:28:05"
 };
