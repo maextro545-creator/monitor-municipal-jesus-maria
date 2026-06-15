@@ -601,9 +601,21 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             }
 
-            const snippetText = isYoutube 
+            let snippetText = isYoutube 
                 ? (item.transcript_snippet || item.description) 
                 : (isTwitter ? (item.title || item.description) : item.summary);
+                
+            snippetText = cleanText(snippetText);
+            
+            // Evitar duplicar el título en el snippet de la tarjeta
+            const cleanTitle = cleanText(item.title);
+            if (snippetText && (
+                snippetText.toLowerCase().includes(cleanTitle.toLowerCase()) || 
+                cleanTitle.toLowerCase().includes(snippetText.toLowerCase()) ||
+                snippetText.toLowerCase().replace(/[^a-z0-9]/g, '') === cleanTitle.toLowerCase().replace(/[^a-z0-9]/g, '')
+            )) {
+                snippetText = "";
+            }
                 
             const hasImage = item.image_url && item.image_url.trim() !== "";
             const imageHtml = hasImage 
@@ -661,7 +673,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
                 <div class="feed-card-body">
                     <h3 class="feed-card-title">${escapeHtml(item.title)}</h3>
-                    <p class="feed-card-snippet">${escapeHtml(snippetText)}</p>
+                    ${snippetText ? `<p class="feed-card-snippet">${escapeHtml(snippetText)}</p>` : ''}
                 </div>
                 <div class="feed-card-footer">
                     <span class="item-date">${escapeHtml(formattedDate)}</span>
@@ -971,6 +983,20 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Helper functions
+    function cleanText(text) {
+        if (!text) return "";
+        let cleaned = text
+            .replace(/&nbsp;/g, ' ')
+            .replace(/&amp;/g, '&')
+            .replace(/&quot;/g, '"')
+            .replace(/&lt;/g, '<')
+            .replace(/&gt;/g, '>')
+            .replace(/&#039;/g, "'");
+        cleaned = cleaned.replace(/<[^>]*>/g, '');
+        cleaned = cleaned.replace(/\s+/g, ' ');
+        return cleaned.trim();
+    }
+
     function escapeHtml(text) {
         if (!text) return "";
         const map = {

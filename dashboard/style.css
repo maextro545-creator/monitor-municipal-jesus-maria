@@ -650,7 +650,7 @@ select.sentiment-badge option[value="negativo"] {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .feed-card-title {
@@ -658,10 +658,6 @@ select.sentiment-badge option[value="negativo"] {
   font-weight: 700;
   line-height: 1.4;
   margin-bottom: 0.75rem;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
   color: var(--text-main);
 }
 
