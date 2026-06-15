@@ -709,8 +709,8 @@
                      "source":  "reel",
                      "published_date":  "2026-06-12T21:44:42",
                      "summary":  "Exitosa Noticias. . 🔴🔵 #InformamosYOpinamos 🗯🗯 | Más de 100 simpatizantes de Juntos por el Perú llegaron a la sede del Jurado Nacional de Elecciones en Jesús María, provenientes de varias regiones del país. Al menos 30 agentes de la PNP resguardan\u0026nbsp;\u0026nbsp;facebook.com",
-                     "sentiment":  "positivo",
-                     "sentiment_score":  1,
+                     "sentiment":  "negativo",
+                     "sentiment_score":  -1,
                      "relevance":  1,
                      "image_url":  "https://scontent-lim1-1.xx.fbcdn.net/v/t15.5256-10/721159730_2845004582534295_5481949493996152974_n.jpg?_nc_cat=102\u0026ccb=1-7\u0026_nc_sid=a27664\u0026_nc_ohc=1vtECretgz8Q7kNvwHCKa0p\u0026_nc_oc=AdqNbE18NHBS1ZEsXCvP2G7flundxSLczQRwljBcBBUZedxysJnkPl_YIwHVc9AB0OM\u0026_nc_zt=23\u0026_nc_ht=scontent-lim1-1.xx\u0026_nc_gid=DidA-lbMLmDjXxJ-a2Q2Qg\u0026_nc_ss=7020f\u0026oh=00_Af8gW8ctYzj3PQNSkUNxNuLN2jKXv3AB07sBw4PEMno66Q\u0026oe=6A35E9DE",
                      "scraped_at":  "2026-06-15T08:16:59"
@@ -1182,5 +1182,5 @@
                         "scraped_at":  "2026-06-15T08:19:01"
                     }
                 ],
-    "updated_at":  "2026-06-15T12:13:30"
+    "updated_at":  "2026-06-15T12:13:43"
 }
