@@ -1028,19 +1028,6 @@
                      "scraped_at":  "2026-06-15T14:21:00"
                  },
                  {
-                     "url":  "https://oem.com.mx/elsoldelcentro/local/jesus-maria-solicita-a-sheinbaum-retornos-vehiculares-para-reducir-accidentes-en-margaritas-30542929",
-                     "query":  "alcalde jesus maria",
-                     "title":  "Jesús María solicita a Sheinbaum retornos vehiculares para reducir accidentes en Margaritas - El Sol del Centro - El Sol de México",
-                     "source":  "El Sol de México",
-                     "published_date":  "2026-06-15T01:05:14",
-                     "summary":  "Jesús María solicita a Sheinbaum retornos vehiculares para reducir accidentes en Margaritas - El Sol del Centro\u0026nbsp;\u0026nbsp;El Sol de México",
-                     "sentiment":  "neutral",
-                     "sentiment_score":  0,
-                     "relevance":  1,
-                     "image_url":  "https://oem.com.mx/elsoldelcentro/img/30543648/1781465257/BASE_LANDSCAPE/1200/image.jpg",
-                     "scraped_at":  "2026-06-15T14:21:37"
-                 },
-                 {
                      "url":  "https://nwnoticias.com/aguascalientes/intercepta-alcalde-de-jesus-maria-a-sheinbaum-urge-apoyo-para-retornos-seguros-en-la-45-norte",
                      "query":  "alcalde jesus maria",
                      "title":  "Intercepta alcalde de Jesús María a Sheinbaum; urge apoyo para retornos seguros en la 45 Norte - NW Noticias",
@@ -1671,5 +1658,5 @@
                         "scraped_at":  "2026-06-15T14:26:29"
                     }
                 ],
-    "updated_at":  "2026-06-15T14:26:50"
+    "updated_at":  "2026-06-15T14:34:57"
 };
