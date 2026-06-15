@@ -462,8 +462,8 @@
                      "source":  "agendapais.com",
                      "published_date":  "2026-06-11T00:24:40",
                      "summary":  "Jesús María: municipales, con apoyo de camiones cisternas, arrojan chorros de agua a militantes de JP que hacían vigilia\u0026nbsp;\u0026nbsp;agendapais.com",
-                     "sentiment":  "neutral",
-                     "sentiment_score":  0,
+                     "sentiment":  "negativo",
+                     "sentiment_score":  -1,
                      "relevance":  1,
                      "image_url":  "https://agendapais.com/wp-content/uploads/Carpas.png",
                      "scraped_at":  "2026-06-12T15:08:01"
@@ -1182,5 +1182,5 @@
                         "scraped_at":  "2026-06-15T08:19:01"
                     }
                 ],
-    "updated_at":  "2026-06-15T12:26:58"
+    "updated_at":  "2026-06-15T12:27:00"
 };
