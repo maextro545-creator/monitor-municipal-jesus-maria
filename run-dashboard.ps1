@@ -145,6 +145,110 @@ while ($listener.IsListening) {
                 $resBytes = [System.Text.Encoding]::UTF8.GetBytes('{"error":"Item not found"}')
                 $res.OutputStream.Write($resBytes, 0, $resBytes.Length)
             }
+        }
+        
+        # Endpoint para eliminar un item manualmente
+        if ($path -eq "/api/delete-item" -and $req.HttpMethod -eq "POST") {
+            $reader = New-Object System.IO.StreamReader($req.InputStream, [System.Text.Encoding]::UTF8)
+            $body = $reader.ReadToEnd()
+            $params = $body | ConvertFrom-Json
+            
+            Write-Host "[API] Solicitud de eliminación recibida para el ID: $($params.id) de tipo $($params.type)" -ForegroundColor Red
+            
+            $DbPath = Join-Path $ScriptDir "database.json"
+            if (-not (Test-Path $DbPath)) {
+                $res.StatusCode = 500
+                $res.ContentType = "application/json"
+                $resBytes = [System.Text.Encoding]::UTF8.GetBytes('{"error":"database.json not found"}')
+                $res.OutputStream.Write($resBytes, 0, $resBytes.Length)
+                $res.Close()
+                continue
+            }
+            
+            $Db = Get-Content -Raw -Path $DbPath -Encoding utf8 | ConvertFrom-Json
+            $updated = $false
+            
+            # 1. Eliminar en Prensa / Facebook (news)
+            if ($params.type -eq "news") {
+                $newList = New-Object System.Collections.ArrayList
+                foreach ($item in $Db.news) {
+                    if ($item.url -ne $params.id) {
+                        [void]$newList.Add($item)
+                    } else {
+                        $updated = $true
+                    }
+                }
+                $Db.news = $newList
+            }
+            # 2. Eliminar en YouTube (youtube)
+            elseif ($params.type -eq "youtube") {
+                $newList = New-Object System.Collections.ArrayList
+                foreach ($item in $Db.youtube) {
+                    if ($item.video_id -ne $params.id) {
+                        [void]$newList.Add($item)
+                    } else {
+                        $updated = $true
+                    }
+                }
+                $Db.youtube = $newList
+            }
+            # 3. Eliminar en Twitter (twitter)
+            elseif ($params.type -eq "twitter") {
+                $newList = New-Object System.Collections.ArrayList
+                foreach ($item in $Db.twitter) {
+                    if ($item.url -ne $params.id) {
+                        [void]$newList.Add($item)
+                    } else {
+                        $updated = $true
+                    }
+                }
+                $Db.twitter = $newList
+            }
+            
+            if ($updated) {
+                # Guardar en database.json
+                $Db | ConvertTo-Json -Depth 10 | Out-File -FilePath $DbPath -Encoding utf8
+                
+                # Exportar para Dashboard
+                $DashboardDir = Join-Path $ScriptDir "dashboard"
+                $DataJsonPath = Join-Path $DashboardDir "data.json"
+                $DataJsPath = Join-Path $DashboardDir "data.js"
+                
+                $ExportData = [PSCustomObject]@{
+                    news = $Db.news
+                    youtube = $Db.youtube
+                    twitter = $Db.twitter
+                    updated_at = (Get-Date).ToString("yyyy-MM-ddTHH:mm:ss")
+                }
+                
+                # Guardar data.json y data.js
+                $ExportData | ConvertTo-Json -Depth 10 | Out-File -FilePath $DataJsonPath -Encoding utf8
+                $jsContent = "window.monitorData = " + ($ExportData | ConvertTo-Json -Depth 10) + ";"
+                $jsContent | Out-File -FilePath $DataJsPath -Encoding utf8
+                
+                Write-Host "    [+] Item eliminado y cambios guardados localmente." -ForegroundColor Green
+                
+                # Sincronización asíncrona con GitHub
+                Write-Host "    [+] Iniciando subida de datos a GitHub en segundo plano..." -ForegroundColor Cyan
+                Start-Job -ScriptBlock {
+                    param($ScriptDir, $id, $type)
+                    Set-Location -Path $ScriptDir
+                    git add database.json dashboard/data.json dashboard/data.js
+                    git commit -m "chore: eliminar item manual (${type}: ${id})"
+                    git push origin main
+                } -ArgumentList $ScriptDir, $params.id, $params.type | Out-Null
+                
+                $res.StatusCode = 200
+                $res.ContentType = "application/json"
+                $resBytes = [System.Text.Encoding]::UTF8.GetBytes('{"status":"ok","message":"Item deleted successfully"}')
+                $res.OutputStream.Write($resBytes, 0, $resBytes.Length)
+            } else {
+                Write-Host "    [Warning] No se encontró el item para eliminar con el ID: $($params.id)" -ForegroundColor DarkYellow
+                $res.StatusCode = 404
+                $res.ContentType = "application/json"
+                $resBytes = [System.Text.Encoding]::UTF8.GetBytes('{"error":"Item not found"}')
+                $res.OutputStream.Write($resBytes, 0, $resBytes.Length)
+            }
             $res.Close()
             continue
         }

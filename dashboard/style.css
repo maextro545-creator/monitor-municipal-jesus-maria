@@ -1252,3 +1252,40 @@ select.sentiment-badge option[value="negativo"] {
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5);
 }
 
+/* Botón de eliminar en el modal */
+.delete-btn {
+  background: rgba(239, 68, 68, 0.12);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  color: var(--negative);
+  font-family: var(--font-family);
+  font-weight: 600;
+  padding: 0.6rem 1.2rem;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  transition: var(--transition-smooth);
+}
+
+.delete-btn:hover {
+  background: rgba(239, 68, 68, 0.2);
+  border-color: var(--negative);
+  box-shadow: 0 0 15px rgba(239, 68, 68, 0.25);
+  transform: translateY(-1px);
+}
+
+.delete-btn:active {
+  transform: scale(0.95);
+}
+
+.delete-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+body.light-theme .delete-btn {
+  background: rgba(239, 68, 68, 0.08);
+  border-color: rgba(239, 68, 68, 0.2);
+}
+

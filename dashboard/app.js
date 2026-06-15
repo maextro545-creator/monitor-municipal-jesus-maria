@@ -498,6 +498,26 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             });
         }
+
+        // Evento eliminar item manualmente
+        const deleteBtn = document.getElementById('modal-delete-btn');
+        if (deleteBtn) {
+            deleteBtn.addEventListener('click', () => {
+                const id = deleteBtn.getAttribute('data-id');
+                const type = deleteBtn.getAttribute('data-type');
+                if (id && type) {
+                    const confirmMsg = type === 'youtube' 
+                        ? '¿Estás seguro de que deseas eliminar este video permanentemente?' 
+                        : (type === 'twitter' 
+                            ? '¿Estás seguro de que deseas eliminar este tweet permanentemente?' 
+                            : '¿Estás seguro de que deseas eliminar esta noticia permanentemente?');
+                    
+                    if (confirm(confirmMsg)) {
+                        deleteItem(id, type, deleteBtn);
+                    }
+                }
+            });
+        }
     }
 
     function applyFiltersAndRender() {
@@ -738,6 +758,25 @@ document.addEventListener('DOMContentLoaded', () => {
             sentimentSelect.setAttribute('data-type', type);
         }
 
+        // Configurar botón de eliminar
+        const deleteBtn = document.getElementById('modal-delete-btn');
+        if (deleteBtn) {
+            deleteBtn.setAttribute('data-id', id);
+            deleteBtn.setAttribute('data-type', type);
+            deleteBtn.disabled = false;
+            
+            const deleteText = deleteBtn.querySelector('span');
+            if (deleteText) {
+                if (type === 'youtube') {
+                    deleteText.textContent = "Eliminar Video";
+                } else if (type === 'twitter') {
+                    deleteText.textContent = "Eliminar Tweet";
+                } else {
+                    deleteText.textContent = "Eliminar Noticia";
+                }
+            }
+        }
+
         // Contenido / Texto principal
         const detailsContainer = document.getElementById('modal-details');
         detailsContainer.innerHTML = '';
@@ -879,6 +918,55 @@ document.addEventListener('DOMContentLoaded', () => {
                 sentimentSelect.value = item.sentiment;
             }
             alert('No se pudo guardar el cambio. Asegúrate de tener el servidor del dashboard ejecutándose localmente (run-dashboard.ps1).');
+        });
+    }
+
+    function deleteItem(id, type, btn) {
+        btn.disabled = true;
+        const originalText = btn.innerHTML;
+        btn.innerHTML = `<i data-lucide="loader" style="width: 16px; height: 16px; display: inline-block; animation: spin 1s linear infinite; vertical-align: middle; margin-right: 4px;"></i> <span>Eliminando...</span>`;
+        if (typeof lucide !== 'undefined') {
+            try { lucide.createIcons(); } catch (e) {}
+        }
+
+        const host = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' ? '' : 'http://localhost:5000';
+        fetch(host + '/api/delete-item', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                id: id,
+                type: type
+            })
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Error al conectar con el servidor local');
+            }
+            return response.json();
+        })
+        .then(data => {
+            // Éxito: Eliminar del estado local
+            if (type === 'news') {
+                monitorData.news = monitorData.news.filter(i => i.url !== id);
+            } else if (type === 'youtube') {
+                monitorData.youtube = monitorData.youtube.filter(i => i.video_id !== id);
+            } else if (type === 'twitter') {
+                monitorData.twitter = monitorData.twitter.filter(i => i.url !== id);
+            }
+
+            closeModal();
+            processData();
+        })
+        .catch(err => {
+            console.error("Error al eliminar item:", err);
+            btn.disabled = false;
+            btn.innerHTML = originalText;
+            if (typeof lucide !== 'undefined') {
+                try { lucide.createIcons(); } catch (e) {}
+            }
+            alert('No se pudo eliminar el elemento. Asegúrate de tener el servidor del dashboard ejecutándose localmente (run-dashboard.ps1).');
         });
     }
 
