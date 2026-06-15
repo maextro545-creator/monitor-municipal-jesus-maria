@@ -803,7 +803,7 @@
                      "sentiment":  "negativo",
                      "sentiment_score":  -1,
                      "relevance":  1,
-                     "image_url":  "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/448864728_1646574329509070_1333105751527002384_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx577x577\u0026ctp=s320x320\u0026_nc_cat=105\u0026ccb=1-7\u0026_nc_sid=e99d92\u0026_nc_ohc=Cow1Lqujyx8Q7kNvwGbKOTO\u0026_nc_oc=AdqGv0q2TV8OK_c37DySFC8txiMIdsH_QOVpH-z7804TjfOx-R9BR1ZHqHIVS49ab8Q\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-2.xx\u0026_nc_gid=oHArPBIUXW8hSAO3-bf6JQ\u0026_nc_ss=7e2a8\u0026oh=00_Af9DuU5H1efBn4REsKTRfahGcs0NKYLwmDIb3gSqp-3S-w\u0026oe=6A35B528",
+                     "image_url":  "https://scontent-xxc1-1.xx.fbcdn.net/v/t39.30808-6/719351922_2210016023164895_4055167760193271095_n.jpg?stp=dst-jpg_tt6\u0026cstp=mx2048x1143\u0026ctp=s2048x1143\u0026_nc_cat=102\u0026ccb=1-7\u0026_nc_sid=aa7b47\u0026_nc_ohc=jsbZzx63DiMQ7kNvwFuuevz\u0026_nc_oc=AdoEvv4CWY_aVg7IcrKjmrNkplPKVutfcCKkIbL6PrHtiRKRrmcEpytqGxR5VxYj5jM\u0026_nc_zt=23\u0026_nc_ht=scontent-xxc1-1.xx\u0026_nc_gid=BuvB5eKGsht9wRNaRrPkyQ\u0026_nc_ss=7b20f\u0026oh=00_Af9d1f__4H7huwbRfv0boby4qobRInAlQBQJVNf9GKD-aQ\u0026oe=6A364FA2",
                      "scraped_at":  "2026-06-15T08:20:16"
                  },
                  {
@@ -1000,6 +1000,58 @@
                      "relevance":  1,
                      "image_url":  "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format\u0026fit=crop\u0026w=600\u0026q=80",
                      "scraped_at":  "2026-06-15T14:23:51"
+                 },
+                 {
+                     "url":  "https://radiojesusmaria.com.ar/2026/06/12/jesus-maria-la-oposicion-voto-en-contra-y-advirtio-contradicciones-en-el-proyecto-de-financiamiento/",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "Jesús María: La oposición votó en contra y advirtió contradicciones en el proyecto de financiamiento - Radio Jesús María",
+                     "source":  "Radio Jesús María",
+                     "published_date":  "2026-06-12T18:22:44",
+                     "summary":  "Jesús María: La oposición votó en contra y advirtió contradicciones en el proyecto de financiamiento\u0026nbsp;\u0026nbsp;Radio Jesús María",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://radiojesusmaria.com.ar/wp-content/uploads/2026/06/ZQFNHIJW3FHNNEE4XC27KYYFFY.jpg",
+                     "scraped_at":  "2026-06-15T16:35:35"
+                 },
+                 {
+                     "url":  "https://oem.com.mx/elsoldelcentro/local/jesus-maria-solicita-a-sheinbaum-retornos-vehiculares-para-reducir-accidentes-en-margaritas-30542929",
+                     "query":  "alcalde jesus maria",
+                     "title":  "Jesús María solicita a Sheinbaum retornos vehiculares para reducir accidentes en Margaritas - El Sol del Centro - El Sol de México",
+                     "source":  "El Sol de México",
+                     "published_date":  "2026-06-15T01:05:14",
+                     "summary":  "Jesús María solicita a Sheinbaum retornos vehiculares para reducir accidentes en Margaritas - El Sol del Centro\u0026nbsp;\u0026nbsp;El Sol de México",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://oem.com.mx/elsoldelcentro/img/30543648/1781465257/BASE_LANDSCAPE/1200/image.jpg",
+                     "scraped_at":  "2026-06-15T16:36:12"
+                 },
+                 {
+                     "url":  "https://nwnoticias.com/aguascalientes/intercepta-alcalde-de-jesus-maria-a-sheinbaum-urge-apoyo-para-retornos-seguros-en-la-45-norte",
+                     "query":  "alcalde jesus maria",
+                     "title":  "Intercepta alcalde de Jesús María a Sheinbaum; urge apoyo para retornos seguros en la 45 Norte - NW Noticias",
+                     "source":  "NW Noticias",
+                     "published_date":  "2026-06-13T23:04:38",
+                     "summary":  "Intercepta alcalde de Jesús María a Sheinbaum; urge apoyo para retornos seguros en la 45 Norte\u0026nbsp;\u0026nbsp;NW Noticias",
+                     "sentiment":  "positivo",
+                     "sentiment_score":  1,
+                     "relevance":  1,
+                     "image_url":  "https://nw-cdn.sfo3.cdn.digitaloceanspaces.com/uploads/2026/06/3-11.webp",
+                     "scraped_at":  "2026-06-15T16:36:16"
+                 },
+                 {
+                     "url":  "https://www.apnoticias.pe/video/jesus-maria-vecinos-protestan-para-rescatar-el-campo-de-marte-584494",
+                     "query":  "distrito de jesus maria",
+                     "title":  "Jesús María: vecinos protestan para rescatar el Campo de Marte - apnoticias.pe",
+                     "source":  "apnoticias.pe",
+                     "published_date":  "2026-06-14T23:37:09",
+                     "summary":  "Jesús María: vecinos protestan para rescatar el Campo de Marte\u0026nbsp;\u0026nbsp;apnoticias.pe",
+                     "sentiment":  "negativo",
+                     "sentiment_score":  -1,
+                     "relevance":  1,
+                     "image_url":  "https://i3.ytimg.com/vi/No9L4WSo4yA/hqdefault.jpg",
+                     "scraped_at":  "2026-06-15T16:36:40"
                  }
              ],
     "youtube":  [
@@ -1566,5 +1618,5 @@
                         "scraped_at":  "2026-06-15T14:26:29"
                     }
                 ],
-    "updated_at":  "2026-06-15T15:40:33"
+    "updated_at":  "2026-06-15T16:39:57"
 };
