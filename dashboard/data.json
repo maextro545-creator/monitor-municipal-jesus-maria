@@ -976,19 +976,6 @@
                      "scraped_at":  "2026-06-15T14:20:57"
                  },
                  {
-                     "url":  "https://radiojesusmaria.com.ar/2026/06/12/jesus-maria-la-oposicion-voto-en-contra-y-advirtio-contradicciones-en-el-proyecto-de-financiamiento/",
-                     "query":  "municipalidad de jesus maria",
-                     "title":  "Jesús María: La oposición votó en contra y advirtió contradicciones en el proyecto de financiamiento - Radio Jesús María",
-                     "source":  "Radio Jesús María",
-                     "published_date":  "2026-06-12T18:22:44",
-                     "summary":  "Jesús María: La oposición votó en contra y advirtió contradicciones en el proyecto de financiamiento\u0026nbsp;\u0026nbsp;Radio Jesús María",
-                     "sentiment":  "neutral",
-                     "sentiment_score":  0,
-                     "relevance":  1,
-                     "image_url":  "https://radiojesusmaria.com.ar/wp-content/uploads/2026/06/ZQFNHIJW3FHNNEE4XC27KYYFFY.jpg",
-                     "scraped_at":  "2026-06-15T14:21:00"
-                 },
-                 {
                      "url":  "https://lpderecho.pe/fiscalia-inicia-indagacion-discriminacion-uso-camion-cisterna-dispersar-ciudadanos-realizaban-planton-jesus-maria/",
                      "query":  "distrito de jesus maria",
                      "title":  "Fiscalía inicia indagación previa por discriminación tras uso de camión cisterna para dispersar a ciudadanos que realizaban un plantón en Jesús María - LP | Pasión por el Derecho",
@@ -1579,5 +1566,5 @@
                         "scraped_at":  "2026-06-15T14:26:29"
                     }
                 ],
-    "updated_at":  "2026-06-15T14:36:28"
+    "updated_at":  "2026-06-15T14:39:35"
 }
