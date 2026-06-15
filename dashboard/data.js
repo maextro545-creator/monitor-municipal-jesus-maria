@@ -209,19 +209,6 @@
                      "scraped_at":  "2026-06-12T10:39:35"
                  },
                  {
-                     "url":  "https://www.jesusmaria.gov.ar/noticias/ciudad/la-municipalidad-de-jesus-maria-ofrece-nuevos-talleres-gratuitos-de-tecnologia-para-vecinos.html",
-                     "query":  "municipalidad de jesus maria",
-                     "title":  "La Municipalidad de Jesús María ofrece nuevos talleres gratuitos de tecnología para vecinos - jesusmaria.gov.ar",
-                     "source":  "jesusmaria.gov.ar",
-                     "published_date":  "2026-03-04T10:25:49",
-                     "summary":  "La Municipalidad de Jesús María ofrece nuevos talleres gratuitos de tecnología para vecinos\u0026nbsp;\u0026nbsp;jesusmaria.gov.ar",
-                     "sentiment":  "neutral",
-                     "sentiment_score":  0,
-                     "relevance":  1,
-                     "image_url":  "https://www.jesusmaria.gov.ar/frontend/images/preview_meta.jpg",
-                     "scraped_at":  "2026-06-12T10:39:37"
-                 },
-                 {
                      "url":  "https://elpopular.pe/espectaculos/2026/02/16/quien-es-sebastian-galvez-hombre-ampayado-con-laura-spoya-que-se-llevo-sus-cosas-y-que-tiene-que-ver-con-la-alcaldia-de-jesus-maria-404768",
                      "query":  "jesús gálvez jesus maria",
                      "title":  "¿Quién es Sebastián Gálvez, hombre \u0027AMPAYADO\u0027 con Laura Spoya que se LLEVÓ sus cosas, y qué tiene que ver con la alcaldía de Jesús María? - El Popular",
@@ -1592,5 +1579,5 @@
                         "scraped_at":  "2026-06-15T14:26:29"
                     }
                 ],
-    "updated_at":  "2026-06-15T14:36:04"
+    "updated_at":  "2026-06-15T14:36:28"
 };
