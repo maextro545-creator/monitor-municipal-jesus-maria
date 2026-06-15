@@ -794,19 +794,6 @@
                      "scraped_at":  "2026-06-15T08:19:42"
                  },
                  {
-                     "url":  "https://www.facebook.com/JesusMariaMunicipio/videos/753772933971014/",
-                     "query":  "municipalidad de jesus maria",
-                     "title":  "☎️ Ring... Ring... Jesús María es una #CiudadDeVanguardia y por eso estamos estrenando el Call Ce...",
-                     "source":  "Municipio de Jesús María",
-                     "published_date":  "2025-07-09T16:11:56",
-                     "summary":  "☎️ Ring... Ring... Jesús María es una #CiudadDeVanguardia y por eso estamos estrenando el Call Center de Atención Ciudadana, donde desde un mismo número podremos recibir todas tus sugerencias y peticiones, sin filas y sin tiempos de espera desde la comodidad de tu casa. \n\nNos estamos actualizando para ti. ¡Llama YA al 449 965 0088! 📞",
-                     "sentiment":  "neutral",
-                     "sentiment_score":  0,
-                     "relevance":  1,
-                     "image_url":  "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/644902860_1233282485660577_2547087928542429277_n.jpg?stp=dst-jpg_tt6\u0026cstp=mx751x750\u0026ctp=s120x120\u0026_nc_cat=104\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=DnHEOLIv_fIQ7kNvwH-Sv7J\u0026_nc_oc=AdqEFWZ2SmNLSXYLKLQLQKJ4JQA9MMDsD_yLH2qIESbG8IVhGwcr42XhpHlc72mMqCI\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-1.xx\u0026_nc_gid=Z7Semq-hiv_vKM6vRQiisA\u0026_nc_ss=7e2a8\u0026oh=00_Af_4aghlb7Cbyz1gBA9i4fZ9voVEQIzRX09-gYvcSQ3_Vg\u0026oe=6A35E6FF",
-                     "scraped_at":  "2026-06-15T08:19:42"
-                 },
-                 {
                      "url":  "https://www.facebook.com/61557216728339/videos/1008939191684454/",
                      "query":  "municipalidad de jesus maria",
                      "title":  "Palabras del presidente municipal de Jesús Maria César Medina  en la presentación de la Feria De ...",
@@ -1605,5 +1592,5 @@
                         "scraped_at":  "2026-06-15T14:26:29"
                     }
                 ],
-    "updated_at":  "2026-06-15T14:35:39"
+    "updated_at":  "2026-06-15T14:36:04"
 }
