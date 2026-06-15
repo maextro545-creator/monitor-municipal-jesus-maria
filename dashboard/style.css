@@ -643,6 +643,41 @@ header::before {
   margin-bottom: 0.75rem;
 }
 
+.sentiment-edit-group {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: rgba(255, 255, 255, 0.04);
+  padding: 0.25rem 0.6rem;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: all 0.2s ease;
+}
+
+.sentiment-edit-group:focus-within,
+.sentiment-edit-group:hover {
+  border-color: var(--primary);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.sentiment-select {
+  background: transparent;
+  color: var(--text-main);
+  border: none;
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Outfit', sans-serif;
+  padding-right: 0.2rem;
+}
+
+.sentiment-select option {
+  background: #0f172a;
+  color: var(--text-main);
+  font-weight: 500;
+}
+
 .modal-title {
   font-size: 1.4rem;
   font-weight: 800;

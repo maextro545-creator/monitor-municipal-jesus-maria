@@ -449,6 +449,19 @@ document.addEventListener('DOMContentLoaded', () => {
         document.addEventListener('keydown', (e) => {
             if (e.key === 'Escape') closeModal();
         });
+
+        // Evento cambio de calificación manual
+        const sentimentSelect = document.getElementById('modal-sentiment-select');
+        if (sentimentSelect) {
+            sentimentSelect.addEventListener('change', () => {
+                const id = sentimentSelect.getAttribute('data-id');
+                const type = sentimentSelect.getAttribute('data-type');
+                const newSentiment = sentimentSelect.value;
+                if (id && type) {
+                    updateSentiment(id, type, newSentiment);
+                }
+            });
+        }
     }
 
     function applyFiltersAndRender() {
@@ -662,6 +675,14 @@ document.addEventListener('DOMContentLoaded', () => {
         sentBadge.textContent = `${item.sentiment} (Score: ${item.sentiment_score})`;
         sentBadge.className = `sentiment-badge ${item.sentiment}`;
 
+        // Configurar selector de sentimiento
+        const sentimentSelect = document.getElementById('modal-sentiment-select');
+        if (sentimentSelect) {
+            sentimentSelect.value = item.sentiment;
+            sentimentSelect.setAttribute('data-id', id);
+            sentimentSelect.setAttribute('data-type', type);
+        }
+
         // Contenido / Texto principal
         const detailsContainer = document.getElementById('modal-details');
         detailsContainer.innerHTML = '';
@@ -728,6 +749,68 @@ document.addEventListener('DOMContentLoaded', () => {
         // Detener video de YouTube si está sonando al limpiar el modal
         const detailsContainer = document.getElementById('modal-details');
         detailsContainer.innerHTML = '';
+    }
+
+    function updateSentiment(id, type, newSentiment) {
+        let item = null;
+        if (type === 'news') {
+            item = monitorData.news.find(i => i.url === id);
+        } else if (type === 'youtube') {
+            item = monitorData.youtube.find(i => i.video_id === id);
+        } else if (type === 'twitter') {
+            item = monitorData.twitter.find(i => i.url === id);
+        }
+
+        if (!item) return;
+
+        const sentBadge = document.getElementById('modal-sentiment');
+        if (sentBadge) {
+            sentBadge.textContent = 'Guardando...';
+            sentBadge.className = 'sentiment-badge neutral';
+        }
+
+        const host = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' ? '' : 'http://localhost:5000';
+        fetch(host + '/api/update-sentiment', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                id: id,
+                type: type,
+                sentiment: newSentiment
+            })
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Error al conectar con el servidor local');
+            }
+            return response.json();
+        })
+        .then(data => {
+            // Éxito: Actualizar estado local y re-renderizar
+            item.sentiment = newSentiment;
+            item.sentiment_score = newSentiment === 'positivo' ? 1.0 : (newSentiment === 'negativo' ? -1.0 : 0.0);
+            
+            if (sentBadge) {
+                sentBadge.textContent = `${newSentiment} (Score: ${item.sentiment_score})`;
+                sentBadge.className = `sentiment-badge ${newSentiment}`;
+            }
+
+            processData();
+        })
+        .catch(err => {
+            console.error("Error actualizando sentimiento:", err);
+            if (sentBadge) {
+                sentBadge.textContent = `${item.sentiment} (Error)`;
+                sentBadge.className = `sentiment-badge ${item.sentiment}`;
+            }
+            const sentimentSelect = document.getElementById('modal-sentiment-select');
+            if (sentimentSelect) {
+                sentimentSelect.value = item.sentiment;
+            }
+            alert('No se pudo guardar el cambio. Asegúrate de tener el servidor del dashboard ejecutándose localmente (run-dashboard.ps1).');
+        });
     }
 
     // Helper functions

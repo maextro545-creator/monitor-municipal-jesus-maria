@@ -163,8 +163,8 @@ function Search-FacebookWithApify {
         return @()
     }
     
-    # Calcular fecha de inicio (hace 2 días)
-    $startDate = (Get-Date).AddDays(-2).ToString("yyyy-MM-dd")
+    # Calcular fecha de inicio (hace 5 días)
+    $startDate = (Get-Date).AddDays(-5).ToString("yyyy-MM-dd")
     Write-Host "    [Apify] Buscando en Facebook para: '$query' desde $startDate..." -ForegroundColor Cyan
     
     $body = @{
@@ -175,7 +175,7 @@ function Search-FacebookWithApify {
         cookies = $Config.facebook_cookies
     } | ConvertTo-Json -Depth 10
     
-    $apifyUrl = "https://api.apify.com/v2/acts/powerai~facebook-post-search-scraper/run-sync-get-dataset-items?token=$($Config.apify_token)"
+    $apifyUrl = "https://api.apify.com/v2/acts/scraper_one~facebook-posts-search/run-sync-get-dataset-items?token=$($Config.apify_token)"
     
     try {
         # Timeout de 120 segundos para la consulta sincrónica
