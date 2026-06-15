@@ -1079,8 +1079,8 @@
                         "title":  "Cisterna de la Municipalidad de Jesús María lanza agua a simpatizantes de Roberto Sánchez acampados frente al JNE",
                         "author":  "infobaeperu",
                         "published_date":  "2026-06-10T19:30:34",
-                        "sentiment":  "neutral",
-                        "sentiment_score":  0,
+                        "sentiment":  "negativo",
+                        "sentiment_score":  -1,
                         "relevance":  1,
                         "image_url":  "https://pbs.twimg.com/profile_images/1675731031847055361/wh6qiKQg_200x200.jpg",
                         "scraped_at":  "2026-06-12T14:07:58"
