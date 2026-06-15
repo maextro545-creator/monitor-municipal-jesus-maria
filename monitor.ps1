@@ -143,7 +143,7 @@ function Get-FacebookDataFromApify {
             }
             
             return [PSCustomObject]@{
-                image_url = $imgUrl
+                image_url = Optimize-FacebookImageUrl $imgUrl
                 text = $postText
                 author = $item.pageName
             }
@@ -187,6 +187,20 @@ function Search-FacebookWithApify {
         Write-Host "    [Warning] Error en Apify al buscar en Facebook para '$query': $_" -ForegroundColor DarkYellow
     }
     return @()
+}
+
+# Función para optimizar la resolución de imágenes de Facebook si son avatares/perfiles
+function Optimize-FacebookImageUrl {
+    param (
+        [string]$url
+    )
+    if ([string]::IsNullOrEmpty($url)) {
+        return $url
+    }
+    if ($url -like "*facebook.com*" -or $url -like "*fbcdn.net*") {
+        $url = $url -replace 'ctp=[sp]\d+x\d+', 'ctp=s320x320'
+    }
+    return $url
 }
 
 # Función para extraer imagen og:image (OpenGraph) de un sitio web de forma agresiva
@@ -574,6 +588,10 @@ foreach ($query in $Config.queries) {
                 Write-Host "    [~] Portada: Obteniendo imagen de vista previa desde $realUrl ..." -ForegroundColor Gray
                 $imageUrl = Get-OGImage $realUrl
             }
+            
+            # Asegurar resolución alta para imágenes de Facebook
+            $imageUrl = Optimize-FacebookImageUrl $imageUrl
+            
             if ([string]::IsNullOrEmpty($imageUrl)) {
                 $fallbackImages = @(
                     "https://images.unsplash.com/photo-1495020689067-958852a6565d?auto=format&fit=crop&w=600&q=80", # Prensa
@@ -906,6 +924,9 @@ if ($null -ne $Config.facebook_cookies -and $Config.facebook_cookies.Count -gt 0
                     $imageUrl = "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80"
                 }
             }
+            
+            # Asegurar resolución alta para imágenes de Facebook/Avatares
+            $imageUrl = Optimize-FacebookImageUrl $imageUrl
             
             # Fecha de publicación
             $pubDate = (Get-Date).ToString("yyyy-MM-ddTHH:mm:ss")
