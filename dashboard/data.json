@@ -1439,8 +1439,8 @@
                         "title":  "#CampoDeMarte l El alcalde @Renzo_Reggiardo, supervisó las acciones de mantenimiento, mitigación y recuperación ambiental que ejecuta el Fondo Metropolitano de Inversiones (INVERMET) en el Campo de Marte, en Jesús María, luego de que se resol",
                         "author":  "MuniLima",
                         "published_date":  "2026-05-30T02:00:00",
-                        "sentiment":  "neutral",
-                        "sentiment_score":  0,
+                        "sentiment":  "positivo",
+                        "sentiment_score":  1,
                         "relevance":  1,
                         "image_url":  "https://pbs.twimg.com/media/HJlNDDvXIAIZliY.jpg:large",
                         "scraped_at":  "2026-06-15T12:48:04"
@@ -1458,5 +1458,5 @@
                         "scraped_at":  "2026-06-15T12:48:08"
                     }
                 ],
-    "updated_at":  "2026-06-15T14:25:19"
+    "updated_at":  "2026-06-15T14:25:33"
 }
