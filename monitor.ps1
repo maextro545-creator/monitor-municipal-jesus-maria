@@ -130,10 +130,23 @@ function Get-FacebookDataFromApify {
                 $imgUrl = $item.image
             } elseif ($item.image_url) {
                 $imgUrl = $item.image_url
-            } elseif ($item.attachments -and $item.attachments.Count -gt 0) {
-                $att = $item.attachments[0]
-                if ($att.media -and $att.media.image -and $att.media.image.src) {
-                    $imgUrl = $att.media.image.src
+            } elseif ($item.video_thumbnail) {
+                $imgUrl = $item.video_thumbnail
+            } elseif ($item.attachments) {
+                $att = $item.attachments
+                if ($att -is [System.Array] -and $att.Count -gt 0) {
+                    $att = $att[0]
+                }
+                if ($att) {
+                    if ($att.photo_image -and $att.photo_image.uri) {
+                        $imgUrl = $att.photo_image.uri
+                    } elseif ($att.thumbnail) {
+                        $imgUrl = $att.thumbnail
+                    } elseif ($att.media -and $att.media.image -and $att.media.image.src) {
+                        $imgUrl = $att.media.image.src
+                    } elseif ($att.media -and $att.media.image -and $att.media.image.uri) {
+                        $imgUrl = $att.media.image.uri
+                    }
                 }
             }
             
@@ -907,10 +920,21 @@ if ($null -ne $Config.facebook_cookies -and $Config.facebook_cookies.Count -gt 0
                 $imageUrl = $item.image_url
             } elseif ($item.video_thumbnail) {
                 $imageUrl = $item.video_thumbnail
-            } elseif ($item.attachments -and $item.attachments.Count -gt 0) {
-                $att = $item.attachments[0]
-                if ($att.media -and $att.media.image -and $att.media.image.src) {
-                    $imageUrl = $att.media.image.src
+            } elseif ($item.attachments) {
+                $att = $item.attachments
+                if ($att -is [System.Array] -and $att.Count -gt 0) {
+                    $att = $att[0]
+                }
+                if ($att) {
+                    if ($att.photo_image -and $att.photo_image.uri) {
+                        $imageUrl = $att.photo_image.uri
+                    } elseif ($att.thumbnail) {
+                        $imageUrl = $att.thumbnail
+                    } elseif ($att.media -and $att.media.image -and $att.media.image.src) {
+                        $imageUrl = $att.media.image.src
+                    } elseif ($att.media -and $att.media.image -and $att.media.image.uri) {
+                        $imageUrl = $att.media.image.uri
+                    }
                 }
             }
             
