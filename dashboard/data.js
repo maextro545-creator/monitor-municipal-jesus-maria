@@ -527,8 +527,8 @@
                      "source":  "facebook.com",
                      "published_date":  "2026-06-11T07:01:02",
                      "summary":  "🔴🔵 #ExitosaPerú🇵🇪🇵🇪 | En el distrito de Jesús María, una cisterna municipal arrojó agua a simpatizantes del partido Juntos por el Perú que se encontraban acampando en el frontis del JNE. 📻 95.5 FM 📡 6.1 señal digital abierta 📺 Movistar: 34 SD - 734 HD 🌐\u0026nbsp;\u0026nbsp;facebook.com",
-                     "sentiment":  "positivo",
-                     "sentiment_score":  1,
+                     "sentiment":  "negativo",
+                     "sentiment_score":  -1,
                      "relevance":  1,
                      "image_url":  "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format\u0026fit=crop\u0026w=600\u0026q=80",
                      "scraped_at":  "2026-06-12T15:08:20"
@@ -1182,5 +1182,5 @@
                         "scraped_at":  "2026-06-15T08:19:01"
                     }
                 ],
-    "updated_at":  "2026-06-15T12:26:50"
+    "updated_at":  "2026-06-15T12:26:53"
 };
