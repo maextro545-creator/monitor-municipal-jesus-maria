@@ -111,8 +111,8 @@
                      "source":  "Perú Informa",
                      "published_date":  "2026-06-10T02:00:00",
                      "summary":  "Municipalidad de Jesús María afirmó que el riego del parque ocupado por partidarios de Roberto Sánchez fue por mantenimiento programado\u0026nbsp;\u0026nbsp;Perú Informa",
-                     "sentiment":  "negativo",
-                     "sentiment_score":  -1,
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
                      "relevance":  1,
                      "image_url":  "https://www.peruinforma.com/wp-content/uploads/2026/06/JesusMariaDefensoriaJP.jpg",
                      "scraped_at":  "2026-06-12T10:39:23"
@@ -423,8 +423,8 @@
                      "source":  "facebook.com",
                      "published_date":  "2026-06-11T10:13:42",
                      "summary":  "🔴🔵 #EligeBien2026 ✅🇵🇪 | En diálogo con Exitosa, Roxana Rocha, virtual diputada de Renovación Popular, cuestionó que la alcaldía de Jesús María, dirigida por un militante de su partido, haya rociado agua a simpatizantes de JP que acampaban en uno de\u0026nbsp;\u0026nbsp;facebook.com",
-                     "sentiment":  "negativo",
-                     "sentiment_score":  -1,
+                     "sentiment":  "positivo",
+                     "sentiment_score":  1,
                      "relevance":  1,
                      "image_url":  "https://scontent-lim1-1.xx.fbcdn.net/v/t15.5256-10/721463175_1044146621427561_1522083756277972991_n.jpg?_nc_cat=104\u0026ccb=1-7\u0026_nc_sid=596eb7\u0026_nc_ohc=20gniMqN8_UQ7kNvwEvOkJT\u0026_nc_oc=AdqPSi7W6oGi9YGRpnfy_d3DeMNWz91LE2LoPdGhOcf5RsHK2lWplTji0s_Wadm6cBc\u0026_nc_zt=23\u0026_nc_ht=scontent-lim1-1.xx\u0026_nc_gid=5n7UQoP0BKyo7MRbmRUvoQ\u0026_nc_ss=7020f\u0026oh=00_Af9ZjrI39dOTsaUJZtrelQKZPmCRmOFh0sfbufI1SDiflQ\u0026oe=6A322337",
                      "scraped_at":  "2026-06-12T15:07:44"
@@ -631,8 +631,8 @@
                      "source":  "Robocop Bastidas",
                      "published_date":  "2026-06-11T08:16:03",
                      "summary":  "RECHAZAMOS TODO TIPO DE VIOLENCIA…\n\n🚨#Denuncia :\nLa Municipalidad de Jesús María, lanzan agua de riego a los simpatizantes de Juntos por el Perú, que realizan vigilia frente al JNE. El alcalde de Jesús María, Jesús Gálvez, militante del partido Renovación Popular, habría ordenado cometer dicho acto repudiable que constituye un claro de rechazo al voto popular.",
-                     "sentiment":  "negativo",
-                     "sentiment_score":  -1,
+                     "sentiment":  "positivo",
+                     "sentiment_score":  1,
                      "relevance":  1,
                      "image_url":  "https://scontent.fbrs5-1.fna.fbcdn.net/v/t15.5256-10/721801487_1588863079477496_3836346488198908133_n.jpg?_nc_cat=110\u0026ccb=1-7\u0026_nc_sid=5fad0e\u0026_nc_ohc=oOUckiSTfvQQ7kNvwGTXD-Y\u0026_nc_oc=AdozDxs0cGKUdYFhWWjhu1oJ_7D787UvsqApjpjwe-9mjxxEXuQBG55u9X48A37MJXDQeJC6Sxzi_rwhZmOVoJ1_\u0026_nc_zt=23\u0026_nc_ht=scontent.fbrs5-1.fna\u0026_nc_gid=4j1o9CwzPfc5eJ_0PhA5cA\u0026_nc_ss=7f180\u0026oh=00_Af95f8XRJ0gXk_svmM34DD9mTQ3u06Ny-oLV4d0SIZhSQA\u0026oe=6A3242D0",
                      "scraped_at":  "2026-06-12T16:42:03"
@@ -917,8 +917,8 @@
                      "source":  "apnoticias.pe",
                      "published_date":  "2026-06-15T00:53:54",
                      "summary":  "🔴 Campo de Marte: vecinos de Jesús María alzan su voz por daños ambientales | #EnVivoLR\u0026nbsp;\u0026nbsp;apnoticias.pe",
-                     "sentiment":  "negativo",
-                     "sentiment_score":  -1,
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
                      "relevance":  1,
                      "image_url":  "https://i3.ytimg.com/vi/v4gGVAqWdt0/hqdefault.jpg",
                      "scraped_at":  "2026-06-15T12:45:23"
@@ -1000,6 +1000,97 @@
                      "relevance":  1,
                      "image_url":  "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/277582447_399417698851792_1488184115177561973_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx918x925\u0026ctp=s40x40\u0026_nc_cat=109\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=NzWHQpqq_o4Q7kNvwGhG-pO\u0026_nc_oc=AdqaMiYLu1dY2R_W19sd3iBZMsZIK46v3jt3p9j42mmwu-BnV5iUtelhvvr_C9BFJmw\u0026_nc_zt=24\u0026_nc_ht=scontent-iad6-1.xx\u0026_nc_gid=UFcEWH3sXplYAxPwQNf1vQ\u0026_nc_ss=7e2a8\u0026oh=00_Af9Nx2-SGJJhn9S6DNIfPlQ1nz_iE6L15GD3cW4t-aCzAg\u0026oe=6A361C99",
                      "scraped_at":  "2026-06-15T12:48:55"
+                 },
+                 {
+                     "url":  "https://www.apnoticias.pe/video/manifestantes-que-acamparon-frente-al-jne-fueron-mojados-por-cisterna-del-municipio-de-jesus-maria-583324",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "Manifestantes que acamparon frente al JNE fueron mojados por cisterna del municipio de Jesús María - apnoticias.pe",
+                     "source":  "apnoticias.pe",
+                     "published_date":  "2026-06-11T09:25:23",
+                     "summary":  "Manifestantes que acamparon frente al JNE fueron mojados por cisterna del municipio de Jesús María\u0026nbsp;\u0026nbsp;apnoticias.pe",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://i3.ytimg.com/vi/J2HjF0geoj8/hqdefault.jpg",
+                     "scraped_at":  "2026-06-15T14:20:57"
+                 },
+                 {
+                     "url":  "https://radiojesusmaria.com.ar/2026/06/12/jesus-maria-la-oposicion-voto-en-contra-y-advirtio-contradicciones-en-el-proyecto-de-financiamiento/",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "Jesús María: La oposición votó en contra y advirtió contradicciones en el proyecto de financiamiento - Radio Jesús María",
+                     "source":  "Radio Jesús María",
+                     "published_date":  "2026-06-12T18:22:44",
+                     "summary":  "Jesús María: La oposición votó en contra y advirtió contradicciones en el proyecto de financiamiento\u0026nbsp;\u0026nbsp;Radio Jesús María",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://radiojesusmaria.com.ar/wp-content/uploads/2026/06/ZQFNHIJW3FHNNEE4XC27KYYFFY.jpg",
+                     "scraped_at":  "2026-06-15T14:21:00"
+                 },
+                 {
+                     "url":  "https://oem.com.mx/elsoldelcentro/local/jesus-maria-solicita-a-sheinbaum-retornos-vehiculares-para-reducir-accidentes-en-margaritas-30542929",
+                     "query":  "alcalde jesus maria",
+                     "title":  "Jesús María solicita a Sheinbaum retornos vehiculares para reducir accidentes en Margaritas - El Sol del Centro - El Sol de México",
+                     "source":  "El Sol de México",
+                     "published_date":  "2026-06-15T01:05:14",
+                     "summary":  "Jesús María solicita a Sheinbaum retornos vehiculares para reducir accidentes en Margaritas - El Sol del Centro\u0026nbsp;\u0026nbsp;El Sol de México",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://oem.com.mx/elsoldelcentro/img/30543648/1781465257/BASE_LANDSCAPE/1200/image.jpg",
+                     "scraped_at":  "2026-06-15T14:21:37"
+                 },
+                 {
+                     "url":  "https://nwnoticias.com/aguascalientes/intercepta-alcalde-de-jesus-maria-a-sheinbaum-urge-apoyo-para-retornos-seguros-en-la-45-norte",
+                     "query":  "alcalde jesus maria",
+                     "title":  "Intercepta alcalde de Jesús María a Sheinbaum; urge apoyo para retornos seguros en la 45 Norte - NW Noticias",
+                     "source":  "NW Noticias",
+                     "published_date":  "2026-06-13T23:04:38",
+                     "summary":  "Intercepta alcalde de Jesús María a Sheinbaum; urge apoyo para retornos seguros en la 45 Norte\u0026nbsp;\u0026nbsp;NW Noticias",
+                     "sentiment":  "positivo",
+                     "sentiment_score":  1,
+                     "relevance":  1,
+                     "image_url":  "https://nw-cdn.sfo3.cdn.digitaloceanspaces.com/uploads/2026/06/3-11.webp",
+                     "scraped_at":  "2026-06-15T14:21:41"
+                 },
+                 {
+                     "url":  "https://elclarinete.com.mx/solicita-alcalde-de-jesus-maria-retornos-viales-a-sheinbaum-para-frenar-accidentes-en-margaritas/",
+                     "query":  "alcalde jesus maria",
+                     "title":  "Solicita alcalde de Jesús María retornos viales a Sheinbaum para frenar accidentes en Margaritas - El Clarinete",
+                     "source":  "El Clarinete",
+                     "published_date":  "2026-06-14T10:33:07",
+                     "summary":  "Solicita alcalde de Jesús María retornos viales a Sheinbaum para frenar accidentes en Margaritas\u0026nbsp;\u0026nbsp;El Clarinete",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://elclarinete.com.mx/wp-content/uploads/2026/06/IMG-20260614-WA0000.jpg",
+                     "scraped_at":  "2026-06-15T14:21:56"
+                 },
+                 {
+                     "url":  "https://lpderecho.pe/fiscalia-inicia-indagacion-discriminacion-uso-camion-cisterna-dispersar-ciudadanos-realizaban-planton-jesus-maria/",
+                     "query":  "distrito de jesus maria",
+                     "title":  "Fiscalía inicia indagación previa por discriminación tras uso de camión cisterna para dispersar a ciudadanos que realizaban un plantón en Jesús María - LP | Pasión por el Derecho",
+                     "source":  "LP | Pasión por el Derecho",
+                     "published_date":  "2026-06-11T14:05:19",
+                     "summary":  "Fiscalía inicia indagación previa por discriminación tras uso de camión cisterna para dispersar a ciudadanos que realizaban un plantón en Jesús María\u0026nbsp;\u0026nbsp;LP | Pasión por el Derecho",
+                     "sentiment":  "negativo",
+                     "sentiment_score":  -1,
+                     "relevance":  1,
+                     "image_url":  "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format\u0026fit=crop\u0026w=600\u0026q=80",
+                     "scraped_at":  "2026-06-15T14:22:12"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/Exitosanoticias/posts/-informamosyopinamos-m%C3%A1s-de-100-simpatizantes-de-juntos-por-el-per%C3%BA-llegaron-a-l/1457663703063350/",
+                     "query":  "distrito de jesus maria",
+                     "title":  "🔴🔵 #InformamosYOpinamos 🗯🗯 | Más de 100 simpatizantes de Juntos por el Perú llegaron a la sede del Jurado Nacional de Elecciones en Jesús María, provenientes de varias regiones del país. Al menos 30 agentes de la PNP resguardan la zona para evita - facebook.com",
+                     "source":  "reel",
+                     "published_date":  "2026-06-12T21:46:42",
+                     "summary":  "🔴🔵 #InformamosYOpinamos 🗯🗯 | Más de 100 simpatizantes de Juntos por el Perú llegaron a la sede del Jurado Nacional de Elecciones en Jesús María, provenientes de varias regiones del país. Al menos 30 agentes de la PNP resguardan la zona para evita\u0026nbsp;\u0026nbsp;facebook.com",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format\u0026fit=crop\u0026w=600\u0026q=80",
+                     "scraped_at":  "2026-06-15T14:23:51"
                  }
              ],
     "youtube":  [
@@ -1226,6 +1317,20 @@
                         "relevance":  1,
                         "image_url":  "https://img.youtube.com/vi/CDb-szuJ-4U/hqdefault.jpg",
                         "scraped_at":  "2026-06-15T12:47:12"
+                    },
+                    {
+                        "video_id":  "3u3CNGLGpsw",
+                        "query":  "campo de marte jesus maria",
+                        "title":  "Jesús María: Renzo Reggiardo supervisa labores de recuperación del Campo de Marte",
+                        "channel":  "24 Horas",
+                        "published_date":  "2026-06-01T14:27:22",
+                        "description":  "Video monitoreado de YouTube.",
+                        "transcript_snippet":  "Menciones detectadas en el video: Jesús María: Renzo Reggiardo supervisa labores de recuperación del Campo de Marte",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://img.youtube.com/vi/3u3CNGLGpsw/hqdefault.jpg",
+                        "scraped_at":  "2026-06-15T14:25:31"
                     }
                 ],
     "twitter":  [
@@ -1439,8 +1544,8 @@
                         "title":  "#CampoDeMarte l El alcalde @Renzo_Reggiardo, supervisó las acciones de mantenimiento, mitigación y recuperación ambiental que ejecuta el Fondo Metropolitano de Inversiones (INVERMET) en el Campo de Marte, en Jesús María, luego de que se resol",
                         "author":  "MuniLima",
                         "published_date":  "2026-05-30T02:00:00",
-                        "sentiment":  "positivo",
-                        "sentiment_score":  1,
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
                         "relevance":  1,
                         "image_url":  "https://pbs.twimg.com/media/HJlNDDvXIAIZliY.jpg:large",
                         "scraped_at":  "2026-06-15T12:48:04"
@@ -1456,7 +1561,115 @@
                         "relevance":  1,
                         "image_url":  "https://pbs.twimg.com/media/HJRQ075X0AA4v9y.jpg:large",
                         "scraped_at":  "2026-06-15T12:48:08"
+                    },
+                    {
+                        "url":  "https://x.com/larepublica_pe/status/2065162296062611508",
+                        "query":  "municipalidad de jesus maria",
+                        "title":  "Hoy en #FuerteYClaro con @ManuCamacho | Simpatizantes de Sánchez denunciaron haber sido dispersados con camiones cisterna de la Municipalidad de Jesús María mientras aguardaban el avance de los resultados electorales en los exteriores del JNE.",
+                        "author":  "larepublica_pe",
+                        "published_date":  "2026-06-11T15:00:34",
+                        "sentiment":  "negativo",
+                        "sentiment_score":  -1,
+                        "relevance":  1,
+                        "image_url":  "https://pbs.twimg.com/profile_images/1631751908988780558/EPmjte4N_200x200.jpg",
+                        "scraped_at":  "2026-06-15T14:25:44"
+                    },
+                    {
+                        "url":  "https://x.com/infobaeperu/status/2065045147755171955",
+                        "query":  "municipalidad de jesus maria",
+                        "title":  "Municipalidad de Jesús María justifica riego en parque donde permanecían simpatizantes de de Roberto Sánchez",
+                        "author":  "infobaeperu",
+                        "published_date":  "2026-06-11T07:15:04",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://pbs.twimg.com/profile_images/1675731031847055361/wh6qiKQg_200x200.jpg",
+                        "scraped_at":  "2026-06-15T14:25:47"
+                    },
+                    {
+                        "url":  "https://x.com/JaimeHerreraCaj/status/2064828101478035525",
+                        "query":  "municipalidad de jesus maria",
+                        "title":  "#PerúDecide ciudadanos acamparon frente al local del Jurado Nacional de Elecciones a manera de \"alerta\" y la municipalidad de Jesús María envió camiones cisterna e inundó la zona incluso arrasando las carpas de los manifestantes llegados de todo el P",
+                        "author":  "JaimeHerreraCaj",
+                        "published_date":  "2026-06-10T16:52:36",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://pbs.twimg.com/media/HKe-NP0WwAAvObL.jpg:large",
+                        "scraped_at":  "2026-06-15T14:25:49"
+                    },
+                    {
+                        "url":  "https://x.com/Agencia_Andina/status/2065090491318747250",
+                        "query":  "municipalidad de jesus maria",
+                        "title":  "La \"13ª edición de la Cruzada y Museo Itinerante del Continente Americano-Bicentenario de América\" será inaugurada este viernes 12 de junio en el Centro Cultural Sérvulo Gutiérrez de la Municipalidad de Jesús María 👉 ow.ly/zmVW50ZaxzG",
+                        "author":  "Agencia_Andina",
+                        "published_date":  "2026-06-11T10:15:15",
+                        "sentiment":  "positivo",
+                        "sentiment_score":  1,
+                        "relevance":  1,
+                        "image_url":  "https://pbs.twimg.com/media/HKis27fWoAEUTP7.jpg:large",
+                        "scraped_at":  "2026-06-15T14:25:51"
+                    },
+                    {
+                        "url":  "https://x.com/AlexFebrero_/status/2064843109683343746",
+                        "query":  "distrito de jesus maria",
+                        "title":  "🚨La Municipalidad les acaba de echar agua a los compañeros de las regiones que estaban acampando frente a la sede del JNE en Jr Nazca en el distrito de Jesús María para defender el voto de Roberto Sánchez. #EleccionesPerú2026",
+                        "author":  "AlexFebrero_",
+                        "published_date":  "2026-06-10T17:52:14",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://pbs.twimg.com/profile_images/2042437964131622912/qR5idA6i_200x200.jpg",
+                        "scraped_at":  "2026-06-15T14:26:07"
+                    },
+                    {
+                        "url":  "https://x.com/infobaeperu/status/2066211804875731193",
+                        "query":  "distrito de jesus maria",
+                        "title":  "¡Exigen transparencia en el conteo oficial de votos! ✊ Cientos de simpatizantes del candidato presidencial Roberto Sánchez se movilizaron la tarde y noche de este sábado por el Centro de Lima hasta el distrito de Jesús María, donde se concentraron frente",
+                        "author":  "infobaeperu",
+                        "published_date":  "2026-06-14T12:30:57",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://pbs.twimg.com/media/HKynvqXXEAAx6qO.jpg:large",
+                        "scraped_at":  "2026-06-15T14:26:09"
+                    },
+                    {
+                        "url":  "https://x.com/Marimaz8/status/2065057746194427964",
+                        "query":  "distrito de jesus maria",
+                        "title":  "Otro video del maltrato a peruanos en el distrito de Jesús María, Lima, Perú. (¿Y si el alcalde sería el que está siendo mojado de esa forma, qué haría?).",
+                        "author":  "Marimaz8",
+                        "published_date":  "2026-06-11T08:05:08",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://pbs.twimg.com/profile_images/1436024433332916229/-WTG1X9F_200x200.jpg",
+                        "scraped_at":  "2026-06-15T14:26:11"
+                    },
+                    {
+                        "url":  "https://x.com/ElmerAyala_PE/status/2064856932528107885",
+                        "query":  "campo de marte",
+                        "title":  "Que doloroso que el alcalde de Jesús María por Renovación Popular (partido aliado de Keiko Fujimori), en contexto de las elecciones, vaya a tirarles aguas residuales a los manifestantes de Juntos por el Perú que se encontraban apostados pacíficamente a",
+                        "author":  "ElmerAyala_PE",
+                        "published_date":  "2026-06-10T18:47:10",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://pbs.twimg.com/media/HKfYXugW8AAP8wM.jpg:large",
+                        "scraped_at":  "2026-06-15T14:26:25"
+                    },
+                    {
+                        "url":  "https://x.com/mirecarhuas/status/2064861364301021279",
+                        "query":  "campo de marte",
+                        "title":  "Miserables de la Munic de Jesus María con alcalde Jesus Gálvez (RP) luego de dispersar a manifestantes que acampaban en JNE echándoles agua con cisterna, se burla en comunicado diciendo que riegan para conservar áreas verdes pero está denuncia",
+                        "author":  "mirecarhuas",
+                        "published_date":  "2026-06-10T19:04:47",
+                        "sentiment":  "negativo",
+                        "sentiment_score":  -1,
+                        "relevance":  1,
+                        "image_url":  "https://pbs.twimg.com/media/HKfcb76XUAA4SqD.jpg:large",
+                        "scraped_at":  "2026-06-15T14:26:29"
                     }
                 ],
-    "updated_at":  "2026-06-15T14:25:33"
+    "updated_at":  "2026-06-15T14:26:50"
 }
