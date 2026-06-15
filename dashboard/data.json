@@ -1511,8 +1511,8 @@
                         "title":  "🚨La Municipalidad les acaba de echar agua a los compañeros de las regiones que estaban acampando frente a la sede del JNE en Jr Nazca en el distrito de Jesús María para defender el voto de Roberto Sánchez. #EleccionesPerú2026",
                         "author":  "AlexFebrero_",
                         "published_date":  "2026-06-10T17:52:14",
-                        "sentiment":  "neutral",
-                        "sentiment_score":  0,
+                        "sentiment":  "negativo",
+                        "sentiment_score":  -1,
                         "relevance":  1,
                         "image_url":  "https://pbs.twimg.com/profile_images/2042437964131622912/qR5idA6i_200x200.jpg",
                         "scraped_at":  "2026-06-15T14:26:07"
@@ -1566,5 +1566,5 @@
                         "scraped_at":  "2026-06-15T14:26:29"
                     }
                 ],
-    "updated_at":  "2026-06-15T14:39:35"
+    "updated_at":  "2026-06-15T15:04:10"
 }
