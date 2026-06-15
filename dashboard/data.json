@@ -72,8 +72,8 @@
                      "source":  "ATV.pe",
                      "published_date":  "2026-06-10T22:04:06",
                      "summary":  "Manifestantes que acamparon frente al JNE fueron mojados por cisterna del municipio de Jesús María\u0026nbsp;\u0026nbsp;ATV.pe",
-                     "sentiment":  "neutral",
-                     "sentiment_score":  0,
+                     "sentiment":  "negativo",
+                     "sentiment_score":  -1,
                      "relevance":  1,
                      "image_url":  "https://alba-pe-atv.cdn.mediatiquepress.com/wp-content/uploads/2026/06/manifestantes-mojados-jesus-maria.jpg.jpeg",
                      "scraped_at":  "2026-06-12T10:39:18"
@@ -1182,5 +1182,5 @@
                         "scraped_at":  "2026-06-15T08:19:01"
                     }
                 ],
-    "updated_at":  "2026-06-15T12:27:06"
+    "updated_at":  "2026-06-15T12:27:07"
 }
