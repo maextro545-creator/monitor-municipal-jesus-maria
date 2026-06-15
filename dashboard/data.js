@@ -895,8 +895,8 @@
                         "published_date":  "2026-06-11T12:37:04",
                         "description":  "Video monitoreado de YouTube.",
                         "transcript_snippet":  "Menciones detectadas en el video: 🔴🔵 Municipalidad de Jesús María se disculpa por incidente que afectó a manifestantes de JP",
-                        "sentiment":  "neutral",
-                        "sentiment_score":  0,
+                        "sentiment":  "positivo",
+                        "sentiment_score":  1,
                         "relevance":  1,
                         "image_url":  "https://img.youtube.com/vi/VFMtBFDW1ys/hqdefault.jpg",
                         "scraped_at":  "2026-06-12T10:39:59"
@@ -1182,5 +1182,5 @@
                         "scraped_at":  "2026-06-15T08:19:01"
                     }
                 ],
-    "updated_at":  "2026-06-15T12:26:23"
+    "updated_at":  "2026-06-15T12:26:27"
 };
