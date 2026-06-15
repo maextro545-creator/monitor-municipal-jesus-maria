@@ -1031,8 +1031,8 @@
                         "title":  "🚨 Municipalidad de Jesús María lanzó agua contra manifestantes de Juntos por el Perú que acampan en los exteriores del Jurado Nacional de Elecciones a la espera de la resolución de las actas impugnadas.",
                         "author":  "Epicentro_TV",
                         "published_date":  "2026-06-10T18:10:09",
-                        "sentiment":  "positivo",
-                        "sentiment_score":  1,
+                        "sentiment":  "negativo",
+                        "sentiment_score":  -1,
                         "relevance":  1,
                         "image_url":  "https://pbs.twimg.com/media/HKfP4P2WcAEBWwK.jpg:large",
                         "scraped_at":  "2026-06-12T14:07:51"
