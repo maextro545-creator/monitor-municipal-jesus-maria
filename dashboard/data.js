@@ -176,8 +176,8 @@
                      "source":  "Infobae",
                      "published_date":  "2026-05-22T02:00:00",
                      "summary":  "Alcalde de Jesús María sobre obras inconclusas en Campo de Marte: “No vamos a poner en riesgo este pulmón ecológico”\u0026nbsp;\u0026nbsp;Infobae",
-                     "sentiment":  "positivo",
-                     "sentiment_score":  1,
+                     "sentiment":  "negativo",
+                     "sentiment_score":  -1,
                      "relevance":  1,
                      "image_url":  "https://www.infobae.com/resizer/v2/R4SUE2MZLRCSZBAL74VIML2OGE.png?auth=2e1441fa4e6839d3a74083c3f55a50ed3838f02c6bb93be730c9f617d0bcf4ae\u0026smart=true\u0026width=1200\u0026height=630\u0026quality=85",
                      "scraped_at":  "2026-06-12T10:39:32"
@@ -1182,5 +1182,5 @@
                         "scraped_at":  "2026-06-15T08:19:01"
                     }
                 ],
-    "updated_at":  "2026-06-15T12:28:05"
+    "updated_at":  "2026-06-15T12:28:07"
 };
