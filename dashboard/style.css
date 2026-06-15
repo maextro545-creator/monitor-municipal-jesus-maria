@@ -492,7 +492,7 @@ header::before {
   position: relative;
   overflow: hidden;
   height: auto;
-  min-height: 445px;
+  min-height: 320px;
 }
 
 .feed-card:hover {
