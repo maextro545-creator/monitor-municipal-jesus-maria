@@ -951,8 +951,8 @@
                         "published_date":  "2026-06-10T22:05:34",
                         "description":  "Video monitoreado de YouTube.",
                         "transcript_snippet":  "Menciones detectadas en el video: Manifestantes que acamparon frente al JNE fueron mojados por cisterna del municipio de Jesús María",
-                        "sentiment":  "neutral",
-                        "sentiment_score":  0,
+                        "sentiment":  "negativo",
+                        "sentiment_score":  -1,
                         "relevance":  1,
                         "image_url":  "https://img.youtube.com/vi/J2HjF0geoj8/hqdefault.jpg",
                         "scraped_at":  "2026-06-12T10:40:04"
