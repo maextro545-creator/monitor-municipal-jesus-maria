@@ -592,8 +592,8 @@
                      "source":  "Municipalidad de Jesús María",
                      "published_date":  "2026-06-11T12:52:14",
                      "summary":  "La Municipalidad de Jesús María lamenta los hechos ocurridos ayer en los exteriores del Jurado Nacional de Elecciones durante las labores de riego programado de las áreas verdes.\nAl respecto, el Gerente Municipal, Harry Mac Bride, ofreció disculpas a las personas afectadas por los errores incurridos por el personal de riego, y reiteró el irrestricto respeto de la comuna a las personas que ejercen sus derechos políticos. \n Asimismo, solicitó a todas las organizaciones que realizan manifestaciones a no ocupar las áreas verdes y reiteró su compromiso por la convivencia democrática",
-                     "sentiment":  "neutral",
-                     "sentiment_score":  0,
+                     "sentiment":  "positivo",
+                     "sentiment_score":  1,
                      "relevance":  1,
                      "image_url":  "https://scontent.fhph1-1.fna.fbcdn.net/v/t15.5256-10/721625134_2219020758869162_4501112768472297476_n.jpg?stp=dst-jpg_s960x960_tt6\u0026_nc_cat=104\u0026ccb=1-7\u0026_nc_sid=5fad0e\u0026_nc_ohc=DSwL8dZRDZoQ7kNvwEEUrfZ\u0026_nc_oc=Ado1iSNAG0yUq35vcoUEhKzJ_c4u55Lco1D--myTbvxqO_XrpEmYS6H7f0t4N-iu2Y4\u0026_nc_zt=23\u0026_nc_ht=scontent.fhph1-1.fna\u0026_nc_gid=GMNAf5d1dTDrWtr50rqe0w\u0026_nc_ss=7f180\u0026oh=00_Af-79UkkMJ0K2UeF_tnutrrKMLA_1aqOzeoU3EJcEBWt1g\u0026oe=6A3234E1",
                      "scraped_at":  "2026-06-12T16:42:03"
@@ -1182,5 +1182,5 @@
                         "scraped_at":  "2026-06-15T08:19:01"
                     }
                 ],
-    "updated_at":  "2026-06-15T12:26:27"
+    "updated_at":  "2026-06-15T12:26:30"
 };
