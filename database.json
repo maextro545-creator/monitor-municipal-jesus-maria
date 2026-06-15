@@ -59,8 +59,8 @@
                      "source":  "gestion.pe",
                      "published_date":  "2026-06-11T12:10:22",
                      "summary":  "Jesús María sobre simpatizantes políticos que fueron desplazados de exteriores de la JNE\u0026nbsp;\u0026nbsp;gestion.pe",
-                     "sentiment":  "neutral",
-                     "sentiment_score":  0,
+                     "sentiment":  "negativo",
+                     "sentiment_score":  -1,
                      "relevance":  1,
                      "image_url":  "https://gestion.pe/resizer/v2/JN53ZNNEH5GUVG3PAPP5SMEK3E.jpg?auth=393a7492c59517da620324316e94125633096f0f5e919e449a96731caf5c01ab\u0026width=980\u0026height=528\u0026quality=75\u0026smart=true",
                      "scraped_at":  "2026-06-12T10:39:16"
