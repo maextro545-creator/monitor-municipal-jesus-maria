@@ -314,12 +314,25 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function processData() {
         try {
-            // Combinar datos agregando la propiedad "type" ('news', 'youtube', 'twitter')
-            const newsItems = (monitorData.news || []).map(item => ({
+            // Combinar datos agregando la propiedad "type" ('news', 'facebook', 'youtube', 'twitter')
+            const rawNews = monitorData.news || [];
+            
+            // Separar posts de Facebook de las noticias web estándar
+            const fbRaw = rawNews.filter(item => item.url && item.url.includes('facebook.com'));
+            const newsRaw = rawNews.filter(item => !item.url || !item.url.includes('facebook.com'));
+
+            const newsItems = newsRaw.map(item => ({
                 ...item,
                 id: item.url,
                 type: 'news',
                 displaySource: item.source || 'Prensa'
+            }));
+            
+            const facebookItems = fbRaw.map(item => ({
+                ...item,
+                id: item.url,
+                type: 'facebook',
+                displaySource: item.source || 'Facebook'
             }));
             
             const youtubeItems = (monitorData.youtube || []).map(item => ({
@@ -337,12 +350,12 @@ document.addEventListener('DOMContentLoaded', () => {
             }));
 
             // Combinar y ordenar por fecha (más recientes primero)
-            filteredItems = [...newsItems, ...youtubeItems, ...twitterItems].sort((a, b) => {
+            filteredItems = [...newsItems, ...facebookItems, ...youtubeItems, ...twitterItems].sort((a, b) => {
                 return new Date(b.published_date || b.scraped_at) - new Date(a.published_date || a.scraped_at);
             });
 
             // Actualizar estadísticas en UI
-            updateStats(newsItems, youtubeItems, twitterItems, filteredItems);
+            updateStats(newsItems, facebookItems, youtubeItems, twitterItems, filteredItems);
             
             // Generar gráficos envolviendo en try-catch individual
             try {
@@ -359,8 +372,14 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    function updateStats(news, youtube, twitter, all) {
+    function updateStats(news, facebook, youtube, twitter, all) {
         newsCountEl.textContent = news.length;
+        
+        const facebookCountEl = document.getElementById('facebook-count');
+        if (facebookCountEl) {
+            facebookCountEl.textContent = facebook.length;
+        }
+        
         youtubeCountEl.textContent = youtube.length;
         
         const twitterCountEl = document.getElementById('twitter-count');
@@ -522,11 +541,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function applyFiltersAndRender() {
         // Filtrar de la lista maestra "filteredItems" (que contiene todos los items ordenados)
-        const newsItems = (monitorData.news || []).map(item => ({ ...item, id: item.url, type: 'news', displaySource: item.source || 'Prensa' }));
+        const rawNews = monitorData.news || [];
+        const fbRaw = rawNews.filter(item => item.url && item.url.includes('facebook.com'));
+        const newsRaw = rawNews.filter(item => !item.url || !item.url.includes('facebook.com'));
+
+        const newsItems = newsRaw.map(item => ({ ...item, id: item.url, type: 'news', displaySource: item.source || 'Prensa' }));
+        const facebookItems = fbRaw.map(item => ({ ...item, id: item.url, type: 'facebook', displaySource: item.source || 'Facebook' }));
         const youtubeItems = (monitorData.youtube || []).map(item => ({ ...item, id: item.video_id, type: 'youtube', displaySource: item.channel || 'YouTube' }));
         const twitterItems = (monitorData.twitter || []).map(item => ({ ...item, id: item.url, type: 'twitter', displaySource: `@${item.author || 'Twitter'}` }));
         
-        const allCombined = [...newsItems, ...youtubeItems, ...twitterItems].sort((a, b) => {
+        const allCombined = [...newsItems, ...facebookItems, ...youtubeItems, ...twitterItems].sort((a, b) => {
             const dateA = new Date(a.published_date || a.scraped_at);
             const dateB = new Date(b.published_date || b.scraped_at);
             return currentSortOrder === 'desc' ? dateB - dateA : dateA - dateB;
@@ -569,7 +593,7 @@ document.addEventListener('DOMContentLoaded', () => {
             
             const isYoutube = item.type === 'youtube';
             const isTwitter = item.type === 'twitter';
-            const isFacebook = item.type === 'news' && (item.url && item.url.includes('facebook.com'));
+            const isFacebook = item.type === 'facebook';
             
             let iconName = 'newspaper';
             let iconColor = 'color: var(--primary)';
@@ -739,7 +763,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function openModal(id, type) {
         // Encontrar el item
         let item = null;
-        if (type === 'news') {
+        if (type === 'news' || type === 'facebook') {
             item = monitorData.news.find(i => i.url === id);
         } else if (type === 'youtube') {
             item = monitorData.youtube.find(i => i.video_id === id);
@@ -751,10 +775,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const isYoutube = type === 'youtube';
         const isTwitter = type === 'twitter';
+        const isFacebook = type === 'facebook';
         
         // Rellenar información básica
         document.getElementById('modal-title').textContent = item.title;
-        document.getElementById('modal-source').textContent = isYoutube ? (item.channel || 'YouTube') : (isTwitter ? `@${item.author || 'Twitter'}` : (item.source || 'Prensa'));
+        document.getElementById('modal-source').textContent = isYoutube 
+            ? (item.channel || 'YouTube') 
+            : (isTwitter 
+                ? `@${item.author || 'Twitter'}` 
+                : (isFacebook 
+                    ? (item.source || 'Facebook') 
+                    : (item.source || 'Prensa')));
         document.getElementById('modal-date').textContent = new Date(item.published_date || item.scraped_at).toLocaleString('es-PE');
         
         // Sentimiento
@@ -783,6 +814,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     deleteText.textContent = "Eliminar Video";
                 } else if (type === 'twitter') {
                     deleteText.textContent = "Eliminar Tweet";
+                } else if (type === 'facebook') {
+                    deleteText.textContent = "Eliminar Publicación";
                 } else {
                     deleteText.textContent = "Eliminar Noticia";
                 }
@@ -824,9 +857,9 @@ document.addEventListener('DOMContentLoaded', () => {
             tweetPara.innerHTML = highlightKeywords(item.title);
             detailsContainer.appendChild(tweetPara);
         } else {
-            // Artículo de noticias
+            // Artículo de noticias o publicación de Facebook
             const artTitle = document.createElement('h4');
-            artTitle.textContent = "Resumen del Artículo";
+            artTitle.textContent = type === 'facebook' ? "Contenido de la Publicación" : "Resumen del Artículo";
             detailsContainer.appendChild(artTitle);
 
             const artPara = document.createElement('p');
@@ -859,7 +892,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function updateSentiment(id, type, newSentiment, sourceEl = null) {
         let item = null;
-        if (type === 'news') {
+        if (type === 'news' || type === 'facebook') {
             item = monitorData.news.find(i => i.url === id);
         } else if (type === 'youtube') {
             item = monitorData.youtube.find(i => i.video_id === id);
@@ -889,7 +922,7 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             body: JSON.stringify({
                 id: id,
-                type: type,
+                type: type === 'facebook' ? 'news' : type,
                 sentiment: newSentiment
             })
         })
@@ -949,7 +982,7 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             body: JSON.stringify({
                 id: id,
-                type: type
+                type: type === 'facebook' ? 'news' : type
             })
         })
         .then(response => {
@@ -960,7 +993,7 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .then(data => {
             // Éxito: Eliminar del estado local
-            if (type === 'news') {
+            if (type === 'news' || type === 'facebook') {
                 monitorData.news = monitorData.news.filter(i => i.url !== id);
             } else if (type === 'youtube') {
                 monitorData.youtube = monitorData.youtube.filter(i => i.video_id !== id);

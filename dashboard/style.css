@@ -1199,6 +1199,13 @@ select.sentiment-badge option[value="negativo"] {
   border: 1px solid rgba(29, 155, 240, 0.2);
 }
 
+/* Facebook Stat Icon & Badges */
+.icon-facebook {
+  background: rgba(24, 119, 242, 0.1);
+  color: #1877f2;
+  border: 1px solid rgba(24, 119, 242, 0.2);
+}
+
 /* Floating social media logo badge on card image */
 .network-floating-badge {
   position: absolute;
