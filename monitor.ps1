@@ -482,7 +482,9 @@ $UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 
 foreach ($query in $Config.queries) {
     Write-Host "  [-] Consultando para: '$query'..." -ForegroundColor Gray
-    $encodedQuery = [uri]::EscapeDataString($query)
+    # Limitar la búsqueda de noticias a los últimos 5 días
+    $queryWithTime = "$query when:5d"
+    $encodedQuery = [uri]::EscapeDataString($queryWithTime)
     $rssUrl = "https://news.google.com/rss/search?q=$encodedQuery&hl=es-419&gl=PE&ceid=PE:es"
     
     try {
@@ -725,8 +727,8 @@ $NewTwitterCount = 0
 
 foreach ($query in $Config.queries) {
     Write-Host "  [-] Consultando para: '$query'..." -ForegroundColor Gray
-    # Consulta combinada en Google News RSS para x.com y twitter.com
-    $combinedQuery = "(site:x.com OR site:twitter.com) `"$query`""
+    # Consulta combinada en Google News RSS para x.com y twitter.com, limitada a los últimos 5 días
+    $combinedQuery = "(site:x.com OR site:twitter.com) `"$query`" when:5d"
     $encodedQuery = [uri]::EscapeDataString($combinedQuery)
     $rssUrl = "https://news.google.com/rss/search?q=$encodedQuery&hl=es-419&gl=PE&ceid=PE:es"
     
