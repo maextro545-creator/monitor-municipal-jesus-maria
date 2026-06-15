@@ -19,11 +19,29 @@ window.onerror = function(message, source, lineno, colno, error) {
 
 // Esperar a que el DOM esté listo
 document.addEventListener('DOMContentLoaded', () => {
-    // Lucide icons
-    try {
-        if (typeof lucide !== 'undefined') lucide.createIcons();
-    } catch (e) {
-        console.warn("Lucide no disponible al cargar el DOM:", e);
+    // Cargar y aplicar tema guardado
+    const savedTheme = localStorage.getItem('muniwatch_theme') || 'dark';
+    if (savedTheme === 'light') {
+        document.body.classList.add('light-theme');
+        updateThemeUI(true);
+    } else {
+        updateThemeUI(false);
+    }
+
+    function updateThemeUI(isLight) {
+        const themeText = document.getElementById('theme-text');
+        const themeIcon = document.getElementById('theme-icon');
+        if (themeText) {
+            themeText.textContent = isLight ? "Tema Oscuro" : "Tema Claro";
+        }
+        if (themeIcon) {
+            themeIcon.setAttribute('data-lucide', isLight ? "moon" : "sun");
+        }
+        if (typeof lucide !== 'undefined') {
+            try {
+                lucide.createIcons();
+            } catch (e) {}
+        }
     }
 
     // PIN de seguridad
@@ -390,6 +408,24 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (loginError) loginError.style.display = 'none';
                 loginContainer.style.opacity = '1';
                 loginContainer.style.transform = 'scale(1)';
+            });
+        }
+
+        // Evento toggle del tema
+        const themeToggleBtn = document.getElementById('theme-toggle-btn');
+        if (themeToggleBtn) {
+            themeToggleBtn.addEventListener('click', () => {
+                const isLight = document.body.classList.toggle('light-theme');
+                localStorage.setItem('muniwatch_theme', isLight ? 'light' : 'dark');
+                updateThemeUI(isLight);
+                // Redibujar gráficos con los nuevos colores del tema
+                if (filteredItems && filteredItems.length > 0) {
+                    try {
+                        renderCharts(filteredItems);
+                    } catch (e) {
+                        console.error("Error redibujando gráficos al cambiar de tema:", e);
+                    }
+                }
             });
         }
 
@@ -884,124 +920,135 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
         try {
-            // 1. Gráfico de Sentimiento (Doughnut)
-        const pos = items.filter(i => i.sentiment === 'positivo').length;
-        const neu = items.filter(i => i.sentiment === 'neutral').length;
-        const neg = items.filter(i => i.sentiment === 'negativo').length;
+            const isLightTheme = document.body.classList.contains('light-theme');
+            const textLabelColor = isLightTheme ? '#0f172a' : '#e5e7eb';
+            const gridLineColor = isLightTheme ? 'rgba(15, 23, 42, 0.06)' : 'rgba(255, 255, 255, 0.05)';
+            const chartBorderColor = isLightTheme ? '#ffffff' : 'rgba(11, 15, 25, 0.9)';
+            const tickColor = isLightTheme ? '#475569' : '#9ca3af';
 
-        const ctxSent = document.getElementById('sentiment-chart').getContext('2d');
-        
-        if (sentimentChart) sentimentChart.destroy();
-        
-        sentimentChart = new Chart(ctxSent, {
-            type: 'doughnut',
-            data: {
-                labels: ['Positivo', 'Neutro', 'Negativo'],
-                datasets: [{
-                    data: [pos, neu, neg],
-                    backgroundColor: [
-                        '#10B981', // Emerald Green
-                        '#6B7280', // Gray
-                        '#EF4444'  // Coral Red
-                    ],
-                    borderColor: 'rgba(11, 15, 25, 0.9)',
-                    borderWidth: 3,
-                    hoverOffset: 4
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    legend: {
-                        position: 'bottom',
-                        labels: {
-                            color: '#e5e7eb',
-                            font: { family: 'Outfit', size: 12 }
+            // 1. Gráfico de Sentimiento (Doughnut)
+            const pos = items.filter(i => i.sentiment === 'positivo').length;
+            const neu = items.filter(i => i.sentiment === 'neutral').length;
+            const neg = items.filter(i => i.sentiment === 'negativo').length;
+
+            const ctxSent = document.getElementById('sentiment-chart').getContext('2d');
+            
+            if (sentimentChart) sentimentChart.destroy();
+            
+            sentimentChart = new Chart(ctxSent, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Positivo', 'Neutro', 'Negativo'],
+                    datasets: [{
+                        data: [pos, neu, neg],
+                        backgroundColor: [
+                            '#10B981', // Emerald Green
+                            '#6B7280', // Gray
+                            '#EF4444'  // Coral Red
+                        ],
+                        borderColor: chartBorderColor,
+                        borderWidth: 3,
+                        hoverOffset: 4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'bottom',
+                            labels: {
+                                color: textLabelColor,
+                                font: { family: 'Outfit', size: 12 }
+                            }
+                        }
+                    },
+                    cutout: '65%'
+                }
+            });
+
+            // 2. Gráfico de Tendencia de Menciones (Line Chart por día)
+            // Agrupar por fecha
+            const dateCounts = {};
+            items.forEach(item => {
+                let day = 'Reciente';
+                if (item.published_date) {
+                    try {
+                        const d = new Date(item.published_date);
+                        if (!isNaN(d.getTime())) {
+                            day = d.toLocaleDateString('es-PE', { day: '2-digit', month: '2-digit' });
+                        }
+                    } catch(e) {}
+                }
+                if (day !== 'Reciente') {
+                    dateCounts[day] = (dateCounts[day] || 0) + 1;
+                }
+            });
+
+            // Ordenar fechas cronológicamente
+            const dates = Object.keys(dateCounts).sort((a,b) => {
+                const [da, ma] = a.split('/').map(Number);
+                const [db, mb] = b.split('/').map(Number);
+                return new Date(2026, ma - 1, da) - new Date(2026, mb - 1, db);
+            });
+            
+            const counts = dates.map(d => dateCounts[d]);
+            
+            // Si tenemos muy pocos datos de fechas, agregar valores dummy para que se visualice
+            const chartLabels = dates.length > 0 ? dates : ['Hoy'];
+            const chartData = counts.length > 0 ? counts : [items.length];
+
+            const ctxTime = document.getElementById('timeline-chart').getContext('2d');
+            
+            if (timelineChart) timelineChart.destroy();
+
+            // Crear gradiente lineal para la curva
+            const primaryGradient = ctxTime.createLinearGradient(0, 0, 0, 300);
+            if (isLightTheme) {
+                primaryGradient.addColorStop(0, 'rgba(99, 102, 241, 0.2)');
+                primaryGradient.addColorStop(1, 'rgba(99, 102, 241, 0.0)');
+            } else {
+                primaryGradient.addColorStop(0, 'rgba(99, 102, 241, 0.4)');
+                primaryGradient.addColorStop(1, 'rgba(99, 102, 241, 0.0)');
+            }
+
+            timelineChart = new Chart(ctxTime, {
+                type: 'line',
+                data: {
+                    labels: chartLabels,
+                    datasets: [{
+                        label: 'Menciones',
+                        data: chartData,
+                        borderColor: '#6366F1',
+                        borderWidth: 3,
+                        fill: true,
+                        backgroundColor: primaryGradient,
+                        tension: 0.35,
+                        pointBackgroundColor: '#818cf8',
+                        pointBorderColor: isLightTheme ? '#ffffff' : '#070a13',
+                        pointBorderWidth: 2,
+                        pointRadius: 5,
+                        pointHoverRadius: 7
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false }
+                    },
+                    scales: {
+                        y: {
+                            grid: { color: gridLineColor },
+                            ticks: { color: tickColor, font: { family: 'Outfit' }, stepSize: 1 }
+                        },
+                        x: {
+                            grid: { display: false },
+                            ticks: { color: tickColor, font: { family: 'Outfit' } }
                         }
                     }
-                },
-                cutout: '65%'
-            }
-        });
-
-        // 2. Gráfico de Tendencia de Menciones (Line Chart por día)
-        // Agrupar por fecha
-        const dateCounts = {};
-        items.forEach(item => {
-            let day = 'Reciente';
-            if (item.published_date) {
-                try {
-                    const d = new Date(item.published_date);
-                    if (!isNaN(d.getTime())) {
-                        day = d.toLocaleDateString('es-PE', { day: '2-digit', month: '2-digit' });
-                    }
-                } catch(e) {}
-            }
-            if (day !== 'Reciente') {
-                dateCounts[day] = (dateCounts[day] || 0) + 1;
-            }
-        });
-
-        // Ordenar fechas cronológicamente
-        const dates = Object.keys(dateCounts).sort((a,b) => {
-            const [da, ma] = a.split('/').map(Number);
-            const [db, mb] = b.split('/').map(Number);
-            return new Date(2026, ma - 1, da) - new Date(2026, mb - 1, db);
-        });
-        
-        const counts = dates.map(d => dateCounts[d]);
-
-        // Si tenemos muy pocos datos de fechas, agregar valores dummy para que se visualice
-        const chartLabels = dates.length > 0 ? dates : ['Hoy'];
-        const chartData = counts.length > 0 ? counts : [items.length];
-
-        const ctxTime = document.getElementById('timeline-chart').getContext('2d');
-        
-        if (timelineChart) timelineChart.destroy();
-
-        // Crear gradiente lineal para la curva
-        const primaryGradient = ctxTime.createLinearGradient(0, 0, 0, 300);
-        primaryGradient.addColorStop(0, 'rgba(99, 102, 241, 0.4)');
-        primaryGradient.addColorStop(1, 'rgba(99, 102, 241, 0.0)');
-
-        timelineChart = new Chart(ctxTime, {
-            type: 'line',
-            data: {
-                labels: chartLabels,
-                datasets: [{
-                    label: 'Menciones',
-                    data: chartData,
-                    borderColor: '#6366F1',
-                    borderWidth: 3,
-                    fill: true,
-                    backgroundColor: primaryGradient,
-                    tension: 0.35,
-                    pointBackgroundColor: '#818cf8',
-                    pointBorderColor: '#070a13',
-                    pointBorderWidth: 2,
-                    pointRadius: 5,
-                    pointHoverRadius: 7
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    legend: { display: false }
-                },
-                scales: {
-                    y: {
-                        grid: { color: 'rgba(255, 255, 255, 0.05)' },
-                        ticks: { color: '#9ca3af', font: { family: 'Outfit' }, stepSize: 1 }
-                    },
-                    x: {
-                        grid: { display: false },
-                        ticks: { color: '#9ca3af', font: { family: 'Outfit' } }
-                    }
                 }
-            }
-        });
+            });
         } catch (err) {
             console.error("Error crítico en renderCharts():", err);
         }
