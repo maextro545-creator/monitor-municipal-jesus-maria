@@ -937,8 +937,8 @@
                         "published_date":  "2026-06-10T19:49:12",
                         "description":  "Video monitoreado de YouTube.",
                         "transcript_snippet":  "Menciones detectadas en el video: Municipalidad de Jesús María lanzó agua contra manifestantes de Juntos por el Perú.",
-                        "sentiment":  "neutral",
-                        "sentiment_score":  0,
+                        "sentiment":  "negativo",
+                        "sentiment_score":  -1,
                         "relevance":  1,
                         "image_url":  "https://img.youtube.com/vi/BwEZ413HUbo/hqdefault.jpg",
                         "scraped_at":  "2026-06-12T10:40:01"
@@ -1182,5 +1182,5 @@
                         "scraped_at":  "2026-06-15T08:19:01"
                     }
                 ],
-    "updated_at":  "2026-06-15T12:27:14"
+    "updated_at":  "2026-06-15T12:27:19"
 };
