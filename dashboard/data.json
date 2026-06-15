@@ -1151,8 +1151,8 @@
                         "title":  "🔴🔵 #ExitosaPerú🇵🇪🇵🇪 | En el distrito de Jesús María, el candidato presidencial Roberto Sánchez se reunió con su equipo técnico y no descartó dialogar con Keiko Fujimori con el objetivo de trabajar en la lucha contra la pobreza, independientemente de los",
                         "author":  "exitosape",
                         "published_date":  "2026-06-09T06:37:15",
-                        "sentiment":  "positivo",
-                        "sentiment_score":  1,
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
                         "relevance":  1,
                         "image_url":  "https://pbs.twimg.com/profile_images/1951269649280040961/RrU47Hlk_200x200.jpg",
                         "scraped_at":  "2026-06-12T15:09:19"
@@ -1182,5 +1182,5 @@
                         "scraped_at":  "2026-06-15T08:19:01"
                     }
                 ],
-    "updated_at":  "2026-06-15T12:27:56"
+    "updated_at":  "2026-06-15T12:27:57"
 }
