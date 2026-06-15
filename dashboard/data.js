@@ -1041,19 +1041,6 @@
                      "scraped_at":  "2026-06-15T14:21:41"
                  },
                  {
-                     "url":  "https://elclarinete.com.mx/solicita-alcalde-de-jesus-maria-retornos-viales-a-sheinbaum-para-frenar-accidentes-en-margaritas/",
-                     "query":  "alcalde jesus maria",
-                     "title":  "Solicita alcalde de Jesús María retornos viales a Sheinbaum para frenar accidentes en Margaritas - El Clarinete",
-                     "source":  "El Clarinete",
-                     "published_date":  "2026-06-14T10:33:07",
-                     "summary":  "Solicita alcalde de Jesús María retornos viales a Sheinbaum para frenar accidentes en Margaritas\u0026nbsp;\u0026nbsp;El Clarinete",
-                     "sentiment":  "neutral",
-                     "sentiment_score":  0,
-                     "relevance":  1,
-                     "image_url":  "https://elclarinete.com.mx/wp-content/uploads/2026/06/IMG-20260614-WA0000.jpg",
-                     "scraped_at":  "2026-06-15T14:21:56"
-                 },
-                 {
                      "url":  "https://lpderecho.pe/fiscalia-inicia-indagacion-discriminacion-uso-camion-cisterna-dispersar-ciudadanos-realizaban-planton-jesus-maria/",
                      "query":  "distrito de jesus maria",
                      "title":  "Fiscalía inicia indagación previa por discriminación tras uso de camión cisterna para dispersar a ciudadanos que realizaban un plantón en Jesús María - LP | Pasión por el Derecho",
@@ -1658,5 +1645,5 @@
                         "scraped_at":  "2026-06-15T14:26:29"
                     }
                 ],
-    "updated_at":  "2026-06-15T14:34:57"
+    "updated_at":  "2026-06-15T14:35:18"
 };
