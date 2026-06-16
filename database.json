@@ -1064,7 +1064,7 @@
                      "sentiment_score":  0,
                      "relevance":  1,
                      "image_url":  "https://images.unsplash.com/photo-1495020689067-958852a6565d?auto=format\u0026fit=crop\u0026w=600\u0026q=80",
-                     "scraped_at":  "2026-06-16T08:21:52"
+                     "scraped_at":  "2026-06-16T08:23:03"
                  },
                  {
                      "url":  "https://www.lavoz.com.ar/sucesos/jesus-maria-joven-alcoholizado-choco-comercio-termino-hospitalizado_0_0eQa2weonS.html",
@@ -1077,7 +1077,7 @@
                      "sentiment_score":  0,
                      "relevance":  1,
                      "image_url":  "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format\u0026fit=crop\u0026w=600\u0026q=80",
-                     "scraped_at":  "2026-06-16T08:21:54"
+                     "scraped_at":  "2026-06-16T08:23:06"
                  },
                  {
                      "url":  "https://nwnoticias.com/aguascalientes/jesus-maria-recibe-a-tushar-gandhi-en-una-jornada-dedicada-a-la-cultura-de-paz",
@@ -1090,7 +1090,7 @@
                      "sentiment_score":  0,
                      "relevance":  1,
                      "image_url":  "https://nw-cdn.sfo3.cdn.digitaloceanspaces.com/uploads/2026/06/JM-Gandhi-scaled.jpeg",
-                     "scraped_at":  "2026-06-16T08:22:14"
+                     "scraped_at":  "2026-06-16T08:23:36"
                  },
                  {
                      "url":  "https://www.atv.pe/noticia/roberto-sanchez-sin-declaraciones-jesus-maria/",
@@ -1103,85 +1103,7 @@
                      "sentiment_score":  -1,
                      "relevance":  1,
                      "image_url":  "https://alba-pe-atv.cdn.mediatiquepress.com/wp-content/uploads/2026/06/sanchez-cafeteria.jpg.jpeg",
-                     "scraped_at":  "2026-06-16T08:22:49"
-                 },
-                 {
-                     "url":  "https://www.facebook.com/reel/1317708660554562/",
-                     "query":  "municipalidad de jesus maria",
-                     "title":  "PRESENTACIÓN OFICIAL DE LA FERIA DE LOS CHICAHUALES 2026 EN JESÚS MARÍA, DEL 16 DE JULIO AL 2 DE ...",
-                     "source":  "Orbe Noticias",
-                     "published_date":  "2026-06-01T21:30:17",
-                     "summary":  "PRESENTACIÓN OFICIAL DE LA FERIA DE LOS CHICAHUALES 2026 EN JESÚS MARÍA, DEL 16 DE JULIO AL 2 DE AGOSTO 🤩🌐......\n\n#OrbeNoticias\n#terrones\nMunicipalidad de Jesús María \nFeria de los Chicahuales",
-                     "sentiment":  "neutral",
-                     "sentiment_score":  0,
-                     "relevance":  1,
-                     "image_url":  "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/472847302_938626565075251_2079643635157505164_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx809x809\u0026ctp=s320x320\u0026_nc_cat=107\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_eui2=AeE4C-LZtcEdcWJOm_UOihoq_ysA-DeYCDn_KwD4N5gIOf0RpJqtI_y_PQlUfjseBFvB910ZDL9-rEGa4Yk1xQBm\u0026_nc_ohc=7A1uMHSTtrQQ7kNvwFW6Ym4\u0026_nc_oc=Ado29Fq7nkK2bes4LhJIYjD2oWNucLfSu4ui7YmTohFmZ-Veh5X_q5qsXc2QJdtallM\u0026_nc_zt=24\u0026_nc_ht=scontent-iad6-1.xx\u0026_nc_gid=ALUP3kXaduT5cjtgHkGUbg\u0026_nc_ss=7e2a8\u0026oh=00_Af_0QkRT3CRReJh_EIBv-uOwDx_Vy337KFTl26x84_io9Q\u0026oe=6A3738AD",
-                     "scraped_at":  "2026-06-16T08:26:33"
-                 },
-                 {
-                     "url":  "https://www.facebook.com/JesusMariaMunicipio/videos/753772933971014/",
-                     "query":  "municipalidad de jesus maria",
-                     "title":  "☎️ Ring... Ring... Jesús María es una #CiudadDeVanguardia y por eso estamos estrenando el Call Ce...",
-                     "source":  "Municipio de Jesús María",
-                     "published_date":  "2025-07-09T16:11:56",
-                     "summary":  "☎️ Ring... Ring... Jesús María es una #CiudadDeVanguardia y por eso estamos estrenando el Call Center de Atención Ciudadana, donde desde un mismo número podremos recibir todas tus sugerencias y peticiones, sin filas y sin tiempos de espera desde la comodidad de tu casa. \n\nNos estamos actualizando para ti. ¡Llama YA al 449 965 0088! 📞",
-                     "sentiment":  "neutral",
-                     "sentiment_score":  0,
-                     "relevance":  1,
-                     "image_url":  "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/644902860_1233282485660577_2547087928542429277_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx751x750\u0026ctp=s320x320\u0026_nc_cat=104\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_eui2=AeEFNk_DoEKKlI7fByixG2lB3Yti9U26KAzdi2L1TbooDAN30-oijUOpq-bOwWjiU8mioNEcP_CRJqtOrUvZwcd4\u0026_nc_ohc=4fvtOCqbVXEQ7kNvwGQh52V\u0026_nc_oc=AdppKq_QiKeSuyraEgZMMme_pr-300j-bKcGWd9Rjo3DXxyL1EFpp1fPffBYUHUnr6M\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-1.xx\u0026_nc_gid=ALUP3kXaduT5cjtgHkGUbg\u0026_nc_ss=7e2a8\u0026oh=00_Af8zaGzPojnm7wRnVZlFhousidMESP2kDEG6Qemf92dQTw\u0026oe=6A37387F",
-                     "scraped_at":  "2026-06-16T08:26:33"
-                 },
-                 {
-                     "url":  "https://www.facebook.com/groups/JesusMariaNoticias/permalink/2774121849643548/",
-                     "query":  "municipalidad de jesus maria",
-                     "title":  "Perrito perdido en Jesús Maria Esquina República de Chile con Jr Máximo Abril Espalda del Ministe...",
-                     "source":  "Nelly Kus",
-                     "published_date":  "2025-05-03T09:50:45",
-                     "summary":  "Perrito perdido en Jesús Maria\nEsquina República de Chile con Jr Máximo Abril\nEspalda del Ministerio de Trabajo\nFrente al Parque Habich\nParque Polaco\nMunicipalidad de Jesús María por favor revisar las cámaras.\nEstuve paseando a mi cachorra y nadie hacía nada por recogerlo.",
-                     "sentiment":  "neutral",
-                     "sentiment_score":  0,
-                     "relevance":  1,
-                     "image_url":  "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/467404318_10230138288014284_7049381090995789974_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx888x888\u0026ctp=s320x320\u0026_nc_cat=104\u0026ccb=1-7\u0026_nc_sid=e99d92\u0026_nc_eui2=AeHBPVPxGshLC-ZBrub51g906QnNXv_ocoXpCc1e_-hyhUQrylwyB7ACC-JjutsNIn7R-oiU9oH0xW2nSjUdbJS5\u0026_nc_ohc=bUWx560FjTAQ7kNvwFxECAw\u0026_nc_oc=AdoGulnfq0HUqNRp8bbQwDzpqqpRqqvvseH-nRYO0J6siUihar3NMYvRsBGCM57quHc\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-1.xx\u0026_nc_gid=ALUP3kXaduT5cjtgHkGUbg\u0026_nc_ss=7e2a8\u0026oh=00_Af8aN-CsEGnFBA3mrTkdaq3q41L-ggy7fhN35kydl3D3Gg\u0026oe=6A370BFA",
-                     "scraped_at":  "2026-06-16T08:26:33"
-                 },
-                 {
-                     "url":  "https://www.facebook.com/laura.ponce.jm/posts/pfbid0kRdCigRMnYznnxwEF8dDKLJTG9pNKnzmZZD4b6CJbbxNrJDgqwH8aYBk53qM2YCql",
-                     "query":  "alcalde jesus maria",
-                     "title":  "Acompañé al alcalde César Medina  en la presentación del Plan de Obra Pública Municipal 2026, una...",
-                     "source":  "Laura Ponce",
-                     "published_date":  "2026-06-15T22:13:10",
-                     "summary":  "Acompañé al alcalde César Medina  en la presentación del Plan de Obra Pública Municipal 2026, una visión de trabajo que sin duda traerá importantes beneficios para Jesús María y sus comunidades. 🚧✨\n\nInvertir en infraestructura es invertir en desarrollo, movilidad y una mejor calidad de vida para las familias. 🤝💙\n\n#SiempreATuLado 💙",
-                     "sentiment":  "positivo",
-                     "sentiment_score":  1,
-                     "relevance":  1,
-                     "image_url":  "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/718190544_1456648059822038_971290636822486616_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx1254x1254\u0026ctp=s320x320\u0026_nc_cat=109\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=WIzcKqbY3LEQ7kNvwHndR7s\u0026_nc_oc=AdrE0I8jiOwtdJYaCnpt_Ni1sckOUPLI3mEzOTiEl4sYMEA_RFLnt9lUmXMP_lWiung\u0026_nc_zt=24\u0026_nc_ht=scontent-iad6-1.xx\u0026_nc_gid=fFAgqzEvny_geoVnpUuWzw\u0026_nc_ss=7e2a8\u0026oh=00_Af8wwOKtsUcWMGPK4JsD9YHTZHKHJyBq5tcPtN44nAnU0w\u0026oe=6A3732CA",
-                     "scraped_at":  "2026-06-16T08:26:59"
-                 },
-                 {
-                     "url":  "https://www.facebook.com/jesus.maria.dolores.2025/posts/pfbid02UfyLhwQfcYZSMCQBEJPqoBboMYqJpCs2SNcXNKWwWTvwBeHmZQk972Md47qb5dW3l",
-                     "query":  "alcalde jesus maria",
-                     "title":  "\"No mames perdon nomemes, quedamos solo en ponernos la playera para la inauguración… ¡y este alca...",
-                     "source":  "Jesus Maria Dolores",
-                     "published_date":  "2026-06-12T14:26:14",
-                     "summary":  "\"No mames perdon nomemes, quedamos solo en ponernos la playera para la inauguración… ¡y este alcalde de Jesús María no se la quitó ni para los honores a la bandera! 🇲🇽⚽ ¡Ya es jugador y autoridad al mismo tiempo! 😂\"\n\n  #JesusMariaConOrgullo \n#HonoresConPlayera #NoMames \n #AlcaldeYJugador",
-                     "sentiment":  "positivo",
-                     "sentiment_score":  1,
-                     "relevance":  1,
-                     "image_url":  "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/678408021_989781970249852_1287085883415336914_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx2048x2048\u0026ctp=s320x320\u0026_nc_cat=102\u0026ccb=1-7\u0026_nc_sid=1d2534\u0026_nc_ohc=alhXZsk7mLQQ7kNvwEM1G8A\u0026_nc_oc=AdqVjNuXEC1INoeYvH3eOvQBmCKuD8j_R8aBnZQdnO8JcjZDJgAddkhKVNXMkNdDmhI\u0026_nc_zt=24\u0026_nc_ht=scontent-iad6-1.xx\u0026_nc_gid=fFAgqzEvny_geoVnpUuWzw\u0026_nc_ss=7e2a8\u0026oh=00_Af9ajpJaTMf9DQ7pi6zDzi-wXodGIJlVNf7_zsdkZULWSg\u0026oe=6A373C7A",
-                     "scraped_at":  "2026-06-16T08:26:59"
-                 },
-                 {
-                     "url":  "https://www.facebook.com/JesusMariaMunicipio/posts/pfbid0bKhmgDfutN2fKVhWmGmE21YBL2bABDjyubzMXRgxeR2dnTkpU5jjcqvvohha3kdcl",
-                     "query":  "alcalde jesus maria",
-                     "title":  "El Gobierno Municipal de Jesús María, encabezado por el alcalde César Medina, en compañía de el s...",
-                     "source":  "Municipio de Jesús María",
-                     "published_date":  "2026-06-15T22:40:57",
-                     "summary":  "El Gobierno Municipal de Jesús María, encabezado por el alcalde César Medina, en compañía de el secretario de Obras Públicas y el Director General de CAPAS, presentaron el Plan de Obra 2026, que contempla una inversión histórica de casi 200 millones de pesos destinada a fortalecer la infraestructura y el desarrollo del municipio. 🙌🏻\n\nA través de 25 acciones estratégicas en vialidades, espacios públicos, infraestructura hidráulica y sanitaria, se continuará impulsando mejores servicios, más espacios para la convivencia familiar y mayores oportunidades para las comunidades de Jesús María. 👏🏻\n\n#JesúsMaríaNosUne con planeación, visión y trabajo coordinado, se construye un municipio más ordenado, funcional y preparado para los retos del futuro.✨\n\n#JesúsMaría #CiudadDeVanguardia",
-                     "sentiment":  "positivo",
-                     "sentiment_score":  1,
-                     "relevance":  1,
-                     "image_url":  "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/644902860_1233282485660577_2547087928542429277_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx751x750\u0026ctp=s320x320\u0026_nc_cat=104\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=4fvtOCqbVXEQ7kNvwGOQJMK\u0026_nc_oc=AdqznHarFbKBPa1O_BKcXa54kCRJVqEzml8gEcAviICNSf_LAOZc9iDrz6SZZgu15Ws\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-1.xx\u0026_nc_gid=fFAgqzEvny_geoVnpUuWzw\u0026_nc_ss=7e2a8\u0026oh=00_Af--ToEPaFbaeFsqkY95-bDUx55x16h-f74OreIbdNdHcA\u0026oe=6A37387F",
-                     "scraped_at":  "2026-06-16T08:26:59"
+                     "scraped_at":  "2026-06-16T08:24:18"
                  }
              ],
     "youtube":  [
@@ -1421,7 +1343,7 @@
                         "sentiment_score":  0,
                         "relevance":  1,
                         "image_url":  "https://img.youtube.com/vi/kRAnJuOISVs/hqdefault.jpg",
-                        "scraped_at":  "2026-06-16T08:25:05"
+                        "scraped_at":  "2026-06-16T08:26:21"
                     }
                 ],
     "twitter":  [
@@ -1771,7 +1693,7 @@
                         "sentiment_score":  0,
                         "relevance":  1,
                         "image_url":  "https://pbs.twimg.com/profile_images/726092871007375362/V5rd0WzJ_200x200.jpg",
-                        "scraped_at":  "2026-06-16T08:25:22"
+                        "scraped_at":  "2026-06-16T08:26:33"
                     },
                     {
                         "url":  "https://x.com/Chinapolodomin/status/2065116823616475287",
@@ -1783,7 +1705,7 @@
                         "sentiment_score":  0,
                         "relevance":  1,
                         "image_url":  "https://pbs.twimg.com/media/HKjEnjxW4AA9iO7.jpg:large",
-                        "scraped_at":  "2026-06-16T08:25:34"
+                        "scraped_at":  "2026-06-16T08:26:41"
                     },
                     {
                         "url":  "https://x.com/Jessyjames2017/status/2065115509532631059",
@@ -1795,7 +1717,7 @@
                         "sentiment_score":  -1,
                         "relevance":  1,
                         "image_url":  "https://pbs.twimg.com/profile_images/1932773903572586496/88on3s9W_200x200.jpg",
-                        "scraped_at":  "2026-06-16T08:25:37"
+                        "scraped_at":  "2026-06-16T08:26:43"
                     },
                     {
                         "url":  "https://x.com/RodrigoCT_94/status/2066738223598936220",
@@ -1807,7 +1729,7 @@
                         "sentiment_score":  0,
                         "relevance":  1,
                         "image_url":  "https://pbs.twimg.com/media/HK6GuusW4AA2XxD.jpg:large",
-                        "scraped_at":  "2026-06-16T08:26:00"
+                        "scraped_at":  "2026-06-16T08:27:02"
                     },
                     {
                         "url":  "https://x.com/actualidadspda/status/2066662316825817527",
@@ -1819,7 +1741,7 @@
                         "sentiment_score":  1,
                         "relevance":  1,
                         "image_url":  "https://pbs.twimg.com/profile_images/1331609085310099456/aHf46Efm_200x200.jpg",
-                        "scraped_at":  "2026-06-16T08:26:02"
+                        "scraped_at":  "2026-06-16T08:27:04"
                     },
                     {
                         "url":  "https://x.com/inforegion/status/2066634352554078348",
@@ -1831,7 +1753,7 @@
                         "sentiment_score":  0,
                         "relevance":  1,
                         "image_url":  "https://pbs.twimg.com/profile_images/1698866830536826880/zxVU-rLj_200x200.jpg",
-                        "scraped_at":  "2026-06-16T08:26:05"
+                        "scraped_at":  "2026-06-16T08:27:06"
                     }
                 ]
 }
