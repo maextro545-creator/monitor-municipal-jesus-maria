@@ -1104,6 +1104,136 @@
                      "relevance":  1,
                      "image_url":  "https://alba-pe-atv.cdn.mediatiquepress.com/wp-content/uploads/2026/06/sanchez-cafeteria.jpg.jpeg",
                      "scraped_at":  "2026-06-16T08:24:18"
+                 },
+                 {
+                     "url":  "https://laradiodetotoral.com.ar/jesus-maria-integra-el-portfolio-de-proyectos-innovadores-de-la-unc/",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "JESÚS MARÍA INTEGRA EL PORTFOLIO DE PROYECTOS INNOVADORES DE LA UNC - Estación FM",
+                     "source":  "Estación FM",
+                     "published_date":  "2026-06-12T07:54:53",
+                     "summary":  "JESÚS MARÍA INTEGRA EL PORTFOLIO DE PROYECTOS INNOVADORES DE LA UNC\u0026nbsp;\u0026nbsp;Estación FM",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://laradiodetotoral.com.ar/wp-content/uploads/2026/06/ca79a87f-fc0c-4dc1-aa00-ecc175bf943e.jpg",
+                     "scraped_at":  "2026-06-16T16:16:46"
+                 },
+                 {
+                     "url":  "https://laradiodetotoral.com.ar/jesus-maria-lleva-la-seguridad-vial-a-las-aulas-comenzo-la-capacitacion-en-conduccion-responsable/",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "JESÚS MARÍA LLEVA LA SEGURIDAD VIAL A LAS AULAS: COMENZÓ LA CAPACITACIÓN EN CONDUCCIÓN RESPONSABLE - Estación FM",
+                     "source":  "Estación FM",
+                     "published_date":  "2026-06-16T11:18:09",
+                     "summary":  "JESÚS MARÍA LLEVA LA SEGURIDAD VIAL A LAS AULAS: COMENZÓ LA CAPACITACIÓN EN CONDUCCIÓN RESPONSABLE\u0026nbsp;\u0026nbsp;Estación FM",
+                     "sentiment":  "positivo",
+                     "sentiment_score":  1,
+                     "relevance":  1,
+                     "image_url":  "https://laradiodetotoral.com.ar/wp-content/uploads/2026/06/1267dbc7-dd3a-4f25-b985-f991192d4af1.jpg",
+                     "scraped_at":  "2026-06-16T16:16:57"
+                 },
+                 {
+                     "url":  "https://diarioeldespertador.com.ar/contenido/39986/emprendedores-egresados-de-la-incubadora-de-jesus-maria-presentan-fabrica-de-ide",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "Emprendedores egresados de la Incubadora de Jesús María presentan “Fábrica de Ideas” - diarioeldespertador.com.ar",
+                     "source":  "diarioeldespertador.com.ar",
+                     "published_date":  "2026-06-12T15:01:55",
+                     "summary":  "Emprendedores egresados de la Incubadora de Jesús María presentan “Fábrica de Ideas”\u0026nbsp;\u0026nbsp;diarioeldespertador.com.ar",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format\u0026fit=crop\u0026w=600\u0026q=80",
+                     "scraped_at":  "2026-06-16T16:16:59"
+                 },
+                 {
+                     "url":  "https://laradiodetotoral.com.ar/asueto-administrativo-por-la-celebracion-del-patrono-de-jesus-maria/",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "ASUETO ADMINISTRATIVO POR LA CELEBRACIÓN DEL PATRONO DE JESUS MARÍA - Estación FM",
+                     "source":  "Estación FM",
+                     "published_date":  "2026-06-12T07:56:05",
+                     "summary":  "ASUETO ADMINISTRATIVO POR LA CELEBRACIÓN DEL PATRONO DE JESUS MARÍA\u0026nbsp;\u0026nbsp;Estación FM",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://laradiodetotoral.com.ar/wp-content/uploads/2026/06/4e673228-fe01-4d20-8cb3-d3b218296d64.jpg",
+                     "scraped_at":  "2026-06-16T16:17:05"
+                 },
+                 {
+                     "url":  "https://laradiodetotoral.com.ar/jesus-maria-impulsa-la-internacionalizacion-de-emprendedores-con-un-taller-de-sensibilizacion-sobre-exportaciones/",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "JESUS MARÍA IMPULSA LA INTERNACIONALIZACIÓN DE EMPRENDEDORES CON UN TALLER DE SENSIBILIZACIÓN SOBRE EXPORTACIONES - Estación FM",
+                     "source":  "Estación FM",
+                     "published_date":  "2026-06-16T07:41:47",
+                     "summary":  "JESUS MARÍA IMPULSA LA INTERNACIONALIZACIÓN DE EMPRENDEDORES CON UN TALLER DE SENSIBILIZACIÓN SOBRE EXPORTACIONES\u0026nbsp;\u0026nbsp;Estación FM",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://laradiodetotoral.com.ar/wp-content/uploads/2026/06/SENSIBILI.jpg",
+                     "scraped_at":  "2026-06-16T16:17:08"
+                 },
+                 {
+                     "url":  "https://laradiodetotoral.com.ar/alberto-trimbooli-experto-en-salud-mental-llega-a-jesus-mariaa-para-abordar-el-impacto-de-las-redes-sociales-en-las-nuevas-generaciones/",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "ALBERTO TRIMBOLI, EXPERTO EN SALUD MENTAL, LLEGA A JESUS MARIA PARA ABORDAR EL IMPACTO DE LAS REDES SOCIALES EN LAS NUEVAS GENERACIONES - Estación FM",
+                     "source":  "Estación FM",
+                     "published_date":  "2026-06-16T10:46:49",
+                     "summary":  "ALBERTO TRIMBOLI, EXPERTO EN SALUD MENTAL, LLEGA A JESUS MARIA PARA ABORDAR EL IMPACTO DE LAS REDES SOCIALES EN LAS NUEVAS GENERACIONES\u0026nbsp;\u0026nbsp;Estación FM",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://laradiodetotoral.com.ar/wp-content/uploads/2026/06/TRIMBOLiiI.jpg",
+                     "scraped_at":  "2026-06-16T16:17:12"
+                 },
+                 {
+                     "url":  "https://oem.com.mx/elsoldelcentro/local/jesus-maria-invertira-cerca-de-200-millones-de-pesos-en-obras-publicas-estrategicas-durante-el-ano-2026-30567772",
+                     "query":  "alcalde jesus maria",
+                     "title":  "Jesús María invertirá cerca de 200 millones de pesos en obras públicas estratégicas durante el año 2026 - El Sol de México",
+                     "source":  "El Sol de México",
+                     "published_date":  "2026-06-16T11:02:26",
+                     "summary":  "Jesús María invertirá cerca de 200 millones de pesos en obras públicas estratégicas durante el año 2026\u0026nbsp;\u0026nbsp;El Sol de México",
+                     "sentiment":  "positivo",
+                     "sentiment_score":  1,
+                     "relevance":  1,
+                     "image_url":  "https://oem.com.mx/elsoldelcentro/img/30574038/1781607263/BASE_LANDSCAPE/1200/image.jpg",
+                     "scraped_at":  "2026-06-16T16:17:27"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/reel/1317708660554562/",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "PRESENTACIÓN OFICIAL DE LA FERIA DE LOS CHICAHUALES 2026 EN JESÚS MARÍA, DEL 16 DE JULIO AL 2 DE ...",
+                     "source":  "Orbe Noticias",
+                     "published_date":  "2026-06-01T21:30:17",
+                     "summary":  "PRESENTACIÓN OFICIAL DE LA FERIA DE LOS CHICAHUALES 2026 EN JESÚS MARÍA, DEL 16 DE JULIO AL 2 DE AGOSTO 🤩🌐......\n\n#OrbeNoticias\n#terrones\nMunicipalidad de Jesús María \nFeria de los Chicahuales",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/472847302_938626565075251_2079643635157505164_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx809x809\u0026ctp=s320x320\u0026_nc_cat=107\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=7A1uMHSTtrQQ7kNvwESEoPJ\u0026_nc_oc=AdqWcE_tqptWVYV7wTMMO4eJw8_jZjXaqppIq4MfID3hLmDAkFsBEYqHN5jCa1Vr-Sw\u0026_nc_zt=24\u0026_nc_ht=scontent-iad6-1.xx\u0026_nc_gid=_TB5bJeWMUYuwF8C23LAug\u0026_nc_ss=7e2a8\u0026oh=00_Af925TD-bASdLTq8sOdrPK-Aop_7F_YLX62rZKBUK1-RSA\u0026oe=6A37A92D",
+                     "scraped_at":  "2026-06-16T16:21:09"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/JesusMariaMunicipio/videos/753772933971014/",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "☎️ Ring... Ring... Jesús María es una #CiudadDeVanguardia y por eso estamos estrenando el Call Ce...",
+                     "source":  "Municipio de Jesús María",
+                     "published_date":  "2025-07-09T16:11:56",
+                     "summary":  "☎️ Ring... Ring... Jesús María es una #CiudadDeVanguardia y por eso estamos estrenando el Call Center de Atención Ciudadana, donde desde un mismo número podremos recibir todas tus sugerencias y peticiones, sin filas y sin tiempos de espera desde la comodidad de tu casa. \n\nNos estamos actualizando para ti. ¡Llama YA al 449 965 0088! 📞",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/644902860_1233282485660577_2547087928542429277_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx751x750\u0026ctp=s320x320\u0026_nc_cat=104\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=4fvtOCqbVXEQ7kNvwGCBGRT\u0026_nc_oc=AdqPLA9A0Ic90xZm7YESVNS9dmDjKA4AbOfppqEYUUHGL0TcIbvD2fG4ceHEA_n-ZJY\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-1.xx\u0026_nc_gid=_TB5bJeWMUYuwF8C23LAug\u0026_nc_ss=7e2a8\u0026oh=00_Af-8G6ciLMgtDJZKo4FxZ2dvr_k2BCvDTT2sbeKvhw0-vA\u0026oe=6A37A8FF",
+                     "scraped_at":  "2026-06-16T16:21:09"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/groups/JesusMariaNoticias/permalink/2774121849643548/",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "Perrito perdido en Jesús Maria Esquina República de Chile con Jr Máximo Abril Espalda del Ministe...",
+                     "source":  "Nelly Kus",
+                     "published_date":  "2025-05-03T09:50:45",
+                     "summary":  "Perrito perdido en Jesús Maria\nEsquina República de Chile con Jr Máximo Abril\nEspalda del Ministerio de Trabajo\nFrente al Parque Habich\nParque Polaco\nMunicipalidad de Jesús María por favor revisar las cámaras.\nEstuve paseando a mi cachorra y nadie hacía nada por recogerlo.",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/467404318_10230138288014284_7049381090995789974_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx888x888\u0026ctp=s320x320\u0026_nc_cat=104\u0026ccb=1-7\u0026_nc_sid=e99d92\u0026_nc_ohc=bUWx560FjTAQ7kNvwHMYMsy\u0026_nc_oc=AdonV1rrSr6pFklGmIye9pCwiWF9qA0c9hlLebo4NDMSY9xeqlF8Bf7wXKHogpDXNyU\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-1.xx\u0026_nc_gid=_TB5bJeWMUYuwF8C23LAug\u0026_nc_ss=7e2a8\u0026oh=00_Af9uFcSQwxlXtxjv_uLpBcH-H_M_V2DIlQaDiX3JwoemGg\u0026oe=6A377C7A",
+                     "scraped_at":  "2026-06-16T16:21:09"
                  }
              ],
     "youtube":  [
@@ -1754,7 +1884,31 @@
                         "relevance":  1,
                         "image_url":  "https://pbs.twimg.com/profile_images/1698866830536826880/zxVU-rLj_200x200.jpg",
                         "scraped_at":  "2026-06-16T08:27:06"
+                    },
+                    {
+                        "url":  "https://x.com/MimpConadis/status/2066730719842312403",
+                        "query":  "municipalidad de jesus maria",
+                        "title":  "#NotaDePrensaAccesible | Te invitamos a visitar la nueva edición de Ferias por la Igualdad, organizada por el MIMP Conadis y la Municipalidad de Jesús María, con la participación de emprendedores con discapacidad, quienes vienen dando a conocer sus",
+                        "author":  "MimpConadis",
+                        "published_date":  "2026-06-15T22:52:56",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://pbs.twimg.com/profile_images/1952405635624054784/rQmbZSC8_200x200.jpg",
+                        "scraped_at":  "2026-06-16T16:20:14"
+                    },
+                    {
+                        "url":  "https://x.com/mcricardo_/status/2066893266671321167",
+                        "query":  "campo de marte",
+                        "title":  "Juntos por el Perú convoca a una Gran Movilización Nacional para este viernes 19 de junio. La concentración será a las 4:00 pm en el Campo de Marte, Jesús María. Denuncian \"falta de transparencia de los organismos que llevan el proceso electoral\", \"cam",
+                        "author":  "mcricardo_",
+                        "published_date":  "2026-06-16T09:38:50",
+                        "sentiment":  "negativo",
+                        "sentiment_score":  -1,
+                        "relevance":  1,
+                        "image_url":  "https://pbs.twimg.com/media/HK8AKCPXsAE0-TZ.jpg:large",
+                        "scraped_at":  "2026-06-16T16:20:54"
                     }
                 ],
-    "updated_at":  "2026-06-16T08:27:35"
+    "updated_at":  "2026-06-16T16:21:23"
 };
