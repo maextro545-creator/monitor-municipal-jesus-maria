@@ -52,6 +52,15 @@ while ($listener.IsListening) {
             $body = $reader.ReadToEnd()
             $params = $body | ConvertFrom-Json
             
+            if ($params.pin -ne "1234") {
+                $res.StatusCode = 401
+                $res.ContentType = "application/json"
+                $resBytes = [System.Text.Encoding]::UTF8.GetBytes('{"error":"PIN incorrecto"}')
+                $res.OutputStream.Write($resBytes, 0, $resBytes.Length)
+                $res.Close()
+                continue
+            }
+            
             Write-Host "[API] Solicitud de cambio de sentimiento recibida para el ID: $($params.id) -> $($params.sentiment)" -ForegroundColor Cyan
             
             $DbPath = Join-Path $ScriptDir "database.json"
@@ -152,6 +161,15 @@ while ($listener.IsListening) {
             $reader = New-Object System.IO.StreamReader($req.InputStream, [System.Text.Encoding]::UTF8)
             $body = $reader.ReadToEnd()
             $params = $body | ConvertFrom-Json
+            
+            if ($params.pin -ne "1234") {
+                $res.StatusCode = 401
+                $res.ContentType = "application/json"
+                $resBytes = [System.Text.Encoding]::UTF8.GetBytes('{"error":"PIN incorrecto"}')
+                $res.OutputStream.Write($resBytes, 0, $resBytes.Length)
+                $res.Close()
+                continue
+            }
             
             Write-Host "[API] Solicitud de eliminación recibida para el ID: $($params.id) de tipo $($params.type)" -ForegroundColor Red
             

@@ -104,6 +104,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Sesión expirada
                 sessionStorage.removeItem('muniwatch_authenticated');
                 sessionStorage.removeItem('muniwatch_session_time');
+                sessionStorage.removeItem('muniwatch_pin');
                 showLogin();
                 
                 // Mostrar aviso de inactividad
@@ -179,6 +180,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (pin === AUTH_PIN) {
             sessionStorage.setItem('muniwatch_authenticated', 'true');
             sessionStorage.setItem('muniwatch_session_time', Date.now().toString());
+            sessionStorage.setItem('muniwatch_pin', pin);
             if (loginError) loginError.style.display = 'none';
             
             // Agregar detectores de actividad tras iniciar sesión
@@ -418,6 +420,7 @@ document.addEventListener('DOMContentLoaded', () => {
             logoutBtn.parentNode.replaceChild(newLogoutBtn, logoutBtn);
             newLogoutBtn.addEventListener('click', () => {
                 sessionStorage.removeItem('muniwatch_authenticated');
+                sessionStorage.removeItem('muniwatch_pin');
                 showLogin();
                 // Limpiar campos de login
                 if (loginPinHidden) {
@@ -914,8 +917,8 @@ document.addEventListener('DOMContentLoaded', () => {
             sentBadge.className = 'sentiment-badge neutral';
         }
 
-        const host = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' ? '' : 'http://localhost:5000';
-        fetch(host + '/api/update-sentiment', {
+        const pin = sessionStorage.getItem('muniwatch_pin') || '';
+        fetch('/api/update-sentiment', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -923,7 +926,8 @@ document.addEventListener('DOMContentLoaded', () => {
             body: JSON.stringify({
                 id: id,
                 type: type === 'facebook' ? 'news' : type,
-                sentiment: newSentiment
+                sentiment: newSentiment,
+                pin: pin
             })
         })
         .then(response => {
@@ -962,7 +966,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (sentimentSelect) {
                 sentimentSelect.value = item.sentiment;
             }
-            alert('No se pudo guardar el cambio. Asegúrate de tener el servidor del dashboard ejecutándose localmente (run-dashboard.ps1).');
+            alert('No se pudo guardar el cambio. Asegúrate de ingresar el PIN correcto y tener el servidor local ejecutándose (si es local) o configurar GITHUB_TOKEN en Vercel (si estás en producción).');
         });
     }
 
@@ -974,15 +978,16 @@ document.addEventListener('DOMContentLoaded', () => {
             try { lucide.createIcons(); } catch (e) {}
         }
 
-        const host = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' ? '' : 'http://localhost:5000';
-        fetch(host + '/api/delete-item', {
+        const pin = sessionStorage.getItem('muniwatch_pin') || '';
+        fetch('/api/delete-item', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({
                 id: id,
-                type: type === 'facebook' ? 'news' : type
+                type: type === 'facebook' ? 'news' : type,
+                pin: pin
             })
         })
         .then(response => {
@@ -1011,7 +1016,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (typeof lucide !== 'undefined') {
                 try { lucide.createIcons(); } catch (e) {}
             }
-            alert('No se pudo eliminar el elemento. Asegúrate de tener el servidor del dashboard ejecutándose localmente (run-dashboard.ps1).');
+            alert('No se pudo eliminar el elemento. Asegúrate de ingresar el PIN correcto y tener el servidor local ejecutándose (si es local) o configurar GITHUB_TOKEN en Vercel (si estás en producción).');
         });
     }
 
