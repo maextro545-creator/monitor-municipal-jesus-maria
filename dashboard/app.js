@@ -930,9 +930,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 pin: pin
             })
         })
-        .then(response => {
+        .then(async response => {
             if (!response.ok) {
-                throw new Error('Error al conectar con el servidor local');
+                let errMsg = 'Error de red';
+                try {
+                    const errData = await response.json();
+                    if (errData && errData.error) errMsg = errData.error;
+                } catch(e) {}
+                throw new Error(errMsg);
             }
             return response.json();
         })
@@ -966,7 +971,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (sentimentSelect) {
                 sentimentSelect.value = item.sentiment;
             }
-            alert('No se pudo guardar el cambio. Asegúrate de ingresar el PIN correcto y tener el servidor local ejecutándose (si es local) o configurar GITHUB_TOKEN en Vercel (si estás en producción).');
+            alert('No se pudo guardar el cambio: ' + err.message);
         });
     }
 
@@ -990,9 +995,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 pin: pin
             })
         })
-        .then(response => {
+        .then(async response => {
             if (!response.ok) {
-                throw new Error('Error al conectar con el servidor local');
+                let errMsg = 'Error de red';
+                try {
+                    const errData = await response.json();
+                    if (errData && errData.error) errMsg = errData.error;
+                } catch(e) {}
+                throw new Error(errMsg);
             }
             return response.json();
         })
@@ -1016,7 +1026,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (typeof lucide !== 'undefined') {
                 try { lucide.createIcons(); } catch (e) {}
             }
-            alert('No se pudo eliminar el elemento. Asegúrate de ingresar el PIN correcto y tener el servidor local ejecutándose (si es local) o configurar GITHUB_TOKEN en Vercel (si estás en producción).');
+            alert('No se pudo eliminar el elemento: ' + err.message);
         });
     }
 
