@@ -1234,6 +1234,97 @@
                      "relevance":  1,
                      "image_url":  "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/467404318_10230138288014284_7049381090995789974_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx888x888\u0026ctp=s320x320\u0026_nc_cat=104\u0026ccb=1-7\u0026_nc_sid=e99d92\u0026_nc_ohc=bUWx560FjTAQ7kNvwHMYMsy\u0026_nc_oc=AdonV1rrSr6pFklGmIye9pCwiWF9qA0c9hlLebo4NDMSY9xeqlF8Bf7wXKHogpDXNyU\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-1.xx\u0026_nc_gid=_TB5bJeWMUYuwF8C23LAug\u0026_nc_ss=7e2a8\u0026oh=00_Af9uFcSQwxlXtxjv_uLpBcH-H_M_V2DIlQaDiX3JwoemGg\u0026oe=6A377C7A",
                      "scraped_at":  "2026-06-16T16:21:09"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/Exitosanoticias/videos/-exitosateescucha-la-denominada-marcha-toma-del-per%C3%BA-por-los-simpatizantes-de-ju/1364656745167174/",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "Exitosa Noticias. . 🔴🔵 #ExitosaTeEscucha 🎤 | La denominada marcha \"Toma del Perú\" por los simpatizantes de Juntos por el Perú llegaron hasta los exteriores del Jurado Nacional de Elecciones en Jesús María. 📻 95.5 FM 📡 6.1 señal digital abierta 📺 Movist - facebook.com",
+                     "source":  "reel",
+                     "published_date":  "2026-06-13T21:02:44",
+                     "summary":  "Exitosa Noticias. . 🔴🔵 #ExitosaTeEscucha 🎤 | La denominada marcha \"Toma del Perú\" por los simpatizantes de Juntos por el Perú llegaron hasta los exteriores del Jurado Nacional de Elecciones en Jesús María. 📻 95.5 FM 📡 6.1 señal digital abierta 📺 Movist\u0026nbsp;\u0026nbsp;facebook.com",
+                     "sentiment":  "positivo",
+                     "sentiment_score":  1,
+                     "relevance":  1,
+                     "image_url":  "https://scontent-lim1-1.xx.fbcdn.net/v/t15.5256-10/722075273_2063168201220431_8601934854589228218_n.jpg?_nc_cat=109\u0026ccb=1-7\u0026_nc_sid=a27664\u0026_nc_ohc=jO0EHV7m7akQ7kNvwFxVuMQ\u0026_nc_oc=AdrUmQJvDtFODtXxCf414YQALhsVD-aX-dCpEz0_e2gTCXXXjZNZ_mNPPxOrWauDG8A\u0026_nc_zt=23\u0026_nc_ht=scontent-lim1-1.xx\u0026_nc_gid=zZQK5918y18jsS8s7r4KIg\u0026_nc_ss=70100\u0026oh=00_Af_PascKFbhKusyfyDF0DOy-WyJ2qtBgeulGpj1PH6fuhg\u0026oe=6A385991",
+                     "scraped_at":  "2026-06-17T08:20:24"
+                 },
+                 {
+                     "url":  "https://nwnoticias.com/aguascalientes/estas-son-las-25-obras-prioritarias-que-ejecutara-jesus-maria-con-casi-200-mdp",
+                     "query":  "alcalde jesus maria",
+                     "title":  "Estas son las 25 obras prioritarias que ejecutará Jesús María con casi 200 mdp - NW Noticias",
+                     "source":  "NW Noticias",
+                     "published_date":  "2026-06-17T00:15:48",
+                     "summary":  "Estas son las 25 obras prioritarias que ejecutará Jesús María con casi 200 mdp\u0026nbsp;\u0026nbsp;NW Noticias",
+                     "sentiment":  "positivo",
+                     "sentiment_score":  1,
+                     "relevance":  1,
+                     "image_url":  "https://nw-cdn.sfo3.cdn.digitaloceanspaces.com/uploads/2026/06/Parque-JM-scaled.jpeg",
+                     "scraped_at":  "2026-06-17T08:20:39"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/juventuddejesusmaria/posts/pfbid02z79N9H4jiyXSFBHXFLu2Ljh4gFzknZqjmpAKePhcKN1RyP8eNCagfQ4W1jZWjoWSl",
+                     "query":  "alcalde jesus maria",
+                     "title":  "¡Se vienen grandes cosas para Jesús María! 🚧✨   Felicitamos al alcalde César Medina por la prese...",
+                     "source":  "Instancia de la Juventud de Jesús María",
+                     "published_date":  "2026-06-15T21:57:28",
+                     "summary":  "¡Se vienen grandes cosas para Jesús María! 🚧✨ \n\nFelicitamos al alcalde César Medina por la presentación del Plan de Obra Pública Municipal y reconocemos el gran trabajo de CAPAS y la Secretaría de Obras Públicas. \n\n¡Cuando se trabaja en equipo, las obras que transforman sí se notan! 💙\n\n#JesúsMaríaNosUne #CiudadDeVanguardia #GeneraciónQueViveUnCambio",
+                     "sentiment":  "positivo",
+                     "sentiment_score":  1,
+                     "relevance":  1,
+                     "image_url":  "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/646713899_1248050124167284_3600250056854999219_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx751x750\u0026ctp=s320x320\u0026_nc_cat=101\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=8ETWLAbz92oQ7kNvwGQmeDm\u0026_nc_oc=Adoo-iFcH51SUbvwc6gS6avKKr5z93qiffch__xlr-NwJh6XiweCQ4BelV5-gmwalrY\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-1.xx\u0026_nc_gid=Yrb1z2Bl5rZbdVW3rE6E1g\u0026_nc_ss=7e2a8\u0026oh=00_Af-P_Lw_UZuXbyixovB03MNh2WwP7Xvgy4iywhdWQWB6Vw\u0026oe=6A385C30",
+                     "scraped_at":  "2026-06-17T08:24:43"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/DesarolloSocialJM/posts/pfbid02yDvdcE6SKWHUPEuuzssyUwMs6w7uNCKXWZ6Shq88jJpAL9tGLz2HUz9HTDLKvyGol",
+                     "query":  "alcalde jesus maria",
+                     "title":  "🎨🏘️ Afinamos los últimos detalles para llevar más color y mejorar la imagen de nuestras comunid...",
+                     "source":  "Desarrollo Social Jesús María ",
+                     "published_date":  "2026-06-05T14:37:10",
+                     "summary":  "🎨🏘️ Afinamos los últimos detalles para llevar más color y mejorar la imagen de nuestras comunidades.\n\nSostuvimos una reunión de trabajo con las áreas de Delegaciones, Turismo, Obras Públicas, Concertación y nuestro alcalde César Medina, con el objetivo de coordinar acciones y revisar los preparativos finales del programa “¡Qué Bien Pinta Jesús María!”. ✨🎨\n\n#QuéBienPintaJesúsMaría #JesúsMaría #DesarrolloSociaJM",
+                     "sentiment":  "positivo",
+                     "sentiment_score":  1,
+                     "relevance":  1,
+                     "image_url":  "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/646573028_122277563786216648_1614997460176296018_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx751x750\u0026ctp=s320x320\u0026_nc_cat=109\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=UkxUh9q88xQQ7kNvwF4KSYU\u0026_nc_oc=Adq8I1IMy-qKV_Mhftnlhu03F5B5RFYG_62YrjGLrtWIVEeWQy5UccMegAWj8LQG18k\u0026_nc_zt=24\u0026_nc_ht=scontent-iad6-1.xx\u0026_nc_gid=Yrb1z2Bl5rZbdVW3rE6E1g\u0026_nc_ss=7e2a8\u0026oh=00_Af-pWLy_Wz8TxtmhMXwE78Jpq_oL7S5MgFBiB3Kmfa20Mg\u0026oe=6A386BDE",
+                     "scraped_at":  "2026-06-17T08:24:43"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/JesusMariaMunicipio/posts/pfbid02fB9UrtbjjnDCb6FZifv6cgzhzQPpveVWPhZNYf2J1ceuiyt8fKep6dk8uy6FXwjCl",
+                     "query":  "alcalde jesus maria",
+                     "title":  "El Gobierno Municipal de Jesús María, encabezado por el alcalde César Medina, en compañía de el s...",
+                     "source":  "Municipio de Jesús María",
+                     "published_date":  "2026-06-15T22:40:57",
+                     "summary":  "El Gobierno Municipal de Jesús María, encabezado por el alcalde César Medina, en compañía de el secretario de Obras Públicas y el Director General de CAPAS, presentaron el Plan de Obra 2026, que contempla una inversión histórica de casi 200 millones de pesos destinada a fortalecer la infraestructura y el desarrollo del municipio. 🙌🏻\n\nA través de 25 acciones estratégicas en vialidades, espacios públicos, infraestructura hidráulica y sanitaria, se continuará impulsando mejores servicios, más espacios para la convivencia familiar y mayores oportunidades para las comunidades de Jesús María. 👏🏻\n\n#JesúsMaríaNosUne con planeación, visión y trabajo coordinado, se construye un municipio más ordenado, funcional y preparado para los retos del futuro.✨\n\n#JesúsMaría #CiudadDeVanguardia",
+                     "sentiment":  "positivo",
+                     "sentiment_score":  1,
+                     "relevance":  1,
+                     "image_url":  "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/644902860_1233282485660577_2547087928542429277_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx751x750\u0026ctp=s320x320\u0026_nc_cat=104\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=4fvtOCqbVXEQ7kNvwEfSf3I\u0026_nc_oc=AdrYprGG3fAJ7zpQEauqAza7nVBxgeiIcD8k3zPPPzsBKVCv4EBAhTSJwn6QIOGsBaA\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-1.xx\u0026_nc_gid=Yrb1z2Bl5rZbdVW3rE6E1g\u0026_nc_ss=7e2a8\u0026oh=00_Af_zztr89dgM9a7sDePUbJpouzJY3f86clR-khLe-m3Wfw\u0026oe=6A3889FF",
+                     "scraped_at":  "2026-06-17T08:24:43"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/cmicaguascalientes/posts/pfbid06KKf1MctC7a6yH55FhCTNN6MYgZdeLyQ63gLeex932aYChbeM13rFh9HVNi5DEWtl",
+                     "query":  "alcalde jesus maria",
+                     "title":  "Agradecemos al Lic. César Medina Cervantes,Alcalde de Jesús María, al Mtro. Carlos Rodríguez Coll...",
+                     "source":  "CMIC AGS",
+                     "published_date":  "2026-06-16T07:01:15",
+                     "summary":  "Agradecemos al Lic. César Medina Cervantes,Alcalde de Jesús María, al Mtro. Carlos Rodríguez Collazo ,Secretario de Obras Públicas del Municipio de Jesús María, y al Lic. César García Estrada, Director General de CAPAS, por la presentación del \"Plan de Obra Pública Municipal\".\n\nPara la CMIC Delegación Aguascalientes, encabezada por nuestro presidente, el Mtro. Cesar Adrian Jaime Valdivia, conocer estos proyectos fortalece la colaboración institucional e impulsa la participación de las empresas locales en el desarrollo de nuestro estado.\n\n#CMICAguascalientes #JesúsMaría #ObraPública #Infraestructura #EmpresasLocales #capas",
+                     "sentiment":  "positivo",
+                     "sentiment_score":  1,
+                     "relevance":  1,
+                     "image_url":  "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/365170813_772298878230680_1115856366872738871_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx1794x1794\u0026ctp=s320x320\u0026_nc_cat=101\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=GEDDFrtncvEQ7kNvwHxpb_2\u0026_nc_oc=Ado5sdImlmrubiR0mIdnzWPNsXuu4phrzY1nxYKl1Wlll7MLSb1X0NEMeCYohnRq8YM\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-1.xx\u0026_nc_gid=Yrb1z2Bl5rZbdVW3rE6E1g\u0026_nc_ss=7e2a8\u0026oh=00_Af_9KNOdhAX8PEhGrMIKdQjvJbYwv1fIxMot1o-EHY3gLg\u0026oe=6A3879C5",
+                     "scraped_at":  "2026-06-17T08:24:43"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/JesusMariaMunicipio/posts/pfbid02V3GZDvrvKoEhxRuHaRPSvSBDUCzhemLjjQhSAZfBbLo2iaFFCtK3hzajfLNuJREhl",
+                     "query":  "alcalde jesus maria",
+                     "title":  "El Gobierno Municipal de Jesús María, a través del H. Ayuntamiento de Jesús María informa:  CONTI...",
+                     "source":  "Municipio de Jesús María",
+                     "published_date":  "2024-05-01T17:17:47",
+                     "summary":  "El Gobierno Municipal de Jesús María, a través del H. Ayuntamiento de Jesús María informa:\n\nCONTINÚA LA FORMACIÓN DE LA SEGUNDA GENERACIÓN DE LA GUARDIA CIVIL MUNICIPAL EN JESÚS MARÍA\n\nVeintidós cadetes, son los que actualmente se encuentran en el curso de formación para la segunda generación de la Guardia Civil Municipal de Jesús María, un grupo de hombres y mujeres, enfocados en mantener el orden y la paz pública en el municipio.\n\nEl presidente municipal de Jesús María, Antonio Arámbula, los exhortó a continuar preparándose para esta encomienda, que requiere compromiso, vocación y disciplina. “Ustedes juegan un papel muy importante, en beneficio de la sociedad, los invito a actuar siempre en apego a los derechos humanos y mostrando ese respeto y disposición que los jesusmarienses merecen” mencionó.\n\nEn el evento en el que también estuvo el secretario del Ayuntamiento, Refugio Muñoz; el alcalde agregó que, al trabajar en equipo con la Secretaría de Seguridad Pública y Vialidad, así como con elementos de Protección Civil y Bomberos del Municipio, los habitantes de Jesús María, viven en un entorno más seguro, al contar con más personal capacitado para actuar ante cualquier emergencia.\n\n*Este programa es público, ajeno a cualquier partido político, queda prohibido el uso para fines distintos a los establecidos en el programa. Esta publicación tiene fines informativos, educativos y/o de orientación social.",
+                     "sentiment":  "positivo",
+                     "sentiment_score":  1,
+                     "relevance":  1,
+                     "image_url":  "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/644902860_1233282485660577_2547087928542429277_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx751x750\u0026ctp=s320x320\u0026_nc_cat=104\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=4fvtOCqbVXEQ7kNvwEfSf3I\u0026_nc_oc=AdrYprGG3fAJ7zpQEauqAza7nVBxgeiIcD8k3zPPPzsBKVCv4EBAhTSJwn6QIOGsBaA\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-1.xx\u0026_nc_gid=Yrb1z2Bl5rZbdVW3rE6E1g\u0026_nc_ss=7e2a8\u0026oh=00_Af_zztr89dgM9a7sDePUbJpouzJY3f86clR-khLe-m3Wfw\u0026oe=6A3889FF",
+                     "scraped_at":  "2026-06-17T08:24:43"
                  }
              ],
     "youtube":  [
@@ -1910,5 +2001,5 @@
                         "scraped_at":  "2026-06-16T16:20:54"
                     }
                 ],
-    "updated_at":  "2026-06-16T16:21:23"
+    "updated_at":  "2026-06-17T08:24:53"
 };
