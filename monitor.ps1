@@ -176,8 +176,8 @@ function Search-FacebookWithApify {
         return @()
     }
     
-    # Calcular fecha de inicio (hace 5 días)
-    $startDate = (Get-Date).AddDays(-5).ToString("yyyy-MM-dd")
+    # Calcular fecha de inicio (hace 10 días)
+    $startDate = (Get-Date).AddDays(-10).ToString("yyyy-MM-dd")
     Write-Host "    [Apify] Buscando en Facebook para: '$query' desde $startDate..." -ForegroundColor Cyan
     
     $body = @{
@@ -509,8 +509,8 @@ $UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 
 foreach ($query in $Config.queries) {
     Write-Host "  [-] Consultando para: '$query'..." -ForegroundColor Gray
-    # Limitar la búsqueda de noticias a los últimos 5 días
-    $queryWithTime = "$query when:5d"
+    # Limitar la búsqueda de noticias a los últimos 10 días
+    $queryWithTime = "$query when:10d"
     $encodedQuery = [uri]::EscapeDataString($queryWithTime)
     $rssUrl = "https://news.google.com/rss/search?q=$encodedQuery&hl=es-419&gl=PE&ceid=PE:es"
     
@@ -758,8 +758,8 @@ $NewTwitterCount = 0
 
 foreach ($query in $Config.queries) {
     Write-Host "  [-] Consultando para: '$query'..." -ForegroundColor Gray
-    # Consulta combinada en Google News RSS para x.com y twitter.com, limitada a los últimos 5 días
-    $combinedQuery = "(site:x.com OR site:twitter.com) `"$query`" when:5d"
+    # Consulta combinada en Google News RSS para x.com y twitter.com, limitada a los últimos 10 días
+    $combinedQuery = "(site:x.com OR site:twitter.com) `"$query`" when:10d"
     $encodedQuery = [uri]::EscapeDataString($combinedQuery)
     $rssUrl = "https://news.google.com/rss/search?q=$encodedQuery&hl=es-419&gl=PE&ceid=PE:es"
     
