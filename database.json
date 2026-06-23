@@ -1676,6 +1676,45 @@
                      "relevance":  1,
                      "image_url":  "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/548284389_1209142264579691_4522553581153285251_n.jpg?stp=dst-jpg_tt6\u0026cstp=mx626x634\u0026ctp=s320x320\u0026_nc_cat=111\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=SUEpasAMSigQ7kNvwHLqwdn\u0026_nc_oc=AdpcMyA2ZJu9wrNKVPKaK3x-K5tx2hJOR-vDCoglxI3ASKzYZ9LzFzbnaF7z13DGDhQ\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-2.xx\u0026_nc_gid=-TYUSRSZrxeO0N0RQDWDAQ\u0026_nc_ss=7e2a8\u0026oh=00_Af_C8WorLUefR46KpDlyUivu0qj7nNMJ_gti8XWjvut9HA\u0026oe=6A3F207C",
                      "scraped_at":  "2026-06-22T08:27:04"
+                 },
+                 {
+                     "url":  "https://laradiodetotoral.com.ar/alberto-trimboli-experto-en-salud-mental-llega-este-martes-a-jesus-maria-para-abordar-el-impacto-de-las-redes-sociales-en-los-jovenes/",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "ALBERTO TRIMBOLI, EXPERTO EN SALUD MENTAL, LLEGA ESTE MARTES A JESUS MARÍA PARA ABORDAR EL IMPACTO DE LAS REDES SOCIALES EN LOS JOVENES - Estación FM",
+                     "source":  "Estación FM",
+                     "published_date":  "2026-06-22T08:49:38",
+                     "summary":  "ALBERTO TRIMBOLI, EXPERTO EN SALUD MENTAL, LLEGA ESTE MARTES A JESUS MARÍA PARA ABORDAR EL IMPACTO DE LAS REDES SOCIALES EN LOS JOVENES\u0026nbsp;\u0026nbsp;Estación FM",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://laradiodetotoral.com.ar/wp-content/uploads/2026/06/TRIMBOLiiI.jpg",
+                     "scraped_at":  "2026-06-23T09:26:49"
+                 },
+                 {
+                     "url":  "https://laradiodetotoral.com.ar/llega-la-quinta-edicion-del-mercadillo-a-cielo-abierto-de-jesus-maria/",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "LLEGA LA QUINTA EDICIÓN DEL MERCADILLO A CIELO ABIERTO DE JESUS MARÍA - Estación FM",
+                     "source":  "Estación FM",
+                     "published_date":  "2026-06-23T07:46:15",
+                     "summary":  "LLEGA LA QUINTA EDICIÓN DEL MERCADILLO A CIELO ABIERTO DE JESUS MARÍA\u0026nbsp;\u0026nbsp;Estación FM",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://laradiodetotoral.com.ar/wp-content/uploads/2026/06/section_whatsapp-image-2025-12-05-at-10-22-51-am-1038.jpeg",
+                     "scraped_at":  "2026-06-23T09:27:06"
+                 },
+                 {
+                     "url":  "https://www.lja.mx/2026/06/apoyo-de-seguridad-y-servicios-publicos-durante-lluvias-en-jesus-maria/",
+                     "query":  "alcalde jesus maria",
+                     "title":  "Apoyo de seguridad y servicios públicos durante lluvias en Jesús María - LJA.MX",
+                     "source":  "LJA.MX",
+                     "published_date":  "2026-06-21T23:34:24",
+                     "summary":  "Apoyo de seguridad y servicios públicos durante lluvias en Jesús María\u0026nbsp;\u0026nbsp;LJA.MX",
+                     "sentiment":  "positivo",
+                     "sentiment_score":  1,
+                     "relevance":  1,
+                     "image_url":  "https://www.lja.mx/wp-content/uploads/2026/06/bole5-13.jpg",
+                     "scraped_at":  "2026-06-23T09:27:20"
                  }
              ],
     "youtube":  [
@@ -1986,6 +2025,20 @@
                         "relevance":  1,
                         "image_url":  "https://img.youtube.com/vi/LYWYjfDWGU0/hqdefault.jpg",
                         "scraped_at":  "2026-06-22T08:25:43"
+                    },
+                    {
+                        "video_id":  "O74X0wOWI9o",
+                        "query":  "campo de marte jesus maria",
+                        "title":  "🏡 Alquiler de Departamento de 2 Dormitorios en 1er Piso en Jesús María | A 2 Cdras. Campo de Marte 🌳",
+                        "channel":  "Alinea Inmobiliaria",
+                        "published_date":  "2026-06-22T10:33:12",
+                        "description":  "Video monitoreado de YouTube.",
+                        "transcript_snippet":  "Menciones detectadas en el video: 🏡 Alquiler de Departamento de 2 Dormitorios en 1er Piso en Jesús María | A 2 Cdras. Campo de Marte 🌳",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://img.youtube.com/vi/O74X0wOWI9o/hqdefault.jpg",
+                        "scraped_at":  "2026-06-23T09:31:19"
                     }
                 ],
     "twitter":  [
