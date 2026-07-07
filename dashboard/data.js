@@ -2261,6 +2261,71 @@
                      "relevance":  1,
                      "image_url":  "https://nw-cdn.sfo3.cdn.digitaloceanspaces.com/uploads/2026/07/Casas-afectadas-JM.jpeg",
                      "scraped_at":  "2026-07-06T11:37:59"
+                 },
+                 {
+                     "url":  "http://nwnoticias.com/aguascalientes/casas-bajo-80-centimetros-de-agua-y-un-enorme-socavon-el-saldo-de-las-lluvias-en-jesus-maria",
+                     "query":  "alcalde jesus maria",
+                     "title":  "Casas bajo 80 centímetros de agua y un enorme socavón: el saldo de las lluvias en Jesús María - NW Noticias",
+                     "source":  "NW Noticias",
+                     "published_date":  "2026-07-06T10:19:12",
+                     "summary":  "Casas bajo 80 centímetros de agua y un enorme socavón: el saldo de las lluvias en Jesús María\u0026nbsp;\u0026nbsp;NW Noticias",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://nw-cdn.sfo3.cdn.digitaloceanspaces.com/uploads/2026/07/Casas-afectadas-JM.jpeg",
+                     "scraped_at":  "2026-07-07T08:09:42"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/JesusMariaMunicipio/posts/pfbid031EuDLdgnGk5iGUeM7icM6KP5uxxeL9LNNv4KmfvStHHyvSGqqDeMCS17FdtNoajil",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "🌧️💙 El Gobierno Municipal de Jesús María reconoce y agradece el trabajo de todas las corporacio...",
+                     "source":  "Municipio de Jesús María",
+                     "published_date":  "2026-07-02T10:51:19",
+                     "summary":  "🌧️💙 El Gobierno Municipal de Jesús María reconoce y agradece el trabajo de todas las corporaciones y cuerpos de emergencia que, durante la noche y la madrugada, atendieron de manera oportuna los reportes derivados de las intensas lluvias.\n\nNuestro reconocimiento a Protección Civil, Bomberos, Guardia Civil, Seguridad Pública, Servicios Públicos, CAPAS y a todo el personal operativo que trabajó sin descanso para proteger a las familias y mantener la atención en las zonas afectadas.\n\nGracias por su compromiso, entrega y vocación de servicio. Porque en los momentos que más importan, #JesúsMaríaNosUne. 🤝🚨\n\n#JesúsMaría #CiudadDeVanguardia",
+                     "sentiment":  "positivo",
+                     "sentiment_score":  1,
+                     "relevance":  1,
+                     "image_url":  "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/644902860_1233282485660577_2547087928542429277_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx751x750\u0026ctp=s320x320\u0026_nc_cat=104\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=uG7kp68kaP4Q7kNvwHcRCRi\u0026_nc_oc=AdoFH4OJvvsShu6uXvkTnsKTIlQ9GYDqy20fR9_ldBvS3aB3TLp5_7QVibIziRsvpI0\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-1.xx\u0026_nc_gid=yemcWRp-apHg8Vs5QH6NsQ\u0026_nc_ss=7e2a8\u0026oh=00_AQAqTxinyuKFhwrtFDZ9ADFuyNN332TCDVC0hylqTmVonA\u0026oe=6A52E7FF",
+                     "scraped_at":  "2026-07-07T08:15:22"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/JesusMariaMunicipio/posts/pfbid02x8NoZd7KgAG4gedjyrbBnKjvvDmQchigTfg3orssZhUDxhaMxnXDBfF4Jw2e8zEgl",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "🤝💙 Cuando las áreas del municipio se unen, el resultado se ve en cada calle.  Distintas depende...",
+                     "source":  "Municipio de Jesús María",
+                     "published_date":  "2026-07-02T22:43:35",
+                     "summary":  "🤝💙 Cuando las áreas del municipio se unen, el resultado se ve en cada calle.\n\nDistintas dependencias del Gobierno Municipal de Jesús María trabajaron de manera coordinada en labores de limpieza y recuperación de espacios, sumando esfuerzo, voluntad y compromiso por nuestras colonias y comunidades.\n\nPorque cuando trabajamos en equipo, #JesúsMaríaNosUne y se nota en cada acción. 🌧️✨\n\n#JesúsMaría #CiudadDeVanguardia",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/644902860_1233282485660577_2547087928542429277_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx751x750\u0026ctp=s320x320\u0026_nc_cat=104\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=uG7kp68kaP4Q7kNvwHcRCRi\u0026_nc_oc=AdoFH4OJvvsShu6uXvkTnsKTIlQ9GYDqy20fR9_ldBvS3aB3TLp5_7QVibIziRsvpI0\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-1.xx\u0026_nc_gid=yemcWRp-apHg8Vs5QH6NsQ\u0026_nc_ss=7e2a8\u0026oh=00_AQAqTxinyuKFhwrtFDZ9ADFuyNN332TCDVC0hylqTmVonA\u0026oe=6A52E7FF",
+                     "scraped_at":  "2026-07-07T08:15:22"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/JesusMariaMunicipio/posts/pfbid052CNx2zZJZAYXvSCsBUoZu6ZkJBfw1pd64rY5r3bT4wh235koCBe4RFA97f28gqRl",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "🏡💙 Seguimos fortaleciendo los hogares de Jesús María. Con la quinta entrega del programa Fortal...",
+                     "source":  "Municipio de Jesús María",
+                     "published_date":  "2026-06-17T23:13:15",
+                     "summary":  "🏡💙 Seguimos fortaleciendo los hogares de Jesús María.\nCon la quinta entrega del programa Fortaleciendo Hogares, continuamos apoyando a las familias del municipio para mejorar sus viviendas y generar mejores condiciones de bienestar.\n\nCada apoyo representa una oportunidad para construir un patrimonio más seguro, digno y funcional para quienes más lo necesitan.\n#JesúsMaríaNosUne #CiudadDeVanguardia",
+                     "sentiment":  "positivo",
+                     "sentiment_score":  1,
+                     "relevance":  1,
+                     "image_url":  "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/644902860_1233282485660577_2547087928542429277_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx751x750\u0026ctp=s320x320\u0026_nc_cat=104\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=uG7kp68kaP4Q7kNvwHcRCRi\u0026_nc_oc=AdoFH4OJvvsShu6uXvkTnsKTIlQ9GYDqy20fR9_ldBvS3aB3TLp5_7QVibIziRsvpI0\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-1.xx\u0026_nc_gid=yemcWRp-apHg8Vs5QH6NsQ\u0026_nc_ss=7e2a8\u0026oh=00_AQAqTxinyuKFhwrtFDZ9ADFuyNN332TCDVC0hylqTmVonA\u0026oe=6A52E7FF",
+                     "scraped_at":  "2026-07-07T08:15:22"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/JesusMariaMunicipio/posts/pfbid02VDYcX6SMRGx5iXb4541zABvgb6ngXJdB2ohtzCA9oUkYpNZoM8TTgrQiUEyENFsWl",
+                     "query":  "alcalde jesus maria",
+                     "title":  "El Gobierno Municipal de Jesús María, a través del H. Ayuntamiento de Jesús María informa:  CONTI...",
+                     "source":  "Municipio de Jesús María",
+                     "published_date":  "2024-05-01T17:17:47",
+                     "summary":  "El Gobierno Municipal de Jesús María, a través del H. Ayuntamiento de Jesús María informa:\n\nCONTINÚA LA FORMACIÓN DE LA SEGUNDA GENERACIÓN DE LA GUARDIA CIVIL MUNICIPAL EN JESÚS MARÍA\n\nVeintidós cadetes, son los que actualmente se encuentran en el curso de formación para la segunda generación de la Guardia Civil Municipal de Jesús María, un grupo de hombres y mujeres, enfocados en mantener el orden y la paz pública en el municipio.\n\nEl presidente municipal de Jesús María, Antonio Arámbula, los exhortó a continuar preparándose para esta encomienda, que requiere compromiso, vocación y disciplina. “Ustedes juegan un papel muy importante, en beneficio de la sociedad, los invito a actuar siempre en apego a los derechos humanos y mostrando ese respeto y disposición que los jesusmarienses merecen” mencionó.\n\nEn el evento en el que también estuvo el secretario del Ayuntamiento, Refugio Muñoz; el alcalde agregó que, al trabajar en equipo con la Secretaría de Seguridad Pública y Vialidad, así como con elementos de Protección Civil y Bomberos del Municipio, los habitantes de Jesús María, viven en un entorno más seguro, al contar con más personal capacitado para actuar ante cualquier emergencia.\n\n*Este programa es público, ajeno a cualquier partido político, queda prohibido el uso para fines distintos a los establecidos en el programa. Esta publicación tiene fines informativos, educativos y/o de orientación social.",
+                     "sentiment":  "positivo",
+                     "sentiment_score":  1,
+                     "relevance":  1,
+                     "image_url":  "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/644902860_1233282485660577_2547087928542429277_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx751x750\u0026ctp=s320x320\u0026_nc_cat=104\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=uG7kp68kaP4Q7kNvwGdPEbd\u0026_nc_oc=Adq8iJyF-LmzJDb-g-vXmT0Ip6v-J_w3hh9bD0DzmX-PsQnSfKaFeltcwU-OJyLQ5JE\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-1.xx\u0026_nc_gid=h21WuytJPVpaNsQKhwofgw\u0026_nc_ss=7e2a8\u0026oh=00_AQDifIvR_FIaq4QgpJPibqZZRL7z2pfN8wrVB_0V5EBVbg\u0026oe=6A52E7FF",
+                     "scraped_at":  "2026-07-07T08:15:57"
                  }
              ],
     "youtube":  [
@@ -3345,5 +3410,5 @@
                         "scraped_at":  "2026-07-06T08:56:07"
                     }
                 ],
-    "updated_at":  "2026-07-06T11:44:32"
+    "updated_at":  "2026-07-07T08:16:09"
 };
