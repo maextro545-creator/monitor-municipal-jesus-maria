@@ -367,8 +367,8 @@ function Check-Relevance {
     )
     $cleanText = Remove-Accents ($Text.ToLower())
     
-    # Filtrar explícitamente noticias de Argentina / Córdoba / Festival de Doma
-    $excludeKeywords = @("cordoba", "argentina", "folklore", "doma", "jineteada", "chaqueño", "milei", "festival", "anfiteatro", "festivaleras")
+    # Filtrar explícitamente noticias de Argentina / Córdoba / Festival de Doma / México
+    $excludeKeywords = @("cordoba", "argentina", "folklore", "doma", "jineteada", "chaqueno", "milei", "festival", "anfiteatro", "festivaleras", "aguascalientes", "chicahuales", "mexico", "cesar medina", "isla mujeres", "cancun", "quintana roo", "ladron de guevara", "chicahual", "el sol del centro", "el clarinete", "jlmnoticias", "binoticias", "oem.com.mx", "heraldo.mx", "lja.mx", "bi noticias", "jlm noticias", "hidrocalido", "hidrocalidodigital", "elclarinete.com.mx", "hidrocalidodigital.com", "jlmnoticias.com", "elindependiente.mx", "sheinbaum", "lopez obrador", "gobierno de mexico", "mexicana", "mexicano", "nw noticias", "nwnoticias", "nw-noticias")
     foreach ($ex in $excludeKeywords) {
         if ($cleanText.Contains($ex)) {
             return 0
@@ -396,8 +396,8 @@ if (Test-Path $DbPath) {
         $Db | Add-Member -MemberType NoteProperty -Name "twitter" -Value @()
     }
     
-    # Limpieza de base de datos para excluir noticias ajenas a Perú (Argentina/Córdoba)
-    $excludeKeywords = @("cordoba", "argentina", "folklore", "doma", "jineteada", "chaqueño", "milei", "festival", "anfiteatro", "festivaleras")
+    # Limpieza de base de datos para excluir noticias ajenas a Perú (Argentina/Córdoba/México)
+    $excludeKeywords = @("cordoba", "argentina", "folklore", "doma", "jineteada", "chaqueno", "milei", "festival", "anfiteatro", "festivaleras", "aguascalientes", "chicahuales", "mexico", "cesar medina", "isla mujeres", "cancun", "quintana roo", "ladron de guevara", "chicahual", "el sol del centro", "el clarinete", "jlmnoticias", "binoticias", "oem.com.mx", "heraldo.mx", "lja.mx", "bi noticias", "jlm noticias", "hidrocalido", "hidrocalidodigital", "elclarinete.com.mx", "hidrocalidodigital.com", "jlmnoticias.com", "elindependiente.mx", "sheinbaum", "lopez obrador", "gobierno de mexico", "mexicana", "mexicano", "nw noticias", "nwnoticias", "nw-noticias")
     if ($Db.news) {
         $Db.news = @($Db.news | Where-Object {
             $combined = Remove-Accents ("$($_.title) $($_.summary)".ToLower())
@@ -588,7 +588,8 @@ foreach ($query in $Config.queries) {
             
             # Analizar relevancia y sentimiento
             $combinedText = "$title $summary"
-            $relevance = Check-Relevance $combinedText
+            $relevanceText = "$title $summary $realUrl $source"
+            $relevance = Check-Relevance $relevanceText
             if ($relevance -eq 0) { continue }
             
             $analysis = Analyze-Sentiment $combinedText
@@ -693,7 +694,8 @@ foreach ($query in $Config.queries) {
             }
             
             # Analizar relevancia y sentimiento
-            $relevance = Check-Relevance "$title"
+            $relevanceText = "$title $channel"
+            $relevance = Check-Relevance $relevanceText
             if ($relevance -eq 0) {
                 # Para YouTube, si el título no es relevante, no lo agregamos
                 continue
@@ -822,7 +824,8 @@ foreach ($query in $Config.queries) {
             if ($skipTweet) { continue }
             
             # Analizar relevancia y sentimiento
-            $relevance = Check-Relevance $title
+            $relevanceText = "$title $realUrl"
+            $relevance = Check-Relevance $relevanceText
             if ($relevance -eq 0) { continue }
             
             $analysis = Analyze-Sentiment $title
@@ -900,7 +903,8 @@ if ($null -ne $Config.facebook_cookies -and $Config.facebook_cookies.Count -gt 0
             if ([string]::IsNullOrEmpty($source)) { $source = "Facebook Page" }
             
             # Relevancia y sentimiento
-            $relevance = Check-Relevance $postText
+            $relevanceText = "$postText $source $($item.url)"
+            $relevance = Check-Relevance $relevanceText
             if ($relevance -eq 0) { continue }
             
             $analysis = Analyze-Sentiment $postText
