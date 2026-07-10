@@ -2521,6 +2521,162 @@
                      "relevance":  1,
                      "image_url":  "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/644902860_1233282485660577_2547087928542429277_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx751x750\u0026ctp=s320x320\u0026_nc_cat=104\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=uG7kp68kaP4Q7kNvwF9jGpn\u0026_nc_oc=Adp9bEjERI3zoD9HsEJE4O78w-6Plls_Lea3f7BdtvDRP7F00Iyi3eS-l0k2g7K-dDE\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-1.xx\u0026_nc_gid=AG5W1_F2_dsvw-3YKmHXog\u0026_nc_ss=7e2a8\u0026oh=00_AQBuvT_y2DljQxIIlSeyeTE688my0fSSWuC32yUBx1VnKA\u0026oe=6A558AFF",
                      "scraped_at":  "2026-07-09T09:06:02"
+                 },
+                 {
+                     "url":  "https://laradiodetotoral.com.ar/jesus-maria-propone-un-taller-artistico-para-confeccionar-bolsas-con-conciencia-ambiental/",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "JESUS MARÍA PROPONE UN TALLER ARTÍSTICO PARA CONFECCIONAR BOLSAS CON CONCIENCIA AMBIENTAL - Estación FM",
+                     "source":  "Estación FM",
+                     "published_date":  "2026-07-07T08:21:09",
+                     "summary":  "JESUS MARÍA PROPONE UN TALLER ARTÍSTICO PARA CONFECCIONAR BOLSAS CON CONCIENCIA AMBIENTAL\u0026nbsp;\u0026nbsp;Estación FM",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://laradiodetotoral.com.ar/wp-content/uploads/2026/07/bolsa-ecolo.jpg",
+                     "scraped_at":  "2026-07-10T08:20:08"
+                 },
+                 {
+                     "url":  "https://laradiodetotoral.com.ar/jesus-maria-digitaliza-las-inscripciones-a-la-pileta-municipal-para-agilizar-la-atencion-de-vecinos/",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "JESUS MARÍA DIGITALIZA LAS INSCRIPCIONES A LA PILETA MUNICIPAL PARA AGILIZAR LA ATENCIÓN DE VECINOS - Estación FM",
+                     "source":  "Estación FM",
+                     "published_date":  "2026-07-01T09:07:38",
+                     "summary":  "JESUS MARÍA DIGITALIZA LAS INSCRIPCIONES A LA PILETA MUNICIPAL PARA AGILIZAR LA ATENCIÓN DE VECINOS\u0026nbsp;\u0026nbsp;Estación FM",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://laradiodetotoral.com.ar/wp-content/uploads/2026/07/multimedia.normal.80706e82c8fa2d51.63336337633339352d303466612d343235372d623565662d30393939356532635f6e6f726d616c2e6a7067.jpg",
+                     "scraped_at":  "2026-07-10T08:20:12"
+                 },
+                 {
+                     "url":  "https://laradiodetotoral.com.ar/jesus-maria-abre-un-espacio-para-experimentar-la-escritura-crativa-en-el-museo-de-la-ciudad/",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "JESUS MARÍA ABRE UN ESPACIO PARA EXPERIMENTAR LA ESCRITURA CRATIVA EN EL MUSEO DE LA CIUDAD - Estación FM",
+                     "source":  "Estación FM",
+                     "published_date":  "2026-07-08T09:25:32",
+                     "summary":  "JESUS MARÍA ABRE UN ESPACIO PARA EXPERIMENTAR LA ESCRITURA CRATIVA EN EL MUSEO DE LA CIUDAD\u0026nbsp;\u0026nbsp;Estación FM",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://laradiodetotoral.com.ar/wp-content/uploads/2026/02/default_museo-luis-biondi-1329.jpg",
+                     "scraped_at":  "2026-07-10T08:20:18"
+                 },
+                 {
+                     "url":  "https://diarioeldespertador.com.ar/contenido/40304/jesus-maria-lleva-cine-y-diversion-a-los-barrios",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "Jesús María lleva cine y diversión a los barrios - diarioeldespertador.com.ar",
+                     "source":  "diarioeldespertador.com.ar",
+                     "published_date":  "2026-07-07T17:06:00",
+                     "summary":  "Jesús María lleva cine y diversión a los barrios\u0026nbsp;\u0026nbsp;diarioeldespertador.com.ar",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format\u0026fit=crop\u0026w=600\u0026q=80",
+                     "scraped_at":  "2026-07-10T08:20:20"
+                 },
+                 {
+                     "url":  "https://laradiodetotoral.com.ar/vuelve-la-feria-friki-a-la-explanada-del-ferrocarril-en-jesus-maria/",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "VUELVE LA “FERIA FRIKI” A LA EXPLANADA DEL FERROCARRIL EN JESUS MARÍA - Estación FM",
+                     "source":  "Estación FM",
+                     "published_date":  "2026-07-08T10:28:22",
+                     "summary":  "VUELVE LA “FERIA FRIKI” A LA EXPLANADA DEL FERROCARRIL EN JESUS MARÍA\u0026nbsp;\u0026nbsp;Estación FM",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://laradiodetotoral.com.ar/wp-content/uploads/2026/07/FERIA-FRIKI.jpg",
+                     "scraped_at":  "2026-07-10T08:20:25"
+                 },
+                 {
+                     "url":  "https://www.europapress.es/andalucia/malaga-00356/noticia-jesus-maria-claros-jose-martin-toman-posesion-nuevos-diputados-provinciales-20260708131050.html",
+                     "query":  "alcalde jesus maria",
+                     "title":  "Jesús María Claros y José Martín toman posesión como nuevos diputados provinciales - Europa Press",
+                     "source":  "Europa Press",
+                     "published_date":  "2026-07-08T06:10:50",
+                     "summary":  "Jesús María Claros y José Martín toman posesión como nuevos diputados provinciales\u0026nbsp;\u0026nbsp;Europa Press",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://img.europapress.es/fotoweb/fotonoticia_20260708131050_1200.jpg",
+                     "scraped_at":  "2026-07-10T08:20:52"
+                 },
+                 {
+                     "url":  "https://www.malagactualidad.es/teletipos/74325-jesus-maria-claros-y-jose-martin-toman-posesion-como-diputados-provinciales",
+                     "query":  "alcalde jesus maria",
+                     "title":  "Jesús María Claros y José Martín toman posesión como diputados provinciales - Malaga Actualidad",
+                     "source":  "Malaga Actualidad",
+                     "published_date":  "2026-07-08T05:20:00",
+                     "summary":  "Jesús María Claros y José Martín toman posesión como diputados provinciales\u0026nbsp;\u0026nbsp;Malaga Actualidad",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://bs.serving-sys.com/Serving/adServer.bs?c=8\u0026cn=display\u0026pli=1079122354\u0026gdpr=${GDPR}\u0026gdpr_consent=${GDPR_CONSENT_68}\u0026us_privacy=${US_PRIVACY}\u0026Page=\u0026Pos=263994330",
+                     "scraped_at":  "2026-07-10T08:20:57"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/JesusMariaMunicipio/posts/pfbid0tQacMKDE1Q1iKkV6e18iaZBQMMCoMEDefHb7Yo2nAWgSyMFapKVekR3CtoMECpMRl",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "🤝💙 Cuando las áreas del municipio se unen, el resultado se ve en cada calle.  Distintas depende...",
+                     "source":  "Municipio de Jesús María",
+                     "published_date":  "2026-07-02T22:43:35",
+                     "summary":  "🤝💙 Cuando las áreas del municipio se unen, el resultado se ve en cada calle.\n\nDistintas dependencias del Gobierno Municipal de Jesús María trabajaron de manera coordinada en labores de limpieza y recuperación de espacios, sumando esfuerzo, voluntad y compromiso por nuestras colonias y comunidades.\n\nPorque cuando trabajamos en equipo, #JesúsMaríaNosUne y se nota en cada acción. 🌧️✨\n\n#JesúsMaría #CiudadDeVanguardia",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/644902860_1233282485660577_2547087928542429277_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx751x750\u0026ctp=s320x320\u0026_nc_cat=104\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=5DprbHtXaQEQ7kNvwGAS8zi\u0026_nc_oc=AdrlW5gPxWiciNwydXge8kMBR8Zg4k8GP1OJeQGVe887ulp014znSz8GgKkfzHnzNWQ\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-1.xx\u0026_nc_gid=GVcQ1BCMewwp_vaVsyo8gA\u0026_nc_ss=7e2a8\u0026oh=00_AQCLwGR9QFXohObTdaYwx1zORat6-fQqoSoMxjV8W8Ahmg\u0026oe=6A56DC7F",
+                     "scraped_at":  "2026-07-10T08:26:34"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/JesusMariaMunicipio/posts/pfbid02ErvskttztZUrdNfcwDuBspgygybe4mkbpmXuSQ9F9Fwc3zCmaFead72hz5mecC2hl",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "🌧️💙 En los momentos más difíciles es cuando la unión hace la diferencia.  Nuestro reconocimient...",
+                     "source":  "Municipio de Jesús María",
+                     "published_date":  "2026-07-02T17:00:57",
+                     "summary":  "🌧️💙 En los momentos más difíciles es cuando la unión hace la diferencia.\n\nNuestro reconocimiento y agradecimiento a Protección Civil, Bomberos, Guardia Civil, Seguridad Pública, Servicios Públicos, CAPAS y a todas las dependencias que, durante la noche y la madrugada, trabajaron sin descanso para atender los reportes ocasionados por las intensas lluvias.\n\nGracias por su entrega, coordinación y compromiso con las familias de Jesús María. Porque cuando más se necesita, #JesúsMaríaNosUne. 🤝🚨\n\n#JesúsMaría #CiudadDeVanguardia",
+                     "sentiment":  "positivo",
+                     "sentiment_score":  1,
+                     "relevance":  1,
+                     "image_url":  "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/644902860_1233282485660577_2547087928542429277_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx751x750\u0026ctp=s320x320\u0026_nc_cat=104\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=5DprbHtXaQEQ7kNvwGAS8zi\u0026_nc_oc=AdrlW5gPxWiciNwydXge8kMBR8Zg4k8GP1OJeQGVe887ulp014znSz8GgKkfzHnzNWQ\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-1.xx\u0026_nc_gid=GVcQ1BCMewwp_vaVsyo8gA\u0026_nc_ss=7e2a8\u0026oh=00_AQCLwGR9QFXohObTdaYwx1zORat6-fQqoSoMxjV8W8Ahmg\u0026oe=6A56DC7F",
+                     "scraped_at":  "2026-07-10T08:26:34"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/JesusMariaMunicipio/posts/pfbid028hV5qZeeLKQakLmBa9SekgoUkW9oHoueALHgvw2mJh119gVrN8zQKxPLkR6jiXu6l",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "🏡💙 Seguimos fortaleciendo los hogares de Jesús María. Con la quinta entrega del programa Fortal...",
+                     "source":  "Municipio de Jesús María",
+                     "published_date":  "2026-06-17T23:13:15",
+                     "summary":  "🏡💙 Seguimos fortaleciendo los hogares de Jesús María.\nCon la quinta entrega del programa Fortaleciendo Hogares, continuamos apoyando a las familias del municipio para mejorar sus viviendas y generar mejores condiciones de bienestar.\n\nCada apoyo representa una oportunidad para construir un patrimonio más seguro, digno y funcional para quienes más lo necesitan.\n#JesúsMaríaNosUne #CiudadDeVanguardia",
+                     "sentiment":  "positivo",
+                     "sentiment_score":  1,
+                     "relevance":  1,
+                     "image_url":  "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/644902860_1233282485660577_2547087928542429277_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx751x750\u0026ctp=s320x320\u0026_nc_cat=104\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=5DprbHtXaQEQ7kNvwGAS8zi\u0026_nc_oc=AdrlW5gPxWiciNwydXge8kMBR8Zg4k8GP1OJeQGVe887ulp014znSz8GgKkfzHnzNWQ\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-1.xx\u0026_nc_gid=GVcQ1BCMewwp_vaVsyo8gA\u0026_nc_ss=7e2a8\u0026oh=00_AQCLwGR9QFXohObTdaYwx1zORat6-fQqoSoMxjV8W8Ahmg\u0026oe=6A56DC7F",
+                     "scraped_at":  "2026-07-10T08:26:34"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/munijesusmaria/posts/pfbid023gf7zd9iFN3rjdb96afmGPLGxrEfrf6Tw3CypiNvcwM1VHnRZbdmBPU2qjcNBn7xl",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "🎉 Celebramos los 60 años del Conjunto Residencial San Felipe 🏡 La Municipalidad de Jesús María ...",
+                     "source":  "Municipalidad de Jesús María",
+                     "published_date":  "2026-07-03T09:00:36",
+                     "summary":  "🎉 Celebramos los 60 años del Conjunto Residencial San Felipe 🏡\nLa Municipalidad de Jesús María participó en la ceremonia central por el 60.º aniversario del Conjunto Residencial San Felipe, con un  desfile de escoltas y presentaciones de danzas que llenaron de identidad y alegría esta importante celebración.\n#JesúsMaríaVamosPorMás",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/417116131_685916423728419_8674026024830867161_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx750x750\u0026ctp=s320x320\u0026_nc_cat=105\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=EpZNtlDNLkMQ7kNvwF8TtuT\u0026_nc_oc=Adq0IxXh2tM-ZsszPQ-YmDKf--6lj2saLkoOYKGIrKn6NV3sfhMW56-Iyy62sia5j5s\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-2.xx\u0026_nc_gid=GVcQ1BCMewwp_vaVsyo8gA\u0026_nc_ss=7e2a8\u0026oh=00_AQBDfCBP5rq4FuDRPYMDK_DY7urWN3IKdIo7BXJZz2nxrw\u0026oe=6A56D5FD",
+                     "scraped_at":  "2026-07-10T08:26:34"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/JesusMariaMunicipio/posts/pfbid0RVkRJnYFkWGWG8vxkxLyUgN7hnfXLsfBQx8uE8FGkxrsuBYaXZLtAUfbQ9MJMkEXl",
+                     "query":  "alcalde jesus maria",
+                     "title":  "El Gobierno Municipal de Jesús María, a través del H. Ayuntamiento de Jesús María informa:  CONTI...",
+                     "source":  "Municipio de Jesús María",
+                     "published_date":  "2024-05-01T17:17:47",
+                     "summary":  "El Gobierno Municipal de Jesús María, a través del H. Ayuntamiento de Jesús María informa:\n\nCONTINÚA LA FORMACIÓN DE LA SEGUNDA GENERACIÓN DE LA GUARDIA CIVIL MUNICIPAL EN JESÚS MARÍA\n\nVeintidós cadetes, son los que actualmente se encuentran en el curso de formación para la segunda generación de la Guardia Civil Municipal de Jesús María, un grupo de hombres y mujeres, enfocados en mantener el orden y la paz pública en el municipio.\n\nEl presidente municipal de Jesús María, Antonio Arámbula, los exhortó a continuar preparándose para esta encomienda, que requiere compromiso, vocación y disciplina. “Ustedes juegan un papel muy importante, en beneficio de la sociedad, los invito a actuar siempre en apego a los derechos humanos y mostrando ese respeto y disposición que los jesusmarienses merecen” mencionó.\n\nEn el evento en el que también estuvo el secretario del Ayuntamiento, Refugio Muñoz; el alcalde agregó que, al trabajar en equipo con la Secretaría de Seguridad Pública y Vialidad, así como con elementos de Protección Civil y Bomberos del Municipio, los habitantes de Jesús María, viven en un entorno más seguro, al contar con más personal capacitado para actuar ante cualquier emergencia.\n\n*Este programa es público, ajeno a cualquier partido político, queda prohibido el uso para fines distintos a los establecidos en el programa. Esta publicación tiene fines informativos, educativos y/o de orientación social.",
+                     "sentiment":  "positivo",
+                     "sentiment_score":  1,
+                     "relevance":  1,
+                     "image_url":  "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/644902860_1233282485660577_2547087928542429277_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx751x750\u0026ctp=s320x320\u0026_nc_cat=104\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=5DprbHtXaQEQ7kNvwFHy9-j\u0026_nc_oc=Adq2-tSRR5rvluU6AJgy28xe1gHaf1OGtb0QxmWe2KtxXO2nJpzZe037lC1iIZDHois\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-1.xx\u0026_nc_gid=bzpVVoFYHQXmR51GaCmA0A\u0026_nc_ss=7e2a8\u0026oh=00_AQAUyLo3gF5j7hUwsPAv2dBb2s4cqg3K5fp79iG4P79_Ow\u0026oe=6A56DC7F",
+                     "scraped_at":  "2026-07-10T08:27:04"
                  }
              ],
     "youtube":  [
@@ -3027,6 +3183,48 @@
                         "relevance":  1,
                         "image_url":  "https://img.youtube.com/vi/GyDAUQjDZ4w/hqdefault.jpg",
                         "scraped_at":  "2026-07-07T09:23:59"
+                    },
+                    {
+                        "video_id":  "BDGjlzT2aXY",
+                        "query":  "alcalde jesus maria",
+                        "title":  "𝗝𝗵𝗼𝗿𝗱𝗮𝗻 𝗛𝘂𝗮𝗿𝗮𝗻𝗴𝗮 - 𝗔𝗟𝗖𝗔𝗟𝗗𝗘 𝗗𝗘 𝗝𝗘𝗦𝗨𝗦 𝗠𝗔𝗥𝗜𝗔 💚🤍",
+                        "channel":  "Jhordan Huaranga Alcalde de Jesus Maria",
+                        "published_date":  "2026-06-11T21:57:44",
+                        "description":  "Video monitoreado de YouTube.",
+                        "transcript_snippet":  "Menciones detectadas en el video: 𝗝𝗵𝗼𝗿𝗱𝗮𝗻 𝗛𝘂𝗮𝗿𝗮𝗻𝗴𝗮 - 𝗔𝗟𝗖𝗔𝗟𝗗𝗘 𝗗𝗘 𝗝𝗘𝗦𝗨𝗦 𝗠𝗔𝗥𝗜𝗔 💚🤍",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://img.youtube.com/vi/BDGjlzT2aXY/hqdefault.jpg",
+                        "scraped_at":  "2026-07-10T08:25:06"
+                    },
+                    {
+                        "video_id":  "i28vFVjnUWw",
+                        "query":  "distrito de jesus maria",
+                        "title":  "SE ALQUILA DEPARTAMENTO DE 3 DORMITORIOS NO CUENTA CON COCHERA DISTRITO JESÚS MARIA",
+                        "channel":  "Grover Rosas Vela",
+                        "published_date":  "2026-07-09T02:17:33",
+                        "description":  "Video monitoreado de YouTube.",
+                        "transcript_snippet":  "Menciones detectadas en el video: SE ALQUILA DEPARTAMENTO DE 3 DORMITORIOS NO CUENTA CON COCHERA DISTRITO JESÚS MARIA",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://img.youtube.com/vi/i28vFVjnUWw/hqdefault.jpg",
+                        "scraped_at":  "2026-07-10T08:25:18"
+                    },
+                    {
+                        "video_id":  "rPA7sIgjkW0",
+                        "query":  "distrito de jesus maria",
+                        "title":  "JM-LLOQUE9 | Venta de Departamento Remodelado en Jesús María - USD 125,000​",
+                        "channel":  "Lucana | Estrategia Patrimonial",
+                        "published_date":  "2026-07-10T00:40:43",
+                        "description":  "Video monitoreado de YouTube.",
+                        "transcript_snippet":  "Menciones detectadas en el video: JM-LLOQUE9 | Venta de Departamento Remodelado en Jesús María - USD 125,000​",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://img.youtube.com/vi/rPA7sIgjkW0/hqdefault.jpg",
+                        "scraped_at":  "2026-07-10T08:25:19"
                     }
                 ],
     "twitter":  [
@@ -3629,7 +3827,19 @@
                         "relevance":  1,
                         "image_url":  "https://pbs.twimg.com/media/HMjBdGlWUAAoDCg.jpg:large",
                         "scraped_at":  "2026-07-09T09:05:14"
+                    },
+                    {
+                        "url":  "https://x.com/sigridbazan/status/2075260391928525121",
+                        "query":  "campo de marte",
+                        "title":  "tras los graves daños ocasionados por los trabajos de remodelación que se hicieron en el Campo de Marte. Seguiremos trabajando de la mano con los vecinos de Jesús María por la recuperación de este espacio. [2/2]",
+                        "author":  "sigridbazan",
+                        "published_date":  "2026-07-09T11:46:48",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://pbs.twimg.com/media/HMzOSktWkAAUpla.jpg:large",
+                        "scraped_at":  "2026-07-10T08:26:03"
                     }
                 ],
-    "updated_at":  "2026-07-09T09:06:41"
+    "updated_at":  "2026-07-10T08:27:15"
 };
