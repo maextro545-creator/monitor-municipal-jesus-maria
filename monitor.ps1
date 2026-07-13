@@ -701,27 +701,35 @@ foreach ($query in $Config.queries) {
                 continue
             }
             
-            # Obtener fecha de carga real del video para filtrar por año actual
+            # Obtener fecha de carga real del video para filtrar por videos recientes (menos de 365 días)
             $watchUrl = "https://www.youtube.com/watch?v=$vId"
             $videoDate = (Get-Date).ToString("yyyy-MM-ddTHH:mm:ss")
-            $skipVideo = $false
-            $currentYear = (Get-Date).Year
+            $skipVideo = $true
             try {
                 $webClient = New-Object System.Net.WebClient
                 $webClient.Headers.Add("User-Agent", $UserAgent)
                 $videoBytes = $webClient.DownloadData($watchUrl)
                 $videoHtml = [System.Text.Encoding]::UTF8.GetString($videoBytes)
                 
+                $foundDate = $null
                 if ($videoHtml -match 'itemprop="uploadDate"\s+content="([^"]+)"') {
-                    $rawDate = $Matches[1]
-                    $parsedVideoDate = [DateTime]::Parse($rawDate)
+                    $foundDate = $Matches[1]
+                } elseif ($videoHtml -match '"uploadDate":"([^"]+)"') {
+                    $foundDate = $Matches[1]
+                } elseif ($videoHtml -match '"publishDate":"([^"]+)"') {
+                    $foundDate = $Matches[1]
+                }
+                
+                if ($null -ne $foundDate) {
+                    $parsedVideoDate = [DateTime]::Parse($foundDate)
                     $videoDate = $parsedVideoDate.ToString("yyyy-MM-ddTHH:mm:ss")
-                    if ($parsedVideoDate.Year -ne $currentYear) {
-                        $skipVideo = $true
+                    $daysDiff = ((Get-Date) - $parsedVideoDate).TotalDays
+                    if ($daysDiff -le 365) {
+                        $skipVideo = $false
                     }
                 }
             } catch {
-                # En caso de error, dejamos pasar
+                # En caso de error, no podemos verificar la fecha, por lo que saltamos el video para evitar meter videos viejos.
             }
 
             if ($skipVideo) {
