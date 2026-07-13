@@ -368,7 +368,7 @@ function Check-Relevance {
     $cleanText = Remove-Accents ($Text.ToLower())
     
     # Filtrar explícitamente noticias de Argentina / Córdoba / Festival de Doma / México
-    $excludeKeywords = @("cordoba", "argentina", "folklore", "doma", "jineteada", "chaqueno", "milei", "festival", "anfiteatro", "festivaleras", "aguascalientes", "chicahuales", "mexico", "cesar medina", "isla mujeres", "cancun", "quintana roo", "ladron de guevara", "chicahual", "el sol del centro", "el clarinete", "jlmnoticias", "binoticias", "oem.com.mx", "heraldo.mx", "lja.mx", "bi noticias", "jlm noticias", "hidrocalido", "hidrocalidodigital", "elclarinete.com.mx", "hidrocalidodigital.com", "jlmnoticias.com", "elindependiente.mx", "sheinbaum", "lopez obrador", "gobierno de mexico", "mexicana", "mexicano", "nw noticias", "nwnoticias", "nw-noticias")
+    $excludeKeywords = @("cordoba", "argentina", "folklore", "doma", "jineteada", "chaqueno", "milei", "festival", "anfiteatro", "festivaleras", "aguascalientes", "chicahuales", "mexico", "cesar medina", "isla mujeres", "cancun", "quintana roo", "ladron de guevara", "chicahual", "el sol del centro", "el clarinete", "jlmnoticias", "binoticias", "oem.com.mx", "heraldo.mx", "lja.mx", "bi noticias", "jlm noticias", "hidrocalido", "hidrocalidodigital", "elclarinete.com.mx", "hidrocalidodigital.com", "jlmnoticias.com", "elindependiente.mx", "sheinbaum", "lopez obrador", "gobierno de mexico", "mexicana", "mexicano", "nw noticias", "nwnoticias", "nw-noticias", "cosio", "tere jimenez", "agssports", "calvillo", "rincon de romos", "pabellon de arteaga")
     foreach ($ex in $excludeKeywords) {
         if ($cleanText.Contains($ex)) {
             return 0
@@ -397,7 +397,7 @@ if (Test-Path $DbPath) {
     }
     
     # Limpieza de base de datos para excluir noticias ajenas a Perú (Argentina/Córdoba/México)
-    $excludeKeywords = @("cordoba", "argentina", "folklore", "doma", "jineteada", "chaqueno", "milei", "festival", "anfiteatro", "festivaleras", "aguascalientes", "chicahuales", "mexico", "cesar medina", "isla mujeres", "cancun", "quintana roo", "ladron de guevara", "chicahual", "el sol del centro", "el clarinete", "jlmnoticias", "binoticias", "oem.com.mx", "heraldo.mx", "lja.mx", "bi noticias", "jlm noticias", "hidrocalido", "hidrocalidodigital", "elclarinete.com.mx", "hidrocalidodigital.com", "jlmnoticias.com", "elindependiente.mx", "sheinbaum", "lopez obrador", "gobierno de mexico", "mexicana", "mexicano", "nw noticias", "nwnoticias", "nw-noticias")
+    $excludeKeywords = @("cordoba", "argentina", "folklore", "doma", "jineteada", "chaqueno", "milei", "festival", "anfiteatro", "festivaleras", "aguascalientes", "chicahuales", "mexico", "cesar medina", "isla mujeres", "cancun", "quintana roo", "ladron de guevara", "chicahual", "el sol del centro", "el clarinete", "jlmnoticias", "binoticias", "oem.com.mx", "heraldo.mx", "lja.mx", "bi noticias", "jlm noticias", "hidrocalido", "hidrocalidodigital", "elclarinete.com.mx", "hidrocalidodigital.com", "jlmnoticias.com", "elindependiente.mx", "sheinbaum", "lopez obrador", "gobierno de mexico", "mexicana", "mexicano", "nw noticias", "nwnoticias", "nw-noticias", "cosio", "tere jimenez", "agssports", "calvillo", "rincon de romos", "pabellon de arteaga")
     if ($Db.news) {
         $Db.news = @($Db.news | Where-Object {
             $combined = Remove-Accents ("$($_.title) $($_.summary)".ToLower())
