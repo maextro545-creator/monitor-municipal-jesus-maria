@@ -368,7 +368,7 @@ function Check-Relevance {
     $cleanText = Remove-Accents ($Text.ToLower())
     
     # Filtrar explícitamente noticias de Argentina / Córdoba / Festival de Doma / México / España
-    $excludeKeywords = @("cordoba", "argentina", "folklore", "doma", "jineteada", "chaqueno", "milei", "festival", "anfiteatro", "festivaleras", "aguascalientes", "chicahuales", "mexico", "cesar medina", "isla mujeres", "cancun", "quintana roo", "ladron de guevara", "chicahual", "el sol del centro", "el clarinete", "jlmnoticias", "binoticias", "oem.com.mx", "heraldo.mx", "lja.mx", "bi noticias", "jlm noticias", "hidrocalido", "hidrocalidodigital", "elclarinete.com.mx", "hidrocalidodigital.com", "jlmnoticias.com", "elindependiente.mx", "sheinbaum", "lopez obrador", "gobierno de mexico", "mexicana", "mexicano", "nw noticias", "nwnoticias", "nw-noticias", "cosio", "tere jimenez", "agssports", "calvillo", "rincon de romos", "pabellon de arteaga", "sinsacate", "bainotti", "totoral", "estacion fm", "caroya", "colonia caroya", "macri", "kirchner", "jesusmaria.gov.ar", "diarioeldespertador", "radiojesusmaria", "laradiodetotoral", "regionobjetivo", "lavoz.com.ar", "estacionfm.com.ar", ".com.ar", ".gov.ar", "etarra", "mondragon", "andaluz", "andalucia", "sevilla", "malaga", "diariodesevilla", "laopiniondemalaga")
+    $excludeKeywords = @("cordoba", "argentina", "folklore", "doma", "jineteada", "chaqueno", "milei", "festival", "anfiteatro", "festivaleras", "aguascalientes", "chicahuales", "mexico", "cesar medina", "isla mujeres", "cancun", "quintana roo", "ladron de guevara", "chicahual", "el sol del centro", "el clarinete", "jlmnoticias", "binoticias", "oem.com.mx", "heraldo.mx", "lja.mx", "bi noticias", "jlm noticias", "hidrocalido", "hidrocalidodigital", "elclarinete.com.mx", "hidrocalidodigital.com", "jlmnoticias.com", "elindependiente.mx", "sheinbaum", "lopez obrador", "gobierno de mexico", "mexicana", "mexicano", "nw noticias", "nwnoticias", "nw-noticias", "cosio", "tere jimenez", "agssports", "calvillo", "rincon de romos", "pabellon de arteaga", "sinsacate", "bainotti", "totoral", "estacion fm", "caroya", "colonia caroya", "macri", "kirchner", "jesusmaria.gov.ar", "diarioeldespertador", "radiojesusmaria", "laradiodetotoral", "regionobjetivo", "lavoz.com.ar", "estacionfm.com.ar", ".com.ar", ".gov.ar", "etarra", "mondragon", "andaluz", "andalucia", "sevilla", "malaga", "diariodesevilla", "laopiniondemalaga", "fortaleciendo hogares", "ciudaddevanguardia", "jesusmaria.gob.mx")
     foreach ($ex in $excludeKeywords) {
         if ($cleanText.Contains($ex)) {
             return 0
@@ -397,7 +397,7 @@ if (Test-Path $DbPath) {
     }
     
     # Limpieza de base de datos para excluir noticias ajenas a Perú (Argentina/Córdoba/México/España)
-    $excludeKeywords = @("cordoba", "argentina", "folklore", "doma", "jineteada", "chaqueno", "milei", "festival", "anfiteatro", "festivaleras", "aguascalientes", "chicahuales", "mexico", "cesar medina", "isla mujeres", "cancun", "quintana roo", "ladron de guevara", "chicahual", "el sol del centro", "el clarinete", "jlmnoticias", "binoticias", "oem.com.mx", "heraldo.mx", "lja.mx", "bi noticias", "jlm noticias", "hidrocalido", "hidrocalidodigital", "elclarinete.com.mx", "hidrocalidodigital.com", "jlmnoticias.com", "elindependiente.mx", "sheinbaum", "lopez obrador", "gobierno de mexico", "mexicana", "mexicano", "nw noticias", "nwnoticias", "nw-noticias", "cosio", "tere jimenez", "agssports", "calvillo", "rincon de romos", "pabellon de arteaga", "sinsacate", "bainotti", "totoral", "estacion fm", "caroya", "colonia caroya", "macri", "kirchner", "jesusmaria.gov.ar", "diarioeldespertador", "radiojesusmaria", "laradiodetotoral", "regionobjetivo", "lavoz.com.ar", "estacionfm.com.ar", ".com.ar", ".gov.ar", "etarra", "mondragon", "andaluz", "andalucia", "sevilla", "malaga", "diariodesevilla", "laopiniondemalaga")
+    $excludeKeywords = @("cordoba", "argentina", "folklore", "doma", "jineteada", "chaqueno", "milei", "festival", "anfiteatro", "festivaleras", "aguascalientes", "chicahuales", "mexico", "cesar medina", "isla mujeres", "cancun", "quintana roo", "ladron de guevara", "chicahual", "el sol del centro", "el clarinete", "jlmnoticias", "binoticias", "oem.com.mx", "heraldo.mx", "lja.mx", "bi noticias", "jlm noticias", "hidrocalido", "hidrocalidodigital", "elclarinete.com.mx", "hidrocalidodigital.com", "jlmnoticias.com", "elindependiente.mx", "sheinbaum", "lopez obrador", "gobierno de mexico", "mexicana", "mexicano", "nw noticias", "nwnoticias", "nw-noticias", "cosio", "tere jimenez", "agssports", "calvillo", "rincon de romos", "pabellon de arteaga", "sinsacate", "bainotti", "totoral", "estacion fm", "caroya", "colonia caroya", "macri", "kirchner", "jesusmaria.gov.ar", "diarioeldespertador", "radiojesusmaria", "laradiodetotoral", "regionobjetivo", "lavoz.com.ar", "estacionfm.com.ar", ".com.ar", ".gov.ar", "etarra", "mondragon", "andaluz", "andalucia", "sevilla", "malaga", "diariodesevilla", "laopiniondemalaga", "fortaleciendo hogares", "ciudaddevanguardia", "jesusmaria.gob.mx")
     if ($Db.news) {
         $Db.news = @($Db.news | Where-Object {
             $combined = Remove-Accents ("$($_.title) $($_.summary)".ToLower())
@@ -882,6 +882,25 @@ if ($null -ne $Config.facebook_cookies -and $Config.facebook_cookies.Count -gt 0
             
             # Limpiar URL para evitar duplicados con parámetros de tracking
             $realUrl = $url -replace '\?.*$', ''
+            
+            # Filtrar páginas/usuarios y URLs oficiales de Jesús María, México/Aguascalientes
+            $authorName = ""
+            if ($item.author -and $item.author.name) { $authorName = $item.author.name.ToLower() }
+            $pageName = ""
+            if ($item.pageName) { $pageName = $item.pageName.ToLower() }
+            
+            $isMexican = $false
+            $mexicanSources = @("municipio de jesus maria", "gobierno municipal de jesus maria", "h. ayuntamiento", "ayuntamiento de jesus maria", "secretaria de desarrollo social de jesus maria")
+            foreach ($ms in $mexicanSources) {
+                if ($authorName -eq $ms -or $pageName -eq $ms) {
+                    $isMexican = $true
+                    break
+                }
+            }
+            if ($realUrl.Contains("jesusmariamunicipio") -or $realUrl.Contains("jesusmaria.gob.mx")) {
+                $isMexican = $true
+            }
+            if ($isMexican) { continue }
             
             # Verificar si ya existe en la DB
             $exists = $false
