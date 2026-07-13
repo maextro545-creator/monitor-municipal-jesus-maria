@@ -2440,6 +2440,48 @@
                         "relevance":  1,
                         "image_url":  "https://img.youtube.com/vi/HONpkRXIbLI/hqdefault.jpg",
                         "scraped_at":  "2026-07-13T16:24:28"
+                    },
+                    {
+                        "video_id":  "xvrzYiIJaE8",
+                        "query":  "jesús gálvez jesus maria",
+                        "title":  "JESÚS GALVEZ CELEBRÓ ANIVERSARIO DE JESÚS MARÍA, SIN EL BAILE DEL TOTÓ Y PROMOVIENDO A SUS AMIGOS",
+                        "channel":  "YOPLAC TELEVISIÓN",
+                        "published_date":  "2025-12-18T21:42:02",
+                        "description":  "Video monitoreado de YouTube.",
+                        "transcript_snippet":  "Menciones detectadas en el video: JESÚS GALVEZ CELEBRÓ ANIVERSARIO DE JESÚS MARÍA, SIN EL BAILE DEL TOTÓ Y PROMOVIENDO A SUS AMIGOS",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://img.youtube.com/vi/xvrzYiIJaE8/hqdefault.jpg",
+                        "scraped_at":  "2026-07-13T16:37:32"
+                    },
+                    {
+                        "video_id":  "0yAQf4UQfB0",
+                        "query":  "alcalde jesus maria",
+                        "title":  "FERNANDO CARVALLO @RPPNoticias⁩ ENTREVISTA A JORGE QUINTANA, CANDIDATO A LA ALCALDÍA DE JESÚS MARÍA",
+                        "channel":  "Jorge Quintana",
+                        "published_date":  "2026-06-30T11:58:37",
+                        "description":  "Video monitoreado de YouTube.",
+                        "transcript_snippet":  "Menciones detectadas en el video: FERNANDO CARVALLO @RPPNoticias⁩ ENTREVISTA A JORGE QUINTANA, CANDIDATO A LA ALCALDÍA DE JESÚS MARÍA",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://img.youtube.com/vi/0yAQf4UQfB0/hqdefault.jpg",
+                        "scraped_at":  "2026-07-13T16:37:44"
+                    },
+                    {
+                        "video_id":  "J9YM1yhsNnc",
+                        "query":  "alcalde jesus maria",
+                        "title":  "#NotaDePrensa | ¡Jesús María presente por un país más seguro! 🤝🇵🇪",
+                        "channel":  "Municipalidad de Jesús María",
+                        "published_date":  "2025-10-14T13:36:55",
+                        "description":  "Video monitoreado de YouTube.",
+                        "transcript_snippet":  "Menciones detectadas en el video: #NotaDePrensa | ¡Jesús María presente por un país más seguro! 🤝🇵🇪",
+                        "sentiment":  "positivo",
+                        "sentiment_score":  1,
+                        "relevance":  1,
+                        "image_url":  "https://img.youtube.com/vi/J9YM1yhsNnc/hqdefault.jpg",
+                        "scraped_at":  "2026-07-13T16:37:49"
                     }
                 ],
     "twitter":  [
@@ -3080,5 +3122,5 @@
                         "scraped_at":  "2026-07-13T10:03:01"
                     }
                 ],
-    "updated_at":  "2026-07-13T16:25:28"
+    "updated_at":  "2026-07-13T16:39:19"
 };
