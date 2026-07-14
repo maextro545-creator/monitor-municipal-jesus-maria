@@ -885,9 +885,9 @@ if ($null -ne $Config.facebook_cookies -and $Config.facebook_cookies.Count -gt 0
             
             # Filtrar páginas/usuarios y URLs oficiales de Jesús María, México/Aguascalientes
             $authorName = ""
-            if ($item.author -and $item.author.name) { $authorName = $item.author.name.ToLower() }
+            if ($item.author -and $item.author.name) { $authorName = Remove-Accents ($item.author.name.ToLower()) }
             $pageName = ""
-            if ($item.pageName) { $pageName = $item.pageName.ToLower() }
+            if ($item.pageName) { $pageName = Remove-Accents ($item.pageName.ToLower()) }
             
             $isMexican = $false
             $mexicanSources = @("municipio de jesus maria", "gobierno municipal de jesus maria", "h. ayuntamiento", "ayuntamiento de jesus maria", "secretaria de desarrollo social de jesus maria")
