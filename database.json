@@ -1715,6 +1715,19 @@
                      "relevance":  1,
                      "image_url":  "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/417116131_685916423728419_8674026024830867161_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx750x750\u0026ctp=s320x320\u0026_nc_cat=105\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=w9sgF7OhchgQ7kNvwFfA3pw\u0026_nc_oc=AdrQujETwGnR4qgcMSF8AKYbOqrRtlFmfc5bX0CElR9NI0IvGyNEi5Uqb0_2b-Rc0N0\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-2.xx\u0026_nc_gid=t0DG2kfD0UY9pHLPr1K7rg\u0026_nc_ss=7e2a8\u0026oh=00_AQByAaNd5zo94-oc6pwQeVMSdZPC5vl9E5VxpFLg1V7snw\u0026oe=6A5D6D7D",
                      "scraped_at":  "2026-07-15T08:13:09"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/Exitosanoticias/videos/-exitosateescucha-en-jes%C3%BAs-mar%C3%ADa-decenas-de-ciudadanos-espa%C3%B1oles-se-re%C3%BAnen-para-/1030513956131895/",
+                     "query":  "distrito de jesus maria",
+                     "title":  "Exitosa Noticias. . 🔴🔵 #ExitosaTeEscucha 🎤 | En Jesús María, decenas de ciudadanos españoles se reúnen para alentar a su selección en el esperado duelo ante Francia por el pase a la gran final del Mundial 2026. 📻 95.5 FM 📡 6.1 señal digital abierta 📺 M - facebook.com",
+                     "source":  "Exitosanoticias",
+                     "published_date":  "2026-07-14T13:41:44",
+                     "summary":  "Exitosa Noticias. . 🔴🔵 #ExitosaTeEscucha 🎤 | En Jesús María, decenas de ciudadanos españoles se reúnen para alentar a su selección en el esperado duelo ante Francia por el pase a la gran final del Mundial 2026. 📻 95.5 FM 📡 6.1 señal digital abierta 📺 M\u0026nbsp;\u0026nbsp;facebook.com",
+                     "sentiment":  "positivo",
+                     "sentiment_score":  1,
+                     "relevance":  1,
+                     "image_url":  "https://scontent-lim1-1.xx.fbcdn.net/v/t15.5256-10/748551351_1763233195119995_4951853341060287225_n.jpg?_nc_cat=108\u0026ccb=1-7\u0026_nc_sid=a27664\u0026_nc_ohc=8JwFd_2qCoQQ7kNvwEVX9GM\u0026_nc_oc=AdoEABZUAU7EqEDERoovF8baS8nrRC0XZHyVoZYVVtxEJ-DplmtBHcwZSnrnpLnJyEw\u0026_nc_zt=23\u0026_nc_ht=scontent-lim1-1.xx\u0026_nc_gid=6-UPeorj1B05YrZ1fcyQRg\u0026_nc_ss=7020f\u0026oh=00_AQAoV1jCV0ydB5bHRe2UDQ52cjcOoBa-gxv51bOGUZUSHw\u0026oe=6A5D6BCD",
+                     "scraped_at":  "2026-07-15T09:35:30"
                  }
              ],
     "youtube":  [
@@ -2445,6 +2458,34 @@
                         "relevance":  1,
                         "image_url":  "https://img.youtube.com/vi/sz9fJIzc7EM/hqdefault.jpg",
                         "scraped_at":  "2026-07-14T10:04:35"
+                    },
+                    {
+                        "video_id":  "PsOXrj2IqBU",
+                        "query":  "alcalde jesus maria",
+                        "title":  "LOS PROBLEMAS QUE AFECTAN A JESÚS MARÍA | RAPHAEL VALENCIA DIESTRA | PERÚ 2026",
+                        "channel":  "Revista CARETAS",
+                        "published_date":  "2026-07-11T03:30:03",
+                        "description":  "Video monitoreado de YouTube.",
+                        "transcript_snippet":  "Menciones detectadas en el video: LOS PROBLEMAS QUE AFECTAN A JESÚS MARÍA | RAPHAEL VALENCIA DIESTRA | PERÚ 2026",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://img.youtube.com/vi/PsOXrj2IqBU/hqdefault.jpg",
+                        "scraped_at":  "2026-07-15T09:39:16"
+                    },
+                    {
+                        "video_id":  "l9iT-XbR0yA",
+                        "query":  "distrito de jesus maria",
+                        "title":  "Luiz Carlos Reátegui - Jesús María. Obras emblemáticas.",
+                        "channel":  "Luiz Carlos Reategui Del Aguila",
+                        "published_date":  "2026-07-15T09:31:52",
+                        "description":  "Video monitoreado de YouTube.",
+                        "transcript_snippet":  "Menciones detectadas en el video: Luiz Carlos Reátegui - Jesús María. Obras emblemáticas.",
+                        "sentiment":  "positivo",
+                        "sentiment_score":  1,
+                        "relevance":  1,
+                        "image_url":  "https://img.youtube.com/vi/l9iT-XbR0yA/hqdefault.jpg",
+                        "scraped_at":  "2026-07-15T09:39:34"
                     }
                 ],
     "twitter":  [
