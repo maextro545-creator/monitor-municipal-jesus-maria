@@ -167,7 +167,7 @@ function Get-FacebookDataFromApify {
     return $null
 }
 
-# Función para buscar en Facebook usando Apify con cookies (búsqueda profunda)
+# Función para buscar en Facebook usando Apify con cookies (búsqueda ultra profunda)
 function Search-FacebookWithApify {
     param (
         [string]$query
@@ -176,13 +176,13 @@ function Search-FacebookWithApify {
         return @()
     }
     
-    # Búsqueda más profunda: mirar los últimos 30 días
-    $startDate = (Get-Date).AddDays(-30).ToString("yyyy-MM-dd")
-    Write-Host "    [Apify] Buscando en Facebook para: '$query' desde $startDate (Búsqueda Profunda)..." -ForegroundColor Cyan
+    # Búsqueda ultra profunda: mirar los últimos 90 días (3 meses)
+    $startDate = (Get-Date).AddDays(-90).ToString("yyyy-MM-dd")
+    Write-Host "    [Apify] Buscando en Facebook para: '$query' desde $startDate (Búsqueda Ultra Profunda)..." -ForegroundColor Cyan
     
     $body = @{
         query = $query
-        maxResults = 50
+        maxResults = 100
         recent_posts = $true
         start_date = $startDate
         cookies = $Config.facebook_cookies
@@ -191,8 +191,8 @@ function Search-FacebookWithApify {
     $apifyUrl = "https://api.apify.com/v2/acts/scraper_one~facebook-posts-search/run-sync-get-dataset-items?token=$($Config.apify_token)"
     
     try {
-        # Timeout de 240 segundos para dar tiempo al actor de traer hasta 50 resultados por consulta
-        $resp = Invoke-RestMethod -Uri $apifyUrl -Method Post -Body $body -ContentType "application/json" -TimeoutSec 240
+        # Timeout de 300 segundos (5 minutos) para dar suficiente tiempo de traer hasta 100 resultados por consulta
+        $resp = Invoke-RestMethod -Uri $apifyUrl -Method Post -Body $body -ContentType "application/json" -TimeoutSec 300
         if ($resp -and $resp.Count -gt 0) {
             return $resp
         }
