@@ -1845,6 +1845,58 @@
                      "relevance":  1,
                      "image_url":  "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/277582447_399417698851792_1488184115177561973_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx918x925\u0026ctp=s320x320\u0026_nc_cat=109\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=nVB2SOy8ObcQ7kNvwFxG6Cs\u0026_nc_oc=AdoxTbqgcbYYVq8RIPjqS5FK4odQLO03pVE6sbbdvQIF_WYZDVDexiKLWv3kkbCnL_Q\u0026_nc_zt=24\u0026_nc_ht=scontent-iad6-1.xx\u0026_nc_gid=1bzR5ks5Y2_6xnsn22eIhg\u0026_nc_ss=7e2a8\u0026oh=00_AQAx1ulRFmu19ASxYGmSpROFQH2IPMsFR6UOQrs-puvzKQ\u0026oe=6A5EC2D9",
                      "scraped_at":  "2026-07-16T08:14:13"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/Exitosanoticias/posts/la-municipalidad-de-jes%C3%BAs-mar%C3%ADa-ha-anunciado-la-ejecuci%C3%B3n-de-un-riguroso-plan-de/1490519173111136/",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "🔴🔵La Municipalidad de Jesús María, ha anunciado la ejecución de un riguroso plan de desvíos vehiculares debido al montaje de la gran infraestructura que albergará la tradicional Gran Parada y Desfile Cívico Militar 2026. 🌐Más información en: https://www. - facebook.com",
+                     "source":  "Exitosanoticias",
+                     "published_date":  "2026-07-16T08:48:32",
+                     "summary":  "🔴🔵La Municipalidad de Jesús María, ha anunciado la ejecución de un riguroso plan de desvíos vehiculares debido al montaje de la gran infraestructura que albergará la tradicional Gran Parada y Desfile Cívico Militar 2026.  \n\n🌐Más información en: https://www.exitosanoticias.pe",
+                     "sentiment":  "positivo",
+                     "sentiment_score":  1,
+                     "relevance":  1,
+                     "image_url":  "https://scontent-lga3-2.xx.fbcdn.net/v/t39.99422-6/748985997_1571697817683624_643729378051126413_n.png?stp=dst-jpg_tt6\u0026cstp=mx1080x1350\u0026ctp=s320x320\u0026_nc_cat=105\u0026ccb=1-7\u0026_nc_sid=127cfc\u0026_nc_ohc=x11pXC359yEQ7kNvwGfoZ7p\u0026_nc_oc=AdpZ0UGUy4YAhBULxEVaWFfZRDZI9mX_87-QIaibKyHZGUyMVQq-K5e1N1pLIwbGdHk\u0026_nc_zt=14\u0026_nc_ht=scontent-lga3-2.xx\u0026_nc_gid=lmEsBD2DzTJAh1eIRE6Ajg\u0026_nc_ss=7c289\u0026oh=00_AQAQMdF37B1KwcNBWtYyaXQwTIDqgZn2VLV1nSKQH9LMxA\u0026oe=6A5F1BE8",
+                     "scraped_at":  "2026-07-16T15:29:37"
+                 },
+                 {
+                     "url":  "https://www.peruinforma.com/por-la-gran-parada-militar-2026-cierran-vias-en-jesus-maria-y-pueblo-libre/",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "Por la Gran Parada Militar 2026 cierran vías en Jesús María y Pueblo Libre - - Perú Informa",
+                     "source":  "Perú Informa",
+                     "published_date":  "2026-07-16T11:39:17",
+                     "summary":  "Por la Gran Parada Militar 2026 cierran vías en Jesús María y Pueblo Libre -\u0026nbsp;\u0026nbsp;Perú Informa",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://www.peruinforma.com/wp-content/uploads/2025/12/Desfile-Militar-Batalla-Ayacucho201Aniversario.jpg",
+                     "scraped_at":  "2026-07-16T15:29:46"
+                 },
+                 {
+                     "url":  "https://www.apnoticias.pe/video/campo-de-marte-se-muere-y-robos-aumentan-en-jesus-maria-que-proponen-candidatos-versus-596232",
+                     "query":  "distrito de jesus maria",
+                     "title":  "CAMPO DE MARTE SE MUERE Y ROBOS AUMENTAN EN JESÚS MARÍA: ¿QUÉ PROPONEN CANDIDATOS? | Versus - apnoticias.pe",
+                     "source":  "apnoticias.pe",
+                     "published_date":  "2026-07-16T12:23:21",
+                     "summary":  "CAMPO DE MARTE SE MUERE Y ROBOS AUMENTAN EN JESÚS MARÍA: ¿QUÉ PROPONEN CANDIDATOS? | Versus\u0026nbsp;\u0026nbsp;apnoticias.pe",
+                     "sentiment":  "negativo",
+                     "sentiment_score":  -1,
+                     "relevance":  1,
+                     "image_url":  "https://i4.ytimg.com/vi/OUp9wRdy2zA/hqdefault.jpg",
+                     "scraped_at":  "2026-07-16T15:32:21"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/reel/1326894652864506/",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "🗣️ El alcalde de Jesús María, Jesús Gálvez rechazó las críticas de su antecesor en el cargo, Jor...",
+                     "source":  "RPP Noticias",
+                     "published_date":  "2026-07-01T11:46:42",
+                     "summary":  "🗣️ El alcalde de Jesús María, Jesús Gálvez rechazó las críticas de su antecesor en el cargo, Jorge Quintana, y aseguró que la muerte de árboles en el Campo de Marte se debe a la falta de riego durante la ejecución de las obras a cargo de la Municipalidad de Lima. \n\n👉https://youtu.be/oquuNu3la3o\n#ADNRPP",
+                     "sentiment":  "positivo",
+                     "sentiment_score":  1,
+                     "relevance":  1,
+                     "image_url":  "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/416099665_409431001412966_2302423103869955277_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx720x720\u0026ctp=s320x320\u0026_nc_cat=1\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=W1YBv32cHyIQ7kNvwHbmEQf\u0026_nc_oc=AdpKO_pjCrnchFKUCSjnOU6rNHbPcY8G4I6BMkdwtMFibdv6LCL_VQ8DEGJyMDS6GtA\u0026_nc_zt=24\u0026_nc_ht=scontent-iad6-1.xx\u0026_nc_gid=q9z0KOgizEuaqNTrsGLkMg\u0026_nc_ss=7c2a8\u0026oh=00_AQDn4KG9ORjuAgCZ_q0rpLa7sESxpKz7kHp2SVxkKNYZNA\u0026oe=6A5F0F06",
+                     "scraped_at":  "2026-07-16T15:37:46"
                  }
              ],
     "youtube":  [
@@ -2603,6 +2655,48 @@
                         "relevance":  1,
                         "image_url":  "https://img.youtube.com/vi/l9iT-XbR0yA/hqdefault.jpg",
                         "scraped_at":  "2026-07-15T09:39:34"
+                    },
+                    {
+                        "video_id":  "shysg1rR6G0",
+                        "query":  "alcalde jesus maria",
+                        "title":  "¿Así se ve un depa de S/ 629,000 en Jesús María? 👀",
+                        "channel":  "EnMarcha",
+                        "published_date":  "2026-07-16T15:27:27",
+                        "description":  "Video monitoreado de YouTube.",
+                        "transcript_snippet":  "Menciones detectadas en el video: ¿Así se ve un depa de S/ 629,000 en Jesús María? 👀",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://img.youtube.com/vi/shysg1rR6G0/hqdefault.jpg",
+                        "scraped_at":  "2026-07-16T15:36:23"
+                    },
+                    {
+                        "video_id":  "eSMFF1tjVkY",
+                        "query":  "distrito de jesus maria",
+                        "title":  "Oferta Inmobiliaria en Jesús María  • Reporte de Precios al 12 de Julio del 2026",
+                        "channel":  "Propiedades en el Peru",
+                        "published_date":  "2026-07-16T15:00:16",
+                        "description":  "Video monitoreado de YouTube.",
+                        "transcript_snippet":  "Menciones detectadas en el video: Oferta Inmobiliaria en Jesús María  • Reporte de Precios al 12 de Julio del 2026",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://img.youtube.com/vi/eSMFF1tjVkY/hqdefault.jpg",
+                        "scraped_at":  "2026-07-16T15:36:42"
+                    },
+                    {
+                        "video_id":  "OUp9wRdy2zA",
+                        "query":  "campo de marte",
+                        "title":  "🟠 CAMPO DE MARTE SE MUERE Y ROBOS AUMENTAN EN JESÚS MARÍA: ¿QUÉ PROPONEN CANDIDATOS? | Versus",
+                        "channel":  "EL COMERCIO",
+                        "published_date":  "2026-07-16T09:40:44",
+                        "description":  "Video monitoreado de YouTube.",
+                        "transcript_snippet":  "Menciones detectadas en el video: 🟠 CAMPO DE MARTE SE MUERE Y ROBOS AUMENTAN EN JESÚS MARÍA: ¿QUÉ PROPONEN CANDIDATOS? | Versus",
+                        "sentiment":  "negativo",
+                        "sentiment_score":  -1,
+                        "relevance":  1,
+                        "image_url":  "https://img.youtube.com/vi/OUp9wRdy2zA/hqdefault.jpg",
+                        "scraped_at":  "2026-07-16T15:36:44"
                     }
                 ],
     "twitter":  [
@@ -3277,7 +3371,43 @@
                         "relevance":  1,
                         "image_url":  "https://pbs.twimg.com/profile_images/1648098396153028608/dROv6pyB_200x200.jpg",
                         "scraped_at":  "2026-07-16T08:13:18"
+                    },
+                    {
+                        "url":  "https://x.com/exitosape/status/2077752168119996741",
+                        "query":  "municipalidad de jesus maria",
+                        "title":  "🔴🔵La Municipalidad de Jesús María, ha anunciado la ejecución de un riguroso plan de desvíos vehiculares debido al montaje de la gran infraestructura que albergará la tradicional Gran Parada y Desfile Cívico Militar 2026. 🌐Más información en: exitosanotic",
+                        "author":  "exitosape",
+                        "published_date":  "2026-07-16T08:48:14",
+                        "sentiment":  "positivo",
+                        "sentiment_score":  1,
+                        "relevance":  1,
+                        "image_url":  "https://pbs.twimg.com/media/HNWoVgxXoAASzyt.jpg:large",
+                        "scraped_at":  "2026-07-16T15:37:02"
+                    },
+                    {
+                        "url":  "https://x.com/sostuitperu/status/2077800827775807488",
+                        "query":  "municipalidad de jesus maria",
+                        "title":  "Urgente apoyo para Anuar Zarif que se encuentra en UCI en @EsSaludPeru @munijesusmaria se requiere apoyo de la Municipalidad de Jesús María para verificar lo sucedido ayer a las 7:50 a.m. en Jesús MARÍA en la Av. San Felipe @LalyGoyzueta @FerL",
+                        "author":  "sostuitperu",
+                        "published_date":  "2026-07-16T12:01:35",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://pbs.twimg.com/media/HNXToRfWAAAfbOg.jpg:large",
+                        "scraped_at":  "2026-07-16T15:37:12"
+                    },
+                    {
+                        "url":  "https://x.com/elcomercio_peru/status/2077816102017446143",
+                        "query":  "campo de marte",
+                        "title":  "🟠 CAMPO DE MARTE SE MUERE Y ROBOS AUMENTAN EN JESÚS MARÍA: ¿QUÉ PROPONEN CANDIDATOS? | Versus x.com/i/broadcasts/1…",
+                        "author":  "elcomercio_peru",
+                        "published_date":  "2026-07-16T13:02:17",
+                        "sentiment":  "negativo",
+                        "sentiment_score":  -1,
+                        "relevance":  1,
+                        "image_url":  "https://pbs.twimg.com/profile_images/1951623983457333248/UTiI3pou_200x200.jpg",
+                        "scraped_at":  "2026-07-16T15:37:15"
                     }
                 ],
-    "updated_at":  "2026-07-16T08:14:18"
+    "updated_at":  "2026-07-16T15:37:59"
 };
