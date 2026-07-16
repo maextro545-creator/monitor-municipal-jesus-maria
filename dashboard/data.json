@@ -1648,7 +1648,7 @@
                      "sentiment":  "neutral",
                      "sentiment_score":  0,
                      "relevance":  1,
-                     "image_url":  "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format\u0026fit=crop\u0026w=600\u0026q=80",
+                     "image_url":  "https://cdn.storage.apnoticias.pe/news/2026/07/704a554ac27d322284ba80e98ee31837.jpg",
                      "scraped_at":  "2026-07-15T08:07:42"
                  },
                  {
@@ -1728,6 +1728,123 @@
                      "relevance":  1,
                      "image_url":  "https://scontent-lim1-1.xx.fbcdn.net/v/t15.5256-10/748551351_1763233195119995_4951853341060287225_n.jpg?_nc_cat=108\u0026ccb=1-7\u0026_nc_sid=a27664\u0026_nc_ohc=8JwFd_2qCoQQ7kNvwEVX9GM\u0026_nc_oc=AdoEABZUAU7EqEDERoovF8baS8nrRC0XZHyVoZYVVtxEJ-DplmtBHcwZSnrnpLnJyEw\u0026_nc_zt=23\u0026_nc_ht=scontent-lim1-1.xx\u0026_nc_gid=6-UPeorj1B05YrZ1fcyQRg\u0026_nc_ss=7020f\u0026oh=00_AQAoV1jCV0ydB5bHRe2UDQ52cjcOoBa-gxv51bOGUZUSHw\u0026oe=6A5D6BCD",
                      "scraped_at":  "2026-07-15T09:35:30"
+                 },
+                 {
+                     "url":  "https://www.infobae.com/peru/2026/07/16/gran-parada-y-desfile-militar-2026-cierran-avenidas-clave-en-jesus-maria-y-pueblo-libre-durante-mas-de-dos-semanas/",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "Gran Parada y Desfile Militar 2026: cierran avenidas clave en Jesús María y Pueblo Libre durante más de dos semanas - Infobae",
+                     "source":  "Infobae",
+                     "published_date":  "2026-07-15T21:53:41",
+                     "summary":  "Gran Parada y Desfile Militar 2026: cierran avenidas clave en Jesús María y Pueblo Libre durante más de dos semanas\u0026nbsp;\u0026nbsp;Infobae",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://www.infobae.com/resizer/v2/LUR2T33HO5GI3DZ5IHQPJDEMCU.jpg?auth=437edd308071d91b780a3cb54671de8e09dbfc61776bcd389b474a325635d2bd\u0026smart=true\u0026width=1200\u0026height=630\u0026quality=85",
+                     "scraped_at":  "2026-07-16T08:01:32"
+                 },
+                 {
+                     "url":  "https://diariocorreo.pe/edicion/lima/gran-parada-militar-2026-cerraran-vias-jesus-maria-pueblo-libre-desfile-civico-fiestas-patrias-noticia/?outputType=amp",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "Gran Parada Militar 2026: Cerrarán vías en Jesús María y Pueblo Libre - Diario Correo",
+                     "source":  "Diario Correo",
+                     "published_date":  "2026-07-15T22:17:10",
+                     "summary":  "Gran Parada Militar 2026: Cerrarán vías en Jesús María y Pueblo Libre\u0026nbsp;\u0026nbsp;Diario Correo",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://diariocorreo.pe/resizer/v2/LS6QNTFGLNHYLI7L5F5A5KDHSQ.png?auth=ce885213893ad87661836211ccc9a015a4cd9a7a93fba3367892c4f2733f4381\u0026width=980\u0026height=528\u0026quality=75\u0026smart=true",
+                     "scraped_at":  "2026-07-16T08:01:39"
+                 },
+                 {
+                     "url":  "https://www.peruinforma.com/desfile-militar-2026-cierran-importantes-arterias-viales-en-jesus-maria-y-pueblo-libre-por-mas-de-15-dias/",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "Desfile Militar 2026: Cierran importantes arterias viales en Jesús María y Pueblo Libre por más de 15 días - Perú Informa",
+                     "source":  "Perú Informa",
+                     "published_date":  "2026-07-15T23:26:12",
+                     "summary":  "Desfile Militar 2026: Cierran importantes arterias viales en Jesús María y Pueblo Libre por más de 15 días\u0026nbsp;\u0026nbsp;Perú Informa",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://www.peruinforma.com/wp-content/uploads/2025/07/desfile-1.jpg",
+                     "scraped_at":  "2026-07-16T08:01:43"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/groups/676189969803720/permalink/1997787104310660/",
+                     "query":  "alcalde jesus maria",
+                     "title":  "PORQUE AMAMOS JESÚS MARÍA, HAREMOS LA MEJOR VERSIÓN DEL DISTRITO... LUIZ CARLOS REÁTEGUI  Alcalde...",
+                     "source":  "Dihm Hem",
+                     "published_date":  "2026-07-09T16:53:44",
+                     "summary":  "PORQUE AMAMOS JESÚS MARÍA, HAREMOS LA MEJOR VERSIÓN DEL DISTRITO...\nLUIZ CARLOS REÁTEGUI \nAlcalde de Jesús María",
+                     "sentiment":  "positivo",
+                     "sentiment_score":  1,
+                     "relevance":  1,
+                     "image_url":  "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/275380505_1015960279332751_7320202811839852793_n.jpg?stp=c0.17.213.213a_cp0_dst-jpg_tt6\u0026cstp=mx213x213\u0026ctp=s320x320\u0026_nc_cat=105\u0026ccb=1-7\u0026_nc_sid=1d2534\u0026_nc_ohc=YJsdlZDUjQIQ7kNvwHQCpnp\u0026_nc_oc=AdouB12o3SUEVmA1ypGR4hPqd-HVSYBOwRrWDb_Bh7CwcC7uXUE3IkcPCSrJY8NzoWc\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-2.xx\u0026_nc_gid=bv83z8vNUAWsjXltVWHZlg\u0026_nc_ss=7e2a8\u0026oh=00_AQDcZdNvThZn_f-hhV_YQCzlDRPpqrTlfdqfyHAVVjnV8Q\u0026oe=6A5E9488",
+                     "scraped_at":  "2026-07-16T08:14:02"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/groups/1364705467009433/permalink/4450426605103955/",
+                     "query":  "distrito de jesus maria",
+                     "title":  "Un gran equipo Luiz Carlos! Nos vemos el próximo domingo!",
+                     "source":  "Luiz Carlos Reátegui-Jesús María",
+                     "published_date":  "2026-07-06T11:17:20",
+                     "summary":  "Un gran equipo Luiz Carlos! Nos vemos el próximo domingo!",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/277582447_399417698851792_1488184115177561973_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx918x925\u0026ctp=s320x320\u0026_nc_cat=109\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=nVB2SOy8ObcQ7kNvwFxG6Cs\u0026_nc_oc=AdoxTbqgcbYYVq8RIPjqS5FK4odQLO03pVE6sbbdvQIF_WYZDVDexiKLWv3kkbCnL_Q\u0026_nc_zt=24\u0026_nc_ht=scontent-iad6-1.xx\u0026_nc_gid=1bzR5ks5Y2_6xnsn22eIhg\u0026_nc_ss=7e2a8\u0026oh=00_AQAx1ulRFmu19ASxYGmSpROFQH2IPMsFR6UOQrs-puvzKQ\u0026oe=6A5EC2D9",
+                     "scraped_at":  "2026-07-16T08:14:13"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/groups/eduardofalconi31/permalink/10152132017614971/",
+                     "query":  "distrito de jesus maria",
+                     "title":  "𝗦𝗼𝗺𝗼𝘀 𝗳𝗿𝗼𝗻𝘁𝗮𝗹𝗲𝘀 𝘆 𝗱𝗶𝗿𝗲𝗰𝘁𝗼𝘀: 𝗱𝗲𝘀𝗱𝗲 𝗵𝗮𝗰𝗲 𝗺𝗮́𝘀 𝗱𝗲 𝟲𝟬 𝗮𝗻̃𝗼�...",
+                     "source":  "Luiz Carlos Reátegui-Jesús María",
+                     "published_date":  "2026-07-15T10:21:33",
+                     "summary":  "𝗦𝗼𝗺𝗼𝘀 𝗳𝗿𝗼𝗻𝘁𝗮𝗹𝗲𝘀 𝘆 𝗱𝗶𝗿𝗲𝗰𝘁𝗼𝘀: 𝗱𝗲𝘀𝗱𝗲 𝗵𝗮𝗰𝗲 𝗺𝗮́𝘀 𝗱𝗲 𝟲𝟬 𝗮𝗻̃𝗼𝘀, 𝘁𝗼𝗱𝗮𝘀 𝗹𝗮𝘀 𝗽𝘀𝗲𝘂𝗱𝗼 “𝗮𝘂𝘁𝗼𝗿𝗶𝗱𝗮𝗱𝗲𝘀” 𝗾𝘂𝗲 𝗵𝗮𝗻 𝗽𝗮𝘀𝗮𝗱𝗼 𝗽𝗼𝗿 𝗹𝗮 𝗺𝘂𝗻𝗶𝗰𝗶𝗽𝗮𝗹𝗶𝗱𝗮𝗱, le han hecho creer a nuestros vecinos que hacer gestión es solo recoger la basura, regar el jardín y que un sereno pase una vez a la semana. Qué tales frescos, que no se pasen pues. Eso NO es hacer gestión. 𝗡𝗼𝘀𝗼𝘁𝗿𝗼𝘀 𝘀𝗶́ 𝗵𝗮𝗿𝗲𝗺𝗼𝘀 𝗼𝗯𝗿𝗮𝘀 𝗲𝗺𝗯𝗹𝗲𝗺𝗮́𝘁𝗶𝗰𝗮𝘀 𝗰𝗼𝗺𝗼 𝗰𝗼𝗻𝘀𝘁𝗿𝘂𝗶𝗿 𝗲𝗹 𝗽𝗿𝗶𝗺𝗲𝗿 𝗛𝗼𝘀𝗽𝗶𝘁𝗮𝗹 𝗠𝘂𝗻𝗶𝗰𝗶𝗽𝗮𝗹 𝗝𝗲𝘀𝘂𝘀𝗺𝗮𝗿𝗶𝗮𝗻𝗼 𝗽𝗮𝗿𝗮 𝗮𝘁𝗲𝗻𝗰𝗶𝗼𝗻𝗲𝘀 𝗽𝗿𝗶𝗺𝗮𝗿𝗶𝗮𝘀, 𝗲𝗹 𝗖𝗲𝗻𝘁𝗿𝗼 𝗱𝗲 𝗔𝗹𝘁𝗼 𝗥𝗲𝗻𝗱𝗶𝗺𝗶𝗲𝗻𝘁𝗼 𝗽𝗮𝗿𝗮 𝗽𝗿𝗼𝗳𝗲𝘀𝗶𝗼𝗻𝗮𝗹𝗶𝘇𝗮𝗿 𝗲𝗹 𝗱𝗲𝗽𝗼𝗿𝘁𝗲 𝗱𝗲 𝗻𝘂𝗲𝘀𝘁𝗿𝗼𝘀 𝗷𝗼́𝘃𝗲𝗻𝗲𝘀 𝘆 𝗲𝗹 𝗖𝗲𝗻𝘁𝗿𝗼 𝗣𝗿𝗲𝘂𝗻𝗶𝘃𝗲𝗿𝘀𝗶𝘁𝗮𝗿𝗶𝗼 𝗽𝗮𝗿𝗮 𝗹𝗮 𝗽𝗿𝗼𝗳𝗲𝘀𝗶𝗼𝗻𝗮𝗹𝗶𝘇𝗮𝗰𝗶𝗼́𝗻 𝘃𝗲𝗰𝗶𝗻𝗮𝗹. 𝗢𝗯𝗿𝗮𝘀 𝗲𝗺𝗯𝗹𝗲𝗺𝗮́𝘁𝗶𝗰𝗮𝘀 𝗾𝘂𝗲 𝗶𝗺𝗽𝗮𝗰𝘁𝗲𝗻 𝗲𝗻 𝗹𝗮 𝗰𝗮𝗹𝗶𝗱𝗮𝗱 𝗱𝗲 𝘃𝗶𝗱𝗮 𝗱𝗲 𝗻𝘂𝗲𝘀𝘁𝗿𝗼𝘀 𝗻𝗶𝗻̃𝗼𝘀, 𝗷𝗼́𝘃𝗲𝗻𝗲𝘀, 𝗮𝗱𝘂𝗹𝘁𝗼𝘀 𝘆 𝗮𝗱𝘂𝗹𝘁𝗼𝘀 𝗺𝗮𝘆𝗼𝗿𝗲𝘀. Nosotros no venimos aquí a milonguear o a aparecernos faltando solo un mes para la elección de manera oportunista como los demás. Nosotros estamos aquí desde siempre para trabajar de verdad solucionando problemáticas como lo hemos hecho todos estos años contigo de la mano! Vamos a revolucionar la capacidad de respuesta municipal! Eso es marcar la diferencia. 𝗤𝘂𝗲𝗿𝗶𝗱𝗼 𝘃𝗲𝗰𝗶𝗻𝗼, 𝗲𝘃𝗶𝘁𝗲𝗺𝗼𝘀 𝗾𝘂𝗲 𝗲𝘅 𝗽𝘀𝗲𝘂𝗱𝗼 “𝗮𝘂𝘁𝗼𝗿𝗶𝗱𝗮𝗱𝗲𝘀” 𝘁𝗲 𝘀𝗶𝗴𝗮𝗻 𝗺𝗲𝘁𝗶𝗲𝗻𝗱𝗼 𝗹𝗮 𝗺𝗮𝗻𝗼 𝗮𝗹 𝗯𝗼𝗹𝘀𝗶𝗹𝗹𝗼 y ganémosle a los viejos corruptos manejos municipales que pretenden regresar. 𝗘𝗻 𝗝𝗲𝘀𝘂́𝘀 𝗠𝗮𝗿𝗶́𝗮 𝗰𝗼𝗻 𝗰𝗼𝗿𝗮𝘇𝗼́𝗻 𝘁𝗼𝗱𝗼 𝘀𝗮𝗹𝗲 𝗺𝗲𝗷𝗼𝗿! Un gran abrazo! \nAtte,\n𝗟𝘂𝗶𝘇 𝗖𝗮𝗿𝗹𝗼𝘀 𝗥𝗲𝗮́𝘁𝗲𝗴𝘂𝗶.\n𝗔𝗹𝗰𝗮𝗹𝗱𝗲 𝗱𝗲 𝗝𝗲𝘀𝘂́𝘀 𝗠𝗮𝗿𝗶́𝗮 𝟮𝟬𝟮𝟲.\n❤️💪🏻☺️\n#SomosReátegui #JesúsMaría #CarlosBruce",
+                     "sentiment":  "negativo",
+                     "sentiment_score":  -0.33,
+                     "relevance":  1,
+                     "image_url":  "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/277582447_399417698851792_1488184115177561973_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx918x925\u0026ctp=s320x320\u0026_nc_cat=109\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=nVB2SOy8ObcQ7kNvwFxG6Cs\u0026_nc_oc=AdoxTbqgcbYYVq8RIPjqS5FK4odQLO03pVE6sbbdvQIF_WYZDVDexiKLWv3kkbCnL_Q\u0026_nc_zt=24\u0026_nc_ht=scontent-iad6-1.xx\u0026_nc_gid=1bzR5ks5Y2_6xnsn22eIhg\u0026_nc_ss=7e2a8\u0026oh=00_AQAx1ulRFmu19ASxYGmSpROFQH2IPMsFR6UOQrs-puvzKQ\u0026oe=6A5EC2D9",
+                     "scraped_at":  "2026-07-16T08:14:13"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/100072081620207/videos/1322153771856597/",
+                     "query":  "distrito de jesus maria",
+                     "title":  "IAM (Iglesia Apostólica en Movimiento)  Viernes 2  de Septiembre  En Nuestra Vigilia de Oración D...",
+                     "source":  "Desayunador Los Arquitos, Jesús María: Jehová Rafa = El Señor Sana",
+                     "published_date":  "2022-09-04T00:05:37",
+                     "summary":  "IAM (Iglesia Apostólica en Movimiento)\n\nViernes 2  de Septiembre\n\nEn Nuestra Vigilia de Oración Distrital, atraves de la página de la coordinación de  pentecostalidad Distrito de Zacatecas.\n\nUn clamor por nuestro Distrito y la búsqueda de su Espíritu Santo.",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/240814420_248374703802712_3309390819761230960_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx720x719\u0026ctp=s320x320\u0026_nc_cat=108\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=-t8Ao111gsgQ7kNvwHMTbhH\u0026_nc_oc=AdopnmPQm5r3Ypk9aa_-RbKEHcKLc5Wpbrr7fUJu8Vqj58xYH3G_9sCwj0UgwSb0Gbs\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-1.xx\u0026_nc_gid=1bzR5ks5Y2_6xnsn22eIhg\u0026_nc_ss=7e2a8\u0026oh=00_AQDrKqUHK8pnSlzeDBFgF7h8DfgqJei49dwDCrTfksMTEw\u0026oe=6A5EA737",
+                     "scraped_at":  "2026-07-16T08:14:13"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/groups/eduardofalconi31/permalink/10152128642024971/",
+                     "query":  "distrito de jesus maria",
+                     "title":  "Como vecino de Jesús María de toda la vida, mi vocación de servicio y compromiso con nuestro dist...",
+                     "source":  "Raphael Valencia",
+                     "published_date":  "2026-07-09T06:58:55",
+                     "summary":  "Como vecino de Jesús María de toda la vida, mi vocación de servicio y compromiso con nuestro distrito están arraigados en mi formación familiar. El ejemplo de mi madre, quien dedicó su vida a nuestra comunidad, me llevó a decidirme a participar como candidato a la Alcaldía. Con más de 25 años de experiencia en liderazgo gerencial, estoy convencido de que podemos hacer las cosas de manera diferente. Jesús María necesita un cambio real y yo estoy dispuesto a liderarlo. Jesús María merece más\n#JesusMaria #gestión  #LoNuevoEsMejor \n\n#nomascomtinuismo #areasverdes #CampoDeMarte",
+                     "sentiment":  "positivo",
+                     "sentiment_score":  1,
+                     "relevance":  1,
+                     "image_url":  "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/735734994_3394909374021640_23028623229527612_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx1086x1098\u0026ctp=s320x320\u0026_nc_cat=102\u0026ccb=1-7\u0026_nc_sid=1d2534\u0026_nc_ohc=StBT9A6d7JYQ7kNvwHBKY9P\u0026_nc_oc=AdqUaaJy9xeix1m3DsmKUyM62acSJZQztfdVooJCoT9NQhEWHQwDKyrjI6Js_KTFwq8\u0026_nc_zt=24\u0026_nc_ht=scontent-iad6-1.xx\u0026_nc_gid=1bzR5ks5Y2_6xnsn22eIhg\u0026_nc_ss=7e2a8\u0026oh=00_AQDaR-U8FWP5DIthoWyT-zuJniMK6CC2OCogXLXtvNSrZA\u0026oe=6A5EACF7",
+                     "scraped_at":  "2026-07-16T08:14:13"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/groups/eduardofalconi31/permalink/10152128738769971/",
+                     "query":  "distrito de jesus maria",
+                     "title":  "𝗤𝘂𝗲́ 𝘀𝗲𝗻𝘀𝗮𝗰𝗶𝗼́𝗻 𝘁𝗮𝗻 𝗺𝗮𝗿𝗮𝘃𝗶𝗹𝗹𝗼𝘀𝗮 𝗲𝗻 𝗻𝘂𝗲𝘀𝘁𝗿𝗼 𝗰𝗼𝗿𝗮𝘇𝗼́𝗻 𝘀�...",
+                     "source":  "Luiz Carlos Reátegui-Jesús María",
+                     "published_date":  "2026-07-09T10:15:35",
+                     "summary":  "𝗤𝘂𝗲́ 𝘀𝗲𝗻𝘀𝗮𝗰𝗶𝗼́𝗻 𝘁𝗮𝗻 𝗺𝗮𝗿𝗮𝘃𝗶𝗹𝗹𝗼𝘀𝗮 𝗲𝗻 𝗻𝘂𝗲𝘀𝘁𝗿𝗼 𝗰𝗼𝗿𝗮𝘇𝗼́𝗻 𝘀𝗲 𝗽𝗼𝘀𝗮 al ver el camino recorrido desde el 2023 hasta inicios del 2026, 𝘀𝘂𝗺𝗮𝗻𝗱𝗼 𝗲𝘀𝗳𝘂𝗲𝗿𝘇𝗼𝘀 𝗰𝗼𝗻 𝗹𝗼𝘀 𝘃𝗲𝗰𝗶𝗻𝗼𝘀, 𝘂𝗻𝗶𝗲́𝗻𝗱𝗼𝗻𝗼𝘀, 𝘀𝗼𝗹𝘂𝗰𝗶𝗼𝗻𝗮𝗻𝗱𝗼 𝗽𝗿𝗼𝗯𝗹𝗲𝗺𝗮́𝘁𝗶𝗰𝗮𝘀 𝗲𝗻 𝗰𝗼𝗻𝗷𝘂𝗻𝘁𝗼, 𝗽𝗼𝗻𝗶𝗲𝗻𝗱𝗼 𝗮 𝗱𝗶𝘀𝗽𝗼𝘀𝗶𝗰𝗶𝗼́𝗻 𝗲𝗹 𝗺𝗲𝗷𝗼𝗿 𝗱𝗲 𝗻𝘂𝗲𝘀𝘁𝗿𝗼𝘀 𝘁𝗮𝗹𝗲𝗻𝘁𝗼𝘀, 𝗰𝗿𝗲𝗮𝗻𝗱𝗼 𝗻𝘂́𝗰𝗹𝗲𝗼𝘀 𝗲𝗷𝗲𝗰𝘂𝘁𝗼𝗿𝗲𝘀, 𝗮𝗿𝘁𝗶𝗰𝘂𝗹𝗮𝗻𝗱𝗼 𝗰𝗼𝗻 𝗹𝗼𝘀 amigos 𝗳𝗲𝗿𝗿𝗲𝘁𝗲𝗿𝗼𝘀, bodegueros, abarroteros, electricistas de la zona, carpinteros del barrio, pintores de la cuadra, albañiles, chaperos, mano de obra vecinal y calificada, profesionales, técnicos, 𝗲𝗺𝗽𝗿𝗲𝗻𝗱𝗲𝗱𝗼𝗿𝗲𝘀, 𝗺𝗮𝗱𝗿𝗲𝘀 𝗱𝗲 𝗳𝗮𝗺𝗶𝗹𝗶𝗮, 𝗷𝗼́𝘃𝗲𝗻𝗲𝘀 𝘆 𝗮𝗱𝘂𝗹𝘁𝗼𝘀 𝗺𝗮𝘆𝗼𝗿𝗲𝘀. Haciendo gestión antes de ser gestión, vecinos con capacidad de autogobernarse, de decidir, de creer para crear. Una comunidad sólida y firme que ha demostrado con creces su don de gente, su nobleza, su amor, su empatía, poniéndose en los zapatos del otro, procurando la felicidad de los demás. 𝗔𝘀𝗶́ 𝘀𝗲 𝗵𝗮𝗰𝗲 𝗱𝗶𝘀𝘁𝗿𝗶𝘁𝗼, 𝗮𝘀𝗶́ 𝘀𝗲 𝗵𝗮𝗰𝗲 𝗽𝗮𝘁𝗿𝗶𝗮. Mis más sinceras felicitaciones a este hermoso equipo humano por todo lo logrado y lo que está por lograr, un equipo humano que vive, que disfruta y siente, que sabe que con voluntad siempre se puede y que 𝗰𝗼𝗻 𝗰𝗼𝗿𝗮𝘇𝗼́𝗻 𝘁𝗼𝗱𝗼 𝘀𝗮𝗹𝗲 𝗺𝗲𝗷𝗼𝗿! Nosotros no venimos aquí a prometer, nosotros venimos aquí a mostrarte lo que ya hemos hecho todo este tiempo y estos años a tu lado de la mano! Con responsabilidad y coherencia. Solo nos faltas tú! Súmate tú también! Un gran abrazo!\nAtte,\n𝗟𝘂𝗶𝘇 𝗖𝗮𝗿𝗹𝗼𝘀 𝗥𝗲𝗮́𝘁𝗲𝗴𝘂𝗶.\n𝗔𝗹𝗰𝗮𝗹𝗱𝗲 𝗱𝗲 𝗝𝗲𝘀𝘂́𝘀 𝗠𝗮𝗿𝗶́𝗮 𝟮𝟬𝟮𝟲.\n❤️💪🏻☺️\n#SomosReátegui #JesúsMaría #CarlosBruce",
+                     "sentiment":  "positivo",
+                     "sentiment_score":  1,
+                     "relevance":  1,
+                     "image_url":  "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/277582447_399417698851792_1488184115177561973_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx918x925\u0026ctp=s320x320\u0026_nc_cat=109\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=nVB2SOy8ObcQ7kNvwFxG6Cs\u0026_nc_oc=AdoxTbqgcbYYVq8RIPjqS5FK4odQLO03pVE6sbbdvQIF_WYZDVDexiKLWv3kkbCnL_Q\u0026_nc_zt=24\u0026_nc_ht=scontent-iad6-1.xx\u0026_nc_gid=1bzR5ks5Y2_6xnsn22eIhg\u0026_nc_ss=7e2a8\u0026oh=00_AQAx1ulRFmu19ASxYGmSpROFQH2IPMsFR6UOQrs-puvzKQ\u0026oe=6A5EC2D9",
+                     "scraped_at":  "2026-07-16T08:14:13"
                  }
              ],
     "youtube":  [
@@ -3124,7 +3241,43 @@
                         "relevance":  1,
                         "image_url":  "https://pbs.twimg.com/profile_images/1577698841469587457/NwPUp2pR_200x200.jpg",
                         "scraped_at":  "2026-07-13T10:03:01"
+                    },
+                    {
+                        "url":  "https://x.com/exitosape/status/2077731481170964961",
+                        "query":  "municipalidad de jesus maria",
+                        "title":  "🔴🔵La Municipalidad de Jesús María anunció restricciones en el tránsito vehicular de la avenida Brasil a partir de este jueves 16 de julio.",
+                        "author":  "exitosape",
+                        "published_date":  "2026-07-16T07:26:02",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://pbs.twimg.com/card_img/2077730883692376064/dvxUY9OD?format=jpg\u0026name=orig",
+                        "scraped_at":  "2026-07-16T08:12:32"
+                    },
+                    {
+                        "url":  "https://x.com/peru21noticias/status/2077574394495304179",
+                        "query":  "municipalidad de jesus maria",
+                        "title":  "🚨 ¡Atención! Disponen el cierre de vías por la Gran Parada y Desfile Militar 2026 📣 La municipalidad de Jesús María pidió a los ciudadanos que tomen las precauciones del caso evitar contratiempos. Conoce las fechas de los cierres.",
+                        "author":  "peru21noticias",
+                        "published_date":  "2026-07-15T21:01:49",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://pbs.twimg.com/card_img/2077574397506830337/1uc80ipL?format=jpg\u0026name=orig",
+                        "scraped_at":  "2026-07-16T08:12:39"
+                    },
+                    {
+                        "url":  "https://x.com/rppc/status/2075740629510901864",
+                        "query":  "campo de marte",
+                        "title":  "Luego de la destrucción del Campo de Marte en Jesús María y de la oxidación de los trenes que siguen sin funcionar, era muy esperable que Renovación caiga en puntos en Lima, la única ciudad que lo apoya(ba) mayoritariamente.",
+                        "author":  "rppc",
+                        "published_date":  "2026-07-10T19:35:06",
+                        "sentiment":  "positivo",
+                        "sentiment_score":  1,
+                        "relevance":  1,
+                        "image_url":  "https://pbs.twimg.com/profile_images/1648098396153028608/dROv6pyB_200x200.jpg",
+                        "scraped_at":  "2026-07-16T08:13:18"
                     }
                 ],
-    "updated_at":  "2026-07-15T09:40:37"
+    "updated_at":  "2026-07-16T08:14:18"
 }
