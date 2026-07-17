@@ -1897,6 +1897,32 @@
                      "relevance":  1,
                      "image_url":  "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/416099665_409431001412966_2302423103869955277_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx720x720\u0026ctp=s320x320\u0026_nc_cat=1\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=W1YBv32cHyIQ7kNvwHbmEQf\u0026_nc_oc=AdpKO_pjCrnchFKUCSjnOU6rNHbPcY8G4I6BMkdwtMFibdv6LCL_VQ8DEGJyMDS6GtA\u0026_nc_zt=24\u0026_nc_ht=scontent-iad6-1.xx\u0026_nc_gid=q9z0KOgizEuaqNTrsGLkMg\u0026_nc_ss=7c2a8\u0026oh=00_AQDn4KG9ORjuAgCZ_q0rpLa7sESxpKz7kHp2SVxkKNYZNA\u0026oe=6A5F0F06",
                      "scraped_at":  "2026-07-16T15:37:46"
+                 },
+                 {
+                     "url":  "https://www.apnoticias.pe/video/serenos-o-policias-herrera-y-ocrospoma-chocan-por-el-transito-en-jesus-maria-versus-596523",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "¿Serenos o policías? Herrera y Ocrospoma chocan por el tránsito en Jesús María | #versus - apnoticias.pe",
+                     "source":  "apnoticias.pe",
+                     "published_date":  "2026-07-17T00:54:41",
+                     "summary":  "¿Serenos o policías? Herrera y Ocrospoma chocan por el tránsito en Jesús María | #versus\u0026nbsp;\u0026nbsp;apnoticias.pe",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://i4.ytimg.com/vi/C9X5oUkoUiw/hqdefault.jpg",
+                     "scraped_at":  "2026-07-17T08:01:41"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/jmontemayor21/posts/pfbid0qF16Cyu5pCpTTR6yDmbgk9mKUPDu6fTUPS62qgTi1Jx615RFq1yExLgGxNGhetNKl",
+                     "query":  "alcalde jesus maria",
+                     "title":  "Como parte del programa de #MejoramientoGenético del Gobernador Manolo Jiménez Salinas, esta maña...",
+                     "source":  "Jesús María Montemayor Garza",
+                     "published_date":  "2026-07-16T14:07:18",
+                     "summary":  "Como parte del programa de #MejoramientoGenético del Gobernador Manolo Jiménez Salinas, esta mañana en #SanBuenaventura junto al alcalde Jesús Javier Flores, Alcaldes de la Región y Gladys Ayala Presidenta de la AGL de San Buenaventura, hicimos entrega de Sementales Bovinos, Equipamiento Ganadero y la Inaguración de la Oficina Móvil de Atención a Productores Ganaderos en la que se podrán realizar diversos trámites e información de programas de la SDR.\nSeguimos trabajando puro #PaDelante #APasosDeGigante",
+                     "sentiment":  "positivo",
+                     "sentiment_score":  1,
+                     "relevance":  1,
+                     "image_url":  "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/428671460_885588943364350_1381723141906506467_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx960x958\u0026ctp=s320x320\u0026_nc_cat=104\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=-vCZD8t_WTYQ7kNvwEqkz8l\u0026_nc_oc=AdrRMZo57jq4aYJL7ZwpM_3RAYulhA9Gq7bZ4XcXRMi3u89klIZ-XgHo-0sddUzcoec\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-1.xx\u0026_nc_gid=AuYcxSucVhg9uxHpcIVL1Q\u0026_nc_ss=7c2a8\u0026oh=00_AQARtN7DInCufDnMujxRtBGhw6Nk2IQ5cIGCOZRhZfqpeA\u0026oe=6A5FFA3C",
+                     "scraped_at":  "2026-07-17T08:14:26"
                  }
              ],
     "youtube":  [
@@ -2697,6 +2723,62 @@
                         "relevance":  1,
                         "image_url":  "https://img.youtube.com/vi/OUp9wRdy2zA/hqdefault.jpg",
                         "scraped_at":  "2026-07-16T15:36:44"
+                    },
+                    {
+                        "video_id":  "C9X5oUkoUiw",
+                        "query":  "municipalidad de jesus maria",
+                        "title":  "¿Serenos o policías? Herrera y Ocrospoma chocan por el tránsito en Jesús María | #versus",
+                        "channel":  "EL COMERCIO",
+                        "published_date":  "2026-07-16T19:00:08",
+                        "description":  "Video monitoreado de YouTube.",
+                        "transcript_snippet":  "Menciones detectadas en el video: ¿Serenos o policías? Herrera y Ocrospoma chocan por el tránsito en Jesús María | #versus",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://img.youtube.com/vi/C9X5oUkoUiw/hqdefault.jpg",
+                        "scraped_at":  "2026-07-17T08:11:17"
+                    },
+                    {
+                        "video_id":  "5hGnVyGKbJg",
+                        "query":  "alcalde jesus maria",
+                        "title":  "ENTREVISTA A JORGE QUINTANA, CANDIDATO A LA ALCALDÍA DE JESÚS MARÍA, EN MOSTRITOS Y PIRAÑAS.",
+                        "channel":  "Jorge Quintana",
+                        "published_date":  "2026-07-06T12:43:38",
+                        "description":  "Video monitoreado de YouTube.",
+                        "transcript_snippet":  "Menciones detectadas en el video: ENTREVISTA A JORGE QUINTANA, CANDIDATO A LA ALCALDÍA DE JESÚS MARÍA, EN MOSTRITOS Y PIRAÑAS.",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://img.youtube.com/vi/5hGnVyGKbJg/hqdefault.jpg",
+                        "scraped_at":  "2026-07-17T08:11:52"
+                    },
+                    {
+                        "video_id":  "rd1YwYlORbQ",
+                        "query":  "distrito de jesus maria",
+                        "title":  "¿Cuánto cuesta un departamento en Jesús María? | Visita a piloto de 70m2 | Entrevista a Cygnus",
+                        "channel":  "Decateca - El mejor Inmueble y Crédito Hipotecario",
+                        "published_date":  "2025-08-21T13:23:40",
+                        "description":  "Video monitoreado de YouTube.",
+                        "transcript_snippet":  "Menciones detectadas en el video: ¿Cuánto cuesta un departamento en Jesús María? | Visita a piloto de 70m2 | Entrevista a Cygnus",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://img.youtube.com/vi/rd1YwYlORbQ/hqdefault.jpg",
+                        "scraped_at":  "2026-07-17T08:12:11"
+                    },
+                    {
+                        "video_id":  "MBpYRFKRlxs",
+                        "query":  "distrito de jesus maria",
+                        "title":  "La Avenida más CARA para VIVIR en Jesús María Lima Perú ",
+                        "channel":  "Turista Tu Vista",
+                        "published_date":  "2025-08-26T15:00:06",
+                        "description":  "Video monitoreado de YouTube.",
+                        "transcript_snippet":  "Menciones detectadas en el video: La Avenida más CARA para VIVIR en Jesús María Lima Perú ",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://img.youtube.com/vi/MBpYRFKRlxs/hqdefault.jpg",
+                        "scraped_at":  "2026-07-17T08:12:14"
                     }
                 ],
     "twitter":  [
@@ -3407,7 +3489,19 @@
                         "relevance":  1,
                         "image_url":  "https://pbs.twimg.com/profile_images/1951623983457333248/UTiI3pou_200x200.jpg",
                         "scraped_at":  "2026-07-16T15:37:15"
+                    },
+                    {
+                        "url":  "https://x.com/elcomercio_peru/status/2077896683619340575",
+                        "query":  "municipalidad de jesus maria",
+                        "title":  "La Municipalidad de Jesús María anunció el cierre temporal de la avenida Brasil desde este jueves 16 de julio hasta las 3:00 p. m. del próximo martes 4 de agosto. La restricción en esta vía se da a pedido del Ministerio de Defensa y la Municipalidad...",
+                        "author":  "elcomercio_peru",
+                        "published_date":  "2026-07-16T18:22:29",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://pbs.twimg.com/card_img/2077896684256874496/-afqExr5?format=jpg\u0026name=orig",
+                        "scraped_at":  "2026-07-17T08:12:37"
                     }
                 ],
-    "updated_at":  "2026-07-16T15:37:59"
+    "updated_at":  "2026-07-17T08:14:39"
 }
