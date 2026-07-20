@@ -3056,6 +3056,90 @@
                         "relevance":  1,
                         "image_url":  "https://img.youtube.com/vi/yh5_2X8b2D0/hqdefault.jpg",
                         "scraped_at":  "2026-07-20T08:43:45"
+                    },
+                    {
+                        "video_id":  "8c2W9b8auwI",
+                        "query":  "municipalidad de jesus maria",
+                        "title":  "JESÚS MARÍA NO TIENE OBRAS EMBLEMÁTICAS #recutecu",
+                        "channel":  "Recutecu Media",
+                        "published_date":  "2026-07-20T11:18:11",
+                        "description":  "Video monitoreado de YouTube.",
+                        "transcript_snippet":  "Menciones detectadas en el video: JESÚS MARÍA NO TIENE OBRAS EMBLEMÁTICAS #recutecu",
+                        "sentiment":  "positivo",
+                        "sentiment_score":  1,
+                        "relevance":  1,
+                        "image_url":  "https://img.youtube.com/vi/8c2W9b8auwI/hqdefault.jpg",
+                        "scraped_at":  "2026-07-20T14:23:01"
+                    },
+                    {
+                        "video_id":  "V0vnB-huuT4",
+                        "query":  "municipalidad de jesus maria",
+                        "title":  "🏡 Este departamento en Jesús María puede ser tu próximo hogar",
+                        "channel":  "EnMarcha",
+                        "published_date":  "2026-07-20T13:07:18",
+                        "description":  "Video monitoreado de YouTube.",
+                        "transcript_snippet":  "Menciones detectadas en el video: 🏡 Este departamento en Jesús María puede ser tu próximo hogar",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://img.youtube.com/vi/V0vnB-huuT4/hqdefault.jpg",
+                        "scraped_at":  "2026-07-20T14:23:02"
+                    },
+                    {
+                        "video_id":  "MWhF3vazLy0",
+                        "query":  "municipalidad de jesus maria",
+                        "title":  "¡JESÚS MARÍA ES EL DISTRITO DONDE MÁS SUBIÓ EL ALQUILER! 🏆📈",
+                        "channel":  "Daniel Depas",
+                        "published_date":  "2026-07-20T10:04:47",
+                        "description":  "Video monitoreado de YouTube.",
+                        "transcript_snippet":  "Menciones detectadas en el video: ¡JESÚS MARÍA ES EL DISTRITO DONDE MÁS SUBIÓ EL ALQUILER! 🏆📈",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://img.youtube.com/vi/MWhF3vazLy0/hqdefault.jpg",
+                        "scraped_at":  "2026-07-20T14:23:04"
+                    },
+                    {
+                        "video_id":  "OyOHVcUjllE",
+                        "query":  "municipalidad de jesus maria",
+                        "title":  "Tu nuevo depa en Jesús María ya tiene dirección. ✨",
+                        "channel":  "Cygnus Grupo Inmobiliario",
+                        "published_date":  "2026-07-20T12:30:03",
+                        "description":  "Video monitoreado de YouTube.",
+                        "transcript_snippet":  "Menciones detectadas en el video: Tu nuevo depa en Jesús María ya tiene dirección. ✨",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://img.youtube.com/vi/OyOHVcUjllE/hqdefault.jpg",
+                        "scraped_at":  "2026-07-20T14:23:05"
+                    },
+                    {
+                        "video_id":  "1WfDlhEeqXE",
+                        "query":  "alcalde jesus maria",
+                        "title":  "Renato Rossini propone un documento de identidad para vecinos de Jesús María #AlDíaConWillax",
+                        "channel":  "Willax Televisión",
+                        "published_date":  "2026-07-20T12:19:11",
+                        "description":  "Video monitoreado de YouTube.",
+                        "transcript_snippet":  "Menciones detectadas en el video: Renato Rossini propone un documento de identidad para vecinos de Jesús María #AlDíaConWillax",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://img.youtube.com/vi/1WfDlhEeqXE/hqdefault.jpg",
+                        "scraped_at":  "2026-07-20T14:23:46"
+                    },
+                    {
+                        "video_id":  "KidiXgzAmW8",
+                        "query":  "campo de marte jesus maria",
+                        "title":  "¿Vale la pena comprar un departamento en Jesús María?",
+                        "channel":  "EnMarcha",
+                        "published_date":  "2026-07-20T13:03:10",
+                        "description":  "Video monitoreado de YouTube.",
+                        "transcript_snippet":  "Menciones detectadas en el video: ¿Vale la pena comprar un departamento en Jesús María?",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://img.youtube.com/vi/KidiXgzAmW8/hqdefault.jpg",
+                        "scraped_at":  "2026-07-20T14:24:28"
                     }
                 ],
     "twitter":  [
@@ -3792,5 +3876,5 @@
                         "scraped_at":  "2026-07-20T08:44:22"
                     }
                 ],
-    "updated_at":  "2026-07-20T08:45:55"
+    "updated_at":  "2026-07-20T14:25:44"
 };
