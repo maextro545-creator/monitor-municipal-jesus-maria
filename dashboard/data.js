@@ -2248,6 +2248,58 @@
                      "relevance":  1,
                      "image_url":  "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/277582447_399417698851792_1488184115177561973_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx918x925\u0026ctp=s320x320\u0026_nc_cat=109\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=HAjgRDr0crQQ7kNvwEsruAf\u0026_nc_oc=AdpxVdU__yiribNVb0IOBmSmjlLPo22v4LNui0TDcL-lilxkRSR85yO7Ds2gxCC4gb0\u0026_nc_zt=24\u0026_nc_ht=scontent-iad6-1.xx\u0026_nc_gid=pisbMyH9E8joUIPThI92Xw\u0026_nc_ss=7c2a8\u0026oh=00_AQBpsJaUpYqf6y9iETHq_V3aeEg59u4tcfabjMRapm-1-w\u0026oe=6A655A59",
                      "scraped_at":  "2026-07-21T08:14:31"
+                 },
+                 {
+                     "url":  "https://cosmos.pe/330808/renato-rossini-propone-crear-un-dni-jesusmariano-tras-lanzar-su-candidatura-a-la-alcaldia-de-jesus-maria",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "Renato Rossini propone crear un “DNI jesusmariano” tras lanzar su candidatura a la alcaldía de Jesús María - Cosmos Televisión",
+                     "source":  "Cosmos Televisión",
+                     "published_date":  "2026-07-21T11:35:37",
+                     "summary":  "Renato Rossini propone crear un “DNI jesusmariano” tras lanzar su candidatura a la alcaldía de Jesús María\u0026nbsp;\u0026nbsp;Cosmos Televisión",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://cosmos.pe/wp-content/uploads/2026/07/Renato-Rossini-propone-crear-un-DNI-jesusmariano-tras-lanzar-su-candidatura-a-la-alcaldia-de-Jesus-Maria.jpg",
+                     "scraped_at":  "2026-07-21T11:50:41"
+                 },
+                 {
+                     "url":  "https://www.infobae.com/peru/2026/07/20/renato-rossini-propone-crear-dni-exclusivo-para-vecinos-de-jesus-maria-y-desata-burlas-en-redes-sociales-anda-actua-manito/?outputType=amp-type",
+                     "query":  "alcalde jesus maria",
+                     "title":  "Renato Rossini propone crear DNI exclusivo para vecinos de Jesús María y desata burlas en redes sociales: “Anda actúa, manito” - Infobae",
+                     "source":  "Infobae",
+                     "published_date":  "2026-07-20T19:00:21",
+                     "summary":  "Renato Rossini propone crear DNI exclusivo para vecinos de Jesús María y desata burlas en redes sociales: “Anda actúa, manito”\u0026nbsp;\u0026nbsp;Infobae",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://www.infobae.com/resizer/v2/GQ7OUDYVRNB2LIPS2ABPS5BECI.png?auth=4101fb2418343030eeb4c346c3c848953727b138e906eae025b11988987b2a26\u0026smart=true\u0026width=1200\u0026height=630\u0026quality=85",
+                     "scraped_at":  "2026-07-21T11:51:22"
+                 },
+                 {
+                     "url":  "https://diarioelnoticiero.com/renato-rossini-propone-crear-un-dni-exclusivo-para-vecinos-de-jesus-maria-y-desata-ola-de-criticas-en-redes-sociales/",
+                     "query":  "distrito de jesus maria",
+                     "title":  "Renato Rossini propone crear un DNI exclusivo para vecinos de Jesús María y desata ola de críticas en redes sociales - diarioelnoticiero.com",
+                     "source":  "diarioelnoticiero.com",
+                     "published_date":  "2026-07-21T09:39:52",
+                     "summary":  "Renato Rossini propone crear un DNI exclusivo para vecinos de Jesús María y desata ola de críticas en redes sociales\u0026nbsp;\u0026nbsp;diarioelnoticiero.com",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://diarioelnoticiero.com/wp-content/uploads/2026/07/WEB.-ECONOMIA_-2026-07-21T093654.656.png",
+                     "scraped_at":  "2026-07-21T11:54:12"
+                 },
+                 {
+                     "url":  "https://www.eluniverso.com/noticias/ecuador/tanquero-se-incendia-tras-siniestro-de-transito-en-jesus-maria-naranjal-nota/",
+                     "query":  "distrito de jesus maria",
+                     "title":  "Tanquero se incendia tras siniestro de tránsito en Jesús María, Naranjal - El Universo",
+                     "source":  "El Universo",
+                     "published_date":  "2026-07-19T06:47:00",
+                     "summary":  "Tanquero se incendia tras siniestro de tránsito en Jesús María, Naranjal\u0026nbsp;\u0026nbsp;El Universo",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://www.eluniverso.com/resizer/v2/3HVHQ4F6TJF7NHJ2HFI3QDD3NY.jpg?auth=6ae96edb883bfb88e659e4b797f6e5e265b85f96620d5558e05c6ab8b40475a2\u0026width=455\u0026height=670\u0026quality=75\u0026smart=true",
+                     "scraped_at":  "2026-07-21T11:55:00"
                  }
              ],
     "youtube":  [
@@ -3272,6 +3324,20 @@
                         "relevance":  1,
                         "image_url":  "https://img.youtube.com/vi/QtXWhHVQBbo/hqdefault.jpg",
                         "scraped_at":  "2026-07-21T08:11:31"
+                    },
+                    {
+                        "video_id":  "MQayAMG2B_M",
+                        "query":  "jesús gálvez jesus maria",
+                        "title":  "💪 ¡En Jesús María, las obras no se detienen! 🚧",
+                        "channel":  "Municipalidad de Jesús María",
+                        "published_date":  "2025-09-15T10:40:09",
+                        "description":  "Video monitoreado de YouTube.",
+                        "transcript_snippet":  "Menciones detectadas en el video: 💪 ¡En Jesús María, las obras no se detienen! 🚧",
+                        "sentiment":  "positivo",
+                        "sentiment_score":  1,
+                        "relevance":  1,
+                        "image_url":  "https://img.youtube.com/vi/MQayAMG2B_M/hqdefault.jpg",
+                        "scraped_at":  "2026-07-21T11:57:27"
                     }
                 ],
     "twitter":  [
@@ -4006,7 +4072,19 @@
                         "relevance":  1,
                         "image_url":  "https://pbs.twimg.com/amplify_video_thumb/2078463211154604032/img/ZAZnJXmNVA9U-kFn.jpg",
                         "scraped_at":  "2026-07-20T08:44:22"
+                    },
+                    {
+                        "url":  "https://x.com/peru21noticias/status/2079586358306148686",
+                        "query":  "municipalidad de jesus maria",
+                        "title":  "🔴 Renato Rossini propone un “DNI jesusmariano” si llega a la alcaldía ➡️ El candidato de Alianza para el Progreso (APP) a la Municipalidad de Jesús María planteó crear una credencial exclusiva para los vecinos de Jesús María.",
+                        "author":  "peru21noticias",
+                        "published_date":  "2026-07-21T10:16:39",
+                        "sentiment":  "positivo",
+                        "sentiment_score":  1,
+                        "relevance":  1,
+                        "image_url":  "https://pbs.twimg.com/card_img/2079586359124140032/K3r3YxeF?format=jpg\u0026name=orig",
+                        "scraped_at":  "2026-07-21T11:58:17"
                     }
                 ],
-    "updated_at":  "2026-07-21T08:14:36"
+    "updated_at":  "2026-07-21T11:59:09"
 };
