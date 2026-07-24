@@ -2430,6 +2430,84 @@
                      "relevance":  1,
                      "image_url":  "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/277582447_399417698851792_1488184115177561973_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx918x925\u0026ctp=s320x320\u0026_nc_cat=109\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=Puy8yPlcuLYQ7kNvwGSRGUs\u0026_nc_oc=AdrPiniGXFEx9PEDVs2yPo9GmNGDqm-atxEbUPhdmV_Vq0m4pgjza749xSA26J60ohw\u0026_nc_zt=24\u0026_nc_ht=scontent-iad6-1.xx\u0026_nc_gid=BELvJ2XNZ8SmN0mapsoH-w\u0026_nc_ss=7c2a8\u0026oh=00_AQDXcER06_3I7LVutFYIN3mIhtbAk63PKut-1-pNjUfy4Q\u0026oe=6A66E419",
                      "scraped_at":  "2026-07-22T13:49:41"
+                 },
+                 {
+                     "url":  "https://diariocorreo.pe/edicion/lima/gran-parada-militar-2026-cerraran-vias-jesus-maria-pueblo-libre-desfile-civico-fiestas-patrias-noticia/",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "Gran Parada Militar 2026: Cerrarán vías en Jesús María y Pueblo Libre - Diario Correo",
+                     "source":  "Diario Correo",
+                     "published_date":  "2026-07-15T22:17:10",
+                     "summary":  "Gran Parada Militar 2026: Cerrarán vías en Jesús María y Pueblo Libre\u0026nbsp;\u0026nbsp;Diario Correo",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://diariocorreo.pe/resizer/v2/LS6QNTFGLNHYLI7L5F5A5KDHSQ.png?auth=ce885213893ad87661836211ccc9a015a4cd9a7a93fba3367892c4f2733f4381\u0026width=980\u0026height=528\u0026quality=75\u0026smart=true",
+                     "scraped_at":  "2026-07-24T13:34:20"
+                 },
+                 {
+                     "url":  "https://www.infobae.com/peru/2026/07/23/renato-rossini-se-defiende-de-las-burlas-y-aclara-su-propuesta-de-dni-exclusivo-para-vecinos-de-jesus-maria-no-use-la-palabra-correcta/",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "Renato Rossini se defiende de las burlas y aclara su propuesta de DNI exclusivo para vecinos de Jesús María: “No usé la palabra correcta” - Infobae",
+                     "source":  "Infobae",
+                     "published_date":  "2026-07-23T12:59:00",
+                     "summary":  "Renato Rossini se defiende de las burlas y aclara su propuesta de DNI exclusivo para vecinos de Jesús María: “No usé la palabra correcta”\u0026nbsp;\u0026nbsp;Infobae",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://www.infobae.com/resizer/v2/4W5Q43CQ5RD7BOE23HSKZURTGY.png?auth=5e98a7a17277921836527a466fca433192a3998ef2b08106205064fc37588969\u0026smart=true\u0026width=1200\u0026height=630\u0026quality=85",
+                     "scraped_at":  "2026-07-24T13:34:26"
+                 },
+                 {
+                     "url":  "https://larepublica.pe/espectaculos/2026/07/20/actor-renato-rossini-genera-polemica-con-impensada-propuesta-tras-postular-a-la-alcaldia-de-jesus-maria-crear-un-dni-jesusmariano-1060120",
+                     "query":  "alcalde jesus maria",
+                     "title":  "Actor Renato Rossini genera polémica con impensada propuesta tras postular a la alcaldía de Jesús María: \"Crear un DNI jesusmariano\" - La República",
+                     "source":  "La República",
+                     "published_date":  "2026-07-20T19:31:00",
+                     "summary":  "Actor Renato Rossini genera polémica con impensada propuesta tras postular a la alcaldía de Jesús María: \"Crear un DNI jesusmariano\"\u0026nbsp;\u0026nbsp;La República",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://imgmedia.larepublica.pe/1200x735/larepublica/original/2026/07/20/6a5eb4558302cead5b013043.jpg",
+                     "scraped_at":  "2026-07-24T13:35:05"
+                 },
+                 {
+                     "url":  "https://trome.com/espectaculos/tv/renato-rossini-responde-a-criticas-y-explica-su-propuesta-de-dni-exclusivo-para-jesus-maria-foto-video-farandula-noticia/?outputType=amp",
+                     "query":  "distrito de jesus maria",
+                     "title":  "¡Se defiende! Renato Rossini responde a críticas y aclara su polémica propuesta de DNI exclusivo para vecinos de Jesús María - Trome.com",
+                     "source":  "Trome.com",
+                     "published_date":  "2026-07-23T19:22:51",
+                     "summary":  "¡Se defiende! Renato Rossini responde a críticas y aclara su polémica propuesta de DNI exclusivo para vecinos de Jesús María\u0026nbsp;\u0026nbsp;Trome.com",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://trome.com/resizer/v2/YOTKRFE54JBOVH45BE6FGBWFAI.png?auth=475eed16c8a0d9ebab52e0783b8b4d0751d08f1c25097cd68784fdd2cae1f1ec\u0026width=980\u0026height=528\u0026quality=75\u0026smart=true",
+                     "scraped_at":  "2026-07-24T13:38:38"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/reel/1050794030632090/",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "🚨👮 ¡La seguridad no se detiene en Jesús María!  Gracias al trabajo articulado de nuestras cámar...",
+                     "source":  "Municipalidad de Jesús María",
+                     "published_date":  "2026-07-22T16:18:11",
+                     "summary":  "🚨👮 ¡La seguridad no se detiene en Jesús María! \nGracias al trabajo articulado de nuestras cámaras de videovigilancia 📹 y el rápido accionar de nuestro personal operativo, se logró intervenir a dos sujetos que intentaban llevarse la miniván de una vecina.\n🚔 Tras una persecución, ambos fueron intervenidos en la avenida Salaverry, evitando que se concretara el delito y reafirmando nuestro compromiso con la seguridad de todos.\nSeguimos trabajando las 24 horas del día para proteger a nuestros vecinos y responder de manera oportuna ante cualquier emergencia.\n En Jesús María cuidamos de ti y de tu familia.\n#JesúsMaríaVamosPorMás",
+                     "sentiment":  "positivo",
+                     "sentiment_score":  1,
+                     "relevance":  1,
+                     "image_url":  "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/417116131_685916423728419_8674026024830867161_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx750x750\u0026ctp=s320x320\u0026_nc_cat=105\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=0LZulM2pnqoQ7kNvwEkG9cq\u0026_nc_oc=AdoSlmP89Ayv-DgVoh78RGUKYLlQJ5uiaf1vhGpT_JRrQenLEqEMWU9QhHhorpCshI0\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-2.xx\u0026_nc_gid=xfPHba3uzKsdk1bqFbCfWw\u0026_nc_ss=7c2a8\u0026oh=00_AQAB4LT3jruIN3OlJkBwfsIIRBACz4luh71vo921sesL3A\u0026oe=6A69833D",
+                     "scraped_at":  "2026-07-24T13:42:41"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/groups/eduardofalconi31/permalink/10152135880854971/",
+                     "query":  "distrito de jesus maria",
+                     "title":  "https://www.facebook.com/reel/1004528945752680/",
+                     "source":  "Yo Soy Jesus Maria",
+                     "published_date":  "2026-07-23T12:39:27",
+                     "summary":  "https://www.facebook.com/reel/1004528945752680/",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/408952696_989394112900203_1630225253410807986_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx615x619\u0026ctp=s320x320\u0026_nc_cat=106\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=RVx2LixtRdAQ7kNvwGMZA0O\u0026_nc_oc=Adpg26yQweUVCcqe-RemK4JPpQAt2cqGbSQ9HMKcfoY6DobdZC0yuSk_ywo_SUziF8M\u0026_nc_zt=24\u0026_nc_ht=scontent-iad6-1.xx\u0026_nc_gid=0hOcec9RSL6-F8ol9xSeSw\u0026_nc_ss=7c2a8\u0026oh=00_AQBnbxY8peb31NjpkjGL3bed0J0i9K6rd8bU_RRdM6RcJQ\u0026oe=6A697229",
+                     "scraped_at":  "2026-07-24T13:43:49"
                  }
              ],
     "youtube":  [
@@ -3510,6 +3588,20 @@
                         "relevance":  1,
                         "image_url":  "https://img.youtube.com/vi/PeXSdzE_ATk/hqdefault.jpg",
                         "scraped_at":  "2026-07-22T13:47:50"
+                    },
+                    {
+                        "video_id":  "Cku4IgvciH0",
+                        "query":  "municipalidad de jesus maria",
+                        "title":  "Oferta Inmobiliaria de Nuevos Depas en Jesús María • Reporte de Precios al 19 de Julio del 2026",
+                        "channel":  "Propiedades en el Peru",
+                        "published_date":  "2026-07-23T10:00:07",
+                        "description":  "Video monitoreado de YouTube.",
+                        "transcript_snippet":  "Menciones detectadas en el video: Oferta Inmobiliaria de Nuevos Depas en Jesús María • Reporte de Precios al 19 de Julio del 2026",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://img.youtube.com/vi/Cku4IgvciH0/hqdefault.jpg",
+                        "scraped_at":  "2026-07-24T13:40:49"
                     }
                 ],
     "twitter":  [
@@ -4292,7 +4384,43 @@
                         "relevance":  1,
                         "image_url":  "https://pbs.twimg.com/card_img/2078184306493575168/yDEY6NN0?format=jpg\u0026name=orig",
                         "scraped_at":  "2026-07-22T13:48:14"
+                    },
+                    {
+                        "url":  "https://x.com/elcomercio_peru/status/2080361361196843092",
+                        "query":  "municipalidad de jesus maria",
+                        "title":  "La Municipalidad de Jesús María inició el montaje de estructuras en la Avenida Brasil para la Gran Parada y Desfile Cívico Militar del 2026. Esta labor, coordinada con el Ministerio de Defensa, forma parte de los preparativos logísticos para conmemorar...",
+                        "author":  "elcomercio_peru",
+                        "published_date":  "2026-07-23T13:36:14",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://pbs.twimg.com/card_img/2080361362098675713/38j1Mue1?format=jpg\u0026name=orig",
+                        "scraped_at":  "2026-07-24T13:41:49"
+                    },
+                    {
+                        "url":  "https://x.com/ONPE_oficial/status/2080686341851906548",
+                        "query":  "distrito de jesus maria",
+                        "title":  "🔴 #ENVIVO | Desde la ODPE Lima Centro 2, en el distrito de Jesús María, realizamos el sorteo de miembros de mesa para las Elecciones Regionales y Municipales 2026. #ERM2026",
+                        "author":  "ONPE_oficial",
+                        "published_date":  "2026-07-24T11:07:35",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://pbs.twimg.com/card_img/2080685620100321280/VubmWUDt?format=jpg\u0026name=orig",
+                        "scraped_at":  "2026-07-24T13:42:04"
+                    },
+                    {
+                        "url":  "https://x.com/ONPE_oficial/status/2080674977464930773",
+                        "query":  "distrito de jesus maria",
+                        "title":  "🔴 #ENVIVO | Desde el distrito de Jesús María, instalamos la Oficina Descentralizada de Procesos Electorales (ODPE) Lima Centro 2, con miras a las Elecciones Regionales y Municipales 2026. #ERM2026",
+                        "author":  "ONPE_oficial",
+                        "published_date":  "2026-07-24T10:22:26",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://pbs.twimg.com/card_img/2080674889388675072/ncIbt-CG?format=jpg\u0026name=orig",
+                        "scraped_at":  "2026-07-24T13:42:06"
                     }
                 ],
-    "updated_at":  "2026-07-22T13:49:47"
+    "updated_at":  "2026-07-24T13:44:27"
 }
