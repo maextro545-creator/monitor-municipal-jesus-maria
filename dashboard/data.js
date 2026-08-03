@@ -2833,6 +2833,97 @@
                      "relevance":  1,
                      "image_url":  "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/702589972_1588405939955427_3194003258507169934_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx1200x1200\u0026ctp=s320x320\u0026_nc_cat=110\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=NL9JWQPaTlwQ7kNvwEb9dzN\u0026_nc_oc=AdrimBGU2SxaWqEfiiWg8CHb0Tn385CWuruqFymSIJik3O3deM-7k1cjrlKeX8ZJmkE\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-1.xx\u0026_nc_gid=mu2t4hD-OHe2WHwxyjevnw\u0026_nc_ss=7c2a8\u0026oh=00_AQESFuLl7EmUVZ5AdGHZzGshy22hIHoVEyqdAbcsXuHxOQ\u0026oe=6A72A6AF",
                      "scraped_at":  "2026-07-31T11:32:34"
+                 },
+                 {
+                     "url":  "https://trome.com/espectaculos/tv/shirley-cherres-llama-patan-a-renato-rossini-jesus-maria-merece-un-hombre-de-verdad-video-fotos-farandula-noticia/",
+                     "query":  "alcalde jesus maria",
+                     "title":  "Shirley Cherres llama ‘patán’ a Renato Rossini: “Jesús María merece un hombre de verdad” - Trome.com",
+                     "source":  "Trome.com",
+                     "published_date":  "2026-07-31T09:40:36",
+                     "summary":  "Shirley Cherres llama ‘patán’ a Renato Rossini: “Jesús María merece un hombre de verdad”\u0026nbsp;\u0026nbsp;Trome.com",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://trome.com/resizer/v2/YRHYTGBXONFVJHC446MNPOFWVI.png?auth=6b00653e767e90be213d251d0f6c2698c536c3c87f77ba8be8565879d114ca82\u0026width=980\u0026height=528\u0026quality=75\u0026smart=true",
+                     "scraped_at":  "2026-08-03T09:21:57"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/DesarolloSocialJM/posts/pfbid023Fmk5BBRHPcdS4sjt1e1tMsdA4PxcSGBPTtAzzH6fanu4VfpbVmCwQ3VGvwEnaUcl",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "🎉📚 ¡Celebramos a quienes dejan huella todos los días! 🍎✨  El Gobierno Municipal de Jesús María...",
+                     "source":  "Desarrollo Social Jesús María ",
+                     "published_date":  "2026-05-18T17:15:24",
+                     "summary":  "🎉📚 ¡Celebramos a quienes dejan huella todos los días! 🍎✨\n\nEl Gobierno Municipal de Jesús María, a través del CEDECO Arboledas, reconoce con orgullo y gratitud la dedicación, compromiso y vocación de cada maestro y maestra que forman parte de esta gran comunidad. 👩‍🏫👨‍🏫\n\nGracias por inspirar, enseñar y transformar vidas con su entrega diaria. Hoy celebramos su esfuerzo y la importante labor que realizan en favor de la educación y el desarrollo de nuestro municipio. 💙\n\n#JesúsMaría #CEDECOArboledas",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/646573028_122277563786216648_1614997460176296018_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx751x750\u0026ctp=s320x320\u0026_nc_cat=109\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=4HKRqz-AIcgQ7kNvwFPRuyw\u0026_nc_oc=AdrO_te8OlO8yYeAxyODxp5llMunagdqBH9ylb8mOikQbZPchQAW6sxtLazAkG9TOmk\u0026_nc_zt=24\u0026_nc_ht=scontent-iad6-1.xx\u0026_nc_gid=P1Ojw5jstqDOO7HEgr3OsA\u0026_nc_ss=7c2a8\u0026oh=00_AQEZjOht74UhJCWb4mDOfJFPWexWX_E2TFZiNPEaA-Ex_Q\u0026oe=6A76625E",
+                     "scraped_at":  "2026-08-03T09:27:58"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/groups/1200589487095260/permalink/2484195502067979/",
+                     "query":  "alcalde jesus maria",
+                     "title":  "CADA VEZ MÁS VECINOS SE UNEN AL MEJOR DE LOS EQUIPOS, AL EQUIPO DEL CORAZÓN ❤️  LUIZ CARLOS REÁTE...",
+                     "source":  "Dihm Hem",
+                     "published_date":  "2026-07-24T19:17:13",
+                     "summary":  "CADA VEZ MÁS VECINOS SE UNEN AL MEJOR DE LOS EQUIPOS, AL EQUIPO DEL CORAZÓN ❤️ \nLUIZ CARLOS REÁTEGUI \nALCALDE DE JESÚS MARÍA",
+                     "sentiment":  "positivo",
+                     "sentiment_score":  1,
+                     "relevance":  1,
+                     "image_url":  "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/275380505_1015960279332751_7320202811839852793_n.jpg?stp=c0.17.213.213a_cp0_dst-jpg_tt6\u0026cstp=mx213x213\u0026ctp=s320x320\u0026_nc_cat=105\u0026ccb=1-7\u0026_nc_sid=1d2534\u0026_nc_ohc=DcntfYKxwOEQ7kNvwFVA0SK\u0026_nc_oc=Ado_Yl54E5FP4XSBtkQVpxMxFuoX3nImAAk5A2LC5hRkIh1gEw0gFnWDfzJMcW6RFkM\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-2.xx\u0026_nc_gid=klLAJWMuXYt7pAD4_YD5qg\u0026_nc_ss=7c2a8\u0026oh=00_AQFfQirOWRmscs-aXrfjpwyVBe_qdT8cRhpySSXX1Eidyw\u0026oe=6A7687C8",
+                     "scraped_at":  "2026-08-03T09:28:31"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/groups/1364705467009433/permalink/4396793250467291/",
+                     "query":  "campo de marte jesus maria",
+                     "title":  "Seguimos en defensa del Campo de Marte. 👍🏻🇵🇪🇵🇪🇵🇪🇵🇪🇵🇪🇵🇪🇵🇪🇵🇪🌹 👍🏻",
+                     "source":  "La Verdad de Jesús María",
+                     "published_date":  "2026-05-26T17:03:59",
+                     "summary":  "Seguimos en defensa del Campo de Marte. 👍🏻🇵🇪🇵🇪🇵🇪🇵🇪🇵🇪🇵🇪🇵🇪🇵🇪🌹\n👍🏻",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/702589972_1588405939955427_3194003258507169934_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx1200x1200\u0026ctp=s320x320\u0026_nc_cat=110\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=JhfwF3pj5-gQ7kNvwEyrR4K\u0026_nc_oc=AdrAJ7d0DtS714y6TrwRzUBGwZER64AEfSrBP73jvcp97je8JbXONXwUlh3q13m338g\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-1.xx\u0026_nc_gid=-nRApSUxvcC7KNqh0uCeyg\u0026_nc_ss=7c2a8\u0026oh=00_AQGcwFAkqT28rOiBShM7mxvkN9eivNH78o2XVK51Bo1qGQ\u0026oe=6A7662EF",
+                     "scraped_at":  "2026-08-03T09:29:11"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/groups/394308547713480/permalink/2462033830940931/",
+                     "query":  "campo de marte jesus maria",
+                     "title":  "Los árboles del Campo de Marte listos para el carbón es un vídeo de hoy en el Ecoparque, los Terr...",
+                     "source":  "Merikay Kira",
+                     "published_date":  "2026-07-31T19:51:22",
+                     "summary":  "Los árboles del Campo de Marte listos para el carbón es un vídeo de hoy en el Ecoparque, los Terroristas Ecológicos de INVERMET ocultando el delito ambiental orquestado por la municipalidad de Jesús María 😡",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/278579263_10228402850122033_8568583855054380238_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx706x696\u0026ctp=s320x320\u0026_nc_cat=105\u0026ccb=1-7\u0026_nc_sid=e99d92\u0026_nc_ohc=DB2parPDayUQ7kNvwGcg1D2\u0026_nc_oc=AdoWFgrPH0ykDnKdHppv4tVf6bzdDn1_GxstS-CsfDGN3S6430WP3pG4eiTa6XSWRcw\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-2.xx\u0026_nc_gid=-nRApSUxvcC7KNqh0uCeyg\u0026_nc_ss=7c2a8\u0026oh=00_AQEUQA27Z0p56Qm3JPdQ7OYIZWNr7PMLuIFAEIFan12VUw\u0026oe=6A768396",
+                     "scraped_at":  "2026-08-03T09:29:11"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/groups/JesusMariaNoticias/permalink/3150462952009434/",
+                     "query":  "campo de marte jesus maria",
+                     "title":  "Y el Campo de Marte, seguirá muriendo... 🤬😞😒😠😣",
+                     "source":  "Jesús María Ecológica",
+                     "published_date":  "2026-05-14T21:24:01",
+                     "summary":  "Y el Campo de Marte, seguirá muriendo... 🤬😞😒😠😣",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/308008959_476178377890677_64649182517728030_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx480x481\u0026ctp=s320x320\u0026_nc_cat=106\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=w7GkzETUDPwQ7kNvwEhy3nY\u0026_nc_oc=Adrbnr8EY3YRYnmk3gZjr4JnaDp00-qQvxpa8Z0lvxfuVVyz68XfGRZ6rdIZyPpEs5k\u0026_nc_zt=24\u0026_nc_ht=scontent-iad6-1.xx\u0026_nc_gid=-nRApSUxvcC7KNqh0uCeyg\u0026_nc_ss=7c2a8\u0026oh=00_AQHQDKq1Rn7gWSeWsyPFV8TwldS9mmn_oEM9p2AH7m1QXg\u0026oe=6A7664D5",
+                     "scraped_at":  "2026-08-03T09:29:11"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/groups/JesusMariaNoticias/permalink/2863361147386284/",
+                     "query":  "campo de marte jesus maria",
+                     "title":  "campo de marte Jesús María los esperamos",
+                     "source":  "Guisellita Susy Fit",
+                     "published_date":  "2025-08-03T20:51:38",
+                     "summary":  "campo de marte Jesús María los esperamos",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/732464060_10244768234285360_6655003149434227575_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx1599x1599\u0026ctp=s320x320\u0026_nc_cat=103\u0026ccb=1-7\u0026_nc_sid=1d2534\u0026_nc_ohc=tUXE9ifSSJoQ7kNvwEXj6Kd\u0026_nc_oc=AdqOnG3lwDDTvDvORouhHppVo_6tLjyiLsMbbRFmzyh74xd_2kI0vYTTUh-29q-FMXk\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-2.xx\u0026_nc_gid=-nRApSUxvcC7KNqh0uCeyg\u0026_nc_ss=7c2a8\u0026oh=00_AQEE7VF0TUNot_AqEIEf_QrJadgnYQrzYJlZf4UZMoasvw\u0026oe=6A766AB5",
+                     "scraped_at":  "2026-08-03T09:29:11"
                  }
              ],
     "youtube":  [
@@ -3983,6 +4074,76 @@
                         "relevance":  1,
                         "image_url":  "https://img.youtube.com/vi/XiOaHZ3G90I/hqdefault.jpg",
                         "scraped_at":  "2026-07-31T11:29:51"
+                    },
+                    {
+                        "video_id":  "wid6KDj-8YQ",
+                        "query":  "municipalidad de jesus maria",
+                        "title":  "🚨 ¡Jesús María, más seguro que nunca! 👮‍♂️",
+                        "channel":  "Municipalidad de Jesús María",
+                        "published_date":  "2025-08-13T09:39:54",
+                        "description":  "Video monitoreado de YouTube.",
+                        "transcript_snippet":  "Menciones detectadas en el video: 🚨 ¡Jesús María, más seguro que nunca! 👮‍♂️",
+                        "sentiment":  "positivo",
+                        "sentiment_score":  1,
+                        "relevance":  1,
+                        "image_url":  "https://img.youtube.com/vi/wid6KDj-8YQ/hqdefault.jpg",
+                        "scraped_at":  "2026-08-03T09:26:00"
+                    },
+                    {
+                        "video_id":  "9YkJho0_T-I",
+                        "query":  "alcalde jesus maria",
+                        "title":  "MILAGROS LEIVA@DiarioElComercioENTREVISTA A JORGE QUINTANA, CANDIDATO A LA ALCALDÍA DE JESÚS MARÍA",
+                        "channel":  "Jorge Quintana",
+                        "published_date":  "2026-07-27T18:09:10",
+                        "description":  "Video monitoreado de YouTube.",
+                        "transcript_snippet":  "Menciones detectadas en el video: MILAGROS LEIVA@DiarioElComercioENTREVISTA A JORGE QUINTANA, CANDIDATO A LA ALCALDÍA DE JESÚS MARÍA",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://img.youtube.com/vi/9YkJho0_T-I/hqdefault.jpg",
+                        "scraped_at":  "2026-08-03T09:26:25"
+                    },
+                    {
+                        "video_id":  "XkzeGQ6kuFk",
+                        "query":  "alcalde jesus maria",
+                        "title":  "La apuesta que puede transformar Jesús María | #Entrevista Roberto Aymar",
+                        "channel":  "TRIVU ",
+                        "published_date":  "2026-07-23T18:00:35",
+                        "description":  "Video monitoreado de YouTube.",
+                        "transcript_snippet":  "Menciones detectadas en el video: La apuesta que puede transformar Jesús María | #Entrevista Roberto Aymar",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://img.youtube.com/vi/XkzeGQ6kuFk/hqdefault.jpg",
+                        "scraped_at":  "2026-08-03T09:26:34"
+                    },
+                    {
+                        "video_id":  "YbLdIOYOOa0",
+                        "query":  "distrito de jesus maria",
+                        "title":  "Violento asalto en Jesús María: encañonan a mujeres y una menor para robarles sus celulares",
+                        "channel":  "ATV Noticias",
+                        "published_date":  "2026-07-27T13:06:52",
+                        "description":  "Video monitoreado de YouTube.",
+                        "transcript_snippet":  "Menciones detectadas en el video: Violento asalto en Jesús María: encañonan a mujeres y una menor para robarles sus celulares",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://img.youtube.com/vi/YbLdIOYOOa0/hqdefault.jpg",
+                        "scraped_at":  "2026-08-03T09:26:48"
+                    },
+                    {
+                        "video_id":  "I7c3VJh7aiM",
+                        "query":  "distrito de jesus maria",
+                        "title":  "¡NOS QUEREMOS MUDAR AQUÍ! 🏠 Recorriendo el distrito de JESÚS MARÍA",
+                        "channel":  "Escapadas de Dos",
+                        "published_date":  "2026-04-23T13:00:15",
+                        "description":  "Video monitoreado de YouTube.",
+                        "transcript_snippet":  "Menciones detectadas en el video: ¡NOS QUEREMOS MUDAR AQUÍ! 🏠 Recorriendo el distrito de JESÚS MARÍA",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://img.youtube.com/vi/I7c3VJh7aiM/hqdefault.jpg",
+                        "scraped_at":  "2026-08-03T09:26:50"
                     }
                 ],
     "twitter":  [
@@ -4873,7 +5034,31 @@
                         "relevance":  1,
                         "image_url":  "https://pbs.twimg.com/profile_images/2006088835252273152/cBMVR-Jx_200x200.jpg",
                         "scraped_at":  "2026-07-30T08:15:28"
+                    },
+                    {
+                        "url":  "https://x.com/elcomercio_peru/status/2082496748707053887?lang=ar-x-fm",
+                        "query":  "distrito de jesus maria",
+                        "title":  "La presidenta de la república, Keiko Fujimori, llegó a la avenida Brasil, en el distrito de Jesús María, para encabezar la Gran Parada y Desfile Militar este miércoles 29 de julio, con motivo de las Fiestas Patrias. https://t.co/HBY9QbVDTE",
+                        "author":  "elcomercio_peru",
+                        "published_date":  "2026-07-29T11:01:30",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://pbs.twimg.com/card_img/2082496754839060481/tSTrB0mF?format=jpg\u0026name=orig",
+                        "scraped_at":  "2026-08-03T09:27:13"
+                    },
+                    {
+                        "url":  "https://x.com/exitosape/status/2082437465155989902?lang=bg",
+                        "query":  "distrito de jesus maria",
+                        "title":  "🔴🔵 Este 29 de julio se llevará a cabo la Gran Parada y Desfile Cívico Militar 2026 en donde diversas instituciones desfilarán en la avenida Brasil, en el distrito de Jesús María. https://t.co/8WmltdAaYn",
+                        "author":  "exitosape",
+                        "published_date":  "2026-07-29T07:05:56",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://pbs.twimg.com/card_img/2082437465411866624/Nk1tYunY?format=png\u0026name=orig",
+                        "scraped_at":  "2026-08-03T09:27:19"
                     }
                 ],
-    "updated_at":  "2026-07-31T11:32:35"
+    "updated_at":  "2026-08-03T09:29:11"
 };
