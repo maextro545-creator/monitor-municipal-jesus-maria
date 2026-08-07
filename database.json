@@ -4340,6 +4340,34 @@
                         "relevance":  1,
                         "image_url":  "https://img.youtube.com/vi/XXRyB5f6Pvk/hqdefault.jpg",
                         "scraped_at":  "2026-08-07T08:10:44"
+                    },
+                    {
+                        "video_id":  "hyEpzDAvDXo",
+                        "query":  "alcalde jesus maria",
+                        "title":  "Jesús María: vecinos exigen posta médica que les prometieron hace 50 años",
+                        "channel":  "Buenos Días Perú",
+                        "published_date":  "2026-04-30T08:21:45",
+                        "description":  "Video monitoreado de YouTube.",
+                        "transcript_snippet":  "Menciones detectadas en el video: Jesús María: vecinos exigen posta médica que les prometieron hace 50 años",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://img.youtube.com/vi/hyEpzDAvDXo/hqdefault.jpg",
+                        "scraped_at":  "2026-08-07T09:44:22"
+                    },
+                    {
+                        "video_id":  "0LZKDPsLGZ0",
+                        "query":  "campo de marte jesus maria",
+                        "title":  "VIDEO COMPLETO DE CAMPO DE MARTE - JESUS MARIA",
+                        "channel":  "CRIOLLO FUTBOL LIVE ",
+                        "published_date":  "2025-09-15T00:08:29",
+                        "description":  "Video monitoreado de YouTube.",
+                        "transcript_snippet":  "Menciones detectadas en el video: VIDEO COMPLETO DE CAMPO DE MARTE - JESUS MARIA",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://img.youtube.com/vi/0LZKDPsLGZ0/hqdefault.jpg",
+                        "scraped_at":  "2026-08-07T09:45:00"
                     }
                 ],
     "twitter":  [
