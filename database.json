@@ -3186,7 +3186,7 @@
                      "scraped_at":  "2026-08-07T10:06:33"
                  },
                  {
-                     "url":  "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQOWVLMGZfV09tWERaQXUzdG9mcTNHNW5tOENwclZ5MTdQNGlwMWFGc20zNDdaLXB2czJON1FQZThfVHI4MkU4OG10X3hTbWpFdV92UGQxWWp6XzdHQnNxZnYyUmJTMTZ0UmxHaHB3ZkdYcjZ3eXBHWUVLc09HLUdnYWxnaVZfeTBFaDFDTlhDRHFFRkxJSmpabkZEZVJOcUdHelpDWGtuYk9uMlpjRkpZZmQ2VjhIZzV0ZFk1eTJENS1pcW9tYzRvaXpFd1J3cTR2N1NJaWVjazczMW1PMndDeg?oc=5",
+                     "url":  "https://www.telesoldiario.com/480368-tras-la-muerte-de-su-profesora-25-chicos-de-una-academia-rural-buscan-cumplir-el-sueno-de-llegar-a-jesus-maria",
                      "query":  "grupo jesus maria",
                      "title":  "Tras la muerte de su profesora, 25 chicos de una academia rural buscan cumplir el sueño de llegar a Jesús María - Telesol Diario",
                      "source":  "Telesol Diario",
@@ -3195,7 +3195,7 @@
                      "sentiment":  "neutral",
                      "sentiment_score":  0,
                      "relevance":  1,
-                     "image_url":  "https://images.unsplash.com/photo-1495020689067-958852a6565d?auto=format\u0026fit=crop\u0026w=600\u0026q=80",
+                     "image_url":  "https://www.telesoldiario.com/content/bucket/6/509086w620h450.jpg",
                      "scraped_at":  "2026-08-07T10:08:21"
                  },
                  {
@@ -4735,6 +4735,34 @@
                         "relevance":  1,
                         "image_url":  "https://img.youtube.com/vi/0NUBdqZbUOU/hqdefault.jpg",
                         "scraped_at":  "2026-08-07T10:15:22"
+                    },
+                    {
+                        "video_id":  "zbpbhKDkAfU",
+                        "query":  "campo de marte",
+                        "title":  "AVANCE DE OBRA - CAMPO DE MARTE",
+                        "channel":  "Invermet",
+                        "published_date":  "2026-01-08T13:15:04",
+                        "description":  "Video monitoreado de YouTube.",
+                        "transcript_snippet":  "Menciones detectadas en el video: AVANCE DE OBRA - CAMPO DE MARTE",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://img.youtube.com/vi/zbpbhKDkAfU/hqdefault.jpg",
+                        "scraped_at":  "2026-08-07T10:39:02"
+                    },
+                    {
+                        "video_id":  "VAkWY2Ia60g",
+                        "query":  "grupo jesus maria",
+                        "title":  "Rancho De Jesus Maria - Grupo Exclusivo | Live 2025",
+                        "channel":  "Grupo Exclusivo Oficial",
+                        "published_date":  "2025-08-15T19:00:06",
+                        "description":  "Video monitoreado de YouTube.",
+                        "transcript_snippet":  "Menciones detectadas en el video: Rancho De Jesus Maria - Grupo Exclusivo | Live 2025",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://img.youtube.com/vi/VAkWY2Ia60g/hqdefault.jpg",
+                        "scraped_at":  "2026-08-07T10:39:48"
                     }
                 ],
     "twitter":  [
