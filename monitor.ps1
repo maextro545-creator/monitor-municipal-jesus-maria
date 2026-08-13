@@ -1097,12 +1097,23 @@ if ($null -ne $hasRemote -and $hasRemote -contains "origin") {
             git commit -m "Auto-update data: $timestamp"
             Write-Host "  [-] Realizando push a la rama $currentBranch..." -ForegroundColor Gray
             git push origin $currentBranch
-            Write-Host "[Git] Datos subidos exitosamente a GitHub. ¡Tu web en Netlify/Vercel se está actualizando!" -ForegroundColor Green
+            Write-Host "[Git] Datos subidos exitosamente a GitHub." -ForegroundColor Green
         } else {
             Write-Host "[Git] No se detectaron cambios en los datos, no es necesario hacer push." -ForegroundColor Gray
         }
     } catch {
         Write-Host "[Warning] Error al subir datos a GitHub: $_" -ForegroundColor DarkYellow
+    }
+
+    # Despliegue automático directo en Vercel vía CLI
+    Write-Host "`n[Vercel] Ejecutando despliegue directo a Vercel..." -ForegroundColor Yellow
+    try {
+        Push-Location $DashboardDir
+        npx vercel --prod --yes | Out-Null
+        Pop-Location
+        Write-Host "[Vercel] ¡Despliegue directo en Vercel completado exitosamente!" -ForegroundColor Green
+    } catch {
+        Write-Host "[Warning] No se pudo ejecutar npx vercel despliegue directo: $_" -ForegroundColor DarkYellow
     }
 } else {
     Write-Host "`n[Git/Nota] No se ha configurado un repositorio remoto 'origin'. Tu sitio web local funciona, pero no se subirá a internet de forma automática hasta que vincules un repositorio remoto en GitHub." -ForegroundColor DarkGray
