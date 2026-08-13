@@ -1,4 +1,4 @@
-{
+﻿{
     "news":  [
                  {
                      "url":  "https://www.infobae.com/peru/2026/06/11/cisterna-de-la-municipalidad-de-jesus-maria-lanza-agua-a-simpatizantes-de-roberto-sanchez-acampados-frente-al-jne/",
@@ -3690,20 +3690,7 @@
                      "sentiment_score":  0,
                      "relevance":  1,
                      "image_url":  "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format\u0026fit=crop\u0026w=600\u0026q=80",
-                     "scraped_at":  "2026-08-13T08:12:58"
-                 },
-                 {
-                     "url":  "https://moovitapp.com/index/es-419/dir/Ubab_Jes%C3%BAs_Mar%C3%ADa-stop_3917260-site_122727406-1102",
-                     "query":  "jesus maria lima",
-                     "title":  "Angamos a Ubab Jesús María con transporte público - Moovit",
-                     "source":  "Moovit",
-                     "published_date":  "2026-08-08T07:00:00",
-                     "summary":  "Angamos a Ubab Jesús María con transporte público\u0026nbsp;\u0026nbsp;Moovit",
-                     "sentiment":  "neutral",
-                     "sentiment_score":  0,
-                     "relevance":  1,
-                     "image_url":  "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format\u0026fit=crop\u0026w=600\u0026q=80",
-                     "scraped_at":  "2026-08-13T08:15:47"
+                     "scraped_at":  "2026-08-13T08:03:47"
                  },
                  {
                      "url":  "https://www.fernandatapia.com/una-madre-denuncio-que-un-therian-mordio-a-su-hija-en-plena-calle-en-jesus-maria/",
@@ -3716,7 +3703,7 @@
                      "sentiment_score":  0,
                      "relevance":  1,
                      "image_url":  "https://i0.wp.com/www.fernandatapia.com/wp-content/uploads/2026/08/Una-madre-denuncio-que-un-therian-mordio-a-su-hija-en-plena-calle-en-Jesus-Maria.jpg?fit=800%2C492\u0026ssl=1",
-                     "scraped_at":  "2026-08-13T08:21:04"
+                     "scraped_at":  "2026-08-13T08:17:19"
                  },
                  {
                      "url":  "https://www.informador.mx/jalisco/reforestan-zonas-danadas-por-la-siembra-de-agave-en-jesus-maria-20260809-0032.html",
@@ -3729,46 +3716,7 @@
                      "sentiment_score":  0,
                      "relevance":  1,
                      "image_url":  "https://www.informador.mx/__export/1786276886291/sites/elinformador/img/2026/08/09/siembra_de_arboles_efe_fguasco_version1786276883314.jpg_176940507.jpg",
-                     "scraped_at":  "2026-08-13T08:25:27"
-                 },
-                 {
-                     "url":  "https://www.facebook.com/munijesusmaria/posts/pfbid0xuq5ASgZcGwmnbtuAFd2AfETDbsPHLv31YKaZu4Dq5qjGbT7e5rsQ6THkPRtCaD4l",
-                     "query":  "municipalidad de jesus maria",
-                     "title":  "🚨 ¡SEGURIDAD Y VIGILANCIA PERMANENTE! 🚨 Gracias a la ronda constante de nuestro personal y al m...",
-                     "source":  "Municipalidad de Jesús María",
-                     "published_date":  "2026-08-12T19:00:07",
-                     "summary":  "🚨 ¡SEGURIDAD Y VIGILANCIA PERMANENTE! 🚨\nGracias a la ronda constante de nuestro personal y al monitoreo de las cámaras de seguridad, se logró intervenir a un sujeto que presuntamente sustraía espejos retrovisores de vehículos.\nDe inmediato, el intervenido fue conducido a la comisaría del distrito para las diligencias correspondientes.\n👮‍♂️📹 Continuamos trabajando de manera permanente por tu seguridad y la de tu familia.\n#JesúsMaríaVamosPorMás",
-                     "sentiment":  "positivo",
-                     "sentiment_score":  1,
-                     "relevance":  1,
-                     "image_url":  "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/417116131_685916423728419_8674026024830867161_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx750x750\u0026ctp=s320x320\u0026_nc_cat=105\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=RErLk0Xvel0Q7kNvwHn_WMY\u0026_nc_oc=AdqleoQQ781Y-Cr3XuT4UwXVu27szzzNSe5pfTutB3LHEqmUNVT8nwWt9vcZQ32oInc\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-2.xx\u0026_nc_gid=9YGaWoru42-pbEOg65Vz4g\u0026_nc_ss=7c2a8\u0026oh=00_AQHqdeV7f44wwqlLFCwY5GAQchuOZUsPtGd04OC8AwoZ3Q\u0026oe=6A83A8FD",
-                     "scraped_at":  "2026-08-13T08:29:52"
-                 },
-                 {
-                     "url":  "https://www.facebook.com/bunperu/posts/pfbid02eWX2ynQ54XxB42ZsH4chadYc3T98MJPJ5dNZU3qqPvTGaAhX63HE6BVTCw8WVMpMl",
-                     "query":  "jesús gálvez jesus maria",
-                     "title":  "Circulando por la Av. Tomás Marsano, se aprecia uno de los buses Modasa Titán 2016 que forman par...",
-                     "source":  "BUNPerú",
-                     "published_date":  "2026-08-08T22:02:46",
-                     "summary":  "Circulando por la Av. Tomás Marsano, se aprecia uno de los buses Modasa Titán 2016 que forman parte de la ruta “6” de la empresa LAPSO. Este ejemplar anteriormente formó parte de ETERSAC “B39”, donde llevó el padrón 20, y de Real Star del Perú “190”. En esta ocasión, se dirigía hacia Wong Tomás Marsano y la Estación Ayacucho.\n\nLos Laureles del Perú S.A. (LAPSO S.A.)\nRuta 1122 [La 6 / La G]: (Pachacámac - Jesús María)\n- Carrocería: Modasa Titán Urbano 2016\n- Chasis: Mercedes-Benz OF-1721/59 BlueTec 5\n- Ubicación: Av. Tomás Marsano (Santiago de Surco)\n- Recorrido:\nLas Palmas (Av. Quebrada Verde / Calle S/N) - Av. Quebrada Verde - Av. Las Palmas - Av. Zarumilla - José Gálvez Barrenechea - Av. Lima - Óvalo José Gálvez - Óvalo 200 Millas - Tottus Pachacútec - Av. Pachacútec - Óvalo Pachacútec - Óvalo Nueva Esperanza - Terminal Pesquero - Hospital María Auxiliadora - Av. Los Héroes - Ciudad de Dios - Puente Atocongo - La Bolichera - Wong Tomás Marsano - Estación Ayacucho - Óvalo Higuereta - Av. Tomás Marsano - Mallplaza Angamos - Av. República de Panamá - Corpac - Av. Enrique Canaval y Moreyra - Puente Corpac - Av. Juan de Arona / Av. Ricardo Rivera Navarrete - Calle Manuel Atanasio Fuentes / Calle Coronel Andrés Reyes - Av. Paseo Parodi - Prolongación Av. Iquitos - Prolongación Av. Iquitos / Jr. Soledad - Jr. Risso / Av. Ignacio Merino - Jr. Francisco de Zela / Jr. Manuel Segura - Hospital del Empleado - Av. General Felipe Salaverry - Campo de Marte - Plaza Jorge Chávez (Av. General Felipe Salaverry / Av. 28 de Julio).\nModasa Buses",
-                     "sentiment":  "neutral",
-                     "sentiment_score":  0,
-                     "relevance":  1,
-                     "image_url":  "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/595198766_122275042760225852_2318280125500360975_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx2048x2048\u0026ctp=s320x320\u0026_nc_cat=102\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_eui2=AeEJSlCvCN-GSLlGwQH2a0Vfh0GmK8F1yHCHQaYrwXXIcDVt3E4rVuXj2DbyHROwxZ7MJcjU3JmDQTM-BBNPEEND\u0026_nc_ohc=my46BHEPVqcQ7kNvwERQsWo\u0026_nc_oc=AdrgzklY24VWWRHCJjoWDER4_-8aR9VnMLWwvYvpRgy27yYFM2O3QHQLWeXgWVUNlGw\u0026_nc_zt=24\u0026_nc_ht=scontent-iad6-1.xx\u0026_nc_gid=jKbQFbESlXCAZ7cjGno00A\u0026_nc_ss=7c2a8\u0026oh=00_AQH9HF1iHvl_Aq0SCBSWtrMQo-gmyPWHAEmK51n9-F9sog\u0026oe=6A83A35B",
-                     "scraped_at":  "2026-08-13T08:30:05"
-                 },
-                 {
-                     "url":  "https://www.facebook.com/reel/1547969323125562/",
-                     "query":  "alcalde jesus maria",
-                     "title":  "🚨ALCALDE JESÚS GÁLVEZ DICE QUE DEJARÁ EL CAMPO DE MARTE \"COMO ÉL LO SOÑÓ\" 🚨  ¡Cuidado con los s...",
-                     "source":  "La Verdad de Jesús María",
-                     "published_date":  "2026-08-12T17:42:01",
-                     "summary":  "🚨ALCALDE JESÚS GÁLVEZ DICE QUE DEJARÁ EL CAMPO DE MARTE \"COMO ÉL LO SOÑÓ\" 🚨\n\n¡Cuidado con los sueños del alcalde, porque se están convirtiendo en la pesadilla de los vecinos! En lugar de rendir cuentas por el desastre ecológico y la deficiente gestión de áreas verdes, Jesús Gálvez, alcalde de Renovación Popular, prefiere dar discursos donde pide a los demás que \"busquen su brillo propio\" y afirma que él \"no se irá como rata a otro distrito\".\n\n¿Qué opinas de las declaraciones del alcalde? ¿Crees que pueda recuperar el Campo de Marte faltando 4 meses para culminar su gestión?\n\n#jesusmaria #RenovacionPopular #campodemarte #Jesusgalvez @seguidores",
-                     "sentiment":  "positivo",
-                     "sentiment_score":  1,
-                     "relevance":  1,
-                     "image_url":  "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/702589972_1588405939955427_3194003258507169934_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx1200x1200\u0026ctp=s320x320\u0026_nc_cat=110\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=EXqzTyKMNf8Q7kNvwGnCj3h\u0026_nc_oc=AdoVc5GIvaHi8zQhZNorvuowVlYYVF_ULpCv_9wtOM5Q6LosghPh-sTicTfmXArMyCw\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-1.xx\u0026_nc_gid=EeMrDoj7CW0c8MSNziF0Cw\u0026_nc_ss=7c2a8\u0026oh=00_AQEVtJ6gORAyKCx5TQmZVKoAL8m1L6OOrtC2Tt9uTNAhYg\u0026oe=6A8391EF",
-                     "scraped_at":  "2026-08-13T08:30:18"
+                     "scraped_at":  "2026-08-13T08:28:45"
                  }
              ],
     "youtube":  [
@@ -5409,48 +5357,6 @@
                         "relevance":  1,
                         "image_url":  "https://img.youtube.com/vi/fDJS2rIXD_k/hqdefault.jpg",
                         "scraped_at":  "2026-08-12T15:29:04"
-                    },
-                    {
-                        "video_id":  "GYcK0NBTpTE",
-                        "query":  "campo de marte",
-                        "title":  "RENOVACIÓN POPULAR DESTRUYÓ EL CAMPO DE MARTE - AGENDA OCULTA",
-                        "channel":  "Rockefeller Channel",
-                        "published_date":  "2026-08-11T21:00:06",
-                        "description":  "Video monitoreado de YouTube.",
-                        "transcript_snippet":  "Menciones detectadas en el video: RENOVACIÓN POPULAR DESTRUYÓ EL CAMPO DE MARTE - AGENDA OCULTA",
-                        "sentiment":  "neutral",
-                        "sentiment_score":  0,
-                        "relevance":  1,
-                        "image_url":  "https://img.youtube.com/vi/GYcK0NBTpTE/hqdefault.jpg",
-                        "scraped_at":  "2026-08-13T08:27:12"
-                    },
-                    {
-                        "video_id":  "Lh5-kDycvt4",
-                        "query":  "campo de marte jesus maria",
-                        "title":  "Campo de Marte: fallas en expediente técnico paralizan la obra y elevan su costo",
-                        "channel":  "OjoPúblico",
-                        "published_date":  "2026-08-12T15:54:38",
-                        "description":  "Video monitoreado de YouTube.",
-                        "transcript_snippet":  "Menciones detectadas en el video: Campo de Marte: fallas en expediente técnico paralizan la obra y elevan su costo",
-                        "sentiment":  "neutral",
-                        "sentiment_score":  0,
-                        "relevance":  1,
-                        "image_url":  "https://img.youtube.com/vi/Lh5-kDycvt4/hqdefault.jpg",
-                        "scraped_at":  "2026-08-13T08:27:18"
-                    },
-                    {
-                        "video_id":  "0knS2eGISCg",
-                        "query":  "campo de marte jesus maria",
-                        "title":  "Oferta Inmobiliaria para Inversionistas en Jesús María • Reporte de Precios al 9 de Agosto del 2026",
-                        "channel":  "Propiedades en el Peru",
-                        "published_date":  "2026-08-12T23:00:31",
-                        "description":  "Video monitoreado de YouTube.",
-                        "transcript_snippet":  "Menciones detectadas en el video: Oferta Inmobiliaria para Inversionistas en Jesús María • Reporte de Precios al 9 de Agosto del 2026",
-                        "sentiment":  "neutral",
-                        "sentiment_score":  0,
-                        "relevance":  1,
-                        "image_url":  "https://img.youtube.com/vi/0knS2eGISCg/hqdefault.jpg",
-                        "scraped_at":  "2026-08-13T08:27:18"
                     }
                 ],
     "twitter":  [
@@ -6568,7 +6474,19 @@
                         "sentiment_score":  0,
                         "relevance":  1,
                         "image_url":  "https://pbs.twimg.com/amplify_video_thumb/2087558444563693568/img/d8xIv1glQA8Tba2q.jpg",
-                        "scraped_at":  "2026-08-13T08:28:59"
+                        "scraped_at":  "2026-08-13T08:32:48"
+                    },
+                    {
+                        "url":  "https://x.com/TernosDe/status/2087586596912537698",
+                        "query":  "jesus maria lima",
+                        "title":  "Un buen terno no empieza en el perchero. Empieza en el criterio de quien sabe vestir un cuerpo. 👔 📍 Jesús María · Lima Alquiler de Ternos A1.",
+                        "author":  "TernosDe",
+                        "published_date":  "2026-08-12T12:06:44",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://pbs.twimg.com/profile_images/1079383005540564992/7taeGEp0_400x400.jpg",
+                        "scraped_at":  "2026-08-13T08:33:10"
                     }
                 ]
 }
