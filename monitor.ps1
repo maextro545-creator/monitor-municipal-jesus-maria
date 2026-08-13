@@ -15,6 +15,21 @@ if (-not (Test-Path $ConfigPath)) {
     Write-Error "No se encontró config.json en $ConfigPath"
 }
 $Config = Get-Content -Raw -Path $ConfigPath -Encoding utf8 | ConvertFrom-Json
+
+# Cargar token de Apify desde .env o variable de entorno si está vacío en config.json
+if ([string]::IsNullOrEmpty($Config.apify_token)) {
+    $EnvPath = Join-Path $ScriptDir ".env"
+    if (Test-Path $EnvPath) {
+        $envText = Get-Content -Raw -Path $EnvPath
+        if ($envText -match 'APIFY_TOKEN=(.+)') {
+            $Config.apify_token = $Matches[1].Trim()
+        }
+    }
+    if ([string]::IsNullOrEmpty($Config.apify_token) -and -not [string]::IsNullOrEmpty($env:APIFY_TOKEN)) {
+        $Config.apify_token = $env:APIFY_TOKEN
+    }
+}
+
 Write-Host "[Info] Configuración cargada correctamente." -ForegroundColor Green
 
 # ==============================================================================
@@ -33,6 +48,16 @@ function Remove-Accents {
         }
     }
     return $sb.ToString().Normalize([System.Text.NormalizationForm]::FormC)
+}
+
+# Función para guardar archivos UTF-8 sin BOM (evita errores de parseo JSON en navegadores)
+function Save-Utf8NoBom {
+    param (
+        [string]$Path,
+        [string]$Content
+    )
+    $utf8NoBom = New-Object System.Text.UTF8Encoding($false)
+    [System.IO.File]::WriteAllText($Path, $Content, $utf8NoBom)
 }
 
 # Función para resolver el redirect interno de Google News a la URL real del medio
@@ -375,7 +400,7 @@ function Check-Relevance {
         }
     }
     
-    $keywords = @("jesus maria", "jesus galvez", "alcalde galvez", "municipalidad de jesus maria")
+    $keywords = @("jesus maria", "jesus galvez", "alcalde galvez", "municipalidad de jesus maria", "campo de marte")
     foreach ($kw in $keywords) {
         if ($cleanText.Contains($kw)) {
             return 1
@@ -1022,7 +1047,8 @@ if ($null -ne $Config.facebook_cookies -and $Config.facebook_cookies.Count -gt 0
 }
 
 # 7. Guardar Base de Datos
-$Db | ConvertTo-Json -Depth 10 | Out-File -FilePath $DbPath -Encoding utf8
+$dbJson = $Db | ConvertTo-Json -Depth 10
+Save-Utf8NoBom $DbPath $dbJson
 Write-Host "`n[Base de Datos] Guardada correctamente en $DbPath" -ForegroundColor Green
 
 # 8. Exportar para Dashboard
@@ -1041,12 +1067,14 @@ $ExportData = [PSCustomObject]@{
     updated_at = (Get-Date).ToString("yyyy-MM-ddTHH:mm:ss")
 }
 
+$exportJson = $ExportData | ConvertTo-Json -Depth 10
+
 # Guardar data.json
-$ExportData | ConvertTo-Json -Depth 10 | Out-File -FilePath $DataJsonPath -Encoding utf8
+Save-Utf8NoBom $DataJsonPath $exportJson
 
 # Guardar data.js (como variable global window.monitorData)
-$jsContent = "window.monitorData = " + ($ExportData | ConvertTo-Json -Depth 10) + ";"
-$jsContent | Out-File -FilePath $DataJsPath -Encoding utf8
+$jsContent = "window.monitorData = " + $exportJson + ";"
+Save-Utf8NoBom $DataJsPath $jsContent
 
 Write-Host "[Exportación] Datos exportados para el Dashboard." -ForegroundColor Green
 

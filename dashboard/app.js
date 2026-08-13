@@ -274,30 +274,30 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function init() {
         try {
-            // Verificar si la variable global window.monitorData está cargada
-            if (window.monitorData) {
-                monitorData = window.monitorData;
-                hideAlertError();
-                processData();
-            } else {
-                console.warn("No se encontró window.monitorData. Intentando cargar data.json dinámicamente...");
-                // Intentar fetch alternativo
-                fetch('data.json')
-                    .then(response => {
-                        if (!response.ok) throw new Error("CORS o error HTTP");
-                        return response.json();
-                    })
-                    .then(data => {
-                        monitorData = data;
+            // Intentar cargar data.json dinámicamente con parámetro anti-caché siempre primero
+            fetch('data.json?t=' + Date.now())
+                .then(response => {
+                    if (!response.ok) throw new Error("Error HTTP al obtener data.json");
+                    return response.text();
+                })
+                .then(text => {
+                    const cleanText = text.replace(/^\uFEFF/, '').trim();
+                    const data = JSON.parse(cleanText);
+                    monitorData = data;
+                    hideAlertError();
+                    processData();
+                })
+                .catch(err => {
+                    console.warn("Falling back to window.monitorData:", err);
+                    if (window.monitorData) {
+                        monitorData = window.monitorData;
                         hideAlertError();
                         processData();
-                    })
-                    .catch(err => {
-                        console.error("Error cargando los datos:", err);
+                    } else {
                         showAlertError();
                         renderEmptyState(true);
-                    });
-            }
+                    }
+                });
         } catch (e) {
             console.error("Error crítico en init():", e);
             renderEmptyState(true);
