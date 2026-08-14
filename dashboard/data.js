@@ -3729,7 +3729,7 @@ window.monitorData = {
                      "sentiment_score":  0,
                      "relevance":  1,
                      "image_url":  "https://diariouno.pe/wp-content/uploads/2026/08/IMG-20260806-WA0052.jpg",
-                     "scraped_at":  "2026-08-14T08:04:30"
+                     "scraped_at":  "2026-08-14T08:16:51"
                  },
                  {
                      "url":  "https://moovitapp.com/index/es-419/dir/Ubab_Jes%C3%BAs_Mar%C3%ADa-stop_3917260-site_122727406-1102",
@@ -3742,137 +3742,7 @@ window.monitorData = {
                      "sentiment_score":  0,
                      "relevance":  1,
                      "image_url":  "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format\u0026fit=crop\u0026w=600\u0026q=80",
-                     "scraped_at":  "2026-08-14T08:08:04"
-                 },
-                 {
-                     "url":  "https://www.facebook.com/RafaelLopezAliagaOficial/posts/pfbid02E7GLeeRnAFBTSe8AMQBnfSRhbtn7oCN4aGN4kQgVhguPvgb4v5AfoGfj2GTGhCv5l",
-                     "query":  "municipalidad de jesus maria",
-                     "title":  "#NuevoCampoDeMarte..!! La propuesta actual para el Campo de Marte en Jesús María consiste en un m...",
-                     "source":  "Rafael López Aliaga",
-                     "published_date":  "2026-08-13T00:41:51",
-                     "summary":  "#NuevoCampoDeMarte..!! La propuesta actual para el Campo de Marte en Jesús María consiste en un megaproyecto de renovación integral y modernización liderado por la Municipalidad Metropolitana de Lima a través de Invermet en coordinación con la Municipalidad de Jesús María\n\n#lima #propuesta #jesusmaria #campodemarte",
-                     "sentiment":  "positivo",
-                     "sentiment_score":  1,
-                     "relevance":  1,
-                     "image_url":  "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/306920747_479105077422139_7104043031625348810_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx960x960\u0026ctp=s320x320\u0026_nc_cat=106\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=61Bvk-HX-B8Q7kNvwETbUEh\u0026_nc_oc=Adqv2SnTtQTyW494hn5IjcHzBeGmtjvMKhRVnVglZ73ujYLNgfvI71feD1HcdECNj-k\u0026_nc_zt=24\u0026_nc_ht=scontent-iad6-1.xx\u0026_nc_gid=MVebgjLejnS1iNlvi_TUzQ\u0026_nc_ss=7c2a8\u0026oh=00_AQGlqiKYaewlhpc3u5YoWNgzAME2LJMlSaoUcoxPbXKRww\u0026oe=6A84FFD6",
-                     "scraped_at":  "2026-08-14T08:29:47"
-                 },
-                 {
-                     "url":  "https://www.facebook.com/munijesusmaria/posts/pfbid038JMHnxXnsRJ3nbrZH8KP7hktxLkzqCA1qhCCMbn5ks7nx1jfdLqS8qjQK5nUf2ZLl",
-                     "query":  "municipalidad de jesus maria",
-                     "title":  "🚨 Prevención y seguridad para nuestros vecinos 🚨 Recordemos que estar preparados puede hacer la...",
-                     "source":  "Municipalidad de Jesús María",
-                     "published_date":  "2026-08-10T11:03:24",
-                     "summary":  "🚨 Prevención y seguridad para nuestros vecinos 🚨\nRecordemos que estar preparados puede hacer la diferencia en una situación de emergencia. La mochila de emergencia es fundamental ante cualquier desastre natural, ya que nos permite actuar de manera rápida y organizada en los momentos más difíciles.\nEstimado vecino, ten siempre tu mochila de emergencia lista y al alcance de la mano. La prevención es una responsabilidad de todos y juntos podemos cuidar mejor de nuestras familias y comunidad.\n#JesúsMaríaVamosPorMás",
-                     "sentiment":  "positivo",
-                     "sentiment_score":  1,
-                     "relevance":  1,
-                     "image_url":  "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/417116131_685916423728419_8674026024830867161_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx750x750\u0026ctp=s320x320\u0026_nc_cat=105\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=RErLk0Xvel0Q7kNvwHjMT63\u0026_nc_oc=AdrGtOmO-9-tKfw3rEv_dop88Y8UyRpZKpseXYX6xpI0cwUm4L9KmUg-MS2dEhThynE\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-2.xx\u0026_nc_gid=MVebgjLejnS1iNlvi_TUzQ\u0026_nc_ss=7c2a8\u0026oh=00_AQFWNNzvtdQbPgyc-FcamOcusJ1Ee7d4DnEppT1Pxu1P8Q\u0026oe=6A84FA7D",
-                     "scraped_at":  "2026-08-14T08:29:47"
-                 },
-                 {
-                     "url":  "https://www.facebook.com/groups/eduardofalconi31/permalink/10152145599464971/",
-                     "query":  "distrito de jesus maria",
-                     "title":  "El Campo de Marte en Jesús María ESTA COMPLETAMENTE DESTRUIDO!! Y el principal culpable es el señ...",
-                     "source":  "Anderson León Mendoza",
-                     "published_date":  "2026-08-12T15:07:28",
-                     "summary":  "El Campo de Marte en Jesús María ESTA COMPLETAMENTE DESTRUIDO!! Y el principal culpable es el señor Jesús Galvez que hoy busca reelegirse a través de la candidatura de su títere Daniel Li!!  NUNCA MÁS RENOVACION POPULAR EN JESÚS MARÍA\n\nPSDT: ESPERO PUEDAN ACEPTAR MI PUBLICACIÓN, LO DIGOA  TITULO PERSONAL Y SÉ QUE MUCHOS VECINOS COMPARTEN LA INDIGNACION!!",
-                     "sentiment":  "neutral",
-                     "sentiment_score":  0,
-                     "relevance":  1,
-                     "image_url":  "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/448864728_1646574329509070_1333105751527002384_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx577x577\u0026ctp=s320x320\u0026_nc_cat=105\u0026ccb=1-7\u0026_nc_sid=e99d92\u0026_nc_ohc=uyJeo0LFQ7kQ7kNvwEE6nkL\u0026_nc_oc=AdoBH29LSdyut6DPWA-jvMw0Q0q84GSdV9M5an4ttVLnmZKchiryksAuD6qOUAVntMY\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-2.xx\u0026_nc_gid=jYh6WtUvVfIOmzYb8beJtQ\u0026_nc_ss=7c2a8\u0026oh=00_AQHByN37Ly4IFViQ96vLWCYq1wzkwjjGE5A41nS87-m4ew\u0026oe=6A84CF28",
-                     "scraped_at":  "2026-08-14T08:30:35"
-                 },
-                 {
-                     "url":  "https://www.facebook.com/groups/eduardofalconi31/permalink/10152144933739971/",
-                     "query":  "distrito de jesus maria",
-                     "title":  "𝗠𝘂𝗰𝗵𝗶́𝘀𝗶𝗺𝗮𝘀 𝗴𝗿𝗮𝗰𝗶𝗮𝘀 queridos vecinos jesusmarianos por el 𝗿𝗲𝘀𝗽𝗮𝗹𝗱𝗼 𝘁𝗼�...",
-                     "source":  "Luiz Carlos Reátegui-Jesús María",
-                     "published_date":  "2026-08-11T08:12:37",
-                     "summary":  "𝗠𝘂𝗰𝗵𝗶́𝘀𝗶𝗺𝗮𝘀 𝗴𝗿𝗮𝗰𝗶𝗮𝘀 queridos vecinos jesusmarianos por el 𝗿𝗲𝘀𝗽𝗮𝗹𝗱𝗼 𝘁𝗼𝘁𝗮𝗹, cada domingo salimos en familia, entre amigos, vecinos y conocidos a disfrutar y pasarla bien. Somos realmente un 𝗘𝗤𝗨𝗜𝗣𝗔𝗭𝗢 de personas de bien, unidas en una cruzada por la 𝗛𝗢𝗡𝗘𝗦𝗧𝗜𝗗𝗔𝗗! Vamos a recuperar el orgullo de tener alcaldes sin investigaciones fiscales! Y les vamos a ganar a los 𝗩𝗜𝗘𝗝𝗢𝗦 𝗖𝗢𝗥𝗥𝗨𝗣𝗧𝗢𝗦 manejos municipales! Tenemos firmeza. En nuestra gestión se investigará y se denunciará penalmente a los 𝗮𝘀𝗲𝘀𝗶𝗻𝗼𝘀 𝗱𝗲𝗹 𝗖𝗮𝗺𝗽𝗼 𝗱𝗲 𝗠𝗮𝗿𝘁𝗲, 𝗻𝘂𝗲𝘀𝘁𝗿𝗮 𝗴𝗲𝘀𝘁𝗶𝗼́𝗻 𝗻𝗼 𝘀𝗲𝗿𝗮́ 𝗮𝗹𝗹𝗮𝗻𝗮𝗱𝗮 𝗽𝗼𝗿 𝗲𝗹 𝗠𝗶𝗻𝗶𝘀𝘁𝗲𝗿𝗶𝗼 𝗣𝘂́𝗯𝗹𝗶𝗰𝗼 𝗰𝗼𝗺𝗼 𝗼𝗰𝘂𝗿𝗿𝗶𝗼́ 𝗲𝗻 𝗲𝗹 𝗽𝗮𝘀𝗮𝗱𝗼, 𝘆 𝘁𝗮𝗺𝗽𝗼𝗰𝗼 𝗽𝗲𝗿𝗺𝗶𝘁𝗶𝗿𝗲𝗺𝗼𝘀 𝗾𝘂𝗲 𝘀𝗲 𝗿𝗼𝗯𝗲𝗻 𝗲𝗹 𝗯𝗿𝗼𝗻𝗰𝗲 𝗱𝗲 𝗻𝘂𝗲𝘀𝘁𝗿𝗼𝘀 𝗺𝗼𝗻𝘂𝗺𝗲𝗻𝘁𝗼𝘀. Es momento de un recambio generacional, es tiempo de un nuevo comienzo, 𝗻𝘂𝗲𝘃𝗼𝘀 𝗴𝗲𝘀𝘁𝗼𝗿𝗲𝘀 𝗽𝗮𝗿𝗮 𝘂𝗻𝗮 𝗝𝗲𝘀𝘂́𝘀 𝗠𝗮𝗿𝗶́𝗮! 𝗖𝗼𝗻 𝗰𝗼𝗿𝗮𝘇𝗼́𝗻 𝘁𝗼𝗱𝗼 𝘀𝗮𝗹𝗲 𝗺𝗲𝗷𝗼𝗿! Bendiciones para ustedes y sus familias! Un gran abrazo! \nAtte,\n𝗟𝘂𝗶𝘇 𝗖𝗮𝗿𝗹𝗼𝘀 𝗥𝗲𝗮́𝘁𝗲𝗴𝘂𝗶.\n𝗔𝗹𝗰𝗮𝗹𝗱𝗲 𝗱𝗲 𝗝𝗲𝘀𝘂́𝘀 𝗠𝗮𝗿𝗶́𝗮 𝟮𝟬𝟮𝟲.\n❤️💪🏻☺️\n#SomosReátegui #JesúsMaría #CarlosBruce",
-                     "sentiment":  "negativo",
-                     "sentiment_score":  -1,
-                     "relevance":  1,
-                     "image_url":  "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/762847505_1646687817458101_1661742090344608265_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx1080x1080\u0026ctp=s320x320\u0026_nc_cat=106\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=kK-wOu9M4VEQ7kNvwF9k7vF\u0026_nc_oc=Ado1n00TjZ7Msz1GRfcgy8myK7ZvJXhfj7Ky68MRkUKh136VtcCVS7R_QC2EuHU8OSw\u0026_nc_zt=24\u0026_nc_ht=scontent-iad6-1.xx\u0026_nc_gid=jYh6WtUvVfIOmzYb8beJtQ\u0026_nc_ss=7c2a8\u0026oh=00_AQFJoggH8n0J2aAmOS5L_MXXQkevAIPypHKw3YBPNCSu6g\u0026oe=6A84F98D",
-                     "scraped_at":  "2026-08-14T08:30:35"
-                 },
-                 {
-                     "url":  "https://www.facebook.com/groups/1364705467009433/permalink/4499961476817134/",
-                     "query":  "distrito de jesus maria",
-                     "title":  "Invito a la reflexión estimados vecinos, dado que al parecer esto ya no tiene solución  Se va a i...",
-                     "source":  "jsyr8756",
-                     "published_date":  "2026-08-12T16:52:20",
-                     "summary":  "Invito a la reflexión estimados vecinos, dado que al parecer esto ya no tiene solución \nSe va a ir abajo otra parte de la historia. Una casona hermosa de las siguientes características:\n- portada monumental de piedra\n- balcón cerrado de madera inspirado en balcones virreinales\n- ventanas con arcos de medio punto\n- rejas decorativas\n- Cornisa marcada\n- composición deliberadamente “colonial”\nse convertirá en polvo para levantar unos 8 pisos de cemento en el cual vivirán 150 -300 vecinos nuevos en el aire.\nCreo que como Jesus Marianos que somos, nos ha faltado valorar más nuestra historia y la belleza que hay (o hubo) en Jesús María. Espero que el siguiente alcalde no engorde su estómago con sus comisiones y que haga algo para parar este desastre a la historia",
-                     "sentiment":  "positivo",
-                     "sentiment_score":  1,
-                     "relevance":  1,
-                     "image_url":  "https://scontent-iad3-2.xx.fbcdn.net/v/t39.35477-6/552788376_32036640175927224_4179630765723497800_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx688x688\u0026ctp=s320x320\u0026_nc_cat=111\u0026ccb=1-7\u0026_nc_sid=d7e6db\u0026_nc_ohc=--LNNqEOHzUQ7kNvwHpgMGe\u0026_nc_oc=Adq2eN7HoFPRORFrFfwooImukKkBNSHarUnNXr6ShC0rYXMOv_L9uSfYPenXun6kNeQ\u0026_nc_zt=14\u0026_nc_ht=scontent-iad3-2.xx\u0026_nc_gid=jYh6WtUvVfIOmzYb8beJtQ\u0026_nc_ss=7c2a8\u0026oh=00_AQFT5BCLGghip4-F7GUuz0PhViPXhoAJUWidwN-PqvoEtQ\u0026oe=6A84F58F",
-                     "scraped_at":  "2026-08-14T08:30:35"
-                 },
-                 {
-                     "url":  "https://www.facebook.com/reel/2589211038179934/",
-                     "query":  "campo de marte",
-                     "title":  "O que um avião da marinha dos Estados Unidos está fazendo no Campo de Marte, em São Paulo?  O len...",
-                     "source":  "AERO - Por Trás da Aviação",
-                     "published_date":  "2026-07-24T17:00:44",
-                     "summary":  "O que um avião da marinha dos Estados Unidos está fazendo no Campo de Marte, em São Paulo?\n\nO lendário C-2A Greyhound acaba de iniciar uma nova missão no Brasil! 🇧🇷✈️\n\nDepois de décadas apoiando as operações dos porta-aviões da Marinha dos Estados Unidos, essa aeronave histórica foi recebida no Campo de Marte e passará a integrar o acervo do Museu Aeroespacial Paulista, preservando um importante capítulo da aviação naval mundial.\n\nNossa equipe esteve presente acompanhando esse momento histórico. Confira todos os detalhes dessa chegada especial! \n#Aviação #C2AGreyhound #USNavy #FAB",
-                     "sentiment":  "neutral",
-                     "sentiment_score":  0,
-                     "relevance":  1,
-                     "image_url":  "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/470181496_1135839024571303_2804373628154853047_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx1922x1922\u0026ctp=s320x320\u0026_nc_cat=107\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_eui2=AeEtHhC8kBXB2yM3rdxiR2PjrQzYs8mNt4GtDNizyY23gRZRdUbTilDv1-p_1Jpac_YrnAzt8IvKswK8g1y9kmJh\u0026_nc_ohc=FSbAsHOz8YAQ7kNvwE4tYyh\u0026_nc_oc=Ado7KkNFSBKMvAgXLEMhFyKytWvUbFFqKgpoIScpEpk0BTprPxp3Ovb7fXShRglUw_0\u0026_nc_zt=24\u0026_nc_ht=scontent-iad6-1.xx\u0026_nc_gid=4IAdP6EKzpRTT7ebSANLPQ\u0026_nc_ss=7c2a8\u0026oh=00_AQGYDniVxWxALV1Vf0DGbV7Z5CRgrS1cUDtQEWvAzxCKcw\u0026oe=6A84D4CC",
-                     "scraped_at":  "2026-08-14T08:30:47"
-                 },
-                 {
-                     "url":  "https://www.facebook.com/reel/3110889069122403/",
-                     "query":  "campo de marte",
-                     "title":  "🎙️ #N60Noticias | Miles de activistas y ciudadanos se congregan en el Campo de Marte para partic...",
-                     "source":  "N60 Noticias",
-                     "published_date":  "2026-06-27T19:24:50",
-                     "summary":  "🎙️ #N60Noticias | Miles de activistas y ciudadanos se congregan en el Campo de Marte para participar en la Marcha del Orgullo LGTB, durante la concentración, también se escucharon arengas contra Keiko Fujimori, en medio del contexto político que vive el país.",
-                     "sentiment":  "neutral",
-                     "sentiment_score":  0,
-                     "relevance":  1,
-                     "image_url":  "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/480577966_2368933650142921_3037039468529669072_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx1080x1080\u0026ctp=s320x320\u0026_nc_cat=101\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_eui2=AeFYiCK5eXkPqhJUrc19p1geXueTptLM-Cpe55Om0sz4KvLKJ7K2fiU_tefRcKfmJq9r8u6lA9-96b4_i_g8Vtxn\u0026_nc_ohc=WSZ6vpK4TGcQ7kNvwFa82Fk\u0026_nc_oc=AdqvYoDiHCULeN9DmjjTd77wYDNQCS7VSGU9Q2H8DNJXj4HwjQoeJElSuMBQSYrNQQ4\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-1.xx\u0026_nc_gid=4IAdP6EKzpRTT7ebSANLPQ\u0026_nc_ss=7c2a8\u0026oh=00_AQFw5i67Ge8EZfmiHwRGyeExEq1xlOZY_0u7nsVWMfFNsQ\u0026oe=6A84DEAB",
-                     "scraped_at":  "2026-08-14T08:30:47"
-                 },
-                 {
-                     "url":  "https://www.facebook.com/reel/1765218331306346/",
-                     "query":  "campo de marte",
-                     "title":  "🗳️Roberto Sanchez, encabeza la marcha de protesta en Lima, el motivo, busca exigir la transparen...",
-                     "source":  "Peruanos Informan",
-                     "published_date":  "2026-06-19T19:24:36",
-                     "summary":  "🗳️Roberto Sanchez, encabeza la marcha de protesta en Lima, el motivo, busca exigir la transparencia en la etapa final del proceso electoral en esta segunda vuelta,\n \nJuntos por el Perú llamó a protestar en Lima para hoy viernes 19 de junio. El punto de concentración, se realizó a las 4 de tarde en el Campo de Marte.",
-                     "sentiment":  "negativo",
-                     "sentiment_score":  -1,
-                     "relevance":  1,
-                     "image_url":  "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/277787930_475298844212664_6491717785084629901_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx180x180\u0026ctp=s320x320\u0026_nc_cat=103\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_eui2=AeEk0K_hI7PD3brY17lKXi_bTPB0eV3i_zdM8HR5XeL_N47XsbZY_pbuvd3dbLJaNsr5qtd8UEXmq1M6dCz4jkO4\u0026_nc_ohc=SzGBd6rl1iUQ7kNvwHbvWuJ\u0026_nc_oc=AdobnyEOmt__MDBlUaE4JwMjfoQvtGHKY6D-vkFen0ChR1xUG0t_goYyp7vVq-IDSNo\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-2.xx\u0026_nc_gid=4IAdP6EKzpRTT7ebSANLPQ\u0026_nc_ss=7c2a8\u0026oh=00_AQH7_424X_SCOU4ioF6vM7XMHKHt5-m4d6TAkeNckd8Rvg\u0026oe=6A84F6DB",
-                     "scraped_at":  "2026-08-14T08:30:47"
-                 },
-                 {
-                     "url":  "https://www.facebook.com/groups/JesusMariaNoticias/permalink/3163068837415512/",
-                     "query":  "campo de marte jesus maria",
-                     "title":  "LOS RESPONSABLES DE LA DESTRUCCIÓN DEL CAMPO DE MARTE",
-                     "source":  "La Verdad de Jesús María",
-                     "published_date":  "2026-05-26T22:21:44",
-                     "summary":  "LOS RESPONSABLES DE LA DESTRUCCIÓN DEL CAMPO DE MARTE",
-                     "sentiment":  "neutral",
-                     "sentiment_score":  0,
-                     "relevance":  1,
-                     "image_url":  "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/702589972_1588405939955427_3194003258507169934_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx1200x1200\u0026ctp=s320x320\u0026_nc_cat=110\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_eui2=AeH2NclkO1NNY9q8XIlzoDjYUTs_W_SC7CZROz9b9ILsJoC-cByq7d6hJMSQGs_pGQ3It_fyXDA7VoWPoSQ2OHNU\u0026_nc_ohc=U9v5ommM3qwQ7kNvwF12qYO\u0026_nc_oc=Adpe_zcdrsfHsDuavW24D59BQPOcX7WmYpxYn9nvMDfscu73Ln1VYxXLcVrasRkjHQA\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-1.xx\u0026_nc_gid=phKU7ODwRwsLTTtRq8lKqA\u0026_nc_ss=7c2a8\u0026oh=00_AQH5RizRA3yJvcKIBMmW0afKr661gVmQUttM5o_FdKo8fA\u0026oe=6A84E36F",
-                     "scraped_at":  "2026-08-14T08:31:05"
-                 },
-                 {
-                     "url":  "https://www.facebook.com/groups/JesusMariaNoticias/permalink/3161013687621027/",
-                     "query":  "campo de marte jesus maria",
-                     "title":  "Gracias @Jesus Gálvez por destruir el Campo de Marte",
-                     "source":  "La Verdad de Jesús María",
-                     "published_date":  "2026-05-24T22:35:29",
-                     "summary":  "Gracias @Jesus Gálvez por destruir el Campo de Marte",
-                     "sentiment":  "neutral",
-                     "sentiment_score":  0,
-                     "relevance":  1,
-                     "image_url":  "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/702589972_1588405939955427_3194003258507169934_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx1200x1200\u0026ctp=s320x320\u0026_nc_cat=110\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_eui2=AeH2NclkO1NNY9q8XIlzoDjYUTs_W_SC7CZROz9b9ILsJoC-cByq7d6hJMSQGs_pGQ3It_fyXDA7VoWPoSQ2OHNU\u0026_nc_ohc=U9v5ommM3qwQ7kNvwF12qYO\u0026_nc_oc=Adpe_zcdrsfHsDuavW24D59BQPOcX7WmYpxYn9nvMDfscu73Ln1VYxXLcVrasRkjHQA\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-1.xx\u0026_nc_gid=phKU7ODwRwsLTTtRq8lKqA\u0026_nc_ss=7c2a8\u0026oh=00_AQH5RizRA3yJvcKIBMmW0afKr661gVmQUttM5o_FdKo8fA\u0026oe=6A84E36F",
-                     "scraped_at":  "2026-08-14T08:31:05"
+                     "scraped_at":  "2026-08-14T08:20:01"
                  }
              ],
     "youtube":  [
@@ -5515,62 +5385,6 @@ window.monitorData = {
                         "scraped_at":  "2026-08-12T15:29:04"
                     },
                     {
-                        "video_id":  "Uxi90xvUP9U",
-                        "query":  "campo de marte",
-                        "title":  "DIVER vs CAPONE || Final || Clasificatoria Venom || Campo de Marte 2026",
-                        "channel":  "Campo de Marte",
-                        "published_date":  "2026-08-13T14:24:02",
-                        "description":  "Video monitoreado de YouTube.",
-                        "transcript_snippet":  "Menciones detectadas en el video: DIVER vs CAPONE || Final || Clasificatoria Venom || Campo de Marte 2026",
-                        "sentiment":  "neutral",
-                        "sentiment_score":  0,
-                        "relevance":  1,
-                        "image_url":  "https://img.youtube.com/vi/Uxi90xvUP9U/hqdefault.jpg",
-                        "scraped_at":  "2026-08-14T08:24:44"
-                    },
-                    {
-                        "video_id":  "l2Qtpc8_QIA",
-                        "query":  "campo de marte",
-                        "title":  "PAPICHA vs CAPONE || Semifinal || Clasificatoria Venom || Campo de Marte 2026",
-                        "channel":  "Campo de Marte",
-                        "published_date":  "2026-08-13T14:23:42",
-                        "description":  "Video monitoreado de YouTube.",
-                        "transcript_snippet":  "Menciones detectadas en el video: PAPICHA vs CAPONE || Semifinal || Clasificatoria Venom || Campo de Marte 2026",
-                        "sentiment":  "neutral",
-                        "sentiment_score":  0,
-                        "relevance":  1,
-                        "image_url":  "https://img.youtube.com/vi/l2Qtpc8_QIA/hqdefault.jpg",
-                        "scraped_at":  "2026-08-14T08:24:45"
-                    },
-                    {
-                        "video_id":  "P2PJezlI8eE",
-                        "query":  "campo de marte",
-                        "title":  "Obras en Campo de Marte (agosto 2026)",
-                        "channel":  "Joel Dávila Quiñonez",
-                        "published_date":  "2026-08-13T19:02:32",
-                        "description":  "Video monitoreado de YouTube.",
-                        "transcript_snippet":  "Menciones detectadas en el video: Obras en Campo de Marte (agosto 2026)",
-                        "sentiment":  "positivo",
-                        "sentiment_score":  1,
-                        "relevance":  1,
-                        "image_url":  "https://img.youtube.com/vi/P2PJezlI8eE/hqdefault.jpg",
-                        "scraped_at":  "2026-08-14T08:24:46"
-                    },
-                    {
-                        "video_id":  "Cd_WaVJWthM",
-                        "query":  "campo de marte",
-                        "title":  "CAMPO DE MARTE: REMODELACIÓN COSTARÁ S/46,5 MILLONES Y ACUMULA DEMORAS | FUERTE Y CLARO",
-                        "channel":  "Fuerte y Claro con Manuela Camacho",
-                        "published_date":  "2026-08-11T17:32:27",
-                        "description":  "Video monitoreado de YouTube.",
-                        "transcript_snippet":  "Menciones detectadas en el video: CAMPO DE MARTE: REMODELACIÓN COSTARÁ S/46,5 MILLONES Y ACUMULA DEMORAS | FUERTE Y CLARO",
-                        "sentiment":  "neutral",
-                        "sentiment_score":  0,
-                        "relevance":  1,
-                        "image_url":  "https://img.youtube.com/vi/Cd_WaVJWthM/hqdefault.jpg",
-                        "scraped_at":  "2026-08-14T08:24:48"
-                    },
-                    {
                         "video_id":  "kr2rVFe-Kj4",
                         "query":  "vecinos jesus maria",
                         "title":  "​¡En vivo desde Come Comelón! 🍲 Promo exclusiva para nuestros vecinos | Jesús María",
@@ -5582,7 +5396,7 @@ window.monitorData = {
                         "sentiment_score":  0,
                         "relevance":  1,
                         "image_url":  "https://img.youtube.com/vi/kr2rVFe-Kj4/hqdefault.jpg",
-                        "scraped_at":  "2026-08-14T08:25:18"
+                        "scraped_at":  "2026-08-14T08:31:05"
                     },
                     {
                         "video_id":  "XMDNb1QzUcQ",
@@ -5596,7 +5410,7 @@ window.monitorData = {
                         "sentiment_score":  0,
                         "relevance":  1,
                         "image_url":  "https://img.youtube.com/vi/XMDNb1QzUcQ/hqdefault.jpg",
-                        "scraped_at":  "2026-08-14T08:25:39"
+                        "scraped_at":  "2026-08-14T08:31:21"
                     },
                     {
                         "video_id":  "yjOU2n4evpo",
@@ -5610,7 +5424,7 @@ window.monitorData = {
                         "sentiment_score":  1,
                         "relevance":  1,
                         "image_url":  "https://img.youtube.com/vi/yjOU2n4evpo/hqdefault.jpg",
-                        "scraped_at":  "2026-08-14T08:26:05"
+                        "scraped_at":  "2026-08-14T08:31:47"
                     },
                     {
                         "video_id":  "rLeO89Z6t-w",
@@ -5624,7 +5438,7 @@ window.monitorData = {
                         "sentiment_score":  -1,
                         "relevance":  1,
                         "image_url":  "https://img.youtube.com/vi/rLeO89Z6t-w/hqdefault.jpg",
-                        "scraped_at":  "2026-08-14T08:26:26"
+                        "scraped_at":  "2026-08-14T08:32:04"
                     },
                     {
                         "video_id":  "9PWtB7eQ8Hk",
@@ -5638,7 +5452,49 @@ window.monitorData = {
                         "sentiment_score":  0,
                         "relevance":  1,
                         "image_url":  "https://img.youtube.com/vi/9PWtB7eQ8Hk/hqdefault.jpg",
-                        "scraped_at":  "2026-08-14T08:26:36"
+                        "scraped_at":  "2026-08-14T08:32:10"
+                    },
+                    {
+                        "video_id":  "9VXBWfe3AOM",
+                        "query":  "noticias jesus maria",
+                        "title":  "Sicario persigue y dispara hasta 5 veces a mujer en Jesús María",
+                        "channel":  "TVPerú Noticias",
+                        "published_date":  "2026-03-24T14:18:22",
+                        "description":  "Video monitoreado de YouTube.",
+                        "transcript_snippet":  "Menciones detectadas en el video: Sicario persigue y dispara hasta 5 veces a mujer en Jesús María",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://img.youtube.com/vi/9VXBWfe3AOM/hqdefault.jpg",
+                        "scraped_at":  "2026-08-14T08:32:15"
+                    },
+                    {
+                        "video_id":  "4GSXEUgA_ec",
+                        "query":  "noticias jesus maria",
+                        "title":  "Roberto Sánchez finalizó a su campaña presidencial en Jesús María",
+                        "channel":  "Latina Noticias",
+                        "published_date":  "2026-06-04T22:58:51",
+                        "description":  "Video monitoreado de YouTube.",
+                        "transcript_snippet":  "Menciones detectadas en el video: Roberto Sánchez finalizó a su campaña presidencial en Jesús María",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://img.youtube.com/vi/4GSXEUgA_ec/hqdefault.jpg",
+                        "scraped_at":  "2026-08-14T08:32:20"
+                    },
+                    {
+                        "video_id":  "jDJ8o1n9-tY",
+                        "query":  "noticias jesus maria",
+                        "title":  "Caen \"Los terribles del cambiazo\": robaban dinero a ancianos en Jesús María",
+                        "channel":  "Buenos Días Perú",
+                        "published_date":  "2026-07-03T06:41:29",
+                        "description":  "Video monitoreado de YouTube.",
+                        "transcript_snippet":  "Menciones detectadas en el video: Caen \"Los terribles del cambiazo\": robaban dinero a ancianos en Jesús María",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://img.youtube.com/vi/jDJ8o1n9-tY/hqdefault.jpg",
+                        "scraped_at":  "2026-08-14T08:32:21"
                     },
                     {
                         "video_id":  "Aju1R1bBt9I",
@@ -5652,21 +5508,7 @@ window.monitorData = {
                         "sentiment_score":  0,
                         "relevance":  1,
                         "image_url":  "https://img.youtube.com/vi/Aju1R1bBt9I/hqdefault.jpg",
-                        "scraped_at":  "2026-08-14T08:26:42"
-                    },
-                    {
-                        "video_id":  "qZXqiKsajoY",
-                        "query":  "noticias jesus maria",
-                        "title":  "DEP  JESUS MARÍA, EXTORSIONADORES FUERON CAPTURADOS ANTES QUE EJECUTEN UN NUEVO ATAQUE",
-                        "channel":  "UNICII DIRINCRI",
-                        "published_date":  "2026-07-24T16:00:05",
-                        "description":  "Video monitoreado de YouTube.",
-                        "transcript_snippet":  "Menciones detectadas en el video: DEP  JESUS MARÍA, EXTORSIONADORES FUERON CAPTURADOS ANTES QUE EJECUTEN UN NUEVO ATAQUE",
-                        "sentiment":  "neutral",
-                        "sentiment_score":  0,
-                        "relevance":  1,
-                        "image_url":  "https://img.youtube.com/vi/qZXqiKsajoY/hqdefault.jpg",
-                        "scraped_at":  "2026-08-14T08:26:46"
+                        "scraped_at":  "2026-08-14T08:32:26"
                     }
                 ],
     "twitter":  [
@@ -6808,7 +6650,7 @@ window.monitorData = {
                         "sentiment_score":  0,
                         "relevance":  1,
                         "image_url":  "https://pbs.twimg.com/profile_images/2067213660020178944/zIk8uQzn_400x400.jpg",
-                        "scraped_at":  "2026-08-14T08:27:09"
+                        "scraped_at":  "2026-08-14T08:32:32"
                     },
                     {
                         "url":  "https://x.com/Ojo_Publico/status/2087664848360325460",
@@ -6820,8 +6662,8 @@ window.monitorData = {
                         "sentiment_score":  1,
                         "relevance":  1,
                         "image_url":  "https://pbs.twimg.com/media/HPjgG2lX0AEmHAX.jpg:large",
-                        "scraped_at":  "2026-08-14T08:27:44"
+                        "scraped_at":  "2026-08-14T08:32:43"
                     }
                 ],
-    "updated_at":  "2026-08-14T08:31:29"
+    "updated_at":  "2026-08-14T08:34:36"
 };
