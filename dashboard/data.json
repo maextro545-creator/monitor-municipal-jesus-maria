@@ -4289,6 +4289,19 @@
                      "relevance":  1,
                      "image_url":  "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/417116131_685916423728419_8674026024830867161_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx750x750\u0026ctp=s320x320\u0026_nc_cat=105\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=qOzalnOeSuwQ7kNvwH6e6-q\u0026_nc_oc=AdqoxrMtNrSaZ72TsuLmWkZilwYRIZhD37Wwp4hmsOH3LVgnT9P_n5j7eeIYOsMSOzQ\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-2.xx\u0026_nc_gid=tt9epaLnzituWm9qbY-mzQ\u0026_nc_ss=7c2a8\u0026oh=00_AQESuhNUpATn0s3OQtACabSX3A7gzxlhnN25dFGQpkX4ug\u0026oe=6A8B91FD",
                      "scraped_at":  "2026-08-19T08:26:02"
+                 },
+                 {
+                     "url":  "https://www.apnoticias.pe/video/campo-de-marte-80-dias-de-obras-paralizadas-y-un-parque-deteriorado-el-comercio-608225",
+                     "query":  "campo de marte",
+                     "title":  "Campo de Marte: 80 días de obras paralizadas y un parque deteriorado | El Comercio - apnoticias.pe",
+                     "source":  "apnoticias.pe",
+                     "published_date":  "2026-08-19T08:50:10",
+                     "summary":  "Campo de Marte: 80 días de obras paralizadas y un parque deteriorado | El Comercio\u0026nbsp;\u0026nbsp;apnoticias.pe",
+                     "sentiment":  "positivo",
+                     "sentiment_score":  1,
+                     "relevance":  1,
+                     "image_url":  "https://i3.ytimg.com/vi/f4LL9nkZ_7I/hqdefault.jpg",
+                     "scraped_at":  "2026-08-19T10:05:52"
                  }
              ],
     "youtube":  [
@@ -7383,7 +7396,31 @@
                         "relevance":  1,
                         "image_url":  "https://pbs.twimg.com/media/HPY_uNdXcAE4RDl.png:large",
                         "scraped_at":  "2026-08-19T08:25:35"
+                    },
+                    {
+                        "url":  "https://x.com/Ojo_Publico/status/2086825004902097079",
+                        "query":  "campo de marte",
+                        "title":  "📍 #Exclusivo Las deficiencias del expediente técnico obligaron a replantear la remodelación del Campo de Marte. El costo para culminar la obra pasó de S/ 26,2 millones a S/ 46,5 millones, según el @MEF_Peru. 👉 ojo-publico.com/6461/campo-mar… 👈",
+                        "author":  "Ojo_Publico",
+                        "published_date":  "2026-08-10T09:40:27",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://pbs.twimg.com/media/HPXkSDYWMAAUWwS.jpg:large",
+                        "scraped_at":  "2026-08-19T10:20:16"
+                    },
+                    {
+                        "url":  "https://x.com/larepublica_pe/status/2087315625853251722",
+                        "query":  "campo de marte",
+                        "title":  "🔴 “Se paralizó en mayo y desde entonces no habido avances para culminarla”. @ManuCamacho entrevista a Paul Tuesta, periodista de Ojo Público, sobre la remodelación del Campo de Marte. 📺 Programa completo de #FuerteYClaro: youtube.com/live/K9uf",
+                        "author":  "larepublica_pe",
+                        "published_date":  "2026-08-11T18:10:00",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://pbs.twimg.com/amplify_video_thumb/2087298233827483649/img/SrcdyCeFCftQ6tBb.jpg",
+                        "scraped_at":  "2026-08-19T10:20:19"
                     }
                 ],
-    "updated_at":  "2026-08-19T08:27:11"
+    "updated_at":  "2026-08-19T10:21:09"
 }
