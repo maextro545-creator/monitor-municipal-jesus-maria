@@ -4070,7 +4070,7 @@
                      "scraped_at":  "2026-08-17T08:05:03"
                  },
                  {
-                     "url":  "https://news.google.com/rss/articles/CBMijAFBVV95cUxOekFHWU5sSTRMUUJPTVdmRk45REdydEt0LTRndTdTLWZUbmhQTUtQVHBSSEh0VTFWc2tORjNtN3dXNmtMQ0lXSTR5VW1hT1d0Z2cxQnlFX0laTkFZSk92eXNjTXViN1B6cE5mSmZZUU9tWWpZdFRGT0t6MjFhWXVINEhvNUlrZklJX2hwbQ?oc=5",
+                     "url":  "https://ojo-publico.com/6461/campo-marte-fallas-el-expediente-aumentan-costo-la-obra",
                      "query":  "campo de marte",
                      "title":  "La agonía del Campo de Marte: millonaria obra a la deriva por expediente técnico deficiente - Ojo-Público",
                      "source":  "Ojo-Público",
@@ -4079,7 +4079,7 @@
                      "sentiment":  "positivo",
                      "sentiment_score":  1,
                      "relevance":  1,
-                     "image_url":  "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format\u0026fit=crop\u0026w=600\u0026q=80",
+                     "image_url":  "https://ojo-publico.com/sites/default/files/2026-08/CAMPO%20DE%20MARTE%20-%20ojopublico_0.jpg",
                      "scraped_at":  "2026-08-17T08:06:38"
                  },
                  {
@@ -4198,6 +4198,97 @@
                      "relevance":  1,
                      "image_url":  "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/263769281_10209598407593556_8689207118412502755_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx750x750\u0026ctp=s320x320\u0026_nc_cat=106\u0026ccb=1-7\u0026_nc_sid=e99d92\u0026_nc_eui2=AeF_E0W2cSv7GxZ1TzkexQDDVvbIruFq31JW9siu4WrfUu8ZwtlF1VV3NINqPMoEZrz6cd3pGWYbABRx35SJ2isd\u0026_nc_ohc=JGAreC2YfKEQ7kNvwGr6MGG\u0026_nc_oc=Adq2s_S_q2A4Q8k6X_mQriZc-3VZz9TdkvSB5DuZrMQ2q1jDb7Te4DuVG_zevRywh3w\u0026_nc_zt=24\u0026_nc_ht=scontent-iad6-1.xx\u0026_nc_gid=1dmYjf5zeNkr1f_XqU56TQ\u0026_nc_ss=7c2a8\u0026oh=00_AQF4Wei4_RjmTcbEeKJza5pJ38uogg6En1ZFlUH_Wzz05g\u0026oe=6A88D94E",
                      "scraped_at":  "2026-08-17T08:30:18"
+                 },
+                 {
+                     "url":  "https://elcomercio.pe/lima/sucesos/campo-de-marte-80-dias-de-obras-paralizadas-un-parque-cerrado-al-publico-y-arboles-muertos-e-irrecuperables-noticia/",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "Campo de Marte: 80 días de obras paralizadas, un parque cerrado al público y árboles muertos e irrecuperables - El Comercio Perú",
+                     "source":  "El Comercio Perú",
+                     "published_date":  "2026-08-18T06:36:46",
+                     "summary":  "Campo de Marte: 80 días de obras paralizadas, un parque cerrado al público y árboles muertos e irrecuperables\u0026nbsp;\u0026nbsp;El Comercio Perú",
+                     "sentiment":  "positivo",
+                     "sentiment_score":  1,
+                     "relevance":  1,
+                     "image_url":  "https://elcomercio.pe/resizer/v2/4W4JC4Q3KVECVBM5O2TUNGHEMA.jpg?auth=e34895d7d309010d20c7d14d9b66417169c741726133d1642bad58a45f00dee8\u0026width=980\u0026height=528\u0026quality=75\u0026smart=true",
+                     "scraped_at":  "2026-08-19T08:01:57"
+                 },
+                 {
+                     "url":  "https://www.liderempresarial.com/concluye-en-jesus-maria-curso-de-auxiliar-de-enfermeria/",
+                     "query":  "alcalde jesus maria",
+                     "title":  "Concluye en Jesús María Curso de auxiliar de enfermería - Líder Empresarial",
+                     "source":  "Líder Empresarial",
+                     "published_date":  "2026-08-11T13:58:18",
+                     "summary":  "Concluye en Jesús María Curso de auxiliar de enfermería\u0026nbsp;\u0026nbsp;Líder Empresarial",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format\u0026fit=crop\u0026w=600\u0026q=80",
+                     "scraped_at":  "2026-08-19T08:03:04"
+                 },
+                 {
+                     "url":  "https://www.liderempresarial.com/jesus-maria-es-declarado-capital-nacional-de-la-cronica-durante-el-xlviii-congreso-nacional-de-la-anaccim/",
+                     "query":  "alcalde jesus maria",
+                     "title":  "Jesús María es declarado capital nacional de la crónica durante el XLVIII congreso nacional de la ANACCIM - Líder Empresarial",
+                     "source":  "Líder Empresarial",
+                     "published_date":  "2026-08-10T12:36:11",
+                     "summary":  "Jesús María es declarado capital nacional de la crónica durante el XLVIII congreso nacional de la ANACCIM\u0026nbsp;\u0026nbsp;Líder Empresarial",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format\u0026fit=crop\u0026w=600\u0026q=80",
+                     "scraped_at":  "2026-08-19T08:03:22"
+                 },
+                 {
+                     "url":  "https://diariocorreo.pe/espectaculos/grupo-rio-dara-concierto-en-jesus-maria-fecha-lugar-y-clasicos-que-tocara-noticia/",
+                     "query":  "distrito de jesus maria",
+                     "title":  "Grupo Río dará concierto en Jesús María: fecha, lugar y clásicos que tocará - diariocorreo.pe",
+                     "source":  "diariocorreo.pe",
+                     "published_date":  "2026-08-17T16:03:33",
+                     "summary":  "Grupo Río dará concierto en Jesús María: fecha, lugar y clásicos que tocará\u0026nbsp;\u0026nbsp;diariocorreo.pe",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://diariocorreo.pe/resizer/v2/WZNKZJN4UBH5PPPZTLK5LLC7YU.jpeg?auth=55004ee8fb169910d4d851af8eb5a52fd8baf7ff983b0f9ef5ebc699b44cb490\u0026width=980\u0026height=528\u0026quality=75\u0026smart=true",
+                     "scraped_at":  "2026-08-19T08:04:49"
+                 },
+                 {
+                     "url":  "https://www.diariotag.com/196435-cantaron-para-lionel-scaloni-y-fueron-convocados-para-jesus-maria-y-cosquin",
+                     "query":  "grupo jesus maria",
+                     "title":  "Cantaron para Lionel Scaloni y fueron convocados para Jesús María y Cosquín - Diario TAG",
+                     "source":  "Diario TAG",
+                     "published_date":  "2026-08-17T08:30:33",
+                     "summary":  "Cantaron para Lionel Scaloni y fueron convocados para Jesús María y Cosquín\u0026nbsp;\u0026nbsp;Diario TAG",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://images.unsplash.com/photo-1495020689067-958852a6565d?auto=format\u0026fit=crop\u0026w=600\u0026q=80",
+                     "scraped_at":  "2026-08-19T08:12:57"
+                 },
+                 {
+                     "url":  "https://www.liderempresarial.com/jesus-maria-no-baja-la-guardia-mas-de-160-motos-ruidosas-han-sido-retiradas/",
+                     "query":  "noticias jesus maria",
+                     "title":  "Jesús María no baja la guardia: más de 160 motos ruidosas han sido retiradas - Líder Empresarial",
+                     "source":  "Líder Empresarial",
+                     "published_date":  "2026-08-12T15:46:52",
+                     "summary":  "Jesús María no baja la guardia: más de 160 motos ruidosas han sido retiradas\u0026nbsp;\u0026nbsp;Líder Empresarial",
+                     "sentiment":  "neutral",
+                     "sentiment_score":  0,
+                     "relevance":  1,
+                     "image_url":  "https://images.unsplash.com/photo-1495020689067-958852a6565d?auto=format\u0026fit=crop\u0026w=600\u0026q=80",
+                     "scraped_at":  "2026-08-19T08:21:29"
+                 },
+                 {
+                     "url":  "https://www.facebook.com/munijesusmaria/posts/pfbid02DN29foPdZfJgwaGMfAwiAC89BpGR9a1c7ThLMEdk51NJ6eco77veBGRtX4gjLooel",
+                     "query":  "municipalidad de jesus maria",
+                     "title":  "🐶💉 ¡VANCAN llega para proteger a tu mascotita! 🐾 Este jueves 20 de agosto te invitamos a parti...",
+                     "source":  "Municipalidad de Jesús María",
+                     "published_date":  "2026-08-18T14:48:42",
+                     "summary":  "🐶💉 ¡VANCAN llega para proteger a tu mascotita! 🐾\nEste jueves 20 de agosto te invitamos a participar en VANCAN, nuestra Campaña de Vacunación Antirrábica, ¡completamente gratuita! 🎉💉\n📍 Veterinaria Municipal – Av. de la Peruanidad\n📅 Jueves 20 de agosto\nTrae a tu mascotita 🐕🐈 y ayúdanos a protegerla contra la rabia. \n✨ ¡Te esperamos! Ven con tu mascotita y súmate a VANCAN!\n#JesúsMaríaVamosPorMás",
+                     "sentiment":  "positivo",
+                     "sentiment_score":  1,
+                     "relevance":  1,
+                     "image_url":  "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/417116131_685916423728419_8674026024830867161_n.jpg?stp=cp0_dst-jpg_tt6\u0026cstp=mx750x750\u0026ctp=s320x320\u0026_nc_cat=105\u0026ccb=1-7\u0026_nc_sid=2d3e12\u0026_nc_ohc=qOzalnOeSuwQ7kNvwH6e6-q\u0026_nc_oc=AdqoxrMtNrSaZ72TsuLmWkZilwYRIZhD37Wwp4hmsOH3LVgnT9P_n5j7eeIYOsMSOzQ\u0026_nc_zt=24\u0026_nc_ht=scontent-iad3-2.xx\u0026_nc_gid=tt9epaLnzituWm9qbY-mzQ\u0026_nc_ss=7c2a8\u0026oh=00_AQESuhNUpATn0s3OQtACabSX3A7gzxlhnN25dFGQpkX4ug\u0026oe=6A8B91FD",
+                     "scraped_at":  "2026-08-19T08:26:02"
                  }
              ],
     "youtube":  [
@@ -6062,6 +6153,34 @@
                         "relevance":  1,
                         "image_url":  "https://img.youtube.com/vi/qZXqiKsajoY/hqdefault.jpg",
                         "scraped_at":  "2026-08-17T08:27:53"
+                    },
+                    {
+                        "video_id":  "i-lqEma1SlA",
+                        "query":  "campo de marte",
+                        "title":  "El costo de no dialogar: Lo que todo desarrollador urbano debe aprender del Campo de Marte este 2026",
+                        "channel":  "Gerardo Berdejo Arquitectura",
+                        "published_date":  "2026-08-07T19:00:21",
+                        "description":  "Video monitoreado de YouTube.",
+                        "transcript_snippet":  "Menciones detectadas en el video: El costo de no dialogar: Lo que todo desarrollador urbano debe aprender del Campo de Marte este 2026",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://img.youtube.com/vi/i-lqEma1SlA/hqdefault.jpg",
+                        "scraped_at":  "2026-08-19T08:23:13"
+                    },
+                    {
+                        "video_id":  "SV04erFGWMo",
+                        "query":  "jesus maria lima",
+                        "title":  "CALLES QUE SORPRENDEN: MI RUTA DE HOY EN JESÚS MARÍA | WALKING TOUR IN LIMA | PERÚ 2025 4K  🇵🇪 ",
+                        "channel":  "WalkHunter",
+                        "published_date":  "2025-11-28T10:01:03",
+                        "description":  "Video monitoreado de YouTube.",
+                        "transcript_snippet":  "Menciones detectadas en el video: CALLES QUE SORPRENDEN: MI RUTA DE HOY EN JESÚS MARÍA | WALKING TOUR IN LIMA | PERÚ 2025 4K  🇵🇪 ",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://img.youtube.com/vi/SV04erFGWMo/hqdefault.jpg",
+                        "scraped_at":  "2026-08-19T08:23:38"
                     }
                 ],
     "twitter":  [
@@ -7228,7 +7347,43 @@
                         "relevance":  1,
                         "image_url":  "https://pbs.twimg.com/media/HPsDMt0WoAAHbe0.jpg:large",
                         "scraped_at":  "2026-08-16T08:31:12"
+                    },
+                    {
+                        "url":  "https://x.com/Ojo_Publico/status/2089878403620933667",
+                        "query":  "campo de marte",
+                        "title":  "⚠️🌳Campo de Marte: Invermet de la @MuniLima ha convocado un nuevo concurso para la remodelación, luego de que el contrato de la obra fuera resuelto en mayo pasado. El nuevo costo referencial para ejecutar el saldo de obra supera los S/17,9 millone",
+                        "author":  "Ojo_Publico",
+                        "published_date":  "2026-08-18T19:53:34",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://pbs.twimg.com/media/HQC8IR6WoAAuBJy.jpg:large",
+                        "scraped_at":  "2026-08-19T08:25:11"
+                    },
+                    {
+                        "url":  "https://x.com/elcomercio_peru/status/2089679605267341561",
+                        "query":  "campo de marte",
+                        "title":  "Han pasado más de 9 meses desde que inició el proyecto de mejoramiento del Campo de Marte y la obra lleva paralizada más de 80 días. Un parque cerrado al público y muchos árboles muertos de forma irreparable son el saldo de este proyecto impulsado",
+                        "author":  "elcomercio_peru",
+                        "published_date":  "2026-08-18T06:43:36",
+                        "sentiment":  "positivo",
+                        "sentiment_score":  1,
+                        "relevance":  1,
+                        "image_url":  "https://pbs.twimg.com/card_img/2089679612322144256/W-CSvlgv?format=jpg\u0026name=orig",
+                        "scraped_at":  "2026-08-19T08:25:20"
+                    },
+                    {
+                        "url":  "https://x.com/Ojo_Publico/status/2086925547347550296",
+                        "query":  "campo de marte",
+                        "title":  "🔎 #Exclusivo El Invermet pidió S/ 13,3 millones adicionales para culminar la remodelación del Campo de Marte. Aribuyó el pedido a “la magnitud de las deficiencias identificadas” en el expediente técnico y a cambios necesarios para concluir la obra. 👉 ojo-p",
+                        "author":  "Ojo_Publico",
+                        "published_date":  "2026-08-10T16:19:58",
+                        "sentiment":  "neutral",
+                        "sentiment_score":  0,
+                        "relevance":  1,
+                        "image_url":  "https://pbs.twimg.com/media/HPY_uNdXcAE4RDl.png:large",
+                        "scraped_at":  "2026-08-19T08:25:35"
                     }
                 ],
-    "updated_at":  "2026-08-17T08:30:41"
+    "updated_at":  "2026-08-19T08:27:11"
 }
