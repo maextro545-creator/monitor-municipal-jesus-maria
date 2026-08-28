@@ -330,6 +330,34 @@ function Get-OGImage {
     return ""
 }
 
+# 3.b Función para extraer la fecha real de publicación original desde la página web (evitando fechas falsas por re-indexación de RSS)
+function Get-RealArticleDate {
+    param (
+        [string]$url,
+        [string]$rssDate
+    )
+    if ([string]::IsNullOrEmpty($url) -or $url -notlike "http*") { return $rssDate }
+    $userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+    try {
+        $resp = Invoke-WebRequest -Uri $url -TimeoutSec 5 -UseBasicParsing -UserAgent $userAgent
+        $html = $resp.Content
+        if ([string]::IsNullOrEmpty($html)) { return $rssDate }
+        
+        # 1. Meta article:published_time
+        if ($html -match '(?i)<meta\s+[^>]*property=["'']article:published_time["'']\s+[^>]*content=["'']([^"'']+)["'']' -or
+            $html -match '(?i)<meta\s+[^>]*content=["'']([^"'']+)["'']\s+[^>]*property=["'']article:published_time["'']') {
+            $parsed = [DateTime]::Parse($Matches[1])
+            return $parsed.ToString("yyyy-MM-ddTHH:mm:ss")
+        }
+        # 2. Schema.org datePublished
+        if ($html -match '(?i)"datePublished"\s*:\s*"([^"'']+)"') {
+            $parsed = [DateTime]::Parse($Matches[1])
+            return $parsed.ToString("yyyy-MM-ddTHH:mm:ss")
+        }
+    } catch {}
+    return $rssDate
+}
+
 # 4. Función de Análisis de Sentimiento
 function Analyze-Sentiment {
     param (
@@ -572,7 +600,7 @@ foreach ($query in $Config.queries) {
             $title = $item.title
             $source = $item.source.InnerText
             $pubDateRaw = $item.pubDate
-            
+
             # Formatear la fecha usando InvariantCulture y filtrar por año actual
             $pubDate = (Get-Date).ToString("yyyy-MM-ddTHH:mm:ss")
             $currentYear = (Get-Date).Year
@@ -584,6 +612,19 @@ foreach ($query in $Config.queries) {
                     $skipArticle = $true
                 }
             } catch {}
+            
+            # Verificar si la fecha real de publicación original en la web es de un año anterior
+            if (-not $skipArticle) {
+                $realDate = Get-RealArticleDate $realUrl $pubDate
+                try {
+                    $parsedReal = [DateTime]::Parse($realDate)
+                    if ($parsedReal.Year -ne $currentYear) {
+                        $skipArticle = $true
+                    } else {
+                        $pubDate = $realDate
+                    }
+                } catch {}
+            }
             
             if ($skipArticle) {
                 continue
